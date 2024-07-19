@@ -152,11 +152,11 @@
 156	party attacks → attack rinoa 2
 157	party attacks → critical layer rinoa
 158	party attacks → attack squall 2
-159	party attacks → gunblade shot
+159	party attacks → squall's gunblade shot
 160	party attacks → attack quistis 1
 161	party attacks → attack quistis 2
 162	party attacks → critical layer quistis
-163	[unknown]
+163	party attacks → seifer's gunblade shot
 164	party attacks → attack seifer
 165	party attacks → attack selphie 1
 166	party attacks → attack selphie 2
@@ -234,7 +234,7 @@
 241	enemy calls → ruby dragon
 242	enemy deaths → ruby dragon
 243	enemy calls → tri-point
-244	[unknown]
+244	enemy deaths → tri-point [unused]
 245	enemy calls → grand mantis
 246	enemy deaths → grand mantis
 247	enemy calls → jelleye
@@ -244,7 +244,7 @@
 251	enemy calls → blood soul
 252	enemy deaths → blood soul
 253	enemy calls → sphinxaur
-254	[unknown]
+254	enemy deaths → sphinxaur [unused]
 255	enemy calls → gim47n
 256	enemy deaths → gim47n
 257	enemy calls → propagator
@@ -264,7 +264,7 @@
 271	enemy calls → bomb
 272	enemy deaths → bomb
 273	enemy calls → krysta
-274	[unknown]
+274	enemy deaths → krysta [unused]
 275	enemy calls → t-rexaur
 276	enemy deaths → t-rexaur
 277	enemy skills → jump punch part1
@@ -275,7 +275,7 @@
 282	enemy calls → tonberry
 283	enemy deaths → tonberry
 284	enemy calls → red giant
-285	[unknown]
+285	enemy deaths → red giant [unused]
 286	enemy calls → funguar
 287	enemy deaths → funguar
 288	enemy calls → blobra
@@ -285,47 +285,47 @@
 292	enemy calls → grendel
 293	enemy deaths → grendel
 294	enemy calls → bgh251f2
-295	[unknown]
+295	enemy deaths → bgh251f2 [unused]
 296	enemy calls → malboro
 297	enemy deaths → malboro
 298	enemy calls → trauma
-299	[unknown]
+299	enemy deaths → trauma [unused]
 300	enemy calls → bahamut
-301	[unknown]
+301	enemy deaths → bahamut [unused]
 302	enemy calls → behemoth
 303	enemy deaths → behemoth
 304	enemy calls → turtapod
 305	enemy deaths → turtapod
-306	[unknown]
+306	enemy calls → gerogero [unused]
 307	enemy deaths → gerogero
 308	enemy calls → chimera
 309	enemy deaths → chimera
 310	enemy calls → torama
 311	enemy deaths → torama
-312	[unknown]
-313	[unknown]
+312	enemy calls → scrapped enemy [unused]
+313	enemy deaths → scrapped enemy [unused]
 314	enemy calls → imp
 315	enemy deaths → imp
-316	[unknown]
+316	enemy calls → granaldo
 317	enemy deaths → granaldo
-318	enemy calls → granaldo and raldo
+318	enemy calls → raldo
 319	enemy deaths → raldo
 320	enemy calls → abadon
-321	[unknown]
+321	enemy deaths → abadon [unused]
 322	enemy calls → mobile type 8
-323	[unknown]
+323	enemy deaths → mobile type 8 [unused]
 324	enemy calls → tonberry king
 325	battle events → tonberry king defeated call
 326	[unknown]
 327	enemy deaths → droma
 328	enemy calls → tiamat
-329	[unknown]
+329	enemy deaths → tiamat [unused]
 330	enemy calls → catoblepas
-331	[unknown]
+331	enemy deaths → catoblepas [unused]
 332	enemy calls → cerberus
-333	[unknown]
+333	enemy deaths → cerberus [unused]
 334	enemy skills → seifer's gunblade
-335	[unknown]
+335	enemy calls → minotaur
 336	enemy calls → sacred
 337	enemy calls → elnoyle
 338	enemy deaths → elnoyle
@@ -479,7 +479,7 @@
 725	spells → blizzara
 728	enemy skills → cure + potion + potion plus + enemy skill brothers' earth regeneration
 731	spells → life + revive + phoenix down
-734	[unknown]
+734	[unknown]draw [unused duplicate]
 737	spells → double + triple
 740	spells → meteor layer 1 bg
 741	spells → meteor layer 2 the drop

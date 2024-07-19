@@ -5,6 +5,11 @@ To keep sound names simple, more information about them is written here.
 Enemies have a lot of unnamed attacks; for those, I've used the names in [finalfantasy.fandom.com](https://finalfantasy.fandom.com/wiki/). In any case, the name of the enemy is specified before the skill to avoid any confusion.
 
 
+## Different game versions (pitch changes)
+
+The PSX version of FFVIII changes the pitch of sound effects in real time, while the PC versions do not. For example, on PSX Angelo barks in a higher pitch, Doomtrain's level crossing bell has a raised pitch, Elvoret's death sound effect has a lowered pitch.
+
+
 ## Menus
 
 - `41 Level up` (for both characters and GFs)
@@ -220,7 +225,9 @@ Enemies use some common sound effects:
 
 What I've labeled "enemy calls" are all the intro calls that monsters make when starting a battle. These also include sound effects for human bosses, even though they are not "calls".
 
-Some monster calls are also played during the battle, for example right before the monster is about to perform a particular attack, or when performing some special skill. Here's a list of all the particular cases.
+Some monster calls are also played during the battle, for example right before the monster is about to perform a particular attack, or when performing some special skill. Below there's a list of all these particular cases.
+
+All intro calls are technically played but only the last monster's call is heard. The order depends on the game version. So, for example, in the Granaldo boss fight, on PC you only hear the Raldo call, while in the PSX version you only hear Granaldo's call.
 
 - `183 Elvoret`: before _Storm Breath_
 - `190 X-ATM092 stomps a leg`: **x2** before _Leg Strike_, then **x1**
@@ -228,7 +235,6 @@ Some monster calls are also played during the battle, for example right before t
 - `190 X-ATM092 stomps a leg`: **x1** before _Arm Crush_, then **x1**
 - `193 Snow Lion`: before _Ice Breath_
 - `201 Hexadragon`: before _Melt-Eye_
-- `203 Fastitocalon`, when no Fastitocalon-F are present: intro call
 - `203 Fastitocalon`: before _Sand Storm_
 - `213 Belhelmel`: Belhelmel's mode change _"Belhelmel is furious!"_ and _"Belhelmel laughed!"_
 - `221 Wendigo`: before _Dribble_, and before _Shoot_
@@ -247,10 +253,10 @@ Some monster calls are also played during the battle, for example right before t
 - `310 Torama`: before _Blaster_
 - `314 Imp`: special skill _Fly_
 - `320 Abadon`:  special skill _Stand up_
-- `336 Sacred`: the intro call applies to both encounters; its brother doesn't have a call
+- `336 Sacred`: its intro call applies to both encounters
 - `337 Elnoyle`: before _Storm Breath_
 - `352 Ultima Weapon`: before _Gravija_
-- `355 Granaldo prepares to grab a Raldo`: this call is different from its intro call
+- `355 Granaldo prepares to grab a Raldo`: this call is slightly different from its intro call
 - `356 Gayla prepares to attack`: this call is slightly different from its intro call; played before _Head Bash_ and before _Tail Whip_
 - Edea (first encounter)'s intro "call": `1783`, i.e. the same sound effect of her skill _Astral Punch_
 - `290 Adamantoise`: before _Sand Storm_
