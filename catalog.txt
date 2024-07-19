@@ -1,0 +1,1543 @@
+1	menus → cursor
+2	footsteps → normal footstep1
+3	footsteps → normal footstep2
+4	party attacks → attack squall 1
+5	battle misc → cast magic or init draw layer1
+6	battle misc → cast magic or init draw layer2
+7	battle misc → gf cast layer1
+8	battle misc → gf cast layer2
+9	menus → cancel
+10	battle misc → battle start layer 1
+11	battle misc → battle start layer 2
+12	battle misc → battle start layer 3
+13	battle misc → enemy death base layer1
+14	battle misc → enemy death base layer2
+15	menus → battle turn + zell limit break turn
+16	menus → error + zell limit break time up
+17	enemy skills → common attacks → common attack A
+18	menus → battle recap item obtained + gfs received AP + item teached quistis' skill
+19	enemy skills → common attacks → enemy cast magic or skill layer1
+20	enemy skills → common attacks → enemy cast magic or skill layer2
+21	battle misc → escape from battle
+22	battle misc → limit break cast layer1
+23	battle misc → limit break cast layer2
+24	battle misc → summon intro layer1
+25	battle misc → summon intro layer2
+26	battle misc → battle use item
+27	menus → menu use item or magic
+28	menus → menu item heal status + teach gf ability + increase gf compatibility
+29	menus → new game sound layer1
+30	field → save point
+31	battle misc → attack miss
+32	menus → junction
+33	[unknown]
+34	[unknown]
+35	menus → battle summary EXP
+36	menus → save slot loaded + changes HP warning + didn't receive EXP
+37	menus → savefile load
+38	menus → new game sound layer2
+39	menus → new game sound layer4 background hiss
+40	menus → new game sound layer3
+41	menus → level up + gf learned ability
+42	vehicles → [unknown]
+43	vehicles → [unknown]
+44	loops → inside car seed exam
+45	loops → inside ship seed exam
+46	vehicles → car from balamb entrance to harbor part1
+47	vehicles → car from balamb entrance to harbor part2
+48	vehicles → car from balamb entrance to harbor part3
+49	vehicles → car from balamb entrance to harbor layer steering and open door
+50	vehicles → car from garage to worldmap part1
+51	vehicles → car from garage to worldmap part2
+52	vehicles → car from garage to worldmap layer steering
+53	footsteps → quistis footstep1
+54	footsteps → quistis footstep2
+55	[unknown]
+56	vehicles → [unknown]
+57	vehicles → [unknown]
+58	vehicles → [unknown]
+59	loops → [unknown]
+60	[unknown]
+61	[unknown]
+62	loops → [unknown]
+63	[unknown]
+64	[unknown]
+65	menus → shop buy + sell
+66	field → draw point
+67	field → draw point use
+68	loops → fire cavern
+69	bg elevator
+70	loops → [unknown]
+71	loops → [unknown]
+72	loops → [unknown]
+73	loops → [unknown]
+74	[unknown]
+75	loops → [unknown]
+76	[unknown]
+77	loops → [unknown]
+78	loops → [unknown]
+79	loops → [unknown]
+80	[unknown]
+81	loops → [unknown]
+82	loops → [unknown]
+83	loops → [unknown]
+84	loops → [unknown]
+85	loops → [unknown]
+86	[unknown]
+87	field → item obtained
+88	[unknown]
+89	[unknown]
+90	triple triad → triple triad take card
+91	field → seed level up
+92	field → seed level layer base
+93	field → seed earn money
+94	vehicles → [unknown]
+95	menus → battle turn limit break available
+96	loops → [unknown]
+97	loops → [unknown]
+98	loops → [unknown]
+99	[unknown]
+100	[unknown]
+101	[unknown]
+102	loops → [unknown]
+103	loops → [unknown]
+104	loops → [unknown]
+105	loops → [unknown]
+106	loops → [unknown]
+107	loops → [unknown]
+108	menus → remodel weapon
+109	[unknown]
+110	[unknown]
+111	[unknown]
+112	triple triad → triple triad pick player
+113	menus → refine
+114	battle misc → magic shield
+115	battle misc → draw in battle layer1
+116	battle misc → draw in battle layer2
+117	battle misc → draw in battle layer3
+118	bg study panel select
+119	loops → [unknown]
+120	loops → [unknown]
+121	[unknown]
+122	[unknown]
+123	[unknown]
+124	[unknown]
+125	loops → [unknown]
+126	loops → [unknown]
+127	loops → [unknown]
+128	loops → [unknown]
+129	loops → [unknown]
+130	loops → [unknown]
+131	field → angelo has learned a skill
+132	battle misc → boss battle start layer1
+133	battle misc → boss battle start layer2
+134	battle misc → boss battle start layer3
+135	gf attacks → cerberus part 4 layer1
+136	gf attacks → cerberus part 4 layer2
+137	vehicles → [unknown]
+138	vehicles → [unknown]
+139	vehicles → [unknown]
+140	vehicles → [unknown]
+141	vehicles → [unknown]
+142	vehicles → [unknown]
+143	vehicles → [unknown]
+144	vehicles → [unknown]
+145	loops → [unknown]
+146	loops → [unknown]
+151	party attacks → attack zell
+152	[unknown]
+153	party attacks → critical layer zell
+154	[unknown]
+155	party attacks → attack rinoa 1
+156	party attacks → attack rinoa 2
+157	party attacks → critical layer rinoa
+158	party attacks → attack squall 2
+159	party attacks → gunblade shot
+160	party attacks → attack quistis 1
+161	party attacks → attack quistis 2
+162	party attacks → critical layer quistis
+163	[unknown]
+164	party attacks → attack seifer
+165	party attacks → attack selphie 1
+166	party attacks → attack selphie 2
+167	party attacks → critical layer selphie
+168	party attacks → attack irvine
+169	party attacks → attack kiros
+170	party attacks → attack ward 1
+171	party attacks → attack ward 2
+172	party attacks → critical layer kiros
+173	party attacks → critical layer ward
+174	party attacks → attack laguna
+175	party attacks → critical layer laguna
+176	party attacks → attack edea
+179	battle misc → edea as party start of battle
+181	enemy calls → buel
+182	enemy deaths → buel
+183	enemy calls → elvoret call
+184	enemy deaths → elvoret death [unused]
+185	enemy calls → mesmerize
+186	enemy deaths → mesmerize
+187	enemy calls → anacondaur
+188	enemy deaths → anacondaur
+189	enemy calls → x-atm092
+190	enemy calls → x-atm092 stomps leg
+191	enemy calls → geezard
+192	enemy deaths → geezard
+193	enemy calls → snow lion
+194	enemy deaths → snow lion
+195	enemy calls → grat
+196	enemy deaths → grat
+197	enemy calls → cockatrice
+198	enemy deaths → cockatrice
+199	enemy calls → red bat
+200	enemy deaths → red bat
+201	enemy calls → hexadragon
+202	enemy deaths → hexadragon
+203	enemy calls → fastitocalon
+204	enemy deaths → fastitocalon
+205	enemy calls → gesper
+206	enemy deaths → gesper
+207	enemy calls → glacial eye
+208	enemy deaths → glacial eye
+209	enemy calls → creeps
+210	enemy deaths → creeps
+211	enemy calls → thrustaevis
+212	enemy deaths → thrustaevis
+213	enemy calls → belhelmel
+214	enemy deaths → belhelmel
+215	enemy calls → caterchipillar
+216	enemy deaths → caterchipillar
+217	enemy calls → gim52a
+218	enemy deaths → gim52a
+219	enemy calls → elastoid
+220	enemy deaths → elastoid
+221	enemy calls → wendigo
+222	enemy deaths → wendigo
+223	enemy calls → death claw
+224	enemy deaths → death claw
+225	enemy calls → armadodo
+226	enemy deaths → armadodo
+227	enemy calls → blue dragon
+228	enemy deaths → blue dragon
+229	enemy calls → sam08g
+230	enemy deaths → sam08g
+231	enemy calls → fastitocalon-f
+232	enemy deaths → fastitocalon-f
+233	enemy calls → gayla
+234	enemy deaths → gayla
+235	enemy calls → abyss worm
+236	enemy deaths → abyss worm
+237	enemy calls → ochu
+238	enemy deaths → ochu
+239	enemy calls → iron giant
+240	enemy deaths → iron giant
+241	enemy calls → ruby dragon
+242	enemy deaths → ruby dragon
+243	enemy calls → tri-point
+244	[unknown]
+245	enemy calls → grand mantis
+246	enemy deaths → grand mantis
+247	enemy calls → jelleye
+248	enemy deaths → jelleye
+249	enemy calls → bite bug
+250	enemy deaths → bite bug
+251	enemy calls → blood soul
+252	enemy deaths → blood soul
+253	enemy calls → sphinxaur
+254	[unknown]
+255	enemy calls → gim47n
+256	enemy deaths → gim47n
+257	enemy calls → propagator
+258	enemy deaths → propagator
+259	enemy calls → oilboyle
+260	enemy deaths → oilboyle
+261	enemy calls → iguion
+262	enemy deaths → iguion
+263	enemy calls → forbidden
+264	enemy deaths → forbidden
+265	enemy calls → vysage + righty + lefty
+266	enemy deaths → vysage + righty + lefty
+267	enemy calls → blitz
+268	enemy deaths → blitz
+269	enemy calls → tri-face
+270	enemy deaths → tri-face
+271	enemy calls → bomb
+272	enemy deaths → bomb
+273	enemy calls → krysta
+274	[unknown]
+275	enemy calls → t-rexaur
+276	enemy deaths → t-rexaur
+277	enemy skills → jump punch part1
+278	enemy calls → cactuar
+279	enemy deaths → cactuar
+280	enemy calls → jumbo cactuar
+281	enemy deaths → jumbo cactuar + enemy skill jumbo cactuar's escape
+282	enemy calls → tonberry
+283	enemy deaths → tonberry
+284	enemy calls → red giant
+285	[unknown]
+286	enemy calls → funguar
+287	enemy deaths → funguar
+288	enemy calls → blobra
+289	enemy deaths → blobra
+290	enemy calls → adamantoise
+291	enemy deaths → adamantoise
+292	enemy calls → grendel
+293	enemy deaths → grendel
+294	enemy calls → bgh251f2
+295	[unknown]
+296	enemy calls → malboro
+297	enemy deaths → malboro
+298	enemy calls → trauma
+299	[unknown]
+300	enemy calls → bahamut
+301	[unknown]
+302	enemy calls → behemoth
+303	enemy deaths → behemoth
+304	enemy calls → turtapod
+305	enemy deaths → turtapod
+306	[unknown]
+307	enemy deaths → gerogero
+308	enemy calls → chimera
+309	enemy deaths → chimera
+310	enemy calls → torama
+311	enemy deaths → torama
+312	[unknown]
+313	[unknown]
+314	enemy calls → imp
+315	enemy deaths → imp
+316	[unknown]
+317	enemy deaths → granaldo
+318	enemy calls → granaldo and raldo
+319	enemy deaths → raldo
+320	enemy calls → abadon
+321	[unknown]
+322	enemy calls → mobile type 8
+323	[unknown]
+324	enemy calls → tonberry king
+325	battle events → tonberry king defeated call
+326	[unknown]
+327	enemy deaths → droma
+328	enemy calls → tiamat
+329	[unknown]
+330	enemy calls → catoblepas
+331	[unknown]
+332	enemy calls → cerberus
+333	[unknown]
+334	enemy skills → seifer's gunblade
+335	[unknown]
+336	enemy calls → sacred
+337	enemy calls → elnoyle
+338	enemy deaths → elnoyle
+339	enemy calls → esthar soldier terminator
+340	enemy deaths → esthar soldier terminator
+341	battle events → norg pod destroyed part3
+342	enemy deaths → norg
+343	enemy calls → diablos
+344	enemy calls → odin
+345	enemy calls → fake president
+346	enemy calls → edea second encounter
+347	[unknown]
+348	enemy calls → sorceress A
+349	enemy deaths → sorceress A
+350	enemy calls → sorceress B
+351	enemy deaths → sorceress B
+352	enemy calls → ultima weapon
+353	enemy calls → omega weapon
+354	enemy calls → adel
+355	enemy calls → granaldo prepares to grab raldo
+356	enemy calls → gayla prepares to attack
+357	enemy calls → ultimecia
+358	enemy calls → pupu
+359	enemy calls → ufo
+360	battle events → pupu got the elixirs
+361	enemy deaths → pupu
+362	battle events → ultimecia griever form defeated part2 layer1
+363	battle events → ultimecia griever form defeated part2 layer2
+364	battle events → ufo passes by
+365	enemy deaths → minotaur
+366	enemy deaths → sacred
+367	battle events → ultimecia final form appears part1
+370	gf attacks → leviathan part1
+373	gf attacks → leviathan part2
+376	gf attacks → leviathan part3
+379	gf attacks → leviathan part4
+382	gf attacks → leviathan part5
+385	gf attacks → leviathan part6
+388	gf attacks → ifrit part1
+391	gf attacks → ifrit part2
+394	gf attacks → ifrit part3
+397	gf attacks → ifrit part4
+400	gf attacks → quezacotl part1
+403	gf attacks → quezacotl part2
+406	gf attacks → quezacotl part3
+409	gf attacks → quezacotl part4
+412	gf attacks → shiva part1
+415	gf attacks → shiva part2
+418	gf attacks → shiva part3
+421	gf attacks → shiva part4
+424	gf attacks → carbuncle part1
+427	gf attacks → carbuncle part2
+430	gf attacks → carbuncle part3
+433	gf attacks → carbuncle part4
+436	gf attacks → phoenix part1
+439	gf attacks → phoenix part2 layer1
+442	gf attacks → phoenix part4
+445	gf attacks → alexander part1
+448	gf attacks → alexander part2
+451	gf attacks → alexander part3
+454	gf attacks → alexander part4
+457	gf attacks → alexander part5
+460	gf attacks → cerberus part1
+463	gf attacks → cerberus part2
+466	gf attacks → cerberus part3
+469	gf attacks → odin part1
+472	gf attacks → odin part2
+475	gf attacks → odin layer hits
+478	gf attacks → bahamut part1
+481	gf attacks → bahamut part2
+484	gf attacks → bahamut part3
+487	gf attacks → bahamut part4
+490	gf attacks → bahamut part5
+493	gf attacks → boko part1
+495	gf attacks → boko part2
+498	gf attacks → boko's chocofire
+501	gf attacks → boko's chocoflare
+504	gf attacks → boko's chocometeor layer1
+507	gf attacks → boko's chocometeor layer2
+510	gf attacks → boko's chocobocle layer1
+513	gf attacks → boko's chocobocle layer2
+516	gf attacks → minimog part1
+519	gf attacks → minimog part2
+522	gf attacks → doomtrain part1
+525	gf attacks → doomtrain part2
+528	gf attacks → doomtrain part3
+531	gf attacks → doomtrain part4
+534	gf attacks → brothers part1
+537	gf attacks → brothers part2
+540	gf attacks → brothers part3
+543	gf attacks → brothers part4
+546	gf attacks → brothers part5
+549	gf attacks → pandemona part1
+552	gf attacks → pandemona part2
+555	gf attacks → pandemona part3
+558	gf attacks → pandemona part4
+561	enemy skills → common attacks → common hit ground A
+564	gf attacks → siren part1
+567	gf attacks → siren part2
+570	gf attacks → siren part3
+573	gf attacks → siren part4
+576	gf attacks → tonberry part1
+579	gf attacks → tonberry part2
+582	gf attacks → cactuar part1
+585	gf attacks → cactuar part2
+588	limit breaks → angelo appears by chance
+591	limit breaks → angelo search part1
+594	limit breaks → angelo recover layer magic
+597	limit breaks → angelo reverse layer magic
+600	battle events → seifer kills odin part1
+603	battle events → seifer kills odin part2
+606	battle events → seifer kills odin part3 layer1
+609	battle events → seifer kills odin part4
+612	battle events → seifer kills odin part5 the sword swings
+615	battle events → seifer kills odin part6 gilgamesh grabs the sword layer2
+618	gf attacks → diablos part1
+621	gf attacks → diablos part2
+624	gf attacks → diablos part3
+627	gf attacks → diablos part4
+630	gf attacks → diablos part5
+633	gf attacks → diablos part6
+636	battle events → gilgamesh takes odin's place part1
+639	battle events → gilgamesh takes odin's place part3 layer1
+642	battle events → gilgamesh takes odin's place part4
+645	gf attacks → gilgamesh part1
+648	gf attacks → gilgamesh part2
+651	gf attacks → gilgamesh layer background while appearing then sword blow
+654	gf attacks → gilgamesh zantetsuken
+657	gf attacks → gilgamesh masamune
+660	gf attacks → gilgamesh excaliber
+663	gf attacks → gilgamesh excalipoor
+666	gf attacks → moomba
+669	limit breaks → angelo rush
+672	gf attacks → eden part1
+675	gf attacks → eden part2
+678	gf attacks → eden part3
+681	gf attacks → eden part4
+684	gf attacks → eden part5
+687	gf attacks → eden part6
+690	gf attacks → eden part7
+693	gf attacks → eden part8
+696	gf attacks → eden part9
+699	gf attacks → eden part10
+702	gf attacks → eden part11
+705	limit breaks → angelo search part2
+710	spells → fire + percent + catastrophe
+713	spells → fira
+716	spells → thunder
+719	spells → thundara
+722	spells → blizzard
+725	spells → blizzara
+728	enemy skills → cure + potion + potion plus + enemy skill brothers' earth regeneration
+731	spells → life + revive + phoenix down
+734	[unknown]
+737	spells → double + triple
+740	spells → meteor layer 1 bg
+741	spells → meteor layer 2 the drop
+743	spells → meteor layer 3 the hits
+745	spells → regen
+748	spells → sleep
+751	spells → berserk
+754	spells → blind
+757	spells → tornado part1
+760	spells → break
+763	spells → thundaga
+766	spells → firaga
+769	spells → ultima layer1
+772	spells → dispel
+774	[unknown]
+775	spells → demi
+777	[unknown]
+778	spells → bio
+781	spells → aura
+784	[unknown]
+787	spells → cura + hi-potion
+790	spells → zombie
+793	spells → drain + absorb + enemy skill ultimecia's draw apocalypse + enemy skill adel's drain rinoa
+796	spells → meltdown
+799	spells → blizzaga
+802	spells → reflect
+805	[unknown]
+808	spells → esuna + treatment + remedy + remedy plus
+811	spells → full-life
+814	spells → scan
+817	spells → pain
+820	spells → aero
+823	spells → silence
+826	spells → holy
+829	spells → stop
+832	spells → slow
+835	spells → haste
+838	spells → flare
+841	spells → float
+844	spells → protect
+847	spells → shell
+850	spells → quake layer1
+853	spells → curaga + x-potion
+856	spells → tornado part2 hit ground
+858	spells → water
+861	spells → ultima layer2
+864	commands → lv up
+867	commands → lv down
+870	commands → mad rush
+873	[unknown]
+874	items in battle → holy water
+877	items in battle → antidote
+880	items in battle → mega-potion
+883	items in battle → soft
+886	commands → defend
+889	items in battle → eye drops
+892	items in battle → elixir + megalixir
+895	items in battle → mega-phoenix
+898	items in battle → hero + holy war + trial versions
+901	commands → kamikaze
+904	commands → doom
+907	items in battle → echo screen
+910	commands → death by doom status
+913	commands → card successful
+916	[unknown]
+919	[unknown]
+922	[unknown]
+925	commands → devour
+928	[unknown]
+931	[unknown]
+933	[unknown]
+934	[unknown]
+935	commands → card failed
+938	spells → confuse
+941	spells → death layer1
+944	[unknown]
+947	[unknown]
+950	spells → apocalypse layer1
+953	spells → apocalypse layer2
+956	spells → apocalypse layer3
+959	[unknown]
+962	spells → death layer2
+965	menus → [unknown]error DUPLICATE
+970	spells → quake layer2
+973	commands → recover
+980	[unknown]
+983	limit breaks → zell duel meteor barret part1
+986	limit breaks → zell duel meteor barret part2
+989	limit breaks → renzokuken 4 hits
+992	limit breaks → squall finisher fated circle part1
+995	limit breaks → squall finisher fated circle part2
+998	renzokuken variants → renzokuken x-atm092
+1001	renzokuken variants → renzokuken elvoret
+1004	limit breaks → zell duel booya
+1007	limit breaks → zell duel heel drop
+1010	limit breaks → zell duel mach kick
+1013	limit breaks → zell duel dolphin blow
+1016	limit breaks → zell duel meteor strike
+1019	blue magic → laser eye
+1022	limit breaks → zell duel punch rush
+1025	blue magic → fire breath part1
+1028	blue magic → fire breath part2
+1031	spells → wall
+1034	limit breaks → irvine pulse ammo
+1037	spells → full-cure
+1040	limit breaks → irvine normal ammo + shotgun ammo + fast ammo
+1043	limit breaks → irvine dark ammo
+1046	blue magic → homing laser
+1049	blue magic → degenerator
+1052	limit breaks → irvine ap ammo
+1055	[unknown]
+1058	blue magic → aqua breath
+1061	blue magic → bad breath
+1064	blue magic → acid
+1067	blue magic → micro missiles
+1070	blue magic → white wind
+1073	limit breaks → irvine fire ammo
+1076	limit breaks → irvine demolition ammo
+1079	spells → rapture
+1082	limit breaks → edea sorcery ice strike part1
+1085	limit breaks → edea sorcery ice strike part2
+1088	spells → the end layer1
+1091	spells → the end layer2
+1094	limit breaks → zell duel burning rave part1
+1097	limit breaks → zell duel burning rave part2
+1100	limit breaks → squall finisher rough divide
+1103	limit breaks → squall finisher blasting zone part1
+1106	limit breaks → squall finisher blasting zone part2
+1109	blue magic → lv death part1
+1112	blue magic → mighty guard
+1115	limit breaks → rinoa angel wing
+1118	limit breaks → zell duel my final heaven part1
+1121	limit breaks → zell duel my final heaven part2
+1124	limit breaks → angelo cannon part1
+1127	limit breaks → angelo cannon part2
+1130	limit breaks → seifer fire cross no mercy part2
+1133	limit breaks → zell duel different beat
+1136	limit breaks → renzokuken 5 hits
+1139	renzokuken variants → renzokuken [unused]
+1142	blue magic → shockwave pulsar part1
+1145	blue magic → shockwave pulsar part2
+1148	blue magic → shockwave pulsar part3
+1151	limit breaks → ward massive anchor
+1154	renzokuken variants → renzokuken [unused]
+1157	limit breaks → kiros blood pain
+1160	limit breaks → laguna desperado
+1163	limit breaks → angelo strike part1
+1166	limit breaks → angelo strike part2
+1169	limit breaks → angelo invincible moon part1
+1172	limit breaks → renzokuken 8 hits
+1175	limit breaks → renzokuken 6 hits
+1178	limit breaks → renzokuken 7 hits
+1181	renzokuken variants → renzokuken norg
+1184	renzokuken variants → renzokuken bahamut
+1187	renzokuken variants → renzokuken jumbo cactuar
+1190	renzokuken variants → renzokuken adel
+1193	renzokuken variants → renzokuken ultima weapon
+1196	renzokuken variants → renzokuken ultimecia final form
+1199	renzokuken variants → renzokuken sorceress C
+1202	limit breaks → squall finisher lion heart part1
+1205	limit breaks → squall finisher lion heart part2
+1208	limit breaks → squall finisher lion heart part3
+1211	renzokuken variants → renzokuken ultimecia griever form
+1214	renzokuken variants → renzokuken griever
+1217	blue magic → lv death part2
+1220	limit breaks → angelo wishing star part1
+1223	limit breaks → angelo wishing star part2
+1226	limit breaks → angelo wishing star part3
+1229	limit breaks → angelo invincible moon part2
+1230	enemy skills → common attacks → common attack B
+1233	enemy skills → squeeze
+1236	enemy skills → dark mist + poison mist
+1239	blue magic → ray-bomb part1
+1242	blue magic → ray-bomb part2
+1245	enemy skills → arm crush
+1247	enemy skills → clash
+1250	enemy skills → blade slice
+1252	enemy skills → elvoret's storm breath + elnoyle's storm breath when low-level
+1255	enemy skills → elite soldier's machine gun + base leader's machine gun
+1257	enemy skills → wing slash
+1259	enemy skills → hind kick
+1261	enemy skills → elite soldier's charge + base leader's arm punch + wendigo's power bomb
+1263	battle events → elvoret storm breath cutscene
+1266	enemy calls → elvoret intro part1 layer flap wings
+1268	enemy calls → elvoret intro part2 landing
+1271	enemy deaths → elvoret part1
+1274	enemy deaths → elvoret part2
+1277	enemy skills → blade shot part2 + the horn broke off!
+1279	enemy skills → blade shot part1
+1282	enemy skills → sigh + geezard's bad breath
+1285	enemy skills → glacial eye's vampire
+1288	enemy skills → hexadragon's breath part1
+1291	enemy skills → hexadragon's breath part2
+1294	enemy skills → melt-eye
+1297	enemy skills → belhelmel's counter laser-eye
+1300	enemy skills → petrify stare
+1303	enemy skills → tri-face's bite + adamantoise's bite
+1306	enemy skills → poison gas
+1309	enemy skills → snow lion's tail slap
+1311	enemy skills → creeps' claw
+1313	enemy skills → morph
+1316	enemy skills → gatling gun + gim47n's chain gun
+1319	enemy skills → cannon blow
+1321	enemy skills → wild cannon blow
+1322	enemy skills → ultrasonic waves
+1323	[unknown]
+1324	[unknown]
+1325	enemy skills → gesper's telekinesis
+1328	enemy skills → upward kick
+1331	enemy skills → sand storm
+1334	blue magic → electrocute + enemy skill electric discharge
+1337	enemy skills → snow lion's ice breath part1
+1340	enemy skills → snow lion's ice breath part2
+1343	[unknown]
+1346	enemy skills → common attacks → common attack C
+1348	enemy skills → common attacks → common attack D
+1350	enemy skills → belhelmel's counter slice
+1353	enemy skills → acid
+1356	enemy skills → common attacks → common attack E
+1357	enemy skills → sticky web
+1360	blue magic → ultra waves
+1363	enemy skills → grat's gastric juice
+1366	enemy skills → t-rexaur's bite + bite hard part1
+1367	enemy skills → t-rexaur's bite hard part2
+1370	enemy skills → tail
+1373	enemy skills → suicide
+1376	enemy skills → red bat's vampire
+1378	enemy skills → grow
+1381	enemy skills → x-atm092's back-leg-strike
+1384	enemy skills → both hands squeeze
+1385	enemy skills → jump punch part2
+1388	enemy skills → stare
+1390	[unknown]
+1393	enemy skills → grendel's bite
+1394	enemy skills → grab punch
+1395	enemy skills → sticky icky
+1398	enemy skills → disease breath
+1401	enemy skills → roll attack + wendigo's punch
+1404	enemy skills → armadodo's earthquake
+1407	enemy skills → wendigo's arm hug
+1409	enemy skills → shake
+1411	enemy skills → righty slap
+1414	enemy skills → degenerator
+1417	enemy skills → sleeping gas
+1420	enemy skills → fart
+1423	enemy skills → grat's vampire
+1425	battle events → fastitocalon-f's out of the sand
+1426	enemy skills → blaster
+1429	enemy skills → gas
+1432	enemy skills → death claw's explosion
+1435	[unknown]
+1438	enemy skills → beam cannon
+1441	enemy deaths → bgh251f2 first encounter part1
+1444	battle events → bgh251f2's turret lost
+1447	enemy skills → bgh251f2's chaingun
+1450	enemy skills → resonance
+1453	enemy skills → snow lion's bash
+1456	enemy skills → laser
+1459	enemy skills → wind blast
+1462	enemy skills → heartbreak
+1465	enemy skills → breath of death part1
+1468	enemy skills → breath of death part2
+1471	enemy skills → sphinxara's magic summon
+1474	enemy skills → esthar soldier's shotgun
+1476	enemy skills → hexadragon's bash
+1479	enemy skills → ochu's earthquake
+1482	enemy skills → ochu dance
+1485	enemy skills → snipe laser
+1488	enemy skills → beam laser
+1491	enemy skills → brrawghh
+1494	enemy skills → bgh251f2's chaingun second encounter
+1497	[unknown]
+1500	enemy skills → adamantoise's slap
+1502	enemy skills → adamantoise's sand storm part1
+1511	[unknown]
+1514	enemy skills → bad breath [used duplicate of quistis' one]
+1517	enemy skills → eerie sound wave
+1520	enemy skills → dissolving acid
+1523	battle events → sphinxaur defeated morphs into sphinxara
+1526	enemy skills → reflect beam
+1529	enemy skills → mega spark
+1532	enemy skills → mower + grand sword + red giant's gigantic sword
+1535	enemy skills → 1000 needles + 10000 needles
+1538	enemy skills → boomerang sword
+1541	enemy skills → evil-eye
+1544	enemy skills → oil blast
+1547	enemy skills → saliva
+1550	enemy skills → magma breath
+1553	enemy skills → sand shake
+1556	[unknown]
+1559	enemy skills → bear hug
+1561	enemy skills → death claw
+1563	enemy skills → mini pulse cannon
+1566	enemy skills → sonic wave
+1569	enemy skills → micro missiles [used duplicate of Quistis' 1067]
+1572	enemy skills → cerberus' tail
+1575	enemy deaths → x-atm092
+1578	enemy skills → melting bubble
+1581	enemy skills → twin homing laser + probes' homing laser
+1584	enemy skills → elnoyle's storm breath when mid or high-level + grendel's breath
+1587	enemy skills → gayla's gastric juice
+1590	enemy skills → oil shot
+1593	enemy deaths → abadon
+1596	enemy skills → corona
+1599	enemy deaths → trauma
+1602	enemy skills → blue dragon's breath
+1605	enemy deaths → bgh251f2 first encounter part2
+1607	battle events → fake president transforms into gerogero part1
+1610	enemy deaths → tonberry king
+1613	enemy skills → mad cow special
+1616	enemy deaths → tri-point
+1619	enemy deaths → gargantua
+1622	enemy skills → thunder summon part1
+1625	enemy skills → thunder summon part2
+1628	enemy deaths → red giant
+1631	enemy skills → megido flame part1
+1634	enemy skills → megido flame part2
+1637	enemy skills → ker plunk part1
+1640	enemy deaths → sphinxara part1
+1643	enemy deaths → sphinxara part2
+1646	enemy skills → create droma
+1649	battle events → gargantua emerges
+1652	enemy skills → zan
+1655	enemy skills → curse
+1658	enemy skills → aqua breath
+1661	enemy skills → mega flare part1
+1664	enemy skills → mega flare part2
+1667	enemy skills → dark flare
+1670	enemy deaths → bgh251f2 second encounter
+1673	enemy skills → counter rocket
+1676	[unknown]
+1679	enemy skills → assault horn + deadly horn
+1682	enemy skills → common attacks → common attack F
+1684	enemy skills → steel orb + club
+1686	battle events → norg pod destroyed part2 opens
+1689	enemy skills → counter twist
+1691	enemy skills → common attacks → common attack G
+1693	enemy skills → propagator's bitebite
+1697	enemy skills → sai
+1699	enemy skills → iron giant's sword + red giant's sword
+1701	enemy skills → grendel's cross slash + red giant's punch
+1703	[unknown]
+1706	enemy skills → raldo ball + granaldo's claw
+1708	enemy skills → raldo throw
+1710	enemy skills → jumbo cactuar's leg stamp
+1713	enemy skills → chef's knife + tonberry king's knife
+1714	enemy skills → it's sharp!
+1717	enemy skills → wendigo's dribble part1
+1720	enemy skills → wendigo's shoot part1
+1723	enemy skills → esthar soldier's punch
+1725	enemy skills → mega pulse cannon
+1728	[unknown]
+1731	[unknown]
+1734	[unknown]
+1737	[unknown]
+1747	enemy skills → psycho blast
+1750	enemy skills → raijin's fist
+1753	enemy deaths → mobile type 8
+1756	enemy skills → hypnotize
+1759	enemy deaths → krysta part1
+1762	enemy deaths → krysta part2
+1765	enemy deaths → catoblepas
+1768	enemy skills → junk
+1771	enemy deaths → tiamat
+1774	enemy skills → everyone's grudge
+1777	battle events → norg pod destroyed part1
+1780	enemy skills → ray-bomb [used duplicate of Quistis' 1239 + 1242]
+1783	enemy skills → astral punch
+1786	enemy skills → tonberry fell over
+1789	enemy skills → raijin special
+1792	enemy skills → elnoyle's swipe + probes' spin bash
+1794	enemy skills → mobile type 8's whip
+1796	enemy skills → norg's orb change color
+1799	battle events → fastitocalon's out of the sand
+1801	enemy skills → iron giant's and behemoth's mighty guard
+1804	enemy skills → metsu
+1807	[unknown]
+1810	battle events → fake president transforms into gerogero part2
+1813	enemy skills → gravija
+1816	enemy skills → diablos' gravija
+1819	enemy skills → drink magic
+1822	enemy skills → energy bomber
+1825	battle events → another sorceress appears
+1828	enemy skills → maelstrom
+1831	enemy skills → odin's zantetsuken
+1834	enemy skills → light pillar
+1837	enemy deaths → ultima weapon + omega weapon
+1840	enemy deaths → adel
+1843	[unknown]magic shield DUPLICATE
+1844	enemy skills → krysta's charge
+1847	[unknown]
+1850	enemy skills → krysta's slap
+1852	[unknown]
+1855	enemy skills → terra break part1
+1858	enemy skills → terra break part2
+1861	enemy deaths → sorceress C
+1864	[unknown]
+1867	enemy skills → griever's shockwave pulsar part1
+1870	enemy skills → griever's shockwave pulsar part2
+1873	enemy skills → griever's shockwave pulsar part3
+1876	battle events → ultimecia summons griever part1
+1879	battle events → ultimecia summons griever part2
+1885	battle events → ultimecia summons griever part3
+1888	enemy skills → demon slice part2
+1891	enemy skills → demon slice part1 + bloodfest part1
+1894	enemy skills → sorceress A and B's telekinesis
+1897	enemy skills → omega weapon's slash
+1900	enemy skills → ultima weapon's sword slash
+1903	enemy skills → bloodfest part2
+1906	enemy skills → bloodfest part3
+1909	enemy skills → common attacks → common hit ground B
+1911	enemy skills → hell's judgment
+1914	enemy skills → sorceress C's creepy touch
+1917	[unknown]
+1921	battle events → ultimecia griever form defeated part1
+1924	[unknown]
+1927	battle events → ultimecia griever form defeated part3
+1930	battle events → ultimecia griever form defeated part4
+1933	battle events → ultimecia griever form defeated part7
+1936	enemy deaths → ufo part1
+1939	battle events → ultimecia griever form's tail falls off part1
+1942	enemy deaths → ufo part2
+1945	battle events → griever defeated part1
+1948	battle events → griever defeated part2
+1951	battle events → griever defeated part3
+1954	battle events → ultimecia junctions griever part1
+1957	battle events → mobile type 8 reattaches to the probes
+1959	battle events → mobile type 8 detaches the two probes
+1961	[unknown]
+1964	enemy skills → suck
+1967	battle events → red giant drops the sword
+1970	enemy deaths → ultimecia final form → part1
+1974	enemy deaths → ultimecia final form → part2 layer1
+1978	enemy deaths → ultimecia final form → part2 layer2
+1982	[unknown]
+1986	enemy deaths → ultimecia final form → part7 layer1
+1990	enemy skills → great attractor part1
+1993	enemy skills → great attractor part2
+1996	enemy skills → great attractor part3
+1999	enemy skills → great attractor part4
+2002	enemy skills → great attractor part5
+2005	enemy skills → great attractor part6
+2008	battle events → ultimecia final form appears part2
+2011	enemy skills → head swing
+2014	enemy skills → destroy gf
+2017	battle events → final battle absorbed into time
+2020	enemy skills → blow away stock magic
+2023	battle events → sorceress C appears
+2026	enemy deaths → ultimecia final form → part3 layer1
+2027	enemy deaths → ultimecia final form → part4
+2028	enemy deaths → ultimecia final form → part5
+2029	enemy deaths → ultimecia final form → part3 layer2
+2032	enemy deaths → ultimecia final form → part6
+2036	enemy skills → create helix
+2038	enemy skills → griever's claw
+2041	enemy skills → ultimecia griever form's claw
+2044	enemy skills → ultimecia's claw + ultimecia's claw counterattack
+2047	battle events → ultimecia griever form defeated part5
+2050	battle events → ultimecia griever form defeated part6
+2053	battle events → ultimecia junctions griever part2
+2060	[unknown]
+2061	[unknown]
+2062	[unknown]
+2063	[unknown]
+2064	[unknown]
+2065	[unknown]
+2066	[unknown]
+2067	[unknown]
+2068	gf attacks → leviathan layer emerging
+2069	gf attacks → leviathan layer call
+2070	gf attacks → leviathan layer erect wall
+2071	gf attacks → leviathan layer generate water
+2072	gf attacks → leviathan layer waterfall
+2073	gf attacks → ifrit layer emerging
+2074	gf attacks → ifrit lands + battle event gilgamesh takes odin's place part2
+2075	gf attacks → ifrit layer roar
+2076	gf attacks → ifrit layer punch
+2077	gf attacks → ifrit layer hits enemy
+2078	gf attacks → quezacotl layer thunder
+2079	gf attacks → quezacotl layer cast magic
+2080	gf attacks → quezacotl layer hits enemy
+2081	gf attacks → phoenix part3
+2082	gf attacks → phoenix part2 layer2
+2083	[unknown]
+2084	gf attacks → shiva layer shiva appears + layer ice breaks on enemy
+2085	gf attacks → shiva layer shiva breaks the ice
+2086	gf attacks → shiva layer shiva casts her spell
+2087	[unknown]
+2088	gf attacks → alexander layer step (x2)
+2089	gf attacks → alexander layer opening launchers
+2090	gf attacks → alexander layer emerging
+2091	gf attacks → alexander layer final
+2092	gf attacks → cerberus layer roar
+2093	gf attacks → cerberus layer background roars
+2094	gf attacks → bahamut layer bahamut appearing
+2095	gf attacks → bahamut layer final fire 1
+2096	gf attacks → bahamut layer roar
+2097	gf attacks → odin and gilgamesh common layer background hit
+2098	gf attacks → odin layer background hit final
+2099	gf attacks → odin layer horse hooves
+2100	gf attacks → odin layer horse neigh
+2101	[unknown]
+2102	gf attacks → pandemona layer pandemona appears + layer breathe in
+2103	gf attacks → pandemona layer breathe out
+2104	gf attacks → doomtrain layer level crossing bell
+2105	gf attacks → doomtrain layer whistle
+2106	gf attacks → doomtrain layer train moves air
+2107	gf attacks → doomtrain layer hits the enemy
+2108	gf attacks → siren layer opens wings
+2109	[unknown]
+2110	gf attacks → brothers layer emerge from ground
+2111	gf attacks → brothers layer jumping
+2112	[unknown]
+2113	[unknown]
+2114	gf attacks → tonberry layer attack
+2115	gf attacks → doomtrain layer gong
+2116	gf attacks → cactuar layer appearing
+2117	gf attacks → cactuar layer pum pum pum
+2118	animals → [unknown]
+2119	animals → [unknown]
+2120	gf attacks → diablos layer wind-like sfx 2
+2121	gf attacks → diablos layer bats
+2122	gf attacks → diablos layer emerging
+2123	gf attacks → diablos layer opening wings
+2124	gf attacks → diablos layer wind-like sfx
+2125	battle events → seifer kills odin part3 layer2
+2126	battle events → seifer kills odin part6 gilgamesh grabs the sword layer1
+2127	[unknown]
+2128	gf attacks → eden layer light ray teleporting enemy
+2129	gf attacks → eden layer galaxy
+2130	gf attacks → eden layer ambience low freq
+2131	gf attacks → eden layer gong
+2132	battle events → gilgamesh takes odin's place part3 layer2
+2133	gf attacks → gilgamesh layer background swords land
+2134	gf attacks → gilgamesh layer background while appearing
+2135	gf attacks → gilgamesh layer picks up any sword
+2136	[unknown]
+2137	enemy deaths → ultimecia final form → part7 layer2
+2138	gf attacks → eden layer eden appears + layer space warps
+2139	limit breaks → angelo reverse + recover + search layer bark 1
+2140	limit breaks → angelo reverse + recover + search layer bark 2
+2141	gf attacks → tonberry layer liquid
+2142	[unknown]
+2151	animals → [unknown]
+2152	animals → [unknown]
+2153	x-atm092 field sfx → [unknown]
+2154	x-atm092 field sfx → [unknown]
+2155	animals → [unknown]
+2156	[unknown]
+2157	[unknown]
+2158	x-atm092 field sfx → [unknown]
+2159	x-atm092 field sfx → [unknown]
+2160	[unknown]
+2161	x-atm092 field sfx → [unknown]
+2162	x-atm092 field sfx → [unknown]
+2163	x-atm092 field sfx → [unknown]
+2164	[unknown]
+2165	animals → [unknown]
+2166	animals → dog standard eg balamb harbor
+2167	footsteps → footsteps sand 1
+2168	footsteps → footsteps sand 2
+2169	[unknown]
+2170	footsteps → footstep dollet tower 1
+2171	footsteps → footstep dollet tower 2
+2172	[unknown]
+2173	x-atm092 field sfx → [unknown]
+2174	[unknown]
+2175	x-atm092 field sfx → [unknown]
+2176	[unknown]
+2177	[unknown]
+2178	loops → [unknown]
+2179	loops → [unknown]
+2181	[unknown]
+2182	[unknown]
+2183	[unknown]
+2184	[unknown]
+2185	[unknown]
+2186	x-atm092 field sfx → [unknown]
+2187	[unknown]
+2188	[unknown]
+2189	[unknown]
+2190	[unknown]
+2191	[unknown]
+2192	[unknown]
+2193	shadowboxing + swinging arm
+2194	[unknown]
+2195	[unknown]
+2196	[unknown]
+2197	[unknown]
+2198	[unknown]
+2199	[unknown]
+2200	loops → [unknown]
+2201	zell's feet while shadowboxing
+2202	ship screen turn off
+2203	[unknown]
+2204	loops → [unknown]
+2205	loops → [unknown]
+2206	[unknown]
+2207	loops → [unknown]
+2208	loops → car seed exam worldmap
+2209	vehicles → ship worldmap balamb to dollet layer1
+2210	[unknown]
+2211	ship screen bip4
+2212	[unknown]
+2213	[unknown]
+2214	[unknown]
+2215	[unknown]
+2216	[unknown]
+2217	[unknown]
+2218	bg gateline
+2219	ifrit's roar while emerging
+2220	[unknown]
+2221	bg study panel turn on + ship screen turn on
+2222	ship screen bip1
+2223	ship screen bip5
+2224	bg elevator door closes
+2225	[unknown]
+2226	sit down + seifer hits desk
+2227	ship screen bip2
+2228	loops → balamb garden bg gate2 water
+2229	loops → [unknown]
+2230	loops → [unknown]
+2231	[unknown]
+2232	finger snapping
+2233	vehicles → car door open (SeeD exam)
+2234	vehicles → car door close (SeeD exam)
+2235	vehicles → [unknown]
+2236	[unknown]
+2237	ship screen bip3
+2238	[unknown]
+2239	bg elevator chime
+2240	[unknown]
+2241	door bg classroom
+2242	kadowaki phone
+2243	[unknown]
+2244	[unknown]
+2245	vehicles → [unknown]
+2246	animals → [unknown]
+2247	[unknown]
+2248	[unknown]
+2249	[unknown]
+2250	[unknown]
+2251	fujin kicks raijin
+2252	[unknown]
+2253	[unknown]
+2255	selphie bumps into squall
+2256	change clothes
+2257	training center door
+2258	[unknown]
+2259	[unknown]
+2260	bg study panel turn off
+2261	[unknown]
+2262	[unknown]
+2263	vehicles → [unknown]
+2264	[unknown]
+2265	[unknown]
+2267	[unknown]
+2268	[unknown]
+2269	[unknown]
+2270	[unknown]
+2271	[unknown]
+2272	[unknown]
+2273	[unknown]
+2274	[unknown]
+2275	[unknown]
+2276	[unknown]
+2277	[unknown]
+2278	[unknown]
+2279	[unknown]
+2281	loops → [unknown]
+2282	[unknown]
+2283	[unknown]
+2284	[unknown]
+2285	[unknown]
+2286	loops → [unknown]
+2287	[unknown]
+2288	[unknown]
+2289	[unknown]
+2291	[unknown]
+2292	[unknown]
+2293	[unknown]
+2294	[unknown]
+2295	[unknown]
+2297	[unknown]
+2298	[unknown]
+2299	animals → [unknown]
+2300	[unknown]
+2301	[unknown]
+2302	[unknown]
+2303	[unknown]
+2304	[unknown]
+2305	loops → [unknown]
+2306	[unknown]
+2307	vehicles → [unknown]
+2308	[unknown]
+2309	[unknown]
+2310	[unknown]
+2311	[unknown]
+2312	[unknown]
+2313	[unknown]
+2314	[unknown]
+2315	[unknown]
+2316	vehicles → [unknown]
+2317	vehicles → [unknown]
+2318	vehicles → [unknown]
+2319	loops → [unknown]
+2320	vehicles → [unknown]
+2321	loops → [unknown]
+2322	[unknown]
+2323	[unknown]
+2324	[unknown]
+2326	loops → [unknown]
+2327	[unknown]
+2329	[unknown]
+2330	[unknown]
+2331	[unknown]
+2332	[unknown]
+2335	[unknown]
+2338	[unknown]
+2341	[unknown]
+2342	[unknown]
+2343	field → wooden door close
+2344	field → wooden door open
+2345	[unknown]
+2346	[unknown]
+2347	[unknown]
+2348	[unknown]
+2349	[unknown]
+2350	[unknown]
+2351	[unknown]
+2354	[unknown]
+2355	[unknown]
+2357	[unknown]
+2358	[unknown]
+2359	[unknown]
+2361	[unknown]
+2362	[unknown]
+2363	[unknown]
+2364	[unknown]
+2365	loops → [unknown]
+2367	[unknown]
+2369	[unknown]
+2370	[unknown]
+2372	[unknown]
+2373	[unknown]
+2374	[unknown]
+2376	[unknown]
+2377	[unknown]
+2378	ifrit emerges from the hole
+2381	[unknown]
+2382	[unknown]
+2383	[unknown]
+2384	loops → [unknown]
+2385	[unknown]
+2387	loops → [unknown]
+2388	[unknown]
+2389	[unknown]
+2390	[unknown]
+2391	[unknown]
+2392	[unknown]
+2394	[unknown]
+2396	[unknown]
+2397	[unknown]
+2398	[unknown]
+2399	[unknown]
+2402	animals → [unknown]
+2403	animals → [unknown]
+2404	[unknown]
+2405	[unknown]
+2406	[unknown]
+2407	loops → [unknown]
+2409	[unknown]
+2410	[unknown]
+2411	[unknown]
+2412	[unknown]
+2413	animals → [unknown]
+2414	[unknown]
+2415	vehicles → [unknown]
+2416	vehicles → [unknown]
+2417	[unknown]
+2419	[unknown]
+2420	[unknown]
+2421	[unknown]
+2422	[unknown]
+2423	[unknown]
+2424	[unknown]
+2425	[unknown]
+2428	[unknown]
+2429	[unknown]
+2430	[unknown]
+2432	[unknown]
+2435	loops → [unknown]
+2437	[unknown]
+2438	[unknown]
+2440	[unknown]
+2441	[unknown]
+2444	weapons retrieved → [unknown]
+2445	[unknown]
+2448	[unknown]
+2450	[unknown]
+2452	[unknown]
+2453	[unknown]
+2454	[unknown]
+2457	[unknown]
+2459	[unknown]
+2461	[unknown]
+2464	[unknown]
+2465	[unknown]
+2468	[unknown]
+2471	[unknown]
+2472	[unknown]
+2473	loops → [unknown]
+2474	[unknown]
+2475	[unknown]
+2476	[unknown]
+2477	[unknown]
+2478	[unknown]
+2481	[unknown]
+2482	[unknown]
+2483	[unknown]
+2484	[unknown]
+2487	weapons retrieved → [unknown]
+2490	weapons retrieved → [unknown]
+2493	[unknown]
+2494	weapons retrieved → [unknown]
+2495	[unknown]
+2496	weapons retrieved → [unknown]
+2497	weapons retrieved → [unknown]
+2499	[unknown]
+2500	[unknown]
+2503	[unknown]
+2504	[unknown]
+2505	[unknown]
+2506	[unknown]
+2507	[unknown]
+2508	loops → [unknown]
+2509	[unknown]
+2510	[unknown]
+2511	[unknown]
+2512	[unknown]
+2514	[unknown]
+2517	[unknown]
+2518	[unknown]
+2519	[unknown]
+2521	[unknown]
+2522	[unknown]
+2524	[unknown]
+2525	[unknown]
+2526	[unknown]
+2527	[unknown]
+2529	[unknown]
+2530	[unknown]
+2531	[unknown]
+2532	[unknown]
+2533	[unknown]
+2534	[unknown]
+2535	[unknown]
+2536	[unknown]
+2538	[unknown]
+2540	[unknown]
+2542	[unknown]
+2543	[unknown]
+2544	[unknown]
+2545	[unknown]
+2548	vehicles → [unknown]
+2550	[unknown]
+2551	[unknown]
+2553	[unknown]
+2554	[unknown]
+2555	loops → [unknown]
+2556	[unknown]
+2557	[unknown]
+2558	[unknown]
+2559	[unknown]
+2560	[unknown]
+2561	[unknown]
+2562	[unknown]
+2563	[unknown]
+2564	[unknown] ONLY FILE THAT IS A BYTE BY BYTE EXACT DUPLICATE [of 2563]
+2565	[unknown]
+2567	[unknown]
+2568	[unknown]
+2569	[unknown]
+2570	[unknown]
+2571	[unknown]
+2572	[unknown]
+2573	[unknown]
+2574	[unknown]
+2575	[unknown]
+2576	[unknown]
+2577	[unknown]
+2578	[unknown]
+2579	[unknown]
+2580	[unknown]
+2581	[unknown]
+2582	[unknown]
+2584	[unknown]
+2585	loops → [unknown]
+2586	[unknown]
+2587	[unknown]
+2588	[unknown]
+2589	[unknown]
+2590	[unknown]
+2591	[unknown]
+2592	loops → [unknown]
+2593	[unknown]
+2594	[unknown]
+2596	loops → [unknown]
+2597	loops → [unknown]
+2598	loops → [unknown]
+2599	[unknown]
+2600	[unknown]
+2602	[unknown]
+2603	[unknown]
+2605	[unknown]
+2606	[unknown]
+2607	loops → [unknown]
+2608	[unknown]
+2609	[unknown]
+2610	[unknown]
+2611	[unknown]
+2612	[unknown]
+2613	[unknown]
+2614	loops → [unknown]
+2615	[unknown]
+2616	[unknown]
+2617	[unknown]
+2618	[unknown]
+2619	[unknown]
+2620	[unknown]
+2621	[unknown]
+2622	[unknown]
+2623	loops → [unknown]
+2625	[unknown]
+2626	[unknown]
+2627	[unknown]
+2628	[unknown]
+2629	loops → [unknown]
+2631	[unknown]
+2632	weapons retrieved → [unknown]
+2633	weapons retrieved → [unknown]
+2634	weapons retrieved → [unknown]
+2635	weapons retrieved → [unknown]
+2636	weapons retrieved → [unknown]
+2637	[unknown]
+2638	[unknown]
+2639	[unknown]
+2642	[unknown]
+2644	[unknown]
+2645	loops → [unknown]
+2646	weapons retrieved → [unknown]
+2647	weapons retrieved → [unknown]
+2648	loops → [unknown]
+2649	[unknown]
+2651	[unknown]
+2652	[unknown]
+2653	[unknown]
+2654	[unknown]
+2657	[unknown]
+2658	[unknown]
+2659	[unknown]
+2660	[unknown]
+2661	[unknown]
+2662	[unknown]
+2663	[unknown]
+2664	[unknown]
+2666	[unknown]
+2668	[unknown]
+2670	[unknown]
+2671	game ending sequence → footsteps in the white void zell 1
+2672	game ending sequence → footsteps in the white void zell 2
+2673	game ending sequence → footsteps in the white void irvine 1
+2674	game ending sequence → footsteps in the white void irvine 2
+2675	game ending sequence → footsteps in the white void rinoa 1
+2676	game ending sequence → footsteps in the white void rinoa 2
+2677	game ending sequence → footsteps in the white void quistis 1
+2678	game ending sequence → footsteps in the white void quistis 2
+2679	game ending sequence → footsteps in the white void selphie 1
+2680	game ending sequence → footsteps in the white void selphie 2
+2681	game ending sequence → rinoa grabs rings
+2682	game ending sequence → footsteps in the orphanage squall 1 [used duplicate of 2684]
+2683	game ending sequence → footsteps in the orphanage squall 2 [used duplicate of 2685]
+2684	game ending sequence → footsteps in the black void squall 1
+2685	game ending sequence → footsteps in the black void squall 2
+2686	game ending sequence → footsteps in the orphanage child squall 1
+2687	game ending sequence → footsteps in the orphanage child squall 2
+2688	game ending sequence → footsteps in the black void child squall 1
+2689	game ending sequence → footsteps in the black void child squall 2
+2690	game ending sequence → footsteps in the orphanage edea 1 [used duplicate of 2692]
+2691	game ending sequence → footsteps in the orphanage edea 2 [used duplicate of 2693]
+2692	game ending sequence → footsteps in the black void edea 1
+2693	game ending sequence → footsteps in the black void edea 2
+2694	[unknown]
+2697	[unknown]
+2698	game ending sequence → footsteps ultimecia 1
+2699	game ending sequence → footsteps ultimecia 2
+2700	game ending sequence → footsteps in the black void squall heavier 1
+2701	game ending sequence → footsteps in the black void squall heavier 2
+2702	game ending sequence → squall is lost
+2703	[unknown]
+2704	[unknown]
+2705	loops → [unknown]
+2708	[unknown]
+2710	game ending sequence → ultimecia appears in the orphanage
+2713	game ending sequence → ultimecia transfers power to edea
+2716	[unknown]
+2717	[unknown]
+2720	[unknown]
+2722	[unknown]
+2724	[unknown]
+2726	[unknown]
+2727	[unknown]
+2730	[unknown]
+2731	[unknown]
+2732	[unknown]
+2733	[unknown]
+2734	[unknown]
+2735	[unknown]
+2736	[unknown]
+2737	[unknown]
+2738	[unknown]
+2740	[unknown]
+2741	[unknown]
+2742	[unknown]
+2743	[unknown]
+2744	[unknown]
+2745	loops → [unknown]
+2746	[unknown]
+2747	[unknown]
+2748	[unknown]
+2749	loops → [unknown]
+2750	[unknown]
+2752	loops → [unknown]
+2753	[unknown]
+2754	[unknown]
+2755	[unknown]
+2756	[unknown]
+2758	[unknown]
+2759	[unknown]
+2760	[unknown]
+2761	loops → [unknown]
+2763	[unknown]
+2764	[unknown]
+2766	loops → [unknown]
+2767	[unknown]
+2768	[unknown]
+2771	[unknown]
+2772	loops → [unknown]
+2773	[unknown]
+2774	[unknown]
+2775	[unknown]
+2777	[unknown]
+2778	[unknown]
+2779	[unknown]
+2780	[unknown]
+2782	loops → [unknown]
+2785	vehicles → [unknown]
+2786	loops → [unknown]
+2787	loops → ship worldmap balamb to dollet layer2
+2788	loops → [unknown]
+2789	loops → [unknown]
