@@ -13,9 +13,9 @@
 13	battle misc → enemy death base layer1
 14	battle misc → enemy death base layer2
 15	menus → battle turn + zell limit break turn
-16	menus → error + zell limit break time up
+16	menus → error + zell limit break time up + train mission error code
 17	enemy skills → common attacks → common attack A
-18	menus → battle recap item obtained + gfs received AP + item teached quistis' skill
+18	menus → common sfx stuff obtained
 19	enemy skills → common attacks → enemy cast magic or skill layer1
 20	enemy skills → common attacks → enemy cast magic or skill layer2
 21	battle misc → escape from battle
@@ -30,8 +30,8 @@
 30	field → save point
 31	battle misc → attack miss
 32	menus → junction
-33	[unknown]
-34	[unknown]
+33	scrapped battle summary EXP [unused]
+34	[unknown]wooden door variant
 35	menus → battle summary EXP
 36	menus → save slot loaded + changes HP warning + didn't receive EXP
 37	menus → savefile load
@@ -39,72 +39,72 @@
 39	menus → new game sound layer4 background hiss
 40	menus → new game sound layer3
 41	menus → level up + gf learned ability
-42	vehicles → [unknown]
+42	vehicles → car standard engine sound field only
 43	vehicles → [unknown]
-44	loops → inside car seed exam
-45	loops → inside ship seed exam
-46	vehicles → car from balamb entrance to harbor part1
-47	vehicles → car from balamb entrance to harbor part2
-48	vehicles → car from balamb entrance to harbor part3
-49	vehicles → car from balamb entrance to harbor layer steering and open door
-50	vehicles → car from garage to worldmap part1
-51	vehicles → car from garage to worldmap part2
-52	vehicles → car from garage to worldmap layer steering
-53	footsteps → quistis footstep1
-54	footsteps → quistis footstep2
+44	ambience → inside car seed exam
+45	ambience → inside ship seed exam
+46	story → dollet exam → car from balamb entrance to harbor part1
+47	story → dollet exam → car from balamb entrance to harbor part2
+48	story → dollet exam → car from balamb entrance to harbor part3
+49	story → dollet exam → car from balamb entrance to harbor layer steering and open door
+50	story → dollet exam → car from garage to worldmap part1
+51	story → dollet exam → car from garage to worldmap part2
+52	story → dollet exam → car from garage to worldmap layer steering
+53	footsteps → female characters footstep1
+54	footsteps → female characters footstep2
 55	[unknown]
-56	vehicles → [unknown]
+56	story → dollet exam → seifer goes away in the car
 57	vehicles → [unknown]
 58	vehicles → [unknown]
-59	loops → [unknown]
+59	ambience → [unknown]
 60	[unknown]
-61	[unknown]
-62	loops → [unknown]
+61	vehicles → [unknown]
+62	ambience → [unknown]
 63	[unknown]
 64	[unknown]
 65	menus → shop buy + sell
 66	field → draw point
 67	field → draw point use
-68	loops → fire cavern
+68	ambience → fire cavern
 69	bg elevator
-70	loops → [unknown]
-71	loops → [unknown]
-72	loops → [unknown]
-73	loops → [unknown]
+70	ambience → inside owls' train
+71	ambience → train mission ambience A layer1
+72	ambience → train mission ambience A layer2
+73	ambience → [unknown]
 74	[unknown]
-75	loops → [unknown]
+75	ambience → [unknown]
 76	[unknown]
-77	loops → [unknown]
-78	loops → [unknown]
-79	loops → [unknown]
+77	ambience → [unknown]
+78	ambience → [unknown]
+79	ambience → [unknown]
 80	[unknown]
-81	loops → [unknown]
-82	loops → [unknown]
-83	loops → [unknown]
-84	loops → [unknown]
-85	loops → [unknown]
-86	[unknown]
-87	field → item obtained
+81	ambience → [unknown]
+82	ambience → dream#1 river
+83	ambience → dream#1 fires
+84	ambience → [unknown]
+85	ambience → [unknown]
+86	train starting whistle
+87	field → field item obtained version B
 88	[unknown]
-89	[unknown]
-90	triple triad → triple triad take card
+89	triple triad → card is chosen for the deck + card is played
+90	triple triad → card is taken
 91	field → seed level up
 92	field → seed level layer base
 93	field → seed earn money
 94	vehicles → [unknown]
 95	menus → battle turn limit break available
-96	loops → [unknown]
-97	loops → [unknown]
-98	loops → [unknown]
+96	ambience → [unknown]
+97	ambience → [unknown]
+98	ambience → [unknown]
 99	[unknown]
 100	[unknown]
 101	[unknown]
-102	loops → [unknown]
-103	loops → [unknown]
-104	loops → [unknown]
-105	loops → [unknown]
-106	loops → [unknown]
-107	loops → [unknown]
+102	ambience → [unknown]
+103	ambience → [unknown]
+104	ambience → [unknown]
+105	ambience → [unknown]
+106	ambience → [unknown]
+107	ambience → [unknown]
 108	menus → remodel weapon
 109	[unknown]
 110	[unknown]
@@ -116,18 +116,18 @@
 116	battle misc → draw in battle layer2
 117	battle misc → draw in battle layer3
 118	bg study panel select
-119	loops → [unknown]
-120	loops → [unknown]
+119	ambience → [unknown]
+120	ambience → [unknown]
 121	[unknown]
 122	[unknown]
 123	[unknown]
 124	[unknown]
-125	loops → [unknown]
-126	loops → [unknown]
-127	loops → [unknown]
-128	loops → [unknown]
-129	loops → [unknown]
-130	loops → [unknown]
+125	ambience → [unknown]
+126	ambience → [unknown]
+127	ambience → [unknown]
+128	ambience → [unknown]
+129	ambience → [unknown]
+130	ambience → [unknown]
 131	field → angelo has learned a skill
 132	battle misc → boss battle start layer1
 133	battle misc → boss battle start layer2
@@ -142,8 +142,8 @@
 142	vehicles → [unknown]
 143	vehicles → [unknown]
 144	vehicles → [unknown]
-145	loops → [unknown]
-146	loops → [unknown]
+145	ambience → [unknown]
+146	ambience → [unknown]
 151	party attacks → attack zell
 152	[unknown]
 153	party attacks → critical layer zell
@@ -341,7 +341,7 @@
 348	enemy calls → sorceress A
 349	enemy deaths → sorceress A
 350	enemy calls → sorceress B
-351	enemy deaths → sorceress B
+351	enemy deaths → sorceress B [used duplicate of the intro call]
 352	enemy calls → ultima weapon
 353	enemy calls → omega weapon
 354	enemy calls → adel
@@ -479,7 +479,7 @@
 725	spells → blizzara
 728	enemy skills → cure + potion + potion plus + enemy skill brothers' earth regeneration
 731	spells → life + revive + phoenix down
-734	[unknown]draw [unused duplicate]
+734	draw [unused duplicate]
 737	spells → double + triple
 740	spells → meteor layer 1 bg
 741	spells → meteor layer 2 the drop
@@ -615,7 +615,7 @@
 1121	limit breaks → zell duel my final heaven part2
 1124	limit breaks → angelo cannon part1
 1127	limit breaks → angelo cannon part2
-1130	limit breaks → seifer fire cross no mercy part2
+1130	limit breaks → seifer no mercy part2
 1133	limit breaks → zell duel different beat
 1136	limit breaks → renzokuken 5 hits
 1139	renzokuken variants → renzokuken [unused]
@@ -1023,121 +1023,121 @@
 2140	limit breaks → angelo reverse + recover + search layer bark 2
 2141	gf attacks → tonberry layer liquid
 2142	[unknown]
-2151	animals → [unknown]
-2152	animals → [unknown]
-2153	x-atm092 field sfx → [unknown]
-2154	x-atm092 field sfx → [unknown]
+2151	animals → dog common
+2152	story → dollet exam → dog 2
+2153	story → dollet exam → x-atm092 field footstep 1
+2154	story → dollet exam → x-atm092 field footstep 2
 2155	animals → [unknown]
-2156	[unknown]
+2156	common land on feet
 2157	[unknown]
-2158	x-atm092 field sfx → [unknown]
-2159	x-atm092 field sfx → [unknown]
+2158	story → dollet exam → x-atm092 jumps down from the tower 1
+2159	story → dollet exam → x-atm092 jumps down from the tower 2 + gets up again after first fight
 2160	[unknown]
-2161	x-atm092 field sfx → [unknown]
-2162	x-atm092 field sfx → [unknown]
-2163	x-atm092 field sfx → [unknown]
-2164	[unknown]
-2165	animals → [unknown]
-2166	animals → dog standard eg balamb harbor
+2161	story → dollet exam → x-atm092 starts walking 1 [used duplicate of 2153]
+2162	story → dollet exam → x-atm092 starts walking 2 [used duplicate of 2154]
+2163	story → dollet exam → x-atm092 unused footstep 1 [unused duplicate of 2153]
+2164	story → dollet exam → seifer swings gunblade
+2165	story → dollet exam → dog howling
+2166	animals → dog bark common
 2167	footsteps → footsteps sand 1
 2168	footsteps → footsteps sand 2
 2169	[unknown]
 2170	footsteps → footstep dollet tower 1
 2171	footsteps → footstep dollet tower 2
-2172	[unknown]
-2173	x-atm092 field sfx → [unknown]
-2174	[unknown]
-2175	x-atm092 field sfx → [unknown]
-2176	[unknown]
-2177	[unknown]
-2178	loops → [unknown]
-2179	loops → [unknown]
-2181	[unknown]
-2182	[unknown]
-2183	[unknown]
-2184	[unknown]
-2185	[unknown]
-2186	x-atm092 field sfx → [unknown]
-2187	[unknown]
-2188	[unknown]
-2189	[unknown]
-2190	[unknown]
+2172	story → dollet exam → dollet tower elevator running
+2173	story → dollet exam → dollet tower elevator starting + stopping
+2174	story → dollet exam → dollet biggs working the tower zap
+2175	story → dollet exam → biggs using the device to activate x-atm092
+2176	story → dollet exam → biggs drops down tired
+2177	common footsteps jump
+2178	ambience → [unknown]
+2179	ambience → dollet ramp noise for no reason
+2181	story → dollet exam → dollet soldier in danger
+2182	story → dollet exam → anacondaur attacks 2
+2183	story → dollet exam → biggs device drops
+2184	story → dollet exam → seifer hits biggs who drops the device
+2185	story → dollet exam → x-atm092 first appearance
+2186	story → dollet exam → x-atm092 unused footstep 2 [unused duplicate of 2154]
+2187	story → dollet exam → biggs on all fours reaching for the device 1
+2188	story → dollet exam → biggs on all fours reaching for the device 2
+2189	story → dollet exam → bells
+2190	story → dollet exam → dollet tower door open + close
 2191	[unknown]
-2192	[unknown]
+2192	story → timber mission → entering the codes
 2193	shadowboxing + swinging arm
 2194	[unknown]
-2195	[unknown]
+2195	wooden door bigger open + close
 2196	[unknown]
-2197	[unknown]
+2197	story → timber mission → rope abseil + rope climb
 2198	[unknown]
 2199	[unknown]
-2200	loops → [unknown]
+2200	ambience → [unknown]
 2201	zell's feet while shadowboxing
-2202	ship screen turn off
+2202	story → dollet exam → ship screen turn off
 2203	[unknown]
-2204	loops → [unknown]
-2205	loops → [unknown]
+2204	ambience → train mission ambience B layer1
+2205	ambience → [unknown]
 2206	[unknown]
-2207	loops → [unknown]
-2208	loops → car seed exam worldmap
-2209	vehicles → ship worldmap balamb to dollet layer1
-2210	[unknown]
-2211	ship screen bip4
+2207	ambience → train mission ambience B layer2
+2208	vehicles → car standard engine sound worldmap and field
+2209	story → dollet exam → ship worldmap layer1
+2210	common jump
+2211	story → dollet exam → ship screen bip4 + train mission correct code
 2212	[unknown]
-2213	[unknown]
+2213	story → dollet exam → anacondaur attacks 1
 2214	[unknown]
-2215	[unknown]
-2216	[unknown]
+2215	timber hotel barrier
+2216	story → timber mission → train departing whistle
 2217	[unknown]
 2218	bg gateline
-2219	ifrit's roar while emerging
+2219	story → fire cavern → ifrit's roar while emerging
 2220	[unknown]
 2221	bg study panel turn on + ship screen turn on
-2222	ship screen bip1
-2223	ship screen bip5
+2222	story → dollet exam → ship screen bip1
+2223	story → dollet exam → ship screen bip5
 2224	bg elevator door closes
 2225	[unknown]
 2226	sit down + seifer hits desk
-2227	ship screen bip2
-2228	loops → balamb garden bg gate2 water
-2229	loops → [unknown]
-2230	loops → [unknown]
-2231	[unknown]
+2227	story → dollet exam → ship screen bip2
+2228	ambience → balamb garden bg gate2 water
+2229	ambience → [unknown]
+2230	ambience → [unknown]
+2231	story → dollet exam → clap
 2232	finger snapping
-2233	vehicles → car door open (SeeD exam)
-2234	vehicles → car door close (SeeD exam)
-2235	vehicles → [unknown]
-2236	[unknown]
-2237	ship screen bip3
+2233	story → dollet exam → car door open
+2234	story → dollet exam → car door close
+2235	vehicles → common car layer brake
+2236	common knock on door
+2237	story → dollet exam → ship screen bip3
 2238	[unknown]
 2239	bg elevator chime
-2240	[unknown]
-2241	door bg classroom
-2242	kadowaki phone
+2240	deling hotel door close
+2241	door bg classroom + door train cabins
+2242	story → infirmary → kadowaki phone
 2243	[unknown]
 2244	[unknown]
 2245	vehicles → [unknown]
-2246	animals → [unknown]
-2247	[unknown]
-2248	[unknown]
-2249	[unknown]
+2246	animals → miaow
+2247	animals → timber cat jumps off the sign collar sound
+2248	animals → timber cat purring
+2249	story → dollet exam → ship door closes
 2250	[unknown]
-2251	fujin kicks raijin
-2252	[unknown]
-2253	[unknown]
-2255	selphie bumps into squall
+2251	story → bgarden start → fujin kicks raijin
+2252	common door open
+2253	story → dollet exam → clapping final
+2255	story → bgarden start → selphie bumps into squall
 2256	change clothes
 2257	training center door
 2258	[unknown]
 2259	[unknown]
 2260	bg study panel turn off
-2261	[unknown]
-2262	[unknown]
+2261	story → timber mission → train announcement
+2262	zell jumping on the train seat
 2263	vehicles → [unknown]
-2264	[unknown]
-2265	[unknown]
-2267	[unknown]
-2268	[unknown]
+2264	story → dollet exam → seeds getting into military pose
+2265	story → seed party → glasses
+2267	story → timber mission → zell t-board
+2268	train access granted to cabins
 2269	[unknown]
 2270	[unknown]
 2271	[unknown]
@@ -1149,49 +1149,49 @@
 2277	[unknown]
 2278	[unknown]
 2279	[unknown]
-2281	loops → [unknown]
+2281	ambience → [unknown]
 2282	[unknown]
 2283	[unknown]
 2284	[unknown]
 2285	[unknown]
-2286	loops → [unknown]
-2287	[unknown]
-2288	[unknown]
-2289	[unknown]
-2291	[unknown]
+2286	ambience → model train timber hotel
+2287	story → timber mission → zone's stomach ache
+2288	standing up from seat
+2289	story → timber mission → squall takes rinoa's contract papers
+2291	train main door open + close
 2292	[unknown]
 2293	[unknown]
 2294	[unknown]
-2295	[unknown]
-2297	[unknown]
+2295	story → timber mission → owls train arrives
+2297	story → timber mission → owl's train starts moving again
 2298	[unknown]
 2299	animals → [unknown]
 2300	[unknown]
-2301	[unknown]
+2301	buy train ticket
 2302	[unknown]
 2303	[unknown]
 2304	[unknown]
-2305	loops → [unknown]
-2306	[unknown]
-2307	vehicles → [unknown]
-2308	[unknown]
+2305	ambience → [unknown]
+2306	story → dream#1 → car start and go to deling
+2307	story → dream#1 → car arrived to deling and get out
+2308	story → timber mission → train balamb to timber arrives
 2309	[unknown]
-2310	[unknown]
-2311	[unknown]
-2312	[unknown]
+2310	story → timber mission → train departing
+2311	story → timber mission → owl's train brakes and stops 1
+2312	story → timber mission → owl's train brakes and stops 2
 2313	[unknown]
 2314	[unknown]
 2315	[unknown]
 2316	vehicles → [unknown]
 2317	vehicles → [unknown]
 2318	vehicles → [unknown]
-2319	loops → [unknown]
+2319	ambience → [unknown]
 2320	vehicles → [unknown]
-2321	loops → [unknown]
+2321	ambience → [unknown]
 2322	[unknown]
 2323	[unknown]
 2324	[unknown]
-2326	loops → [unknown]
+2326	ambience → [unknown]
 2327	[unknown]
 2329	[unknown]
 2330	[unknown]
@@ -1201,8 +1201,8 @@
 2338	[unknown]
 2341	[unknown]
 2342	[unknown]
-2343	field → wooden door close
-2344	field → wooden door open
+2343	wooden door close
+2344	wooden door open
 2345	[unknown]
 2346	[unknown]
 2347	[unknown]
@@ -1219,7 +1219,7 @@
 2362	[unknown]
 2363	[unknown]
 2364	[unknown]
-2365	loops → [unknown]
+2365	ambience → [unknown]
 2367	[unknown]
 2369	[unknown]
 2370	[unknown]
@@ -1228,13 +1228,13 @@
 2374	[unknown]
 2376	[unknown]
 2377	[unknown]
-2378	ifrit emerges from the hole
+2378	story → fire cavern → ifrit emerges from the hole
 2381	[unknown]
 2382	[unknown]
 2383	[unknown]
-2384	loops → [unknown]
+2384	ambience → [unknown]
 2385	[unknown]
-2387	loops → [unknown]
+2387	ambience → [unknown]
 2388	[unknown]
 2389	[unknown]
 2390	[unknown]
@@ -1247,15 +1247,15 @@
 2399	[unknown]
 2402	animals → [unknown]
 2403	animals → [unknown]
-2404	[unknown]
+2404	story → curfew → granaldo attacks ellione
 2405	[unknown]
-2406	[unknown]
-2407	loops → [unknown]
+2406	story → timber mission → timber mission guard looks out
+2407	ambience → [unknown]
 2409	[unknown]
 2410	[unknown]
 2411	[unknown]
 2412	[unknown]
-2413	animals → [unknown]
+2413	animals → angelo in the train
 2414	[unknown]
 2415	vehicles → [unknown]
 2416	vehicles → [unknown]
@@ -1271,7 +1271,7 @@
 2429	[unknown]
 2430	[unknown]
 2432	[unknown]
-2435	loops → [unknown]
+2435	ambience → [unknown]
 2437	[unknown]
 2438	[unknown]
 2440	[unknown]
@@ -1281,7 +1281,7 @@
 2448	[unknown]
 2450	[unknown]
 2452	[unknown]
-2453	[unknown]
+2453	dream sequence starts
 2454	[unknown]
 2457	[unknown]
 2459	[unknown]
@@ -1291,7 +1291,7 @@
 2468	[unknown]
 2471	[unknown]
 2472	[unknown]
-2473	loops → [unknown]
+2473	ambience → [unknown]
 2474	[unknown]
 2475	[unknown]
 2476	[unknown]
@@ -1315,14 +1315,14 @@
 2505	[unknown]
 2506	[unknown]
 2507	[unknown]
-2508	loops → [unknown]
+2508	ambience → [unknown]
 2509	[unknown]
 2510	[unknown]
 2511	[unknown]
 2512	[unknown]
 2514	[unknown]
-2517	[unknown]
-2518	[unknown]
+2517	story → seed party → footsteps heels 1
+2518	story → seed party → footsteps heels 2
 2519	[unknown]
 2521	[unknown]
 2522	[unknown]
@@ -1337,8 +1337,8 @@
 2533	[unknown]
 2534	[unknown]
 2535	[unknown]
-2536	[unknown]
-2538	[unknown]
+2536	story → curfew → granaldo flying (loop)
+2538	story → curfew → granaldo attacks the party
 2540	[unknown]
 2542	[unknown]
 2543	[unknown]
@@ -1349,7 +1349,7 @@
 2551	[unknown]
 2553	[unknown]
 2554	[unknown]
-2555	loops → [unknown]
+2555	ambience → [unknown]
 2556	[unknown]
 2557	[unknown]
 2558	[unknown]
@@ -1377,33 +1377,33 @@
 2581	[unknown]
 2582	[unknown]
 2584	[unknown]
-2585	loops → [unknown]
+2585	ambience → [unknown]
 2586	[unknown]
 2587	[unknown]
 2588	[unknown]
 2589	[unknown]
 2590	[unknown]
 2591	[unknown]
-2592	loops → [unknown]
+2592	ambience → [unknown]
 2593	[unknown]
 2594	[unknown]
-2596	loops → [unknown]
-2597	loops → [unknown]
-2598	loops → [unknown]
+2596	ambience → [unknown]
+2597	ambience → [unknown]
+2598	ambience → [unknown]
 2599	[unknown]
 2600	[unknown]
 2602	[unknown]
 2603	[unknown]
 2605	[unknown]
 2606	[unknown]
-2607	loops → [unknown]
+2607	ambience → [unknown]
 2608	[unknown]
 2609	[unknown]
 2610	[unknown]
 2611	[unknown]
 2612	[unknown]
 2613	[unknown]
-2614	loops → [unknown]
+2614	ambience → [unknown]
 2615	[unknown]
 2616	[unknown]
 2617	[unknown]
@@ -1412,12 +1412,12 @@
 2620	[unknown]
 2621	[unknown]
 2622	[unknown]
-2623	loops → [unknown]
+2623	ambience → [unknown]
 2625	[unknown]
 2626	[unknown]
 2627	[unknown]
 2628	[unknown]
-2629	loops → [unknown]
+2629	ambience → [unknown]
 2631	[unknown]
 2632	weapons retrieved → [unknown]
 2633	weapons retrieved → [unknown]
@@ -1429,10 +1429,10 @@
 2639	[unknown]
 2642	[unknown]
 2644	[unknown]
-2645	loops → [unknown]
+2645	ambience → [unknown]
 2646	weapons retrieved → [unknown]
 2647	weapons retrieved → [unknown]
-2648	loops → [unknown]
+2648	ambience → [unknown]
 2649	[unknown]
 2651	[unknown]
 2652	[unknown]
@@ -1481,7 +1481,7 @@
 2702	game ending sequence → squall is lost
 2703	[unknown]
 2704	[unknown]
-2705	loops → [unknown]
+2705	ambience → [unknown]
 2708	[unknown]
 2710	game ending sequence → ultimecia appears in the orphanage
 2713	game ending sequence → ultimecia transfers power to edea
@@ -1506,13 +1506,13 @@
 2742	[unknown]
 2743	[unknown]
 2744	[unknown]
-2745	loops → [unknown]
+2745	ambience → [unknown]
 2746	[unknown]
 2747	[unknown]
 2748	[unknown]
-2749	loops → [unknown]
+2749	ambience → [unknown]
 2750	[unknown]
-2752	loops → [unknown]
+2752	ambience → [unknown]
 2753	[unknown]
 2754	[unknown]
 2755	[unknown]
@@ -1520,14 +1520,14 @@
 2758	[unknown]
 2759	[unknown]
 2760	[unknown]
-2761	loops → [unknown]
+2761	ambience → [unknown]
 2763	[unknown]
 2764	[unknown]
-2766	loops → [unknown]
+2766	ambience → [unknown]
 2767	[unknown]
 2768	[unknown]
 2771	[unknown]
-2772	loops → [unknown]
+2772	ambience → [unknown]
 2773	[unknown]
 2774	[unknown]
 2775	[unknown]
@@ -1535,9 +1535,9 @@
 2778	[unknown]
 2779	[unknown]
 2780	[unknown]
-2782	loops → [unknown]
+2782	ambience → [unknown]
 2785	vehicles → [unknown]
-2786	loops → [unknown]
-2787	loops → ship worldmap balamb to dollet layer2
-2788	loops → [unknown]
-2789	loops → [unknown]
+2786	ambience → [unknown]
+2787	vehicles → common vehicle worldmap engine layer train and ship
+2788	ambience → [unknown]
+2789	ambience → [unknown]

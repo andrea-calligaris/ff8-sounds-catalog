@@ -12,11 +12,23 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
 
 ## Menus
 
+- `18 common_sfx_stuff_obtained`:
+  - Field: item obtained, sfx version A.
+  - Battle recap: item obtained.
+  - Battle recap: GFs received AP.
+  - Item teached Quistis' skill.
+  - Card won after game of cards.
+- `87 field_item_obtained_version_B`
 - `41 Level up` (for both characters and GFs)
 - `41 GF learned an ability`
-- `91 SeeD level up` (both for the tests and in-field): **layered** with `92`
 - `92 SeeD level layer base` (both for the tests and in-field)
-- `93 SeeD money earned` (LV nor up nor down): **layered** with `92`
+- `91 SeeD level up` (both for the tests and in-field): **layered** with `92` and `93`
+- `93 SeeD money earned`:
+  - LV nor up nor down: **layered** with `92`
+  - LV up: **layered** with `91` and `92`
+- `16 train_mission_error_code`:
+  - When the code has not been entered in time: normally played.
+  - When a wrong number is entered: normally played, then played with higher pitch immediately after.
 
 
 ## Footsteps
@@ -261,7 +273,8 @@ All intro calls are technically played but only the last monster's call is heard
 - Edea (first encounter)'s intro "call": `1783`, i.e. the same sound effect of her skill _Astral Punch_
 - `290 Adamantoise`: before _Sand Storm_
 - `343 Diablos`: before _Claw_
-- `348 Sorceress A`: when a new sorceress appears, **layered** with `1825`
+- `348 Sorceress A`: when a new sorceress appears, **layered** with `1825 Another sorceress appears`
+- `350 sorceress_B`: when a new sorceress appears, **layered** with `1825 Another sorceress appears`
 
 
 ## Multiple targets skills: "Once" or "for each"
@@ -463,7 +476,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 - `2139 Angelo Reverse, Recover, and Search, layer bark 1`: the two starting barks
 - `2140 Angelo Reverse, Recover, and Search, layer bark 2`: the ending bark
 - `1115 Rinoa's "Angel Wing"`: the same sfx is **layered** a lot, like **x10**
-- Seifer's "Fire cross No Mercy" part 1: `710`, i.e. a non-elemental "Fire"
+- Seifer's "No Mercy" part 1: `710`, i.e. a non-elemental "Fire"
 
 
 ## Battle events and morphings
@@ -551,6 +564,47 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 ## Ultimecia (Final form): attacks
 
 Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have the same animation and sound effect, and they always critical. They are basically the same attack but "Claw Counterattack" is weaker and never misses and is exclusively done as a counter-attack to Dispel (which the player may want to cast to remove Ultimecia's Reflect that she casts on herself under certain conditions; what these conditions are is still being investigated).
+
+
+## Triple Triad
+
+- `89 card_is_chosen_for_the_deck+card_is_played`: card is chosen for the deck: both for the opponent and for the player, and both manually and automatically.
+- Card won after a game of cards: `18 common_sfx_stuff_obtained`.
+
+
+## Field
+
+- `42 car_standard_engine_sound_field_only`:
+  - Rented car: return to Balamb.
+  - Deling: NPC's cars passing by.
+- `2208 car_standard_engine_sound_worldmap_and_field`: any model of car in the worldmap; any NPC car in Deling.
+- `2235 common_car_layer_brake`:
+  - Rented car: return to Balamb: layer "brake".
+  - Deling's NPC's cars: layer "brake".
+- `2156 common_land_on_feet`:
+  - Dollet exam: Galbadian soldiers landing from above.
+  - Curfew: White SeeDs arrive to help Ellone.
+- `2164 seifer_swings_gunblade`: either because annoyed, while chasing soldiers, or to give orders.
+- `2177 common_footsteps_jump`:
+  - Dollet exam: Galbadian soldiers jumping down from above.
+  - Dollet exam: Selphie (and optionally, Squall and Zell) jumping down the hill.
+  - SeeD party: Selphie happy if player joins the Garden Festival.
+- `SeeD party →` `2517 footstep_heels_1`, `2518 footstep_heels_2`: the waitress and Rinoa.
+- `2236 common_knock_on_door`:
+  - Selphie on Squall's bedroom door.
+  - Laguna on Julia's bedroom door.
+  - Kiros on Julia's bedroom door to call Laguna to work.
+- `2787 common_vehicle_worldmap_engine_layer_train_and_ship`:
+  - Train in the world map.
+  - Balamb vessel, layered with `2209 ship_worldmap_layer1`
+- `2210 common_jump`:
+  - Zell excited for having passed the exam.
+  - Timber mission: party jumping on top of trains.
+- `2151 dog_common`: Dollet mission, square; Georgie in Timber.
+- `2166 dog_bark_common`: Balamb harbor; Dollet mission, square; Georgie in Timber.
+- `2261 train_announcement`: both inside the train and in the stations.
+- `2252 common_door_open`: Timber shops.
+- `2246 miaow`: Timber cat outside the hotel.
 
 
 ## Misc.
