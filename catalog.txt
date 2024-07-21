@@ -13,7 +13,7 @@
 13	battle misc → enemy death base layer1
 14	battle misc → enemy death base layer2
 15	menus → battle turn + zell limit break turn
-16	menus → error + zell limit break time up + train mission error code
+16	menus → error + zell limit break time up + train mission error code + laguna loses the key
 17	enemy skills → common attacks → common attack A
 18	menus → common sfx stuff obtained
 19	enemy skills → common attacks → enemy cast magic or skill layer1
@@ -24,7 +24,7 @@
 24	battle misc → summon intro layer1
 25	battle misc → summon intro layer2
 26	battle misc → battle use item
-27	menus → menu use item or magic
+27	menus → menu use item or magic + drink owl's tear in timber
 28	menus → menu item heal status + teach gf ability + increase gf compatibility
 29	menus → new game sound layer1
 30	field → save point
@@ -59,9 +59,9 @@
 59	ambience → [unknown]
 60	[unknown]
 61	vehicles → [unknown]
-62	ambience → [unknown]
-63	[unknown]
-64	[unknown]
+62	vehicles → deling city bus engine
+63	ladder step 1
+64	ladder step 2
 65	menus → shop buy + sell
 66	field → draw point
 67	field → draw point use
@@ -78,12 +78,12 @@
 78	ambience → [unknown]
 79	ambience → [unknown]
 80	[unknown]
-81	ambience → [unknown]
+81	ambience → deling fountain
 82	ambience → dream#1 river
 83	ambience → dream#1 fires
-84	ambience → [unknown]
+84	ambience → deling crowd
 85	ambience → [unknown]
-86	train starting whistle
+86	vehicles → train starting whistle
 87	field → field item obtained version B
 88	[unknown]
 89	triple triad → card is chosen for the deck + card is played
@@ -93,14 +93,14 @@
 93	field → seed earn money
 94	vehicles → [unknown]
 95	menus → battle turn limit break available
-96	ambience → [unknown]
-97	ambience → [unknown]
-98	ambience → [unknown]
+96	ambience → tomb unknown king water drops
+97	ambience → tomb unknown king background mood A
+98	ambience → tomb unknown king indoor water drain
 99	[unknown]
 100	[unknown]
 101	[unknown]
 102	ambience → [unknown]
-103	ambience → [unknown]
+103	ambience → tomb unknown king background mood B (sacred's room)
 104	ambience → [unknown]
 105	ambience → [unknown]
 106	ambience → [unknown]
@@ -1031,8 +1031,8 @@
 2156	common land on feet
 2157	[unknown]
 2158	story → dollet exam → x-atm092 jumps down from the tower 1
-2159	story → dollet exam → x-atm092 jumps down from the tower 2 + gets up again after first fight
-2160	[unknown]
+2159	common metallic bang
+2160	common banging
 2161	story → dollet exam → x-atm092 starts walking 1 [used duplicate of 2153]
 2162	story → dollet exam → x-atm092 starts walking 2 [used duplicate of 2154]
 2163	story → dollet exam → x-atm092 unused footstep 1 [unused duplicate of 2153]
@@ -1044,15 +1044,15 @@
 2169	[unknown]
 2170	footsteps → footstep dollet tower 1
 2171	footsteps → footstep dollet tower 2
-2172	story → dollet exam → dollet tower elevator running
-2173	story → dollet exam → dollet tower elevator starting + stopping
+2172	dollet tower elevator running + dollet rental car rotating mechanism
+2173	story → dollet exam → dollet tower elevator starting + stopping + train starting when from inside
 2174	story → dollet exam → dollet biggs working the tower zap
 2175	story → dollet exam → biggs using the device to activate x-atm092
 2176	story → dollet exam → biggs drops down tired
 2177	common footsteps jump
 2178	ambience → [unknown]
-2179	ambience → dollet ramp noise for no reason
-2181	story → dollet exam → dollet soldier in danger
+2179	common rumble
+2181	common ambush
 2182	story → dollet exam → anacondaur attacks 2
 2183	story → dollet exam → biggs device drops
 2184	story → dollet exam → seifer hits biggs who drops the device
@@ -1065,29 +1065,29 @@
 2191	[unknown]
 2192	story → timber mission → entering the codes
 2193	shadowboxing + swinging arm
-2194	[unknown]
+2194	ambience → timber tv station static
 2195	wooden door bigger open + close
 2196	[unknown]
 2197	story → timber mission → rope abseil + rope climb
-2198	[unknown]
+2198	ambience → timber tv station static louder
 2199	[unknown]
 2200	ambience → [unknown]
 2201	zell's feet while shadowboxing
 2202	story → dollet exam → ship screen turn off
-2203	[unknown]
+2203	faucet owl's tear
 2204	ambience → train mission ambience B layer1
 2205	ambience → [unknown]
-2206	[unknown]
+2206	tension
 2207	ambience → train mission ambience B layer2
 2208	vehicles → car standard engine sound worldmap and field
-2209	story → dollet exam → ship worldmap layer1
+2209	story → dollet exam → ship worldmap layer
 2210	common jump
 2211	story → dollet exam → ship screen bip4 + train mission correct code
 2212	[unknown]
 2213	story → dollet exam → anacondaur attacks 1
 2214	[unknown]
 2215	timber hotel barrier
-2216	story → timber mission → train departing whistle
+2216	vehicles → train departing whistle [used duplicate of 86]
 2217	[unknown]
 2218	bg gateline
 2219	story → fire cavern → ifrit's roar while emerging
@@ -1095,88 +1095,88 @@
 2221	bg study panel turn on + ship screen turn on
 2222	story → dollet exam → ship screen bip1
 2223	story → dollet exam → ship screen bip5
-2224	bg elevator door closes
+2224	bg elevator door closes + timber train main door enter
 2225	[unknown]
 2226	sit down + seifer hits desk
 2227	story → dollet exam → ship screen bip2
-2228	ambience → balamb garden bg gate2 water
+2228	ambience → bg gate2 water + tomb unknown king entrance + tomb unknown king water after gear removed
 2229	ambience → [unknown]
-2230	ambience → [unknown]
+2230	vehicles → car engine idle only in-field
 2231	story → dollet exam → clap
 2232	finger snapping
 2233	story → dollet exam → car door open
-2234	story → dollet exam → car door close
+2234	vehicles → common car door close
 2235	vehicles → common car layer brake
 2236	common knock on door
 2237	story → dollet exam → ship screen bip3
 2238	[unknown]
-2239	bg elevator chime
-2240	deling hotel door close
-2241	door bg classroom + door train cabins
+2239	common elevator chime
+2240	common automatic sliding door A
+2241	common automatic sliding door B
 2242	story → infirmary → kadowaki phone
-2243	[unknown]
-2244	[unknown]
+2243	loops → forest fox lady's boiling pot
+2244	door slam (dollet old painter house)
 2245	vehicles → [unknown]
 2246	animals → miaow
-2247	animals → timber cat jumps off the sign collar sound
+2247	animals → timber cat collar sound
 2248	animals → timber cat purring
 2249	story → dollet exam → ship door closes
 2250	[unknown]
-2251	story → bgarden start → fujin kicks raijin
-2252	common door open
+2251	story → bgarden start → common kick
+2252	common door + common unlock
 2253	story → dollet exam → clapping final
-2255	story → bgarden start → selphie bumps into squall
+2255	story → bgarden start → common body bump or grab
 2256	change clothes
 2257	training center door
 2258	[unknown]
 2259	[unknown]
 2260	bg study panel turn off
-2261	story → timber mission → train announcement
+2261	vehicles → train announcement
 2262	zell jumping on the train seat
-2263	vehicles → [unknown]
-2264	story → dollet exam → seeds getting into military pose
+2263	vehicles → common horn
+2264	seeds getting into military pose
 2265	story → seed party → glasses
 2267	story → timber mission → zell t-board
 2268	train access granted to cabins
 2269	[unknown]
 2270	[unknown]
 2271	[unknown]
-2272	[unknown]
-2273	[unknown]
+2272	common very generic sfx
+2273	story → disc1 ggarden → zell punches the train floor
 2274	[unknown]
 2275	[unknown]
 2276	[unknown]
-2277	[unknown]
+2277	loops → tomb unknown king the mechanism is now working
 2278	[unknown]
 2279	[unknown]
 2281	ambience → [unknown]
-2282	[unknown]
+2282	story → deling mission → open hatch to the sniping spot
 2283	[unknown]
-2284	[unknown]
+2284	story → timber mission → forest fox lady spanks boy
 2285	[unknown]
-2286	ambience → model train timber hotel
+2286	loops → model train timber hotel
 2287	story → timber mission → zone's stomach ache
-2288	standing up from seat
+2288	sitting + standing up from seat
 2289	story → timber mission → squall takes rinoa's contract papers
-2291	train main door open + close
-2292	[unknown]
+2291	vehicles → train main door open + close
+2292	story → deling mission → gateway switch
 2293	[unknown]
 2294	[unknown]
-2295	story → timber mission → owls train arrives
+2295	vehicles → timber train for deling arrives + owl's train arrives
 2297	story → timber mission → owl's train starts moving again
 2298	[unknown]
 2299	animals → [unknown]
 2300	[unknown]
-2301	buy train ticket
+2301	buy train ticket + obtain gil in-field + timber buy drink
 2302	[unknown]
 2303	[unknown]
-2304	[unknown]
+2304	story → timber mission → edea appears + edea and seifer disappear
 2305	ambience → [unknown]
 2306	story → dream#1 → car start and go to deling
 2307	story → dream#1 → car arrived to deling and get out
-2308	story → timber mission → train balamb to timber arrives
+2308	vehicles → train balamb to timber arrives
 2309	[unknown]
-2310	story → timber mission → train departing
+2310	vehicles → train departing
 2311	story → timber mission → owl's train brakes and stops 1
 2312	story → timber mission → owl's train brakes and stops 2
 2313	[unknown]
@@ -1184,11 +1184,11 @@
 2315	[unknown]
 2316	vehicles → [unknown]
 2317	vehicles → [unknown]
-2318	vehicles → [unknown]
+2318	story → disc1 ggarden → martine comes in a car
 2319	ambience → [unknown]
 2320	vehicles → [unknown]
 2321	ambience → [unknown]
-2322	[unknown]
+2322	story → sewer → secret passage opens
 2323	[unknown]
 2324	[unknown]
 2326	ambience → [unknown]
@@ -1196,10 +1196,10 @@
 2329	[unknown]
 2330	[unknown]
 2331	[unknown]
-2332	[unknown]
-2335	[unknown]
-2338	[unknown]
-2341	[unknown]
+2332	story → deling mission → edea seated magic against rinoa
+2335	story → deling mission → edea releases rinoa and she falls back down
+2338	story → deling mission → rinoa falls down after edea's magic
+2341	vehicles → timber train gangway extend + pull back
 2342	[unknown]
 2343	wooden door close
 2344	wooden door open
@@ -1207,15 +1207,15 @@
 2346	[unknown]
 2347	[unknown]
 2348	[unknown]
-2349	[unknown]
-2350	[unknown]
+2349	story → caraway's mansion → door lock alarm
+2350	story → caraway's mansion → door locks
 2351	[unknown]
 2354	[unknown]
 2355	[unknown]
 2357	[unknown]
 2358	[unknown]
 2359	[unknown]
-2361	[unknown]
+2361	d-prison guard comes out of the booth
 2362	[unknown]
 2363	[unknown]
 2364	[unknown]
@@ -1229,19 +1229,19 @@
 2376	[unknown]
 2377	[unknown]
 2378	story → fire cavern → ifrit emerges from the hole
-2381	[unknown]
-2382	[unknown]
-2383	[unknown]
+2381	story → dream#2 → detonation of far boulder
+2382	story → dream#2 → detonation of close boulder
+2383	story → timber mission → seifer breaks into the tv station
 2384	ambience → [unknown]
-2385	[unknown]
-2387	ambience → [unknown]
-2388	[unknown]
+2385	story → timber mission → edea opens portal
+2387	ambience → dream#2 sea
+2388	story → dream#2 → plunge into water
 2389	[unknown]
 2390	[unknown]
 2391	[unknown]
-2392	[unknown]
-2394	[unknown]
-2396	[unknown]
+2392	story → timber mission → edea's magic
+2394	story → dream#2 → rolling boulder crashes
+2396	story → dream#2 → detonator switch pressed
 2397	[unknown]
 2398	[unknown]
 2399	[unknown]
@@ -1250,19 +1250,19 @@
 2404	story → curfew → granaldo attacks ellione
 2405	[unknown]
 2406	story → timber mission → timber mission guard looks out
-2407	ambience → [unknown]
-2409	[unknown]
+2407	ambience → centra excavation site
+2409	story → dream#2 → laguna tampers with the hatch lever
 2410	[unknown]
 2411	[unknown]
-2412	[unknown]
+2412	story → dream#2 → esthar soldier falls down
 2413	animals → angelo in the train
 2414	[unknown]
-2415	vehicles → [unknown]
+2415	story → disc1 ggarden → martin gets away in a car (second part looped)
 2416	vehicles → [unknown]
-2417	[unknown]
-2419	[unknown]
-2420	[unknown]
-2421	[unknown]
+2417	story → deling mission → deling roasted
+2419	story → deling mission → edea throws dead deling away
+2420	story → sewer → mansion puzzle take the glass
+2421	story → deling mission → squall taks the rifle
 2422	[unknown]
 2423	[unknown]
 2424	[unknown]
@@ -1287,8 +1287,8 @@
 2459	[unknown]
 2461	[unknown]
 2464	[unknown]
-2465	[unknown]
-2468	[unknown]
+2465	story → timber mission → tv station camera falls
+2468	story → timber mission → tv station game transition
 2471	[unknown]
 2472	[unknown]
 2473	ambience → [unknown]
@@ -1296,7 +1296,7 @@
 2475	[unknown]
 2476	[unknown]
 2477	[unknown]
-2478	[unknown]
+2478	loops → edea controls rinoa's arm
 2481	[unknown]
 2482	[unknown]
 2483	[unknown]
@@ -1313,17 +1313,17 @@
 2503	[unknown]
 2504	[unknown]
 2505	[unknown]
-2506	[unknown]
-2507	[unknown]
-2508	ambience → [unknown]
+2506	story → tomb unknown king → remove the gear
+2507	story → tomb unknown king → sacred's stand raises up
+2508	ambience → tomb unknown king water now flows
 2509	[unknown]
-2510	[unknown]
-2511	[unknown]
-2512	[unknown]
-2514	[unknown]
+2510	story → tomb unknown king → release the chain let the water flow
+2511	story → tomb unknown king → sacred's roar
+2512	story → tomb unknown king → sarcophagus opens
+2514	loops → edea kills deling
 2517	story → seed party → footsteps heels 1
 2518	story → seed party → footsteps heels 2
-2519	[unknown]
+2519	minotaur appears
 2521	[unknown]
 2522	[unknown]
 2524	[unknown]
@@ -1336,7 +1336,7 @@
 2532	[unknown]
 2533	[unknown]
 2534	[unknown]
-2535	[unknown]
+2535	story → sewer → lower the ladder
 2536	story → curfew → granaldo flying (loop)
 2538	story → curfew → granaldo attacks the party
 2540	[unknown]
@@ -1377,7 +1377,7 @@
 2581	[unknown]
 2582	[unknown]
 2584	[unknown]
-2585	ambience → [unknown]
+2585	ambience → edea parade float's fire
 2586	[unknown]
 2587	[unknown]
 2588	[unknown]
@@ -1385,7 +1385,7 @@
 2590	[unknown]
 2591	[unknown]
 2592	ambience → [unknown]
-2593	[unknown]
+2593	story → caraway's mansion → irvine gets down from the desk
 2594	[unknown]
 2596	ambience → [unknown]
 2597	ambience → [unknown]
@@ -1437,7 +1437,7 @@
 2651	[unknown]
 2652	[unknown]
 2653	[unknown]
-2654	[unknown]
+2654	story → deling mission → edea summons the iguions
 2657	[unknown]
 2658	[unknown]
 2659	[unknown]

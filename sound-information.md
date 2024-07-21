@@ -122,6 +122,7 @@ These create the default enemy death sound. Enemy-specific death sounds are all 
 
 ## Enemy skills
 
+
 ### Additional info
 
 - `1303 Tri-Face's Bite`: **x2**, then **x4**
@@ -129,6 +130,7 @@ These create the default enemy death sound. Enemy-specific death sounds are all 
 - `1584 Elnoyle's Storm Breath (when mid or high-level)`: **x2**, **layered** with itself with an offset of 500 ms; also the sound for Grendel's _Breath_ (**x1**)
 - `1658 Aqua Breath`: very similar to Quistis' sfx
 - `1792 Elnoyle's Swipe`: **x2**
+
 
 ### Enemies common sound effects
 
@@ -171,7 +173,7 @@ Enemies use some common sound effects:
 - G-Soldier's _Sword Slash_
 - Blitz's _Slash_
 - Esthar Soldier's _Strike_
-- Esthar Soldier (Terminator)'s _Soul Crush_
+- Esthar Soldier (Terminator)'s _Soul Crush_ (one for each member of the party)
 - Guard (D-District Prison)'s _Sword Slash_
 - Forbidden's _Sword Slash_
 - Forbidden's _Double Sword_ **x2**
@@ -516,6 +518,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `325 tonberry_king_defeated_call`
   - `325 tonberry_king_defeated_call`: «I...I'm sorry.»
 
+
 ### Final battle
 
 - `2017 Final battle's "Absorbed into time":` when a K.O.'ed character in the party vanishes; the replacement with another character has no sfx.
@@ -574,37 +577,83 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
 
 ## Field
 
-- `42 car_standard_engine_sound_field_only`:
-  - Rented car: return to Balamb.
-  - Deling: NPC's cars passing by.
-- `2208 car_standard_engine_sound_worldmap_and_field`: any model of car in the worldmap; any NPC car in Deling.
-- `2235 common_car_layer_brake`:
-  - Rented car: return to Balamb: layer "brake".
-  - Deling's NPC's cars: layer "brake".
 - `2156 common_land_on_feet`:
   - Dollet exam: Galbadian soldiers landing from above.
   - Curfew: White SeeDs arrive to help Ellone.
-- `2164 seifer_swings_gunblade`: either because annoyed, while chasing soldiers, or to give orders.
+- `2164 seifer_swings_gunblade`: when annoyed; while chasing soldiers; to give orders; when fighting inside the TV station.
 - `2177 common_footsteps_jump`:
   - Dollet exam: Galbadian soldiers jumping down from above.
   - Dollet exam: Selphie (and optionally, Squall and Zell) jumping down the hill.
   - SeeD party: Selphie happy if player joins the Garden Festival.
+  - Dream #2: Laguna slips from the top of the ravine.
+  - Disc 1 Deling mission: Squall jumps down to go towards the car to reach Edea.
 - `SeeD party →` `2517 footstep_heels_1`, `2518 footstep_heels_2`: the waitress and Rinoa.
 - `2236 common_knock_on_door`:
   - Selphie on Squall's bedroom door.
   - Laguna on Julia's bedroom door.
   - Kiros on Julia's bedroom door to call Laguna to work.
-- `2787 common_vehicle_worldmap_engine_layer_train_and_ship`:
-  - Train in the world map.
-  - Balamb vessel, layered with `2209 ship_worldmap_layer1`
+  - Galbadian soldiers on Forest Fox lady's house.
+- `2251 common_kick`: Fujin kicks Raijin (Balamb Garden cafeteria). Seifer kicks Galbadian Soldier (TV Station). Laguna smashes on the rocks after slipping from the top of the ravine.
+- `2255 common_body_bump_or_grab`: Selphie bumps into Squall. TV station: guard grabs Seifer. Dream #2: Ward and Kiros lay down on the top of the ravine. Caraway's mansion: Rinoa bumping into Quistis.
+- `2160 common_banging`: Timber: banging the cupboard in the Owl's Tear house to force it open. Galbadian soldiers banging on the Forest Fox lady's door, banging harder after `2236`.
 - `2210 common_jump`:
   - Zell excited for having passed the exam.
   - Timber mission: party jumping on top of trains.
-- `2151 dog_common`: Dollet mission, square; Georgie in Timber.
-- `2166 dog_bark_common`: Balamb harbor; Dollet mission, square; Georgie in Timber.
+  - Sewer: jumping off the wheel.
+- `2181 common_ambush`: Dollet exam: injured Dollet soldier appears out of nowhere. Dream #2: Esthar soldiers ambush.
+- `2159 common_metallic_bang`: X-ATM092 lands after jumping down from the tower. X-ATM092 gets up again after the first fight. Dream #2: the hatch breaks and opens when the Esthar soldier steps over it; the second and third hatches open after the vibrations from the boulder crashing; the pushed boulder creates a cavity.
+- `2206 tension`: TV Station: Edea talks to Seifer. Dream #2: player must decide between the blue and the red switch. Irvine is about to take the shot.
+- `2179 common_rumble`: Dollet ramp towards the tower: rumble noise (for no reason whatsoever?). Dollet "RoboVite 001" tumbling down. Dream #2: boulder rolls down. The train cabin staggers after Zell's punch on the floor.
+- `2272 common_very_generic_sfx`: Galbadia Garden gateline open+close. In the forest, each character falls to the ground due to dream sequence starting.
+- Funny secret Dollet's spider robot variants:
+  - "RoboVite 001" uses:
+    - `2153 x-atm092_field_footstep_1` and `2154 x-atm092_field_footstep_2` for the steps.
+    - `2159` for getting stuck.
+    - `2179` for tumbling down.
+  - "RoboSharp 002" uses:
+    - `2159` for falling upside-down.
+
+
+### Doors
+
+- `2239 common_elevator_chime`: Balamb Garden elevator. Dollet hotel elevator.
+- `2252 common_door+common_unlock`:
+  - Timber: Shops. Timber Maniacs. Pub. Forest Fox lady's house door and window. Owl's Tear house door. Owl's Tear house: open/close the cupboard after banging on it. TV station stairway gate.
+  - Dollet: Shop. Old painter house.
+  - Deling: Gateway, door to the sewer.
+  - Dream #2: Loose lever on the hatch (when walking on top of it).
+    - When the soldier steps over it: `2252+2159+2412`.
+  - Dream #2: The second hatch opens after the vibrations of the boulder crashing.
+  - Dream #2: Laguna finds a key. Laguna loses the key (and then `16` when the message says it's lost).
+  - Sewer: Unlock gate.
+- `2240 common_automatic_sliding_door_A`: Galbadia Garden doors. Deling hotel door close.
+- `2241 common_automatic_sliding_door_B`: Balamb Garden classroom. Train cabins. Timber hotel. Dollet hotel elevator. Deling: Shops. Rent-a-car door.
+- `2344 wooden_door_open` and `2343 wooden_door_close`: Caraway's mansion.
+- `2195 wooden_door_bigger_open+close`: Dollet: Pub. Hotel.
+
+
+### Vehicles
+
+- `42 car_standard_engine_sound_field_only`:
+  - Rented car: return to Balamb.
+  - Deling: NPC's cars passing by.
+- `2208 car_standard_engine_sound_worldmap_and_field`: Any model of cars in the world map. Any NPC's car in Deling.
+- `2235 common_car_layer_brake`:
+  - Rented car: return to Balamb: layer "brake".
+  - Deling's NPC's cars: layer "brake".
+- `2234 common_car_door_close`: Dollet exam. Renting one in Dollet.
+- `2787 common_vehicle_worldmap_engine_layer_train_and_ship`:
+  - Train in the world map.
+  - Balamb vessel, layered with `2209 ship_worldmap_layer`
 - `2261 train_announcement`: both inside the train and in the stations.
-- `2252 common_door_open`: Timber shops.
+
+
+### Animals
+
+- `2151 dog_common`: Dollet mission, square. Georgie in Timber.
+- `2166 dog_bark_common`: Balamb harbor. Dollet mission, square. Georgie in Timber. Dollet bone side-quest dog.
 - `2246 miaow`: Timber cat outside the hotel.
+- `2247 timber_cat_collar_sound`: Timber cat: after interacting two times, it purrs (`2248 timber_cat_purring`) and then it jumps off the hotel/shop sign, and you hear its collar sound. Behind the alley, you also hear its collar sound while it walks on the window. When in the room hiding from the Galbadian soldiers, it too does the usual combination `2246+2248+2247` if you talk to Selphie, and then it runs down the stairs. Dollet: cat jumping down from above bridge, escaping after the dog barks.
 
 
 ## Misc.
