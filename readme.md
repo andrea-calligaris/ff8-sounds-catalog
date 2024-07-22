@@ -14,3 +14,5 @@ In [catalog.txt](catalog.txt) there's the list of sound files in this format:
 `ID	category → sub category → descriptive name`
 
 In [sound-information.md](sound-information.md) you can find additional information about the sound effects; for example, by which monsters a shared attack sfx is used.
+
+For the ambience sounds in `music/stream`, see [stream-sounds-catalog.md](stream-sounds-catalog.md).
