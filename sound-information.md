@@ -12,6 +12,12 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
 
 ## Menus
 
+- `16 error`:
+  - Menu: unavailable option.
+  - Zell's Limit Break: time up.
+  - Train mission: error entering the code.
+  - Dream #2: Laguna loses the key.
+  - Missile Base: wrong password entered on the control panel (should be 'EDEA').
 - `18 common_sfx_stuff_obtained`:
   - Field: item obtained, sfx version A.
   - Battle recap: item obtained.
@@ -38,7 +44,22 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
 3 normal footstep 2
 ```
 
-These footsteps are used in battle too, for the run leading to physical attacks: Squall, Seifer, Laguna, Ward, Kiros, and G-Soldiers.
+Most humans in the game. These footsteps are used in battle too, for the run leading to physical attacks: Squall, Seifer, Laguna, Ward, Kiros, and G-Soldiers.
+
+Female characters sometimes use:
+```
+53 female_characters_footstep1
+54 female_characters_footstep2
+```
+
+Ladders:
+
+```
+63 ladder_step_1
+64 ladder_step_2
+```
+
+These are also used for Squall hanging on the D-District Prison bridge while the prison is submerging.
 
 
 ## Casting magic
@@ -547,7 +568,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 - `2047 Ultimecia (Griever form) defeated part 5`
 - `2050 Ultimecia (Griever form) defeated part 6`
 - `1933 Ultimecia (Griever form) defeated part 7`
-- Then there is a moment of silence. Then, some audio which I have no idea where it is took from ("Fithos, Lusec, etc.") starts playing for a short time. Then, another similar audio starts playing panning left and right, which includes some background ambient noise too.
+- Then there is a moment of silence. Then, some audio which I have no idea where it is took from ("Fithos, Lusec, etc.") starts playing for a short time (no, it's not from the ambience "stream" folder). Then, another similar audio starts playing panning left and right, which includes some background ambient noise too.
 - `367 Ultimecia (final form) appears part 1`: when the blank light emits from Ultimecia's face
 - `2008 Ultimecia (final form) appears part 2`
 - \[Battle\]
@@ -580,7 +601,12 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
 - `2156 common_land_on_feet`:
   - Dollet exam: Galbadian soldiers landing from above.
   - Curfew: White SeeDs arrive to help Ellone.
-- `2164 seifer_swings_gunblade`: when annoyed; while chasing soldiers; to give orders; when fighting inside the TV station.
+  - D-District Prison: Squall is freed from the chains and lands on the ground. Exiting from the crane.
+  - Balamb Garden rebellion: SeeDs jumps down from the festival stage.
+  - MD level: through the heavy big hatch down to the true MD level, where there's the oil stratum. Squall gets down from the fallen ladder.
+  - White SeeDs come abroad the Balamb Garden deck.
+  - Squall and Rinoa jump down on the solar panels.
+- `2164 seifer_swings_gunblade`: when annoyed; while chasing soldiers; to give orders; when fighting inside the TV station; when interrogating Squall.
 - `2177 common_footsteps_jump`:
   - Dollet exam: Galbadian soldiers jumping down from above.
   - Dollet exam: Selphie (and optionally, Squall and Zell) jumping down the hill.
@@ -593,18 +619,19 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
   - Laguna on Julia's bedroom door.
   - Kiros on Julia's bedroom door to call Laguna to work.
   - Galbadian soldiers on Forest Fox lady's house.
-- `2251 common_kick`: Fujin kicks Raijin (Balamb Garden cafeteria). Seifer kicks Galbadian Soldier (TV Station). Laguna smashes on the rocks after slipping from the top of the ravine.
+- `2251 common_kick`: Fujin kicks Raijin (various occasions). Seifer kicks Galbadian Soldier (TV Station). Laguna smashes on the rocks after slipping from the top of the ravine. D-District Prison: guards beat Zell and the Moomba; Moomba slips and falls. Balamb Garden rebellion: kid kicks a SeeD. Balamb Garden basement: Garden Faculty pushes Cid away.
 - `2255 common_body_bump_or_grab`: Selphie bumps into Squall. TV station: guard grabs Seifer. Dream #2: Ward and Kiros lay down on the top of the ravine. Caraway's mansion: Rinoa bumping into Quistis.
-- `2160 common_banging`: Timber: banging the cupboard in the Owl's Tear house to force it open. Galbadian soldiers banging on the Forest Fox lady's door, banging harder after `2236`.
+- `2160 common_banging`: Timber: banging the cupboard in the Owl's Tear house to force it open. Galbadian soldiers banging on the Forest Fox lady's door, banging harder after `2236`. D-District Prison: Zell's stumps his foot in various occasions. Fishermans Horizon: kid throws the hook and breaks the shopkeeper's window.
 - `2210 common_jump`:
   - Zell excited for having passed the exam.
   - Timber mission: party jumping on top of trains.
   - Sewer: jumping off the wheel.
+  - D-District Prison: Squall jumps down to help Zell.
 - `2181 common_ambush`: Dollet exam: injured Dollet soldier appears out of nowhere. Dream #2: Esthar soldiers ambush.
 - `2159 common_metallic_bang`: X-ATM092 lands after jumping down from the tower. X-ATM092 gets up again after the first fight. Dream #2: the hatch breaks and opens when the Esthar soldier steps over it; the second and third hatches open after the vibrations from the boulder crashing; the pushed boulder creates a cavity.
 - `2206 tension`: TV Station: Edea talks to Seifer. Dream #2: player must decide between the blue and the red switch. Irvine is about to take the shot.
 - `2179 common_rumble`: Dollet ramp towards the tower: rumble noise (for no reason whatsoever?). Dollet "RoboVite 001" tumbling down. Dream #2: boulder rolls down. The train cabin staggers after Zell's punch on the floor.
-- `2272 common_very_generic_sfx`: Galbadia Garden gateline open+close. In the forest, each character falls to the ground due to dream sequence starting.
+- `2272 common_very_generic_sfx`: Galbadia Garden gateline open+close. In the forest, each character falls to the ground due to dream sequence starting. Cid falls on his knee.
 - Funny secret Dollet's spider robot variants:
   - "RoboVite 001" uses:
     - `2153 x-atm092_field_footstep_1` and `2154 x-atm092_field_footstep_2` for the steps.
@@ -612,6 +639,27 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
     - `2179` for tumbling down.
   - "RoboSharp 002" uses:
     - `2159` for falling upside-down.
+- `2533 common_operate_controls`:
+  - D-District Prison: Squall operates the lever.
+  - Missile Base, control room: Selphie bangs the controls.
+- `2543`:
+  - D-District Prison: Biggs activates the alarm
+  - MD level: elevator to the MD level: Squall tries to work the stuck elevator to no avail. Squall tries to operate the very last panel on the lowest floor of the MD level.
+- `2200 (loop) bg_bridge_elevator [used duplicate of 69]`: useless duplicate, only used the first time the Garden moves, when one character of your party goes down the bridge alone. From then on, `69` is used.
+
+Missile Base control room:
+  - First choice:
+    - "Aah, just hit whatever!": `2771`, `2533` **x2**.
+    - "Hit a few buttons here and there...": `2533` **x2**.
+  - Second choice (regardless of first):
+    - "Just press whatever!": `2771`, `2533`.
+	- "Bang on it hard!": `2533`, then `2533` at each player's square/X button.
+
+FH kid fishing:
+  - Throwing the hook: `2164, 2197, 2160`.
+  - Throwing the hook a second time: `2164, 2556, 2558, 2559, 2557`.
+  - Throwing the hook a third time: `2164, 2197, 2197, 2197`, then Squall helps the old man; then `2169`.
+  - After the Galbadian attack, throwing the hook a fourth time: `2164, 2197`, then `2228` very briefly for the fish coming out of the water.
 
 
 ### Doors
@@ -626,37 +674,61 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
   - Dream #2: The second hatch opens after the vibrations of the boulder crashing.
   - Dream #2: Laguna finds a key. Laguna loses the key (and then `16` when the message says it's lost).
   - Sewer: Unlock gate.
+  - Fishermans Horizon: mayor's residence.
+- `2190 common_big_metal_door_A`: Dollet: tower door open+close. Balamb Garden deck door open?+close, when connected to FH. Fishermans Horizon: shop/hotel.
+- `2257 common_big_metal_door_B`: Balamb Garden Training Center doors. D-District Prison: Squall's cell door.
 - `2240 common_automatic_sliding_door_A`: Galbadia Garden doors. Deling hotel door close.
-- `2241 common_automatic_sliding_door_B`: Balamb Garden classroom. Train cabins. Timber hotel. Dollet hotel elevator. Deling: Shops. Rent-a-car door.
-- `2344 wooden_door_open` and `2343 wooden_door_close`: Caraway's mansion.
-- `2195 wooden_door_bigger_open+close`: Dollet: Pub. Hotel.
+- `2241 common_automatic_sliding_door_B`: Balamb Garden classroom; door to exit the deck (see dedicated section). Train cabins. Timber hotel. Dollet hotel elevator. Deling: Shops. Rent-a-car door. D-District Prison: cell doors.
+- `2344 wooden_door_open` and `2343 wooden_door_close`: Balamb town: houses, Junk shop, hotel. Caraway's mansion. Winhill: houses, and the shop. Fishermans Horizon: house of Grease Monkey (artisan/repairman).
+- `2195 wooden_door_bigger_open+close`: Balamb Garden: door to Cid's office. Dollet: Pub. Hotel.
+
+Balamb Garden deck:
+  - Door from inside the Garden which leads to the stairs which then lead to the deck: `2249`.
+  - Door from the deck to the stairs: `2241`.
+  - When connected to FH:
+    - Coming from the Garden: `2241+2190`, then the party walks, then `2241+2224`.
+	- Entering the Garden: `2241`.
 
 
 ### Vehicles
 
-- `42 car_standard_engine_sound_field_only`:
+- `42 car_standard_engine_sound_A_field_only`:
   - Rented car: return to Balamb.
   - Deling: NPC's cars passing by.
-- `2208 car_standard_engine_sound_worldmap_and_field`: Any model of cars in the world map. Any NPC's car in Deling.
+  - The Galbadian cars used to escape the prison (going out of the garage).
+- `2208 car_standard_engine_B_sound_world_map_and_field`: Any model of cars in the world map. Any NPC's car in Deling. The Galbadian cars used to escape the prison (reaching the desert scenario with the big cactus and the two roads).
 - `2235 common_car_layer_brake`:
   - Rented car: return to Balamb: layer "brake".
   - Deling's NPC's cars: layer "brake".
 - `2234 common_car_door_close`: Dollet exam. Renting one in Dollet.
-- `2787 common_vehicle_worldmap_engine_layer_train_and_ship`:
+- `2787 common_vehicle_world_map_engine_layer_train_and_ship`:
   - Train in the world map.
-  - Balamb vessel, layered with `2209 ship_worldmap_layer`
+  - Balamb vessel, layered with `2209 ship_world_map_layer`
 - `2261 train_announcement`: both inside the train and in the stations.
+- `2788 balamb_garden_as_world_map_vehicle_layer_engine`: when moving forward or backwards, the sound is the same but the volume is slightly increased. When traveling on water, `2789 balamb_garden_as_world_map_vehicle_layer_sailing` is added.
 
 
 ### Animals
 
-- `2151 dog_common`: Dollet mission, square. Georgie in Timber.
-- `2166 dog_bark_common`: Balamb harbor. Dollet mission, square. Georgie in Timber. Dollet bone side-quest dog.
-- `2246 miaow`: Timber cat outside the hotel.
-- `2247 timber_cat_collar_sound`: Timber cat: after interacting two times, it purrs (`2248 timber_cat_purring`) and then it jumps off the hotel/shop sign, and you hear its collar sound. Behind the alley, you also hear its collar sound while it walks on the window. When in the room hiding from the Galbadian soldiers, it too does the usual combination `2246+2248+2247` if you talk to Selphie, and then it runs down the stairs. Dollet: cat jumping down from above bridge, escaping after the dog barks.
+- `2151 dog_common`: Dollet mission, square. Georgie in Timber. Occupied Balamb: the dog once it smells fish odor on you.
+- `2166 dog_bark_common`: Balamb harbor. Dollet mission, square. Georgie in Timber. Dollet bone side-quest dog. The dog in occupied Balamb to search for the captain.
+- `2246 miaow` and `2247 cat_collar_sound` and `2248 cat_purring`:
+  - Balamb: the first house.
+  - Timber cats: Outside the hotel, after interacting two times, it purrs and it then jumps off the hotel/shop sign, and you hear its collar sound; behind the alley, you also hear the cat's collar while it walks on the window; when in the room hiding from the Galbadian soldiers, it too does the usual combination `2246+2248+2247` if you talk to Selphie, and then it runs down the stairs.
+  - Dollet: collar sound when the cat jumps down from above bridge, and then escapes, after the dog barks.
+  - Fishermans Horizon: residential area's plaza, the cats make all three sounds while they walk around.
+
+Occupied Balamb town: using the dog to chase the captain (Raijin):
+  - Once the dog reaches the station: `2165`, `2298`.
 
 
 ## Misc.
+
+The ambience for the Balamb Garden deck (`2540+2555`) makes no sense when you visit it during the rebellion, because the Garden is not yet moving. Also the dude just enjoying the breeze, in that moment of the story, ahah.
+
+`Ambience → 2321 Missile Base`: except inside the missile launchers room.
+
+`Ambience → 2196 (loop) common_alarm`: D-District Prison. Missile Base.
 
 `114 Battle misc. → Magic Shield`: plays when _Protect_, _Shell_, or _Reflect_ engages after an attack.
 

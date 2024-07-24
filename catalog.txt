@@ -13,7 +13,7 @@
 13	battle misc → enemy death base layer1
 14	battle misc → enemy death base layer2
 15	menus → battle turn + zell limit break turn
-16	menus → error + zell limit break time up + train mission error code + laguna loses the key
+16	menus → error
 17	enemy skills → common attacks → common attack A
 18	menus → common sfx stuff obtained
 19	enemy skills → common attacks → enemy cast magic or skill layer1
@@ -39,7 +39,7 @@
 39	menus → new game sound layer4 background hiss
 40	menus → new game sound layer3
 41	menus → level up + gf learned ability
-42	vehicles → car standard engine sound field only
+42	vehicles → car standard engine sound A field only
 43	vehicles → [unknown]
 44	ambience → inside car seed exam
 45	ambience → inside ship seed exam
@@ -47,12 +47,12 @@
 47	story → dollet exam → car from balamb entrance to harbor part2
 48	story → dollet exam → car from balamb entrance to harbor part3
 49	story → dollet exam → car from balamb entrance to harbor layer steering and open door
-50	story → dollet exam → car from garage to worldmap part1
-51	story → dollet exam → car from garage to worldmap part2
-52	story → dollet exam → car from garage to worldmap layer steering
+50	story → dollet exam → car from garage to world map part1
+51	story → dollet exam → car from garage to world map part2
+52	story → dollet exam → car from garage to world map layer steering
 53	footsteps → female characters footstep1
 54	footsteps → female characters footstep2
-55	[unknown]
+55	story → prison → switch to electrocute
 56	story → dollet exam → seifer goes away in the car
 57	vehicles → [unknown]
 58	vehicles → [unknown]
@@ -60,13 +60,13 @@
 60	[unknown]
 61	vehicles → [unknown]
 62	vehicles → deling city bus engine
-63	ladder step 1
-64	ladder step 2
+63	footsteps → ladder step 1
+64	footsteps → ladder step 2
 65	menus → shop buy + sell
 66	field → draw point
 67	field → draw point use
 68	ambience → fire cavern
-69	bg elevator
+69	(loop) bg hall elevator + bg bridge elevator
 70	ambience → inside owls' train
 71	ambience → train mission ambience A layer1
 72	ambience → train mission ambience A layer2
@@ -82,7 +82,7 @@
 82	ambience → dream#1 river
 83	ambience → dream#1 fires
 84	ambience → deling crowd
-85	ambience → [unknown]
+85	ambience → bg deck when white seeds ship is there
 86	vehicles → train starting whistle
 87	field → field item obtained version B
 88	[unknown]
@@ -94,13 +94,13 @@
 94	vehicles → [unknown]
 95	menus → battle turn limit break available
 96	ambience → tomb unknown king water drops
-97	ambience → tomb unknown king background mood A
+97	ambience → tomb unknown king background A
 98	ambience → tomb unknown king indoor water drain
-99	[unknown]
+99	story → prison → (loop) gunfire
 100	[unknown]
 101	[unknown]
-102	ambience → [unknown]
-103	ambience → tomb unknown king background mood B (sacred's room)
+102	story → prison → (loop) crane is moving
+103	ambience → tomb unknown king background B (sacred's room)
 104	ambience → [unknown]
 105	ambience → [unknown]
 106	ambience → [unknown]
@@ -115,7 +115,7 @@
 115	battle misc → draw in battle layer1
 116	battle misc → draw in battle layer2
 117	battle misc → draw in battle layer3
-118	bg study panel select
+118	bg study panel select + missile base control panel select
 119	ambience → [unknown]
 120	ambience → [unknown]
 121	[unknown]
@@ -125,7 +125,7 @@
 125	ambience → [unknown]
 126	ambience → [unknown]
 127	ambience → [unknown]
-128	ambience → [unknown]
+128	story → md level → elevator to the md level
 129	ambience → [unknown]
 130	ambience → [unknown]
 131	field → angelo has learned a skill
@@ -1036,16 +1036,16 @@
 2161	story → dollet exam → x-atm092 starts walking 1 [used duplicate of 2153]
 2162	story → dollet exam → x-atm092 starts walking 2 [used duplicate of 2154]
 2163	story → dollet exam → x-atm092 unused footstep 1 [unused duplicate of 2153]
-2164	story → dollet exam → seifer swings gunblade
+2164	story → dollet exam → seifer swings gunblade + guard tries squall's gunblade + fh kid throws the hook
 2165	story → dollet exam → dog howling
 2166	animals → dog bark common
 2167	footsteps → footsteps sand 1
 2168	footsteps → footsteps sand 2
-2169	[unknown]
+2169	fh shopkeeper mad at the kid
 2170	footsteps → footstep dollet tower 1
 2171	footsteps → footstep dollet tower 2
-2172	dollet tower elevator running + dollet rental car rotating mechanism
-2173	story → dollet exam → dollet tower elevator starting + stopping + train starting when from inside
+2172	(loop) dollet tower elevator running + dollet rental car rotating mechanism + fh elevator
+2173	story → dollet exam → dollet tower elevator starting + stopping + train starting when from inside + fh elevator starting + stopping
 2174	story → dollet exam → dollet biggs working the tower zap
 2175	story → dollet exam → biggs using the device to activate x-atm092
 2176	story → dollet exam → biggs drops down tired
@@ -1061,17 +1061,17 @@
 2187	story → dollet exam → biggs on all fours reaching for the device 1
 2188	story → dollet exam → biggs on all fours reaching for the device 2
 2189	story → dollet exam → bells
-2190	story → dollet exam → dollet tower door open + close
-2191	[unknown]
+2190	common big metal door A
+2191	balamb garden announcement
 2192	story → timber mission → entering the codes
 2193	shadowboxing + swinging arm
-2194	ambience → timber tv station static
-2195	wooden door bigger open + close
-2196	[unknown]
-2197	story → timber mission → rope abseil + rope climb
+2194	ambience → timber tv station static + fh info giving pc radio + old dobey hologram
+2195	wooden door bigger open + close + fh dock looping sfx
+2196	(loop) common alarm
+2197	(loop) rope abseil + rope climb + fh kid fishing rod
 2198	ambience → timber tv station static louder
 2199	[unknown]
-2200	ambience → [unknown]
+2200	story → md level → (loop) bg bridge elevator [used duplicate of 69]
 2201	zell's feet while shadowboxing
 2202	story → dollet exam → ship screen turn off
 2203	faucet owl's tear
@@ -1079,10 +1079,10 @@
 2205	ambience → [unknown]
 2206	tension
 2207	ambience → train mission ambience B layer2
-2208	vehicles → car standard engine sound worldmap and field
-2209	story → dollet exam → ship worldmap layer
+2208	vehicles → car standard engine sound B world map and field
+2209	story → dollet exam → ship world map layer
 2210	common jump
-2211	story → dollet exam → ship screen bip4 + train mission correct code
+2211	story → dollet exam → ship screen bip4 + train mission correct code + missile base control panel sfx2
 2212	[unknown]
 2213	story → dollet exam → anacondaur attacks 1
 2214	[unknown]
@@ -1093,43 +1093,43 @@
 2219	story → fire cavern → ifrit's roar while emerging
 2220	[unknown]
 2221	bg study panel turn on + ship screen turn on
-2222	story → dollet exam → ship screen bip1
+2222	story → dollet exam → ship screen bip1 + prison crane controls
 2223	story → dollet exam → ship screen bip5
-2224	bg elevator door closes + timber train main door enter
+2224	bg elevator door closes + timber train main door enter + bg deck door layer when fh
 2225	[unknown]
 2226	sit down + seifer hits desk
 2227	story → dollet exam → ship screen bip2
 2228	ambience → bg gate2 water + tomb unknown king entrance + tomb unknown king water after gear removed
 2229	ambience → [unknown]
 2230	vehicles → car engine idle only in-field
-2231	story → dollet exam → clap
-2232	finger snapping
+2231	story → dollet exam → clap + fh girl slaps squall
+2232	finger snapping + old fisherman activates the hologram of old dobey
 2233	story → dollet exam → car door open
 2234	vehicles → common car door close
 2235	vehicles → common car layer brake
 2236	common knock on door
 2237	story → dollet exam → ship screen bip3
-2238	[unknown]
+2238	story → balamb occupied → zell's punching bag
 2239	common elevator chime
 2240	common automatic sliding door A
 2241	common automatic sliding door B
 2242	story → infirmary → kadowaki phone
-2243	loops → forest fox lady's boiling pot
+2243	story → timber mission → (loop) forest fox lady's boiling pot
 2244	door slam (dollet old painter house)
 2245	vehicles → [unknown]
 2246	animals → miaow
-2247	animals → timber cat collar sound
-2248	animals → timber cat purring
-2249	story → dollet exam → ship door closes
+2247	animals → cat collar sound
+2248	animals → cat purring
+2249	balamb garden vessel door closes + balamb garden door to the deck
 2250	[unknown]
-2251	story → bgarden start → common kick
+2251	common kick
 2252	common door + common unlock
 2253	story → dollet exam → clapping final
-2255	story → bgarden start → common body bump or grab
+2255	common body bump or grab
 2256	change clothes
-2257	training center door
-2258	[unknown]
-2259	[unknown]
+2257	common big metal door B
+2258	balamb town after occupation mechanic at the entrance
+2259	story → missile base → control panel target screen
 2260	bg study panel turn off
 2261	vehicles → train announcement
 2262	zell jumping on the train seat
@@ -1140,13 +1140,13 @@
 2268	train access granted to cabins
 2269	[unknown]
 2270	[unknown]
-2271	[unknown]
+2271	story → desert → (loop) train station wind vane
 2272	common very generic sfx
 2273	story → disc1 ggarden → zell punches the train floor
 2274	[unknown]
 2275	[unknown]
 2276	[unknown]
-2277	loops → tomb unknown king the mechanism is now working
+2277	story → tomb unknown king → (loop) the mechanism is now working
 2278	[unknown]
 2279	[unknown]
 2281	ambience → [unknown]
@@ -1154,22 +1154,22 @@
 2283	[unknown]
 2284	story → timber mission → forest fox lady spanks boy
 2285	[unknown]
-2286	loops → model train timber hotel
+2286	(loop) model train timber hotel
 2287	story → timber mission → zone's stomach ache
 2288	sitting + standing up from seat
 2289	story → timber mission → squall takes rinoa's contract papers
-2291	vehicles → train main door open + close
+2291	vehicles → train main door open + close + squall prison cell door
 2292	story → deling mission → gateway switch
-2293	[unknown]
-2294	[unknown]
+2293	story → prison → guards' machine gun
+2294	story → prison → squall's cell starts moving
 2295	vehicles → timber train for deling arrives + owl's train arrives
 2297	story → timber mission → owl's train starts moving again
-2298	[unknown]
+2298	story → balamb occupied → dog ambushes raijin inside the train
 2299	animals → [unknown]
 2300	[unknown]
 2301	buy train ticket + obtain gil in-field + timber buy drink
-2302	[unknown]
-2303	[unknown]
+2302	story → norg → norg's call angrier
+2303	story → norg → norg's call
 2304	story → timber mission → edea appears + edea and seifer disappear
 2305	ambience → [unknown]
 2306	story → dream#1 → car start and go to deling
@@ -1179,55 +1179,55 @@
 2310	vehicles → train departing
 2311	story → timber mission → owl's train brakes and stops 1
 2312	story → timber mission → owl's train brakes and stops 2
-2313	[unknown]
-2314	[unknown]
-2315	[unknown]
+2313	story → prison → (loop) squall being electrocuted
+2314	story → prison → (loop) squall chained
+2315	story → prison → chains release
 2316	vehicles → [unknown]
-2317	vehicles → [unknown]
+2317	story → desert → car bg party arrives at train station
 2318	story → disc1 ggarden → martine comes in a car
-2319	ambience → [unknown]
-2320	vehicles → [unknown]
-2321	ambience → [unknown]
+2319	ambience → flashback rain in the orphanage
+2320	story → missile base → moving the missile launcher
+2321	ambience → missile base
 2322	story → sewer → secret passage opens
 2323	[unknown]
 2324	[unknown]
-2326	ambience → [unknown]
-2327	[unknown]
+2326	ambience → balamb garden bridge
+2327	story → missile base → missile launcher in place
 2329	[unknown]
-2330	[unknown]
+2330	story → fh → bgh251f2 falls into water part1
 2331	[unknown]
 2332	story → deling mission → edea seated magic against rinoa
 2335	story → deling mission → edea releases rinoa and she falls back down
 2338	story → deling mission → rinoa falls down after edea's magic
 2341	vehicles → timber train gangway extend + pull back
-2342	[unknown]
+2342	story → prison → seifer throws squall against the wall
 2343	wooden door close
 2344	wooden door open
-2345	[unknown]
+2345	story → missile base → sliding door C open + close
 2346	[unknown]
-2347	[unknown]
-2348	[unknown]
+2347	story → missile base → control panel activates and logging in
+2348	story → missile base → control panel sfx1
 2349	story → caraway's mansion → door lock alarm
 2350	story → caraway's mansion → door locks
-2351	[unknown]
-2354	[unknown]
-2355	[unknown]
+2351	story → prison → selphie tries to heal zell and the moomba
+2354	story → prison → zell takes down guard + guard ambushes zell
+2355	story → prison → bottom door sand comes out
 2357	[unknown]
-2358	[unknown]
-2359	[unknown]
+2358	story → prison → squall lightly hits zell's head with the gunblade handle
+2359	story → desert → (loop) train
 2361	d-prison guard comes out of the booth
-2362	[unknown]
-2363	[unknown]
-2364	[unknown]
-2365	ambience → [unknown]
-2367	[unknown]
-2369	[unknown]
-2370	[unknown]
-2372	[unknown]
+2362	story → missile base → unlock door with id card
+2363	story → missile base → main gate open + close
+2364	story → missile base → selphie' party takes down the guards from behind
+2365	story → missile base → (loop) bgh251f2 electric noise
+2367	story → md level → elevator stuck
+2369	story → md level → elevator hatch open
+2370	story → missile base → party removes the disguise
+2372	story → md level → heavy hatch open + door to the big valve to open the big hole
 2373	[unknown]
-2374	[unknown]
-2376	[unknown]
-2377	[unknown]
+2374	bgh251f2 turns on + squall manages to steer the garden + rumble after garden steered
+2376	story → md level → panel where ladder crashed
+2377	story → missile base → power down
 2378	story → fire cavern → ifrit emerges from the hole
 2381	story → dream#2 → detonation of far boulder
 2382	story → dream#2 → detonation of close boulder
@@ -1236,15 +1236,15 @@
 2385	story → timber mission → edea opens portal
 2387	ambience → dream#2 sea
 2388	story → dream#2 → plunge into water
-2389	[unknown]
-2390	[unknown]
-2391	[unknown]
+2389	story → missile base → control panel data upload
+2390	story → missile base → error ratio increase + decrease
+2391	story → missile base → control panel data upload unit done
 2392	story → timber mission → edea's magic
 2394	story → dream#2 → rolling boulder crashes
 2396	story → dream#2 → detonator switch pressed
-2397	[unknown]
-2398	[unknown]
-2399	[unknown]
+2397	story → fh → (loop) bgh251f2 arrives part1
+2398	story → fh → (loop) bgh251f2 arrives part2
+2399	story → fh → bgh251f2 arrives part3
 2402	animals → [unknown]
 2403	animals → [unknown]
 2404	story → curfew → granaldo attacks ellione
@@ -1257,33 +1257,33 @@
 2412	story → dream#2 → esthar soldier falls down
 2413	animals → angelo in the train
 2414	[unknown]
-2415	story → disc1 ggarden → martin gets away in a car (second part looped)
+2415	story → disc1 ggarden → (loop) martin gets away in a car
 2416	vehicles → [unknown]
 2417	story → deling mission → deling roasted
 2419	story → deling mission → edea throws dead deling away
 2420	story → sewer → mansion puzzle take the glass
 2421	story → deling mission → squall taks the rifle
-2422	[unknown]
+2422	prison squall takes down guard + balamb garden rebellion squall comes to help the kids in the training center
 2423	[unknown]
-2424	[unknown]
+2424	story → md level → open gate for ladder to lowest level
 2425	[unknown]
-2428	[unknown]
-2429	[unknown]
-2430	[unknown]
-2432	[unknown]
-2435	ambience → [unknown]
-2437	[unknown]
-2438	[unknown]
-2440	[unknown]
-2441	[unknown]
-2444	weapons retrieved → [unknown]
-2445	[unknown]
-2448	[unknown]
+2428	story → prison → squall gets the gunblade back + cid throws md level key at squall
+2429	story → md level → squall tries to steer the garden
+2430	story → md level → oilboyle appears
+2432	story → md level → the garden starts to move part1
+2435	story → md level → (loop) the garden starts to move part2
+2437	story → md level → the ladder detaches
+2438	story → md level → the ladder breaks the window
+2440	story → md level → big valve fully opened
+2441	story → md level → elevator starts falling
+2444	[unknown]
+2445	story → norg → norg closes the pod and is ready to fight
+2448	story → norg → norg opens his pod
 2450	[unknown]
-2452	[unknown]
+2452	story → balamb occupied → irvine fires a shot in zell's room by mistake
 2453	dream sequence starts
 2454	[unknown]
-2457	[unknown]
+2457	story → fh → bgh251f2 falls into water part2
 2459	[unknown]
 2461	[unknown]
 2464	[unknown]
@@ -1296,23 +1296,23 @@
 2475	[unknown]
 2476	[unknown]
 2477	[unknown]
-2478	loops → edea controls rinoa's arm
+2478	story → deling mission → (loop) edea controls rinoa's arm
 2481	[unknown]
 2482	[unknown]
 2483	[unknown]
-2484	[unknown]
-2487	weapons retrieved → [unknown]
-2490	weapons retrieved → [unknown]
-2493	[unknown]
-2494	weapons retrieved → [unknown]
-2495	[unknown]
-2496	weapons retrieved → [unknown]
-2497	weapons retrieved → [unknown]
-2499	[unknown]
-2500	[unknown]
-2503	[unknown]
-2504	[unknown]
-2505	[unknown]
+2484	story → prison → weapons retrieved zell show off
+2487	story → prison → weapons retrieved quistis show off
+2490	story → prison → weapons retrieved selphie show off
+2493	story → prison → finger snapping seifer gives order to guard
+2494	story → prison → seifer swings the gunblade with click sfx
+2495	story → prison → moomba drops plate
+2496	story → prison → zell retrieves the weapons
+2497	story → prison → showing off the weapons to biggs and wedge
+2499	story → prison → gunfire irvine shot + irvine show off on black background
+2500	story → prison → gunfire irvine intervenes
+2503	story → prison → rinoa kicks irvine down the stairs
+2504	story → prison → crane starts moving
+2505	story → prison → crane stops moving
 2506	story → tomb unknown king → remove the gear
 2507	story → tomb unknown king → sacred's stand raises up
 2508	ambience → tomb unknown king water now flows
@@ -1320,44 +1320,44 @@
 2510	story → tomb unknown king → release the chain let the water flow
 2511	story → tomb unknown king → sacred's roar
 2512	story → tomb unknown king → sarcophagus opens
-2514	loops → edea kills deling
+2514	story → deling mission → (loop) edea kills deling
 2517	story → seed party → footsteps heels 1
 2518	story → seed party → footsteps heels 2
-2519	minotaur appears
+2519	story → tomb unknown king → minotaur appears
 2521	[unknown]
-2522	[unknown]
-2524	[unknown]
+2522	story → md level → (loop) the lowest level opens
+2524	story → md level → try to open the big valve
 2525	[unknown]
 2526	[unknown]
 2527	[unknown]
 2529	[unknown]
-2530	[unknown]
-2531	[unknown]
+2530	story → prison → zell + irvine communicate from the control room
+2531	story → balamb occupied → harbor guard drops a gil into water
 2532	[unknown]
-2533	[unknown]
-2534	[unknown]
+2533	common operate controls
+2534	missile base control panel no authorization + prison irvine communicates from below control room
 2535	story → sewer → lower the ladder
-2536	story → curfew → granaldo flying (loop)
+2536	story → curfew → (loop) granaldo flying
 2538	story → curfew → granaldo attacks the party
-2540	[unknown]
-2542	[unknown]
-2543	[unknown]
+2540	ambience → balamb garden deck layer1
+2542	story → md level → the garden starts to move layer discharge
+2543	story → prison → biggs activates the alarm + squall elevator to md level squall tries to work the stuck elevator + squall last moment md lev
 2544	[unknown]
 2545	[unknown]
 2548	vehicles → [unknown]
 2550	[unknown]
-2551	[unknown]
-2553	[unknown]
+2551	story → desert → missiles launch for trabia garden
+2553	story → md level → elevator crashes to the ground
 2554	[unknown]
-2555	ambience → [unknown]
-2556	[unknown]
-2557	[unknown]
-2558	[unknown]
-2559	[unknown]
+2555	ambience → balamb garden deck layer2
+2556	fh kid breaks everything part1
+2557	fh kid breaks everything part4
+2558	fh kid breaks everything part2
+2559	fh kid breaks everything part3
 2560	[unknown]
 2561	[unknown]
 2562	[unknown]
-2563	[unknown]
+2563	ambience → missile base control room bips
 2564	[unknown] ONLY FILE THAT IS A BYTE BY BYTE EXACT DUPLICATE [of 2563]
 2565	[unknown]
 2567	[unknown]
@@ -1375,12 +1375,12 @@
 2579	[unknown]
 2580	[unknown]
 2581	[unknown]
-2582	[unknown]
-2584	[unknown]
+2582	story → md level → oilboyle gate opens
+2584	story → md level → lever to open the oilboyle gate
 2585	ambience → edea parade float's fire
 2586	[unknown]
 2587	[unknown]
-2588	[unknown]
+2588	mayor's residence interact with robot
 2589	[unknown]
 2590	[unknown]
 2591	[unknown]
@@ -1403,7 +1403,7 @@
 2611	[unknown]
 2612	[unknown]
 2613	[unknown]
-2614	ambience → [unknown]
+2614	ambience → missile base control room
 2615	[unknown]
 2616	[unknown]
 2617	[unknown]
@@ -1412,26 +1412,26 @@
 2620	[unknown]
 2621	[unknown]
 2622	[unknown]
-2623	ambience → [unknown]
+2623	story → prison → crane is moving during gunfire
 2625	[unknown]
 2626	[unknown]
 2627	[unknown]
 2628	[unknown]
 2629	ambience → [unknown]
-2631	[unknown]
-2632	weapons retrieved → [unknown]
-2633	weapons retrieved → [unknown]
-2634	weapons retrieved → [unknown]
-2635	weapons retrieved → [unknown]
-2636	weapons retrieved → [unknown]
-2637	[unknown]
-2638	[unknown]
+2631	moomba
+2632	[unknown]
+2633	[unknown]
+2634	[unknown]
+2635	[unknown]
+2636	[unknown]
+2637	story → balamb occupied → selphie says squall and zell go down a rank
+2638	story → balamb occupied → selphie jumps on zell's bed
 2639	[unknown]
 2642	[unknown]
 2644	[unknown]
 2645	ambience → [unknown]
-2646	weapons retrieved → [unknown]
-2647	weapons retrieved → [unknown]
+2646	[unknown]
+2647	[unknown]
 2648	ambience → [unknown]
 2649	[unknown]
 2651	[unknown]
@@ -1448,7 +1448,7 @@
 2664	[unknown]
 2666	[unknown]
 2668	[unknown]
-2670	[unknown]
+2670	story → ggarden rebellion → garden faculty whistle
 2671	game ending sequence → footsteps in the white void zell 1
 2672	game ending sequence → footsteps in the white void zell 2
 2673	game ending sequence → footsteps in the white void irvine 1
@@ -1526,10 +1526,10 @@
 2766	ambience → [unknown]
 2767	[unknown]
 2768	[unknown]
-2771	[unknown]
+2771	story → missile base → (loop) selphie pushes buttons randomly
 2772	ambience → [unknown]
 2773	[unknown]
-2774	[unknown]
+2774	fh elevator gate opens
 2775	[unknown]
 2777	[unknown]
 2778	[unknown]
@@ -1538,6 +1538,6 @@
 2782	ambience → [unknown]
 2785	vehicles → [unknown]
 2786	ambience → [unknown]
-2787	vehicles → common vehicle worldmap engine layer train and ship
-2788	ambience → [unknown]
-2789	ambience → [unknown]
+2787	vehicles → common vehicle world map engine layer train and ship
+2788	ambience → balamb garden as world map vehicle layer engine
+2789	ambience → balamb garden as world map vehicle layer sailing
