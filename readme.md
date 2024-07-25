@@ -16,3 +16,12 @@ In [catalog.txt](catalog.txt) there's the list of sound files in this format:
 In [sound-information.md](sound-information.md) you can find additional information about the sound effects; for example, by which monsters a shared attack sfx is used.
 
 For the ambience sounds in `music/stream`, see [stream-sounds-catalog.md](stream-sounds-catalog.md).
+
+
+## Credits
+
+_MikeDoesAudio_ and _Barjack_ from the modding community, for the technical discussions.
+
+[FFNx](https://github.com/julianxhokaxhiu/FFNx) for its tracing capabilities.
+
+Spoken digits from which I've built my probing sounds: [Free Spoken Digit Dataset (FSDD)](https://github.com/Jakobovski/free-spoken-digit-dataset) by _Zohar Jackson_.
