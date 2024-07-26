@@ -12,19 +12,28 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
 
 ## Menus
 
+- `9 cancel`:
+  - Menu: go back.
+  - Centra Ruins: exit input code screen and confirm the code.
 - `16 error`:
   - Menu: unavailable option.
   - Zell's Limit Break: time up.
   - Train mission: error entering the code.
   - Dream #2: Laguna loses the key.
   - Missile Base: wrong password entered on the control panel (should be 'EDEA').
+  - Centra Ruins: Code error.
 - `18 common_sfx_stuff_obtained`:
   - Field: item obtained, sfx version A.
   - Battle recap: item obtained.
   - Battle recap: GFs received AP.
   - Item teached Quistis' skill.
   - Card won after game of cards.
-- `87 field_item_obtained_version_B`
+  - Chocobo Forest: Item obtained by digging.
+  - Shumi Village: finding a stone for the statue.
+- `87 field_item_obtained_version_B`:
+  - \[...\]
+  - When the player is gifted the starting cards.
+  - Galbadia students give you the card keys.
 - `41 Level up` (for both characters and GFs)
 - `41 GF learned an ability`
 - `92 SeeD level layer base` (both for the tests and in-field)
@@ -598,6 +607,20 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
 
 ## Field
 
+- `2172 (loop) common_elevator`:
+  - Dollet tower elevator.
+  - Dollet: rental car rotating mechanism.
+  - Fishermans Horizon: elevator.
+  - Shumi Village: Hotel: mechanism to help the Shumi reach the counter.
+- `2173 common_elevator_start+stop`:
+  - Dollet tower: elevator start+stop.
+  - Train start (when from inside).
+  - Fishermans Horizon: elevator start+stop.
+  - Shumi Village: Hotel: the mechanism to help the Shumi reach the counter stops.
+- `2232 common_finger_snapping+common_generic_click`:
+  - Fishermans Horizon: old fisherman activates the hologram of old Dobey.
+  - Shumi Village: Hotel: Shumi activates the mechanism to help him reach the counter.
+  - Shumi Village: Hotel: mysterious click in the hotel room, near the moomba statuette.
 - `2156 common_land_on_feet`:
   - Dollet exam: Galbadian soldiers landing from above.
   - Curfew: White SeeDs arrive to help Ellone.
@@ -606,6 +629,7 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
   - MD level: through the heavy big hatch down to the true MD level, where there's the oil stratum. Squall gets down from the fallen ladder.
   - White SeeDs come abroad the Balamb Garden deck.
   - Squall and Rinoa jump down on the solar panels.
+  - Battle of the Gardens: Squall and Rinoa land after flying with the paratrooper's jetpack.
 - `2164 seifer_swings_gunblade`: when annoyed; while chasing soldiers; to give orders; when fighting inside the TV station; when interrogating Squall.
 - `2177 common_footsteps_jump`:
   - Dollet exam: Galbadian soldiers jumping down from above.
@@ -627,6 +651,7 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
   - Timber mission: party jumping on top of trains.
   - Sewer: jumping off the wheel.
   - D-District Prison: Squall jumps down to help Zell.
+  - Battle of the Gardens: Zell's happy that Squall lends him the ring.
 - `2181 common_ambush`: Dollet exam: injured Dollet soldier appears out of nowhere. Dream #2: Esthar soldiers ambush.
 - `2159 common_metallic_bang`: X-ATM092 lands after jumping down from the tower. X-ATM092 gets up again after the first fight. Dream #2: the hatch breaks and opens when the Esthar soldier steps over it; the second and third hatches open after the vibrations from the boulder crashing; the pushed boulder creates a cavity.
 - `2206 tension`: TV Station: Edea talks to Seifer. Dream #2: player must decide between the blue and the red switch. Irvine is about to take the shot.
@@ -646,6 +671,9 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
   - D-District Prison: Biggs activates the alarm
   - MD level: elevator to the MD level: Squall tries to work the stuck elevator to no avail. Squall tries to operate the very last panel on the lowest floor of the MD level.
 - `2200 (loop) bg_bridge_elevator [used duplicate of 69]`: useless duplicate, only used the first time the Garden moves, when one character of your party goes down the bridge alone. From then on, `69` is used.
+- `2619 winhill_hotel_call_bell`: **x2** layered.
+
+Winhill: the mother chocobo kicks you into the air: alternates between `2657` and `2658` for its run, then `2622` when she throws you up in the air.
 
 Missile Base control room:
   - First choice:
@@ -661,10 +689,35 @@ FH kid fishing:
   - Throwing the hook a third time: `2164, 2197, 2197, 2197`, then Squall helps the old man; then `2169`.
   - After the Galbadian attack, throwing the hook a fourth time: `2164, 2197`, then `2228` very briefly for the fish coming out of the water.
 
+Trabia Garden: Irvine's basketball shot:
+  - < 200 won fights: `2627` (miss, ball hits the hoop), then `2628` **x2** with decreasing volume (ball falls to the ground).
+  - < 250 won fights: `2626` (score), then `2628` **x2** with decreasing volume (ball falls to the ground).
+  - > 250 won fights: `2625` (thrilling score), then `2628` **x2** with decreasing volume (ball falls to the ground).
+
+Chocobo Forest:
+  - Chocobo Sonar:
+    - When no chicobo around: `2227`
+    - When there are chicobos around: `2227` (higher volume), `2227`, `2227`.
+  - Chocobo Ziner (both when catching and when digging): `2247 `.
+  - Stolen whistle: `2247`.
+  - Chicobo falls down + escapes + summons mother chocobo: `2726 chicobo_call`.
+  - Mother chocobo arrives + Mother chocobo digs up items: `2716`.
+  - Item obtained by digging: `18 common_sfx_stuff_obtained`.
+
+
+### Ambience
+
+For sounds in the "ambience" category, "(loop)" is implied; these are all sounds that loops.
+
+`2228 common_water_gushing`:
+  - Balamb Garden: "bg_gate2"'s water fountains.
+  - Tomb of the Unknown King: entrance; Water after the gear has been removed.
+  - Shumi Village: Elder's house: toroidal fish tank.
+
 
 ### Doors
 
-- `2239 common_elevator_chime`: Balamb Garden elevator. Dollet hotel elevator.
+- `2239 common_elevator_chime`: Balamb Garden elevator. Dollet hotel elevator. Galbadia Garden elevator.
 - `2252 common_door+common_unlock`:
   - Timber: Shops. Timber Maniacs. Pub. Forest Fox lady's house door and window. Owl's Tear house door. Owl's Tear house: open/close the cupboard after banging on it. TV station stairway gate.
   - Dollet: Shop. Old painter house.
@@ -675,18 +728,19 @@ FH kid fishing:
   - Dream #2: Laguna finds a key. Laguna loses the key (and then `16` when the message says it's lost).
   - Sewer: Unlock gate.
   - Fishermans Horizon: mayor's residence.
+  - Shumi Village: Elder's house, Artisan's house, Sculptor's house.
 - `2190 common_big_metal_door_A`: Dollet: tower door open+close. Balamb Garden deck door open?+close, when connected to FH. Fishermans Horizon: shop/hotel.
 - `2257 common_big_metal_door_B`: Balamb Garden Training Center doors. D-District Prison: Squall's cell door.
-- `2240 common_automatic_sliding_door_A`: Galbadia Garden doors. Deling hotel door close.
-- `2241 common_automatic_sliding_door_B`: Balamb Garden classroom; door to exit the deck (see dedicated section). Train cabins. Timber hotel. Dollet hotel elevator. Deling: Shops. Rent-a-car door. D-District Prison: cell doors.
-- `2344 wooden_door_open` and `2343 wooden_door_close`: Balamb town: houses, Junk shop, hotel. Caraway's mansion. Winhill: houses, and the shop. Fishermans Horizon: house of Grease Monkey (artisan/repairman).
+- `2240 common_automatic_sliding_door_A`: Galbadia Garden: all doors, including the one from outside, after the battle of the Gardens. Deling hotel door close.
+- `2241 common_automatic_sliding_door_B`: Balamb Garden classroom; door to exit the deck (see dedicated section). Train cabins. Timber hotel. Dollet hotel elevator. Deling: Shops. Rent-a-car door. D-District Prison: cell doors. Shumi Village: all doors from the very first screen up to the first house included.
+- `2344 wooden_door_open` and `2343 wooden_door_close`: Balamb town: houses, Junk shop, hotel. Caraway's mansion. Winhill: houses, and the shop. Fishermans Horizon: house of Grease Monkey (artisan/repairman). Orphanage flashback, all doors (open sfx only).
 - `2195 wooden_door_bigger_open+close`: Balamb Garden: door to Cid's office. Dollet: Pub. Hotel.
 
 Balamb Garden deck:
   - Door from inside the Garden which leads to the stairs which then lead to the deck: `2249`.
   - Door from the deck to the stairs: `2241`.
   - When connected to FH:
-    - Coming from the Garden: `2241+2190`, then the party walks, then `2241+2224`.
+    - Coming from inside the Garden (or from the world map): `2241+2190`, then the party walks, then `2241+2224`.
 	- Entering the Garden: `2241`.
 
 
@@ -717,6 +771,7 @@ Balamb Garden deck:
   - Timber cats: Outside the hotel, after interacting two times, it purrs and it then jumps off the hotel/shop sign, and you hear its collar sound; behind the alley, you also hear the cat's collar while it walks on the window; when in the room hiding from the Galbadian soldiers, it too does the usual combination `2246+2248+2247` if you talk to Selphie, and then it runs down the stairs.
   - Dollet: collar sound when the cat jumps down from above bridge, and then escapes, after the dog barks.
   - Fishermans Horizon: residential area's plaza, the cats make all three sounds while they walk around.
+  - Winhill: the cat after Squall hallucinates Raine, in the bar previously owned by Raine.
 
 Occupied Balamb town: using the dog to chase the captain (Raijin):
   - Once the dog reaches the station: `2165`, `2298`.
@@ -728,12 +783,8 @@ The ambience for the Balamb Garden deck (`2540+2555`) makes no sense when you vi
 
 `Ambience → 2321 Missile Base`: except inside the missile launchers room.
 
-`Ambience → 2196 (loop) common_alarm`: D-District Prison. Missile Base.
+`Ambience → 2196 common_alarm`: D-District Prison. Missile Base.
 
 `114 Battle misc. → Magic Shield`: plays when _Protect_, _Shell_, or _Reflect_ engages after an attack.
-
-`87 Field → Item obtained`: also when the player is gifted the starting cards.
-
-Junk shops also use `2343 wooden_door_close` and `2344 wooden_door_open`.
 
 `2702 Squall is lost` is the very last sfx that's played in the game.

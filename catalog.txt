@@ -34,7 +34,7 @@
 34	[unknown]wooden door variant
 35	menus → battle summary EXP
 36	menus → save slot loaded + changes HP warning + didn't receive EXP
-37	menus → savefile load
+37	menus → savefile load + chocobo world downloaded
 38	menus → new game sound layer2
 39	menus → new game sound layer4 background hiss
 40	menus → new game sound layer3
@@ -66,7 +66,7 @@
 66	field → draw point
 67	field → draw point use
 68	ambience → fire cavern
-69	(loop) bg hall elevator + bg bridge elevator
+69	(loop) bg hall elevator + bg bridge elevator + ggarden elevator
 70	ambience → inside owls' train
 71	ambience → train mission ambience A layer1
 72	ambience → train mission ambience A layer2
@@ -91,7 +91,7 @@
 91	field → seed level up
 92	field → seed level layer base
 93	field → seed earn money
-94	vehicles → [unknown]
+94	story → gardens battle → (loop) galbadian bikers in the quad
 95	menus → battle turn limit break available
 96	ambience → tomb unknown king water drops
 97	ambience → tomb unknown king background A
@@ -102,7 +102,7 @@
 102	story → prison → (loop) crane is moving
 103	ambience → tomb unknown king background B (sacred's room)
 104	ambience → [unknown]
-105	ambience → [unknown]
+105	story → gardens battle → (loop) galbadia garden engine after it crashed on the bg gate
 106	ambience → [unknown]
 107	ambience → [unknown]
 108	menus → remodel weapon
@@ -1036,7 +1036,7 @@
 2161	story → dollet exam → x-atm092 starts walking 1 [used duplicate of 2153]
 2162	story → dollet exam → x-atm092 starts walking 2 [used duplicate of 2154]
 2163	story → dollet exam → x-atm092 unused footstep 1 [unused duplicate of 2153]
-2164	story → dollet exam → seifer swings gunblade + guard tries squall's gunblade + fh kid throws the hook
+2164	seifer swings gunblade + guard tries squall's gunblade + fh kid throws the hook
 2165	story → dollet exam → dog howling
 2166	animals → dog bark common
 2167	footsteps → footsteps sand 1
@@ -1044,8 +1044,8 @@
 2169	fh shopkeeper mad at the kid
 2170	footsteps → footstep dollet tower 1
 2171	footsteps → footstep dollet tower 2
-2172	(loop) dollet tower elevator running + dollet rental car rotating mechanism + fh elevator
-2173	story → dollet exam → dollet tower elevator starting + stopping + train starting when from inside + fh elevator starting + stopping
+2172	(loop) common elevator
+2173	story → dollet exam → common elevator start + stop
 2174	story → dollet exam → dollet biggs working the tower zap
 2175	story → dollet exam → biggs using the device to activate x-atm092
 2176	story → dollet exam → biggs drops down tired
@@ -1063,15 +1063,15 @@
 2189	story → dollet exam → bells
 2190	common big metal door A
 2191	balamb garden announcement
-2192	story → timber mission → entering the codes
+2192	(loop) train mission entering the codes + trabia pc typing
 2193	shadowboxing + swinging arm
-2194	ambience → timber tv station static + fh info giving pc radio + old dobey hologram
+2194	ambience → timber tv station static + fh info giving pc radio + old dobey hologram + shumi village hologram
 2195	wooden door bigger open + close + fh dock looping sfx
-2196	(loop) common alarm
+2196	ambience → common alarm
 2197	(loop) rope abseil + rope climb + fh kid fishing rod
-2198	ambience → timber tv station static louder
+2198	(loop) timber tv station static louder + trabia pc static
 2199	[unknown]
-2200	story → md level → (loop) bg bridge elevator [used duplicate of 69]
+2200	(loop) bg bridge elevator + shumi village elevator [used duplicate of 69]
 2201	zell's feet while shadowboxing
 2202	story → dollet exam → ship screen turn off
 2203	faucet owl's tear
@@ -1086,29 +1086,29 @@
 2212	[unknown]
 2213	story → dollet exam → anacondaur attacks 1
 2214	[unknown]
-2215	timber hotel barrier
+2215	timber hotel barrier + shumi village artisans bus model falls on top of the other cars
 2216	vehicles → train departing whistle [used duplicate of 86]
 2217	[unknown]
 2218	bg gateline
 2219	story → fire cavern → ifrit's roar while emerging
 2220	[unknown]
-2221	bg study panel turn on + ship screen turn on
+2221	bg study panel turn on + ship screen turn on + trabia pc shutdown
 2222	story → dollet exam → ship screen bip1 + prison crane controls
 2223	story → dollet exam → ship screen bip5
 2224	bg elevator door closes + timber train main door enter + bg deck door layer when fh
 2225	[unknown]
 2226	sit down + seifer hits desk
-2227	story → dollet exam → ship screen bip2
-2228	ambience → bg gate2 water + tomb unknown king entrance + tomb unknown king water after gear removed
+2227	dollet exam ship screen bip2 + chocobo sonar + shumi village elevator announcement
+2228	ambience → common water gushing
 2229	ambience → [unknown]
 2230	vehicles → car engine idle only in-field
 2231	story → dollet exam → clap + fh girl slaps squall
-2232	finger snapping + old fisherman activates the hologram of old dobey
+2232	common finger snapping + common generic click
 2233	story → dollet exam → car door open
 2234	vehicles → common car door close
 2235	vehicles → common car layer brake
 2236	common knock on door
-2237	story → dollet exam → ship screen bip3
+2237	ship screen bip3 + trabia pc turn on
 2238	story → balamb occupied → zell's punching bag
 2239	common elevator chime
 2240	common automatic sliding door A
@@ -1118,7 +1118,7 @@
 2244	door slam (dollet old painter house)
 2245	vehicles → [unknown]
 2246	animals → miaow
-2247	animals → cat collar sound
+2247	animals → cat collar sound + chocobo forest chocobo ziner
 2248	animals → cat purring
 2249	balamb garden vessel door closes + balamb garden door to the deck
 2250	[unknown]
@@ -1129,10 +1129,10 @@
 2256	change clothes
 2257	common big metal door B
 2258	balamb town after occupation mechanic at the entrance
-2259	story → missile base → control panel target screen
-2260	bg study panel turn off
+2259	missile base control panel target screen + shumi village elevator hologram turns on
+2260	bg study panel turn off + shumi village elevator hologram turn off
 2261	vehicles → train announcement
-2262	zell jumping on the train seat
+2262	zell jumping on the train seat + shumi village artisan's car model falls on the bed
 2263	vehicles → common horn
 2264	seeds getting into military pose
 2265	story → seed party → glasses
@@ -1146,7 +1146,7 @@
 2274	[unknown]
 2275	[unknown]
 2276	[unknown]
-2277	story → tomb unknown king → (loop) the mechanism is now working
+2277	locations → tomb unknown king → (loop) the mechanism is now working
 2278	[unknown]
 2279	[unknown]
 2281	ambience → [unknown]
@@ -1166,8 +1166,8 @@
 2297	story → timber mission → owl's train starts moving again
 2298	story → balamb occupied → dog ambushes raijin inside the train
 2299	animals → [unknown]
-2300	[unknown]
-2301	buy train ticket + obtain gil in-field + timber buy drink
+2300	locations → shumi village → frog
+2301	buy train ticket + obtain gil in-field + timber buy drink + donate for trabia garden
 2302	story → norg → norg's call angrier
 2303	story → norg → norg's call
 2304	story → timber mission → edea appears + edea and seifer disappear
@@ -1206,17 +1206,17 @@
 2345	story → missile base → sliding door C open + close
 2346	[unknown]
 2347	story → missile base → control panel activates and logging in
-2348	story → missile base → control panel sfx1
+2348	missile base control panel sfx1 + trabia pc sfx1
 2349	story → caraway's mansion → door lock alarm
 2350	story → caraway's mansion → door locks
 2351	story → prison → selphie tries to heal zell and the moomba
 2354	story → prison → zell takes down guard + guard ambushes zell
 2355	story → prison → bottom door sand comes out
-2357	[unknown]
+2357	winhill kick chicobo while it crosses the road
 2358	story → prison → squall lightly hits zell's head with the gunblade handle
 2359	story → desert → (loop) train
 2361	d-prison guard comes out of the booth
-2362	story → missile base → unlock door with id card
+2362	missile base unlock door with id card + galbadia garden unlock door with card key
 2363	story → missile base → main gate open + close
 2364	story → missile base → selphie' party takes down the guards from behind
 2365	story → missile base → (loop) bgh251f2 electric noise
@@ -1226,7 +1226,7 @@
 2372	story → md level → heavy hatch open + door to the big valve to open the big hole
 2373	[unknown]
 2374	bgh251f2 turns on + squall manages to steer the garden + rumble after garden steered
-2376	story → md level → panel where ladder crashed
+2376	md level panel where ladder crashed + trabia pc selphie turns off the pc
 2377	story → missile base → power down
 2378	story → fire cavern → ifrit emerges from the hole
 2381	story → dream#2 → detonation of far boulder
@@ -1238,7 +1238,7 @@
 2388	story → dream#2 → plunge into water
 2389	story → missile base → control panel data upload
 2390	story → missile base → error ratio increase + decrease
-2391	story → missile base → control panel data upload unit done
+2391	control panel data upload unit done + trabia pc boot up
 2392	story → timber mission → edea's magic
 2394	story → dream#2 → rolling boulder crashes
 2396	story → dream#2 → detonator switch pressed
@@ -1282,18 +1282,18 @@
 2450	[unknown]
 2452	story → balamb occupied → irvine fires a shot in zell's room by mistake
 2453	dream sequence starts
-2454	[unknown]
+2454	story → disc2 ggarden → (loop) edea is defeated
 2457	story → fh → bgh251f2 falls into water part2
-2459	[unknown]
-2461	[unknown]
-2464	[unknown]
+2459	story → disc2 ggarden → edea teleports to the auditorium
+2461	story → disc2 ggarden → edea's infamous backflip through the glass
+2464	story → disc2 ggarden → rinoa falls down
 2465	story → timber mission → tv station camera falls
 2468	story → timber mission → tv station game transition
-2471	[unknown]
+2471	story → gardens battle → gardens collide
 2472	[unknown]
-2473	ambience → [unknown]
-2474	[unknown]
-2475	[unknown]
+2473	story → gardens battle → (loop) galbadia garden engine after some of the crashes between the gardens
+2474	winhill suit of armour starts moving
+2475	winhill suit of armour falls apart
 2476	[unknown]
 2477	[unknown]
 2478	story → deling mission → (loop) edea controls rinoa's arm
@@ -1313,24 +1313,24 @@
 2503	story → prison → rinoa kicks irvine down the stairs
 2504	story → prison → crane starts moving
 2505	story → prison → crane stops moving
-2506	story → tomb unknown king → remove the gear
-2507	story → tomb unknown king → sacred's stand raises up
+2506	locations → tomb unknown king → remove the gear
+2507	locations → tomb unknown king → sacred's stand raises up
 2508	ambience → tomb unknown king water now flows
 2509	[unknown]
-2510	story → tomb unknown king → release the chain let the water flow
-2511	story → tomb unknown king → sacred's roar
-2512	story → tomb unknown king → sarcophagus opens
+2510	locations → tomb unknown king → release the chain let the water flow
+2511	locations → tomb unknown king → sacred's roar
+2512	locations → tomb unknown king → sarcophagus opens
 2514	story → deling mission → (loop) edea kills deling
 2517	story → seed party → footsteps heels 1
 2518	story → seed party → footsteps heels 2
-2519	story → tomb unknown king → minotaur appears
+2519	locations → tomb unknown king → minotaur appears
 2521	[unknown]
 2522	story → md level → (loop) the lowest level opens
 2524	story → md level → try to open the big valve
-2525	[unknown]
-2526	[unknown]
-2527	[unknown]
-2529	[unknown]
+2525	story → gardens battle → (loop) galbadia garden engine while approaching the bg gate
+2526	story → gardens battle → paratrooper minigame → punch + deathblow
+2527	story → gardens battle → paratrooper minigame → knee hit
+2529	story → gardens battle → nida steering
 2530	story → prison → zell + irvine communicate from the control room
 2531	story → balamb occupied → harbor guard drops a gil into water
 2532	[unknown]
@@ -1342,10 +1342,10 @@
 2540	ambience → balamb garden deck layer1
 2542	story → md level → the garden starts to move layer discharge
 2543	story → prison → biggs activates the alarm + squall elevator to md level squall tries to work the stuck elevator + squall last moment md lev
-2544	[unknown]
-2545	[unknown]
-2548	vehicles → [unknown]
-2550	[unknown]
+2544	story → gardens battle → seifer gives the signal for the bikers to go
+2545	story → gardens battle → (loop) galbadian bikers ready
+2548	story → gardens battle → (loop) flying paratrooper targeting squall
+2550	story → gardens battle → flying paratrooper pushes squall against the wall
 2551	story → desert → missiles launch for trabia garden
 2553	story → md level → elevator crashes to the ground
 2554	[unknown]
@@ -1408,15 +1408,15 @@
 2616	[unknown]
 2617	[unknown]
 2618	[unknown]
-2619	[unknown]
-2620	[unknown]
-2621	[unknown]
-2622	[unknown]
+2619	winhill hotel call bell
+2620	(loop) winhill chicobo comes out the suit of armor part2
+2621	winhill chicobo comes out the suit of armor part1
+2622	winhill mother chocobo kicks you into the air
 2623	story → prison → crane is moving during gunfire
-2625	[unknown]
-2626	[unknown]
-2627	[unknown]
-2628	[unknown]
+2625	story → trabia → irvine basketball shot case3 thrilling score
+2626	story → trabia → irvine basketball shot case2 score
+2627	story → trabia → irvine basketball shot case1 miss
+2628	story → trabia → ball falls to ground
 2629	ambience → [unknown]
 2631	moomba
 2632	[unknown]
@@ -1424,7 +1424,7 @@
 2634	[unknown]
 2635	[unknown]
 2636	[unknown]
-2637	story → balamb occupied → selphie says squall and zell go down a rank
+2637	story → balamb occupied → zell's room selphie says squall and zell go down a rank
 2638	story → balamb occupied → selphie jumps on zell's bed
 2639	[unknown]
 2642	[unknown]
@@ -1438,11 +1438,11 @@
 2652	[unknown]
 2653	[unknown]
 2654	story → deling mission → edea summons the iguions
-2657	[unknown]
-2658	[unknown]
+2657	winhill mother chocobo crosses the road part1
+2658	winhill mother chocobo crosses the road part2
 2659	[unknown]
 2660	[unknown]
-2661	[unknown]
+2661	chocobo forest fifth chicobo in esthar talle mountains
 2662	[unknown]
 2663	[unknown]
 2664	[unknown]
@@ -1485,12 +1485,12 @@
 2708	[unknown]
 2710	game ending sequence → ultimecia appears in the orphanage
 2713	game ending sequence → ultimecia transfers power to edea
-2716	[unknown]
+2716	chocobo forest mother chocobo comes + digs up
 2717	[unknown]
 2720	[unknown]
 2722	[unknown]
 2724	[unknown]
-2726	[unknown]
+2726	chocobo forest chicobo call
 2727	[unknown]
 2730	[unknown]
 2731	[unknown]
@@ -1505,26 +1505,26 @@
 2741	[unknown]
 2742	[unknown]
 2743	[unknown]
-2744	[unknown]
-2745	ambience → [unknown]
-2746	[unknown]
+2744	centra ruins elevator stops
+2745	ambience → (loop) centra ruins elevator moves
+2746	centra ruins elevator starts
 2747	[unknown]
 2748	[unknown]
-2749	ambience → [unknown]
+2749	ambience → centra ruins torches
 2750	[unknown]
-2752	ambience → [unknown]
-2753	[unknown]
+2752	ambience → centra ruins main torch input code
+2753	centra ruins odin's door opens
 2754	[unknown]
 2755	[unknown]
 2756	[unknown]
 2758	[unknown]
 2759	[unknown]
 2760	[unknown]
-2761	ambience → [unknown]
-2763	[unknown]
-2764	[unknown]
+2761	ambience → centra ruins mechanism activated
+2763	story → gardens battle → squall pushes button for emergency exit
+2764	story → gardens battle → emergency exit activates
 2766	ambience → [unknown]
-2767	[unknown]
+2767	centra ruins statue put in eye + take out eye
 2768	[unknown]
 2771	story → missile base → (loop) selphie pushes buttons randomly
 2772	ambience → [unknown]
