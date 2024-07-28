@@ -626,7 +626,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Balamb Garden:
     - Curfew: White SeeDs arrive to help Ellone.
     - During the rebellion: SeeDs jumps down from the festival stage.
-    - Balamb Garden deck: White SeeDs come abroad the Balamb Garden deck.
+    - Deck: White SeeDs come abroad the Balamb Garden deck.
   - D-District Prison:
     - Squall is freed from the chains and lands on the ground.
     - Exiting from the crane.
@@ -804,7 +804,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
 
 - < 200 won fights: `2627` (miss, ball hits the hoop), then `2628` **x2** with decreasing volume (ball falls to the ground).
 - < 250 won fights: `2626` (score), then `2628` **x2** with decreasing volume (ball falls to the ground).
-- > 250 won fights: `2625` (thrilling score), then `2628` **x2** with decreasing volume (ball falls to the ground).
+- \> 250 won fights: `2625` (thrilling score), then `2628` **x2** with decreasing volume (ball falls to the ground).
 
 
 ### Winhill
@@ -834,8 +834,8 @@ The mother chocobo kicks you into the air: alternates between `2657` and `2658` 
 ### Esthar
 
 Moving platforms sounds:
-- `123 (loop) moving_platform_with_seats_A`: accelerating inside the higher tubes, after the plaftorm entered it by raising up.
-- `124 (loop) moving_platform_with_seats_B`: when running near the ground.
+- `123 (loop) moving_platform_with_seats_A`: accelerate inside the higher tunnels, after the plaftorm entered it by raising up. It then changes to the normal sound (B).
+- `124 (loop) moving_platform_with_seats_B`: normal sound.
 - `2569 (loop) moving_platform_with_seats_move_up+move_down`: when the platform moves straight vertically, either to raise up to enter the higher tubes, or to land from tubes; a green light is surrounding the platform.
 - `2587 moving_platform_with_seats_start+stop`: everytime the moving platform starts levitating and is ready to go, or when it stops levitating and it sits on the ground.
 - `2663 residential_palace_moving_platform_with_seats_dome_on+off`: the pink dome that covers the moving platform of the Residential Palace only.
@@ -843,7 +843,7 @@ Moving platforms sounds:
 Behavior of all plaforms and elevators:
 - Elevator to enter/exit the city: just the FMV.
   - Display to rent a car: `2227`, `2211`.
-- Presidential Palace moving platform with seats:
+- Presidential Palace, moving platform with seats:
   - Enter the Palace: `2587`, `124`, `2663`, FMV, `2663`, `123`.
   - Leave the Palace: `2569`, `123`, `2663`, FMV, `2663`, `124`, `2587`.
 - All the other moving platforms with seats:
@@ -861,7 +861,7 @@ Behavior of all plaforms and elevators:
   - Odine's Laboratory to Inner Skyway (LeftSide): `2587`, `124`, choose "Get off", `2569`, `2587`.
   - Odine's Laboratory to City Entrance: `2587`, `124`, `2587`.
   - Odine's Laboratory to Airstation: `2587`, `124`, `27` (party heal), choose "Get off", `2569`, `2587`.
-  - Airstation to Presidential Palace (RightSide): `2587`, `2569`, `123`, `124`, `2587`.
+  - Airstation to Presidential Palace (LeftSide): `2587`, `2569`, `123`, `124`, `2587`.
   - Airstation to Odine's Laboratory: `2587`, `2569`, `123`, `124`, `27` (party heal), `2587`.
   - Presidential Palace (LeftSide) to Airstation: `2587`, `124`, choose "Get off", `2569`, `2587`.
   - Presidential Palace (LeftSide) to Inner Skyway (LeftSide): `2587`, `124`, choose "Get off", `2569`, `2587`.
@@ -873,14 +873,14 @@ Behavior of all plaforms and elevators:
 
 For sounds in the "ambience" category, "(loop)" is implied; these are all sounds that loops. These sounds differs from the [sounds in the "stream" folder](stream-sounds-catalog.md) in that these are technically considered sound effects and are included in "audio.dat", while the former are technically considered music by the game and their ID numbers follow those of the music tracks.
 
-`Ambience → 2196 Common alarm`: D-District Prison. Missile Base.
+`2196 Common alarm`: D-District Prison. Missile Base.
 
-`2228 common_water_gushing`:
+`2228 Common water gushing`:
 - Balamb Garden: field "bg_gate2" water fountains.
 - Tomb of the Unknown King: entrance; Water after the gear has been removed.
 - Shumi Village: Elder's house: toroidal fish tank.
 
-`Ambience → 2321 Missile Base`: except when inside the missile launchers room.
+`2321 Missile Base`: except when inside the missile launchers room.
 
 The ambience for the Balamb Garden deck (`2540`+`2555`) makes no sense when you visit it during the rebellion, because the Garden is not yet moving. Also the dude just enjoying the breeze, in that moment of the story, ahah.
 
