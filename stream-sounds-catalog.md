@@ -1,5 +1,7 @@
 # Catalog for the ambience sounds in "music/stream"
 
+These sounds are technically considered music by the game and their ID numbers follow those of the OST. When these sounds are playing, no music is playing because the sound takes the place of the music, and vice versa. In other words, these sounds are some ambience to have a break from the music tracks in certain moment of the story. The ambience sounds in [_audio.dat_](sounds-catalog.txt) can instead play over music tracks.
+
 
 `003-combat`:
 * Dollet square, war sounds. It starts when you talk to Seifer after defeating all the enemies in the square (Squall: «Sounds like it's starting.»). It pauses in battles, but it doesn't stop until the Biggs and Wedge scene on top of the tower, where the ambience is replaced by "011-wind". This, on PSX. On PC, instead, it's bugged (like most things sound-related on PC), and so it stops as soon as you reach the communications tower up close, for then playing again in case you reload a save inside the tower or after a battle (in the so called "Remastered", instead, only if you load a save).
@@ -10,7 +12,7 @@
 
 `010-ante`:
 * Inside a stopped train.
-* The communications tower running. It starts after the FMV where the tower activates, before the Elvoret fight. It doesn't stop when the player exits the tower, it only lowers the volume a lot. It actually stops once you reach the next screen (after the X-ATM092 fight, where the path makes a turn and you can see the moon in the background).
+* The communications tower running. It starts after the FMV where the tower activates, before the Elvoret fight. It doesn't stop when the player exits the tower, it only lowers the volume a lot. It actually stops once you reach the next field (after the X-ATM092 fight, where the path makes a turn and you can see the moon in the background).
 * Shumi Village: elevator's background ambience, both when still and when moving.
 
 `011-wind`:
@@ -19,6 +21,8 @@
 * Missile Base, outside, only when arriving.
 * Fishermans Horizon, first visit, outside Balamb Garden's deck, until the FH music starts.
 * Fishermans Horizon, factory, hidden area where there's the old fisherman for the side-quest.
+* Fishermans Horizon, Horizon Bridge, when carrying Rinoa to Esthar. Low volume.
+* Great Salt Lake. High volume. It stops as soon as you leave the first field.
 
 `030-Flangchorus`:
 * Disc 2, Edea in the auditorium, once the player starts the cutscene by reaching near the hidden draw point. The sound file doesn't loop.
@@ -27,7 +31,7 @@
 * Flashback of the orphanage: Edea's identity is revealed. The sound file doesn't loop.
 
 `037-reet`:
-* Fire Cavern: the last two screens.
+* Fire Cavern: the last two fields.
 
 `038-soyo`:
 * Very start of the game, in the infirmary; it holds through Quistis' FMV.
@@ -49,12 +53,13 @@
 * Dormitory, when Quistis presents herself as the CC King.
 
 `044-sea`:
-* Balamb harbor, including the screen outside the hotel.
+* Balamb harbor, including the field outside the hotel.
 * Balamb Garden Quad, when it's sailing the sea.
-* Fishermans Horizon, last screen of the dock, where there's the kid and the shopkeeper.
+* Fishermans Horizon, last field of the dock, where there's the kid and the shopkeeper.
 * Fishermans Horizon, residential area's plaza, when the mayor attempts to reason with the Galbadian soldier.
 * Fishermans Horizon, residential area's plaza, after the other team came back, and Rinoa talks to Squall privately.
 * Fishermans Horizon, residential area outside the shop/hotel, when finishing the old fisherman side-quest.
+* White SeeDs ship, in Centra, all fields, except during the flashbacks when the White SeeD Leader is explaining where Ellone is.
 
 `074-train`:
 * Inside any train when it's moving, except the Forest Owls' one. And **not** in any part of the kidnapping mission.
@@ -63,7 +68,7 @@
 * Unused duplicate of "087-mdmotor"
 
 `087-mdmotor`:
-* MD level, the lowest level, i.e. the last three screens (last screen being a different camera angle of the second-to-last).
+* MD level, the lowest level, i.e. the last three fields (last field being a different camera angle of the second-to-last).
 
 `094-laswhite`:
 * End of Disc 2, Ultimecia possesses Rinoa. The player hears it for a very short time, because soon there comes the save file menu.
