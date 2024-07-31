@@ -1041,7 +1041,7 @@
 2166	animals → common → dog bark
 2167	footsteps → footsteps sand 1
 2168	footsteps → footsteps sand 2
-2169	field → fh → fh shopkeeper mad at the kid
+2169	field → fh → shopkeeper mad at the kid
 2170	footsteps → footstep dollet tower 1
 2171	footsteps → footstep dollet tower 2
 2172	field → common → (loop) elevator B
@@ -1095,7 +1095,7 @@
 2221	field → common → devices turn on + turn off
 2222	field → common → devices bip B
 2223	story → dollet exam → ship screen bip5
-2224	doors → automatic sliding door A + general pressurized
+2224	doors → automatic sliding door A + steam
 2225	[unknown]
 2226	field → common → sit down A + seifer hits desk
 2227	field → common → devices bip C
@@ -1115,7 +1115,7 @@
 2241	doors → automatic sliding door C
 2242	story → infirmary → kadowaki phone
 2243	story → timber mission → (loop) forest fox lady's boiling pot
-2244	field → dollet → door slam (dollet old painter house)
+2244	field → dollet → old painter house door slam
 2245	ambience → DSRC steam room
 2246	animals → common → miaow
 2247	field → common cat collar + chocobo forest chocobo ziner
@@ -1154,7 +1154,7 @@
 2283	[unknown]
 2284	story → timber mission → forest fox lady spanks boy
 2285	[unknown]
-2286	field → timber → (loop) timber hotel train model
+2286	field → timber → (loop) hotel train model
 2287	field → zone's stomach ache + laguna hungry
 2288	field → common → sit down B + stand up from seat
 2289	story → timber mission → squall takes rinoa's contract papers
@@ -1162,7 +1162,7 @@
 2292	story → deling mission → gateway switch
 2293	story → prison → guards' machine gun
 2294	story → prison → squall's cell starts moving
-2295	vehicles → timber train from deling city arrives near timber maniacs + owl's train arrives
+2295	vehicles → timber trains → from deling city + owl's train arrives
 2297	story → timber mission → owl's train starts moving again
 2298	story → balamb occupied → dog ambushes raijin inside the train
 2299	animals → [unknown]
@@ -1174,7 +1174,7 @@
 2305	ambience → [unknown]
 2306	story → dream#1 → car start and go to deling
 2307	story → dream#1 → car arrived to deling and get out
-2308	vehicles → timber train from balamb arrives near pet shop + from dollet additional layer
+2308	vehicles → timber trains → from balamb + from dollet additional layer
 2309	[unknown]
 2310	vehicles → common → train departing
 2311	story → timber mission → owl's train brakes and stops 1
@@ -1189,8 +1189,8 @@
 2320	story → missile base → moving the missile launcher
 2321	ambience → missile base
 2322	story → sewer → secret passage opens
-2323	vehicles → timber train from desert arrives near the pub
-2324	vehicles → timber train from dollet arrives in city square's last field
+2323	vehicles → timber trains → from desert
+2324	vehicles → timber trains → from dollet
 2326	ambience → balamb garden bridge + DSRC rotating mechanism that opens doors
 2327	field → missile base missile launcher in place + lunar base lock to rotation unit
 2329	[unknown]
@@ -1212,7 +1212,7 @@
 2351	story → prison → selphie tries to heal zell and the moomba
 2354	story → prison → zell takes down guard + guard ambushes zell
 2355	story → prison → bottom door sand comes out
-2357	field → winhill → winhill kick chicobo while it crosses the road
+2357	field → winhill → kick chicobo while it crosses the road
 2358	story → prison → squall lightly hits zell's head with the gunblade handle
 2359	story → desert → (loop) train
 2361	story → missile base → prison guard comes out of the booth
@@ -1292,8 +1292,8 @@
 2471	story → gardens battle → gardens collide
 2472	[unknown]
 2473	field → common → (loop) rumble C
-2474	field → winhill → winhill suit of armour starts moving
-2475	field → winhill → winhill suit of armour falls apart
+2474	field → winhill → suit of armour starts moving
+2475	field → winhill → suit of armour falls apart
 2476	[unknown]
 2477	[unknown]
 2478	field → (loop) edea controls rinoa's arm + DSRC ultima weapon about to appear
@@ -1408,10 +1408,10 @@
 2616	story → dream#4 → dragon attacks + is hit
 2617	story → ragnarok → propagator's call B
 2618	story → ragnarok → propagator's call A
-2619	field → winhill → winhill hotel call bell
-2620	field → winhill → (loop) winhill chicobo comes out the suit of armor part2
-2621	field → winhill → winhill chicobo comes out the suit of armor part1
-2622	field → winhill → winhill mother chocobo kicks you into the air
+2619	field → winhill → hotel call bell
+2620	field → winhill → (loop) chicobo comes out the suit of armor part2
+2621	field → winhill → chicobo comes out the suit of armor part1
+2622	field → winhill → mother chocobo kicks you into the air
 2623	story → prison → crane is moving during gunfire
 2625	story → trabia → irvine basketball shot case3 thrilling score
 2626	story → trabia → irvine basketball shot case2 score
@@ -1438,8 +1438,8 @@
 2652	story → lunar base → trying to stop possessed rinoa
 2653	story → lunar base → possessed rinoa throws dude and squall against the wall
 2654	story → deling mission → edea summons the iguions
-2657	field → winhill → winhill mother chocobo crosses the road part1
-2658	field → winhill → winhill mother chocobo crosses the road part2
+2657	field → winhill → mother chocobo crosses the road part1
+2658	field → winhill → mother chocobo crosses the road part2
 2659	field → esthar → close shops list
 2660	field → esthar → choose shop
 2661	field → chocobo forests → fifth chicobo in esthar talle mountains

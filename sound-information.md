@@ -1191,13 +1191,17 @@ Accelerating / going backwards, in **all** world map vehicles that the player ca
 
 #### Trains
 
-Deling City, and Galbadia Garden Station: no in-field train animation and sound; it goes directly to the world map.
+Timber trains:
+- `2295 from_deling_city+owl's_train_arrives`: the train from Deling City arrives near Timber Maniacs.
+- `2308 from_balamb+from_dollet_additional_layer`: the train from Balamb arrives near the pet shop. "From Dollet additional layer" means that this sounds is also used for the train coming from Dollet, layered to `2324`.
+- `2323 from_desert`: the train from the D-District Prison's desert arrives near the pub.
+- `2324 from_dollet`: the train from Dollet arrives in City Square's last field.
 
 Balamb town train station: no in-field train animation and sound, other than `86 train_departing_whistle`.
 
-Train stations in the world map: no sounds.
+Deling City, and Galbadia Garden Station: no in-field train animation and sound; it goes directly to the world map.
 
-- `2308 timber_train_from_balamb_arrives_near_pet_shop+from_dollet_additional_layer`: "from Dollet additional layer" means that this sounds is also used for the train coming from Dollet, layered to `2324`.
+Train stations in the world map: no sounds.
 
 
 ### Animals
