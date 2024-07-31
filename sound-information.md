@@ -637,6 +637,12 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Balamb Garden: door to Cid's office.
   - Dollet: pub, hotel.
   - White SeeDs ship: the only door (to the cabin below).
+  - Castle:
+    - Hall: all doors.
+	- Stairway Hall to Art Gallery.
+	- Art Gallery forward to the other Stairway Hall.
+	- Starway Hall (to Catoblepas) to Passageway (to Catoblepas).
+	- Ultimecia Master Room door open, layered with `2639`.
 - `2224 automatic_sliding_door_A+steam`:
   - Balamb Garden:
     - Elevator door closes.
@@ -675,6 +681,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Lunar Gate: entrance doors.
   - Lunar Base: all doors.
   - Ragnarok: all doors.
+  - Lunatic Pandora: door to the final room where Seifer is.
 - `2252 door+general_unlock`:
   - Timber:
     - Shops, Timber Maniacs, Pub, Forest Fox lady's house, Owl's Tear house, TV Station stairway's gate.
@@ -690,6 +697,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Sewer: Unlock gate.
   - Fishermans Horizon: Mayor's residence.
   - Shumi Village: Elder's house, Artisan's house, Sculptor's house.
+  - Castle: Clock Tower base floor: door to the spiral staircase.
 - `2257 big_metal_door_B`:
   - Balamb Garden: Training Center doors.
   - D-District Prison: interrogation room.
@@ -702,7 +710,12 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Deling City: Caraway's mansion.
   - Winhill: houses, shop.
   - Fishermans Horizon: house of Grease Monkey (artisan/repairman).
-  - Edea's House (both flashbacks and present time): all doors ("door open" sfx only).
+  - Edea's House (flashbacks, present time, and time compression): all doors ("door open" sfx only).
+  - Castle:
+    - Grand Hall: all doors.
+	- Courtyard to Chapel.
+	- (Catoblepas') Passageway to Elevator Hall.
+	- Grand Hall top floor (with chandelier locked) to Terrace.
 
 Balamb Garden deck:
 - Door from inside the Garden which leads to the stairs that then lead to the deck: `2249`.
@@ -743,6 +756,7 @@ Balamb Garden deck:
   - Dream #4: Kiros arrives to help Laguna against the dragon.
   - Dream #5: Moomba gets back on the bridge via using the safety cable.
   - Lunatic Pandora contact point: Galbadian soldiers ambush.
+  - Lunatic Pandora final room: Seifer lands after jumping from above.
 - `2159 metallic_bang`:
   - X-ATM092:
     - Landing after jumping down from the tower.
@@ -761,6 +775,7 @@ Balamb Garden deck:
   - Seifer swings his Gunblade: when annoyed, while chasing soldiers, to give orders, when fighting inside the TV station, when interrogating Squall.
   - D-District Prison: guard tries Squall's Gunblade.
   - Fishermans Horizon: kid throws the hook.
+  - Lunatic Pandora final room.
 - `2172 (loop) elevator_B`:
   - Dollet:
     - Dollet tower elevator.
@@ -819,6 +834,9 @@ Balamb Garden deck:
   - Sewer: jumping off the wheel.
   - D-District Prison: Squall jumps down to help Zell.
   - Battle of the Gardens: Zell's happy that Squall lends him the ring.
+  - Lunatic Pandora final room:
+    - Seifer jumps down.
+	- Seifer gets up again after having been defeated.
 - `2211 devices_bip_A`:
   - Dollet exam: ship screen bip #4.
   - Train mission: correct code.
@@ -926,6 +944,9 @@ Balamb Garden deck:
 - `2473 (loop) rumble_C`:
   - Battle of the Gardens: Galbadia Garden engine sound, in multiple occasions, after some of the crashes between the Gardens.
   - Lunar Base: rumble while the escape capsule is moving.
+- `2494 seifer_swing_gunblade_then_load_it`:
+  - D-Distric Prison.
+  - Lunatic Pandora final room.
 - `SeeD party` → `2517 common_footstep_heels_1` and `2518 common_footstep_heels_2`: the waitress and Rinoa.
 - `2533 operate_controls`:
   - D-District Prison: Squall operates the lever.
@@ -1115,6 +1136,22 @@ Behavior of all lifters and elevators:
 - Excavation Center: `2389`. "Resuming operation...", by using 10 units of steam pressure energy: `2173`. Then, after some dialogue, the cable starts moving (`2197`). Last field before the Ocean Deposit is shown, cable sound is still playing. `2544`, then the alarm activates (`2196`) and cable sound fades out. First warning "Excavation resuming... All except the leader must take shelter...". Cable sound fades in (`2197`). Back to the party's field, the alarm fades out. `2276 rocks_resonate_A` and `2206 Ambience → common_tension` (briefly, cut). "The rocks are...resonating...?" `2569 (loop) rocks_resonate_B` + `2206 Ambience → common_tension` (this time in loop). "The air's pretty heavy...". After this last dialogue, the cable (`2197`) stops (visibly too); the other looping sounds continue; after a short while, `2478 (loop) ultima_weapon_about_to_appear` is added. \[Ultima Weapon battle\]
 
 
+### Castle
+
+`2292 castle_chandelier_lever` is for some reason heard when you exit from the game menu too.
+
+`2283 unlock_castle_doors+use_floodgate_key`:
+  - Unlock Prison Cell door that locked the party in.
+  - Unlock Armory door.
+  - Unlock Treasure Room.
+  - Use the floodgate key to unlock the lever.
+  - Unlock the other Prison Cell door from the other side, coming from the _Rosetta Stone_ area.
+
+Omega's bell: while the timer is up, it randomly alternates between `121 omega's_bell` and `122 omega's_bell_variant`, favoring `121`.
+
+Ultimecia Master Room door open: `2639`+`2195`.
+
+
 ### Ambience
 
 For sounds in the "ambience" category, "(loop)" is implied; these are all sounds that loops. These sounds differs from the [sounds in the "stream" folder](stream-sounds-catalog.md) in that these are technically considered sound effects and are included in "audio.dat", while the former are technically considered music by the game and their ID numbers follow those of the music tracks.
@@ -1148,6 +1185,11 @@ Common ambience sounds:
 The ambience for the Balamb Garden deck (`2540`+`2555`) makes no sense when you visit it during the rebellion, because the Garden is not yet moving. Also the dude just enjoying the breeze, in that moment of the story, ahah.
 
 - `2321 missile_base`: except when inside the missile launchers room.
+
+- `145 castle_outside_layer1` and `146 castle_outside_layer2`: Castle:
+  - Outside of the Clock Tower (excluding the last fields to Ultimecia).
+  - The outside passageway leading to the Elevator Hall.
+  - Tiamat's location.
 
 
 ### Vehicles (including vehicles in the world map)

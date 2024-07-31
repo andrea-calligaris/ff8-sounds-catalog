@@ -27,7 +27,7 @@
 27	common → positive effect
 28	menus → menu item heal status + teach gf ability + increase gf compatibility
 29	menus → new game layer1
-30	field → misc → save point
+30	field → misc → save point + castle party switch point
 31	battle misc → attack miss
 32	menus → junction
 33	[unknown]scrapped battle summary EXP
@@ -95,7 +95,7 @@
 95	menus → battle turn limit break available
 96	ambience → tomb unknown king water drops
 97	ambience → tomb unknown king background A
-98	ambience → tomb unknown king indoor water drain
+98	ambience → tomb unknown king indoor water drain + castle flood gate
 99	story → prison → (loop) gunfire
 100	[unknown]
 101	[unknown]
@@ -118,8 +118,8 @@
 118	field → bg study panel select + missile base control panel select
 119	field → (loop) mystery building lifter + lunar gate capsule moves through pipe
 120	vehicles → common → (loop) esthar flying car in-field
-121	[unknown]
-122	[unknown]
+121	story → castle → omega's bell
+122	story → castle → omega's bell variant
 123	field → esthar → (loop) lifter A
 124	field → esthar → (loop) lifter B
 125	story → lunar base → (loop) rinoa oxygen
@@ -142,8 +142,8 @@
 142	story → lunar base → flashbacks → (loop) car in desert layer2
 143	story → lunar base → flashbacks → (loop) car in desert leave again part2 layer1
 144	story → lunar base → flashbacks → (loop) car in desert leave again part2 layer2
-145	ambience → [unknown]
-146	ambience → [unknown]
+145	ambience → castle outside layer1
+146	ambience → castle outside layer2
 151	party attacks → attack zell
 152	[unknown]
 153	party attacks → critical layer zell
@@ -1151,7 +1151,7 @@
 2279	[unknown]
 2281	ambience → [unknown]
 2282	story → deling mission → open hatch to the sniping spot
-2283	[unknown]
+2283	story → castle → unlock castle doors + use floodgate key
 2284	story → timber mission → forest fox lady spanks boy
 2285	[unknown]
 2286	field → timber → (loop) hotel train model
@@ -1159,7 +1159,7 @@
 2288	field → common → sit down B + stand up from seat
 2289	story → timber mission → squall takes rinoa's contract papers
 2291	doors → metal door
-2292	story → deling mission → gateway switch
+2292	field → deling mission gateway switch + castle chandelier lever
 2293	story → prison → guards' machine gun
 2294	story → prison → squall's cell starts moving
 2295	vehicles → timber trains → from deling city + owl's train arrives
@@ -1304,7 +1304,7 @@
 2487	story → prison → weapons retrieved quistis show off
 2490	story → prison → weapons retrieved selphie show off
 2493	story → prison → finger snap seifer gives order to guard
-2494	story → prison → seifer swings the gunblade with click sfx
+2494	field → common → seifer swing gunblade then load it
 2495	story → prison → moomba drops plate
 2496	story → prison → zell retrieves the weapons
 2497	story → prison → showing off the weapons to biggs and wedge
@@ -1367,14 +1367,14 @@
 2571	story → great salt lake → mystery building → lifter change of direction + stop
 2572	[unknown]
 2573	[unknown]
-2574	[unknown]
-2575	[unknown]
-2576	[unknown]
-2577	[unknown]
-2578	[unknown]
-2579	[unknown]
-2580	[unknown]
-2581	[unknown]
+2574	story → castle → organ notes → C
+2575	story → castle → organ notes → D
+2576	story → castle → organ notes → E
+2577	story → castle → organ notes → F
+2578	story → castle → organ notes → G
+2579	story → castle → organ notes → A
+2580	story → castle → organ notes → B
+2581	story → castle → organ notes → higher C
 2582	story → md level → oilboyle gate opens
 2584	story → md level → lever to open the oilboyle gate
 2585	ambience → edea parade float's fire
@@ -1390,7 +1390,7 @@
 2596	ambience → [unknown]
 2597	ambience → [unknown]
 2598	ambience → [unknown]
-2599	story → lunatic pandora passes by esthar city → lunatic pandora door open
+2599	story → lunatic pandora passes by esthar city → lunatic pandora external door open
 2600	story → lunar base → quick-thaw
 2602	story → lunar base → rinoa medical pod closes
 2603	story → lunar base → control room deactivate seal no1
@@ -1417,7 +1417,7 @@
 2626	story → trabia → irvine basketball shot case2 score
 2627	story → trabia → irvine basketball shot case1 miss
 2628	story → trabia → ball falls to ground
-2629	ambience → [unknown]
+2629	ambience → ultimecia master room inside
 2631	field → moomba
 2632	story → dream#4 → laguna swings the gunblade
 2633	story → sorceress memorial → threaten with weapons quistis
@@ -1426,13 +1426,13 @@
 2636	story → sorceress memorial → put down weapons quistis
 2637	field → balamb town → zell's room selphie says squall and zell go down a rank
 2638	field → balamb town → selphie jumps on zell's bed
-2639	[unknown]
-2642	[unknown]
-2644	[unknown]
-2645	ambience → [unknown]
+2639	story → castle → main entrance open + ultimecia master room open
+2642	ambience → castle clock tower mechanism
+2644	story → castle → chandelier falling part2
+2645	ambience → castle chain to the castle
 2646	story → sorceress memorial → threaten with weapons selphie
 2647	story → sorceress memorial → put down weapons irvine
-2648	ambience → [unknown]
+2648	story → castle → (loop) wooden bridge
 2649	story → lunar base → party capsule is arrived
 2651	story → lunatic pandora passes by esthar city → map of esthar next dialogue line bip
 2652	story → lunar base → trying to stop possessed rinoa
@@ -1480,18 +1480,18 @@
 2701	game ending sequence → footsteps in the black void squall heavier 2
 2702	game ending sequence → squall is lost
 2703	[unknown]
-2704	[unknown]
+2704	story → castle → armor key falls down
 2705	story → lunar base → flashbacks → (loop) ultimecia is seen
 2708	[unknown]
 2710	game ending sequence → ultimecia appears in the orphanage
 2713	game ending sequence → ultimecia transfers power to edea
 2716	field → chocobo forests → mother chocobo comes + digs up
-2717	[unknown]
+2717	story → lunatic pandora final → ellone brings rinoa back
 2720	story → lunatic pandora passes by esthar city → map of esthar 1st contact point
 2722	story → lunatic pandora passes by esthar city → map of esthar 2nd contact point
 2724	story → lunatic pandora passes by esthar city → map of esthar 3rd contact point
 2726	field → chocobo forests → chicobo call
-2727	[unknown]
+2727	story → lunatic pandora final → ellone brings ultimecia and adel in the past
 2730	story → great salt lake → abadon appears
 2731	story → ragnarok → radio trying to talk
 2732	[unknown]
@@ -1499,8 +1499,8 @@
 2734	field → DSRC → expending energy
 2735	field → DSRC → expending energy process completed
 2736	field → DSRC → opening door process door actually opens
-2737	[unknown]
-2738	[unknown]
+2737	story → castle → prison cell doors close + open
+2738	story → castle → red giant appears
 2740	[unknown]
 2741	story → dream#4 → dragon step1
 2742	story → dream#4 → dragon step2
@@ -1511,15 +1511,15 @@
 2747	[unknown]
 2748	[unknown]
 2749	ambience → centra ruins torches
-2750	story → lunatic pandora passes by esthar city → mobile type 8 appears
+2750	story → lunatic pandora common → mobile type 8 appears
 2752	ambience → centra ruins main torch input code
 2753	field → centra ruins → odin's door opens
 2754	story → dream#4 → laguna gets his machine gun
-2755	[unknown]
+2755	story → lunatic pandora final → seifer loads his gunblade
 2756	field → DSRC → core glows
-2758	[unknown]
-2759	[unknown]
-2760	[unknown]
+2758	story → castle → chandelier moving
+2759	story → castle → chandelier falling part1
+2760	story → castle → clock tower bell swinging
 2761	ambience → centra ruins mechanism activated
 2763	story → gardens battle → squall pushes button for emergency exit
 2764	story → gardens battle → emergency exit activates
@@ -1527,15 +1527,15 @@
 2767	field → centra ruins → statue put in eye + take out eye
 2768	story → final mission briefing → flashback adel is imprisoned by laguna
 2771	story → missile base → (loop) selphie pushes buttons randomly
-2772	ambience → [unknown]
+2772	story → castle → (not-looped) elevator
 2773	[unknown]
 2774	field → fh → elevator gate opens
-2775	[unknown]
-2777	[unknown]
-2778	[unknown]
-2779	[unknown]
-2780	[unknown]
-2782	ambience → [unknown]
+2775	story → castle → hatch open
+2777	story → castle → pull floodgate lever
+2778	story → castle → push floodgate lever to original position
+2779	story → castle → boxes open + close
+2780	story → castle → catoblepas appears + omega's bell monsters roaring
+2782	story → castle → (loop) art gallery puzzle solved
 2785	vehicles → (loop) esthar car world map
 2786	vehicles → (loop) ragnarok world map
 2787	vehicles → common → (loop) vehicle world map engine layer train and ship
