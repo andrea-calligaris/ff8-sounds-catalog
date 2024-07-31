@@ -1,6 +1,6 @@
 # Catalog for the ambience sounds in "music/stream"
 
-These sounds are technically considered music by the game and their ID numbers follow those of the OST. When these sounds are playing, no music is playing because the sound takes the place of the music, and vice versa. In other words, these sounds are some ambience to have a break from the music tracks in certain moment of the story. The ambience sounds in [_audio.dat_](sounds-catalog.txt) can instead play over music tracks.
+These sounds are technically considered music by the game and their ID numbers follow those of the OST. When these sounds are playing, no music is playing because the sound takes the place of the music, and vice versa. In other words, these sounds are some ambience to have a break from the music tracks in certain moment of the story. The ambience sounds in [_audio.dat_](catalog.txt) can instead play over music tracks.
 
 
 `003-combat`:

@@ -637,15 +637,15 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Balamb Garden: door to Cid's office.
   - Dollet: pub, hotel.
   - White SeeDs ship: the only door (to the cabin below).
-- `2224 automatic_sliding_door_A+pressurized`:
+- `2224 automatic_sliding_door_A+steam`:
   - Balamb Garden:
     - Elevator door closes.
     - Deck: door layer when docked to FH (see related section).
   - Timber: train main door enter.
   - Lunatic Pandora: elevator door open + close.
   - Deep Sea Research Center:
-    - The rotating mechanism (that opens doors) engages: pressurization sound layer.
-    - When a door actually opens: layer for additional pressurization sound on some levels only.
+    - The rotating mechanism (that opens doors) engages: steam sfx layer.
+    - When a door actually opens: layer for additional steam sfx on some levels only.
     - Zell attempts to work the lv. 6 machine, and steam comes out.
 - `2239 elevator_chime`:
   - Balamb Garden: elevator chime.
@@ -667,10 +667,10 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Lunatic Pandora Laboratory: all doors (including the unrevisitable fields when in Dream #5).
   - Esthar City: all doors. Namely:
     - Presidential Palace: Hall:
-      - Entrance door.
+      - Entrance.
       - Door from which Dr. Odine comes from, in two different occasions: the first time in the story when you enter the Presidential Palace, with Rinoa in a coma; the no-reward little secret scene once you are about to meet president Laguna, and you sit on the couch in the hall.
     - Dr. Odine's Laboratory: door to the laboratory (after the lobby).
-    - Airstation door.
+    - Airstation.
     - Presidential Palace: office.
   - Lunar Gate: entrance doors.
   - Lunar Base: all doors.
@@ -681,7 +681,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
     - Owl's Tear house: open/close the cupboard after banging on it.
     - Forest Fox lady's house: the window open + close.
   - Dollet: Shop, old painter house.
-  - Deling: Gateway, door to the sewer.
+  - Deling: Gateway: door to the sewer.
   - Dream #2:
     - Loose lever on the hatch (when walking on top of it).
     - When the soldier steps over it: `2252`+`2159`+`2412`.
@@ -692,10 +692,10 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Shumi Village: Elder's house, Artisan's house, Sculptor's house.
 - `2257 big_metal_door_B`:
   - Balamb Garden: Training Center doors.
-  - D-District Prison: Squall's cell door.
+  - D-District Prison: interrogation room.
 - `2291 metal_door`:
   - Train main door open + close.
-  - D-Distric Prison: Squall's cell door.
+  - D-Distric Prison: door of Squall's mobile cell (when Seifer comes in).
   - Deep Sea Research Center: the rotating mechanism (that opens doors) engages.
 - `2344 wooden_door_open` and `2343 wooden_door_close`:
   - Balamb town: houses, junk shop, hotel.
@@ -785,7 +785,7 @@ Balamb Garden deck:
 - `2179 (loop) rumble_A`:
   - Dollet:
     - Ramp towards the tower: rumble background noise (for no reason whatsoever?)
-    - Dollet "RoboVite 001" tumbling down.
+    - Secret scene: "RoboVite 001" tumbling down.
   - Dream #2: Boulder rolls down.
   - The train cabin staggers after Zell's punch on the floor.
   - Great Salt Lake: Abadon about to appear.
@@ -838,7 +838,7 @@ Balamb Garden deck:
   - Dollet exam: ship screen bip 1.
   - D-District Prison crane controls.
   - Ragnarok: messages while the emergency security system is on (instructions on how to defeat the Propagators and information about the out-of-service elevator).
-- `2224 automatic_sliding_door_A+pressurized`:
+- `2224 automatic_sliding_door_A+steam`:
   - See "Doors" section.
 - `2226 sit_down_A+seifer_hits_desk`:
   - Balamb Garden: Seifer hits the desk at the very start of the game.
@@ -965,7 +965,7 @@ As soon as the doors start to open, you hear the chime sound. The door sound is 
 Saving the little girl on the rails: `2216 train_departing_whistle`, `2204 (loop) train_engine`+`2207 (loop) train_rails`. `2216 train_departing_whistle`. You find yourself in the hotel room. `2239 Doors → elevator_chime` (because to get to that room there is an elevator).
 
 
-### Funny secret Dollet's spider robot variants
+### Dollet: funny secret spider robot variants
 
 - "RoboVite 001" uses:
   - `2153 x-atm092_field_footstep_1` and `2154 x-atm092_field_footstep_2` for the steps.
@@ -1042,7 +1042,7 @@ Lifter sounds:
 Behavior of all lifters and elevators:
 - Elevator to enter/exit the city: just the FMV.
   - Display to rent a car: `2227`, `2211`.
-- Presidential Palace, lifter:
+- Presidential Palace:
   - Enter the Palace: `2587`, `124`, `2663`, FMV, `2663`, `123`.
   - Leave the Palace: `2569`, `123`, `2663`, FMV, `2663`, `124`, `2587`.
 - Dr. Odine's Laboratory, Lobby:
