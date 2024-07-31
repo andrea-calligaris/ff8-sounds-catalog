@@ -9,6 +9,7 @@ These sounds are technically considered music by the game and their ID numbers f
 
 `006-funsui`:
 * Dollet square fountain, only during the SeeD exam, and only (and immediately) after the last battle in the square. It stops as soon as "003-combat" starts playing.
+* Deep Sea Research Center: Deep Sea Deposit: Excavation Center (one single field, where you fight Ultima Weapon).
 
 `010-ante`:
 * Inside a stopped train.
@@ -23,12 +24,15 @@ These sounds are technically considered music by the game and their ID numbers f
 * Fishermans Horizon, factory, hidden area where there's the old fisherman for the side-quest.
 * Fishermans Horizon, Horizon Bridge, when carrying Rinoa to Esthar. Low volume.
 * Great Salt Lake. High volume. It stops as soon as you leave the first field.
+* Outside the Ragnarok ("Spaceship Landing Zone"), while Rinoa surrenders herself to Esthar. Low volume.
 
 `030-Flangchorus`:
 * Disc 2, Edea in the auditorium, once the player starts the cutscene by reaching near the hidden draw point. The sound file doesn't loop.
+* Possessed Rinoa out in space opens the seal lock #2, freeing Adel.
 
 `034-chorus`:
 * Flashback of the orphanage: Edea's identity is revealed. The sound file doesn't loop.
+* Ragnarok: right after the romantic scene, the screen turns black and this audio starts (no loop) while Squall reflects.
 
 `037-reet`:
 * Fire Cavern: the last two fields.
@@ -60,6 +64,7 @@ These sounds are technically considered music by the game and their ID numbers f
 * Fishermans Horizon, residential area's plaza, after the other team came back, and Rinoa talks to Squall privately.
 * Fishermans Horizon, residential area outside the shop/hotel, when finishing the old fisherman side-quest.
 * White SeeDs ship, in Centra, all fields, except during the flashbacks when the White SeeD Leader is explaining where Ellone is.
+* Deep Sea Research Center, outside.
 
 `074-train`:
 * Inside any train when it's moving, except the Forest Owls' one. And **not** in any part of the kidnapping mission.
@@ -69,6 +74,7 @@ These sounds are technically considered music by the game and their ID numbers f
 
 `087-mdmotor`:
 * MD level, the lowest level, i.e. the last three fields (last field being a different camera angle of the second-to-last).
+* Sorceress Memorial, only the field where Rinoa is kept. It fades out the moment Squall grabs his Gunblade. It fades in after the FMV.
 
 `094-laswhite`:
 * End of Disc 2, Ultimecia possesses Rinoa. The player hears it for a very short time, because soon there comes the save file menu.
