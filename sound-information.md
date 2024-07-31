@@ -24,7 +24,7 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
   - Train mission: error entering the code`:
     - When the code has not been entered in time: normally played.
     - When a wrong number is entered: normally played, then played with higher pitch immediately after.
-- `18 common_sfx_stuff_obtained`:
+- `18 Common → stuff_obtained`:
   - Field: item obtained, sfx version A.
   - Battle recap: item obtained.
   - Battle recap: GFs received AP.
@@ -33,7 +33,7 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
   - Chocobo Forest: Item obtained by digging.
   - Shumi Village: finding a stone for the statue.
   - Solomon Ring: Doomtrain obtained: after «I shall become your ally».
-- `27 common_positive_effect_sound`:
+- `27 Common → positive_effect`:
   - Menu: use an item or a magic.
 - `41 Level up` (for both characters and GFs), and `GF learned an ability`.
 - `87 field_item_obtained_version_B`:
@@ -169,7 +169,7 @@ These create the default enemy death sound. Enemy-specific death sounds are all 
 
 Enemies use some common sound effects:
 
-`17 common_attack_A`:
+`17 attack_A`:
 - Anacondaur's _Head bash_
 - Grat's _Vine_ **x2**
 - Caterchipillar's _Tail bash_ **x2**
@@ -191,7 +191,7 @@ Enemies use some common sound effects:
 - Gesper's _Punch_
 - Elastoid's _Head Bump_ **x3**
 - Turtapod's _Bash_
-- Behemoth's _Claw Slash_ (layered with `1682 common_attack_F`)
+- Behemoth's _Claw Slash_ (layered with `1682 attack_F`)
 - Blue Dragon's _Hit_ **x3**
 - Blue Dragon's _Tail Whip_
 - Cockatrice's _Beak Strike_ **x3**
@@ -202,7 +202,7 @@ Enemies use some common sound effects:
 - Droma's _Head Bump_
 - Gargantua's _Punch_
 
-`1230 common_attack_B`:
+`1230 attack_B`:
 - G-Soldier's _Sword Slash_
 - Blitz's _Slash_
 - Esthar Soldier's _Strike_
@@ -212,7 +212,7 @@ Enemies use some common sound effects:
 - Forbidden's _Double Sword_ **x2**
 - Forbidden's _Iai Blow_
 
-`1346 common_attack_C`:
+`1346 attack_C`:
 - Geezard's _Head attack_ **x4**
 - Caterchipillar's _Head bash_ **x3**
 - Bite Bug's _Bite_ **x3**
@@ -226,13 +226,13 @@ Enemies use some common sound effects:
 - Chimera's _Bite_ **x2**
 - Thrustaevis' _Bite_ **x5**
 
-`1348 common_attack_D`:
+`1348 attack_D`:
 - Bite Bug's _Needle_
 - Glacial Eye's _Tail Slash_
 - Forbidden's _Thrust_
 - Abadon's _Double Strike_
 
-`1356 common_attack_E`:
+`1356 attack_E`:
 - Geezard's _Swipe_ **x2**
 - Elvoret's _Swipe_ **x2**
 - Raldo's _Claw_
@@ -243,25 +243,25 @@ Enemies use some common sound effects:
 - Grendel's _Tail Blade_
 - Tri-Point's _Claw_ **x2**
 
-`1682 common_attack_F`:
+`1682 attack_F`:
 - Ruby Dragon's _Claw_
-- Behemoth's _Claw Slash_ (layered with `17 common_attack_A`)
+- Behemoth's _Claw Slash_ (layered with `17 attack_A`)
 - Bahamut's _Claw_
 - Catoblepas' _Claw_
 - Diablos' _Claw_
 
-`1691 common_attack_G`:
+`1691 attack_G`:
 - Propagator's _Punch_
 - GIM52A's _Punch_
 - Abadon's _Lick_
 - Elnoyle's _Tail Needle_
 
-`561 common_hit_ground_A`:
-- Limit breaks → Squall's finisher "Lion Heart" (part 4)
+`561 Battle misc. → common_hit_ground_A`:
+- Limit breaks: Squall's finisher "Lion Heart" (part 4)
 - Jumbo Cactuar's _Ker Plunk (part 2)_
 - Adamantoise's _Sand Storm (part 2)_: one time for each target
 
-`1909 common_hit_ground_B`:
+`1909 hit_ground_B`:
 - Seifer's _Demon Slice (part3)_
 - Wendigo's _Dribble (part2)_
 - Wendigo's _Shoot (part2)_
@@ -330,7 +330,7 @@ For skills or items that target all enemies/party (and only for those where it's
 - `1112 Blue magic → Mighty Guard`: **for each**
 - `1217 Blue magic → LV?Death (part2)`: **for each**
 - `1801 Enemy skills → Iron Giant's and Behemoth's Mighty Guard`: **once**
-- Adamantoise's _Sand Storm (part 2)_: `561 common_hit_ground_A`: **for each**
+- Adamantoise's _Sand Storm (part 2)_: `561 Battle misc. → common_hit_ground_A`: **for each**
 
 
 ### Spells used only by Selphie
@@ -412,7 +412,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `555 pandemona_part3`
   - `2103 pandemona_layer_breathe_out`
   - `558 pandemona_part4`
-  - `561 common_hit_ground_A`
+  - `561 Battle misc. → common_hit_ground_A`
 - Cerberus:
   - `460 cerberus_part1`
   - `2092 cerberus_layer_roar`
@@ -437,7 +437,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `528 doomtrain_part3` + `2106 doomtrain_layer_train_moves_air`
   - `531 doomtrain_part4` + `2115 doomtrain_layer_gong`
   - `2107 doomtrain_layer_hits_the_enemy`
-  - `561 common_hit_ground_A`
+  - `561 Battle misc. → common_hit_ground_A`
 - Bahamut:
   - `478 bahamut_part1`
   - `481 bahamut_part2`
@@ -509,7 +509,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 ### Limit Breaks
 
 - `1208 Squall's finisher "Lion Heart (part 3)`: the final hit and its explosion
-- Squall's finisher "Lion Heart" (part 4): `561 common_hit_ground_A`
+- Squall's finisher "Lion Heart" (part 4): `561 Battle misc. → common_hit_ground_A`
 - `588 Angelo appears by chance`: used by _Recover_, _Reverse_, and _Search_
 - `2139 Angelo Reverse, Recover, and Search, layer bark 1`: the two starting barks
 - `2140 Angelo Reverse, Recover, and Search, layer bark 2`: the ending bark
@@ -549,7 +549,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `1268 Elvoret's intro part 2 (landing)`
 - `1605 BGH251F2 first encounter part 2`: Galbadian soldiers come out of the machine
 - Tonberry King defeated:
-  - `1610 Enemy death → Tonberry King`
+  - `1610 Enemy deaths → Tonberry King`
   - \[Tonberry King morphs into normal Tonberry\]
   - `325 tonberry_king_defeated_call`
   - `325 tonberry_king_defeated_call`: «I...I'm sorry.»
@@ -607,7 +607,7 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
 
 ## Triple Triad
 
-- Card won after a game of cards: `18 common_sfx_stuff_obtained`.
+- Card won after a game of cards: `18 Common → stuff_obtained`.
 - `89 play_card`:
   - Card is chosen for the deck: both for the opponent and for the player, and both manually and automatically.
   - Card is played.
@@ -628,7 +628,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
 
 ### Doors
 
-- `2190 common_big_metal_door_A`:
+- `2190 big_metal_door_A`:
   - Dollet: Dollet tower door open + close.
   - Balamb Garden: deck door close, when connected to FH (see related section).
   - Fishermans Horizon: shop/hotel.
@@ -637,7 +637,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Balamb Garden: door to Cid's office.
   - Dollet: pub, hotel.
   - White SeeDs ship: the only door (to the cabin below).
-- `2224 common_automatic_sliding_door_A+common_pressurized`:
+- `2224 automatic_sliding_door_A+pressurized`:
   - Balamb Garden:
     - Elevator door closes.
     - Deck: door layer when docked to FH (see related section).
@@ -647,16 +647,16 @@ These are also used for Squall hanging on the D-District Prison bridge while the
     - The rotating mechanism (that opens doors) engages: pressurization sound layer.
     - When a door actually opens: layer for additional pressurization sound on some levels only.
     - Zell attempts to work the lv. 6 machine, and steam comes out.
-- `2239 common_elevator_chime`:
+- `2239 elevator_chime`:
   - Balamb Garden: elevator chime.
   - Dollet: hotel elevator chime.
   - Galbadia Garden: elevator chime.
   - Lunatic Pandora: elevators chime.
-- `2240 common_automatic_sliding_door_B`:
+- `2240 automatic_sliding_door_B`:
   - Galbadia Garden: all doors, including the one from outside, after the battle of the Gardens.
   - Deling City: hotel door close.
   - Sourceress Memorial: only door.
-- `2241 common_automatic_sliding_door_C`:
+- `2241 automatic_sliding_door_C`:
   - Balamb Garden: classroom, door to exit the deck (see dedicated section).
   - Train cabins.
   - Timber: hotel.
@@ -675,7 +675,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Lunar Gate: entrance doors.
   - Lunar Base: all doors.
   - Ragnarok: all doors.
-- `2252 common_door+common_unlock`:
+- `2252 door+general_unlock`:
   - Timber:
     - Shops, Timber Maniacs, Pub, Forest Fox lady's house, Owl's Tear house, TV Station stairway's gate.
     - Owl's Tear house: open/close the cupboard after banging on it.
@@ -690,10 +690,10 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Sewer: Unlock gate.
   - Fishermans Horizon: Mayor's residence.
   - Shumi Village: Elder's house, Artisan's house, Sculptor's house.
-- `2257 common_big_metal_door_B`:
+- `2257 big_metal_door_B`:
   - Balamb Garden: Training Center doors.
   - D-District Prison: Squall's cell door.
-`2291 common_metal_door`:
+- `2291 metal_door`:
   - Train main door open + close.
   - D-Distric Prison: Squall's cell door.
   - Deep Sea Research Center: the rotating mechanism (that opens doors) engages.
@@ -714,21 +714,18 @@ Balamb Garden deck:
 
 ### Common field sounds
 
-- `27 common_positive_effect_sound`:
+- `27 Common → positive_effect`:
   - Menu: use an item or a magic.
-  - Drink Owl's Tear in Timber.
+  - Timber: after drinking Owl's Tear.
   - Esthar: Save Point party heal.
-- `69 (loop) common_elevator_A`:
+- `69 (loop) elevator_A`:
   - Balamb Garden:
     - Hall elevator.
     - Bridge elevator.
   - Galbadia Garden: elevator.
   - Lunatic Pandora: elevators.
   - Ragnarok: elevator.
-- `106 common_sea`:
-  - Edea's House: layer sea.
-  - Balamb Garden: deck and FH jetty when Squall is carrying Rinoa.
-- `2156 common_land_on_feet`:
+- `2156 land_on_feet`:
   - Dollet exam: Galbadian soldiers landing from above.
   - Balamb Garden:
     - Curfew: White SeeDs arrive to help Ellone.
@@ -746,7 +743,7 @@ Balamb Garden deck:
   - Dream #4: Kiros arrives to help Laguna against the dragon.
   - Dream #5: Moomba gets back on the bridge via using the safety cable.
   - Lunatic Pandora contact point: Galbadian soldiers ambush.
-- `2159 common_metallic_bang`:
+- `2159 metallic_bang`:
   - X-ATM092:
     - Landing after jumping down from the tower.
     - Getting up again after the first fight.
@@ -754,17 +751,17 @@ Balamb Garden deck:
     - The hatch breaks and opens when the Esthar soldier steps over it.
     - The second and third hatches open after the vibrations from the boulder crashing.
     - The pushed boulder creates a cavity.
-- `2160 common_banging`:
+- `2160 banging`:
   - Timber:
     - Banging the cupboard in the Owl's Tear house to force it open.
     - Galbadian soldiers banging on the Forest Fox lady's door, banging harder after `2236`.
   - D-District Prison: Zell's stumps his foot in various occasions.
   - Fishermans Horizon: kid throws the hook and breaks the shopkeeper's window.
-- `2164 common_swings_gunblade+swing_stuff`:
+- `2164 swings_gunblade+swing_stuff`:
   - Seifer swings his Gunblade: when annoyed, while chasing soldiers, to give orders, when fighting inside the TV station, when interrogating Squall.
   - D-District Prison: guard tries Squall's Gunblade.
   - Fishermans Horizon: kid throws the hook.
-- `2172 (loop) common_elevator_B`:
+- `2172 (loop) elevator_B`:
   - Dollet:
     - Dollet tower elevator.
     - Rental car rotating mechanism.
@@ -772,20 +769,20 @@ Balamb Garden deck:
   - Shumi Village: Hotel: mechanism to help the Shumi reach the counter.
   - Dream #5: Lunatic Pandora Laboratory: elevator.
   - Deep Sea Research Center: lv. 5-6 elevator.
-- `2173 common_mechanism_start+stop`:
+- `2173 mechanism_start+stop`:
   - Dollet tower: elevator start + stop.
   - Train start (when from inside).
   - Fishermans Horizon: elevator start + stop.
   - Shumi Village: Hotel: the mechanism to help the Shumi reach the counter stops.
   - Deep Sea Research Center: Deep Sea Deposit: Excavation Center: "continue with the operation", by using 10 units of steam pressure energy; played after `2389`.
-- `2177 common_jump_A`:
+- `2177 jump_A`:
   - Dollet exam:
     - Galbadian soldiers jumping down from above.
     - Selphie (and optionally, Squall and Zell) jumping down the hill.
   - SeeD party: Selphie happy if player joins the Garden Festival.
   - Dream #2: Laguna slips from the top of the ravine.
   - Deling mission: Squall jumps down to go towards the car to reach Edea.
-- `2179 (loop) common_rumble_A`:
+- `2179 (loop) rumble_A`:
   - Dollet:
     - Ramp towards the tower: rumble background noise (for no reason whatsoever?)
     - Dollet "RoboVite 001" tumbling down.
@@ -795,36 +792,34 @@ Balamb Garden deck:
   - Dream #5: Lunatic Pandora Laboratory: man working with Laguna attempts to make some machinery work.
   - Lunar Gate: after the lunar party launches, Zell's party hears the Lunatic Pandora passing by.
   - Final mission briefing: Lunatic Pandora Laboratory flashback: the Lunatic Pandora moves.
-- `2181 common_ambush`:
+- `2181 ambush`:
   - Dollet exam: injured Dollet soldier appears out of nowhere.
   - Dream #2: Esthar soldiers ambush.
-- `2192 (loop) common_typing`:
+- `2192 (loop) typing`:
   - Train mission: entering the codes.
   - Trabia Garden: typing on the PC.
   - Dream #5: Dr. Odine Laboratory: Laguna uses the panel to attempt to free Ellone.
   - Ragnarok:
     - Squall types in the coordinates.
     - Squall turns off the artificial gravity system (same sound, but it's cut immediately).
-- `2197 (loop) generic_rope`:
+- `2193 shadowboxing+swinging_arm`:
+  - Zell shadowboxing in various occasions.
+  - Seifer swinging his arm in various occasions.
+- `2197 (loop) rope`:
   - Train mission: rope absail + climb.
   - FH kid: fishing rod: throwing the hook.
   - Dream #5: moomba climbs back up via the safety cable.
   - Deep Sea Research Center: Deep Sea Deposit: Excavation Center: the cable starts moving.
-- `2200 (loop) common_elevator_A2 [used duplicate of 69]`:
+- `2200 (loop) elevator_A2 [used duplicate of 69]`:
   - Balamb Garden: only used the first time that the Garden moves, when one character of your party goes down the bridge alone. From then on, `69` is used.
   - Shumi Village: elevator.
-- `2206 (loop) common_tension`:
-  - TV Station: Edea talks to Seifer.
-  - Dream #2: player must decide between the blue and the red switch.
-  - Deling mission: Irvine is about to take the shot.
-  - Deep Sea Research Center: when Ultima Weapon is about to appear.
-- `2210 common_jump_B`:
+- `2210 jump_B`:
   - Balamb Garden: Zell excited for having passed the exam.
   - Timber mission: party jumping on top of trains.
   - Sewer: jumping off the wheel.
   - D-District Prison: Squall jumps down to help Zell.
   - Battle of the Gardens: Zell's happy that Squall lends him the ring.
-- `2211 common_devices_bip_A`:
+- `2211 devices_bip_A`:
   - Dollet exam: ship screen bip #4.
   - Train mission: correct code.
   - Missile Base: control panel sfx 2.
@@ -832,39 +827,42 @@ Balamb Garden deck:
   - Esthar:
     - Elevator to exit/enter the city: touch screen to rent a car.
     - Odine explaining the plan: Map of Esthar: locations bip.
-- `2221 common_devices_turn_on+turn_off`:
+- `2221 devices_turn_on+turn_off`:
   - Balamb Garden: study panel turn on.
   - Dollet exam: ship screen turn on.
   - Trabia Garden: Trabia PC shutdown.
   - Esthar:
     - Interact with any Esthar shop («Do you want to go shopping?» menu).
     - Odine explaining the plan: Map of Esthar: map of Esthar City is shown.
-- `2222 common_devices_bip_B`:
+- `2222 devices_bip_B`:
   - Dollet exam: ship screen bip 1.
   - D-District Prison crane controls.
   - Ragnarok: messages while the emergency security system is on (instructions on how to defeat the Propagators and information about the out-of-service elevator).
-- `2226 common_sit_down+seifer_hits_desk`:
+- `2224 automatic_sliding_door_A+pressurized`:
+  - See "Doors" section.
+- `2226 sit_down_A+seifer_hits_desk`:
+  - Balamb Garden: Seifer hits the desk at the very start of the game.
   - \[...\]
-- `2227 common_devices_bip_C`:
+- `2227 devices_bip_C`:
   - Dollet exam: ship screen bip 2.
   - Chocobo Forest: Chocobo Sonar.
   - Shumi Village: elevator announcement.
   - Dream #5: Dr. Odine Laboratory: control panel bip.
   - Esthar: elevator to exit/enter the city: touch screen to rent a car.
-- `2232 common_finger_snapping+common_generic_click`:
+- `2232 finger_snap+generic_click`:
   - Fishermans Horizon: old fisherman activates the hologram of old Dobey.
   - Shumi Village: Hotel: Shumi activates the mechanism to help him reach the counter.
   - Shumi Village: Hotel: music box click.
-- `2236 common_knock_on_door`:
+- `2236 knock_on_door`:
   - Balamb Garden: Selphie on Squall's bedroom door.
   - Deling City:
     - Laguna on Julia's bedroom door.
     - Kiros on Julia's bedroom door to call Laguna back to work.
   - Timber: Galbadian soldiers on Forest Fox lady's house.
-- `2237 common_devices_bip_D`:
+- `2237 devices_bip_D`:
   - Dollet exam: ship screen bip 3.
   - Trabia Garden: PC turn on.
-- `2251 common_kick`:
+- `2251 kick`:
   - Fujin kicks Raijin (various occasions).
   - Seifer kicks Galbadian Soldier (TV Station).
   - Dream #2: Laguna smashes on the rocks after slipping from the top of the ravine.
@@ -874,7 +872,9 @@ Balamb Garden deck:
   - Balamb Garden:
     - During the rebellion: kid kicks a SeeD.
     - Basement: Garden Faculty pushes Cid away.
-- `2255 common_body_bump_or_grab`:
+- `2252 door+general_unlock`:
+  - See "Doors" section.
+- `2255 body_bump_or_grab`:
   - Balamb Garden: Selphie bumps into Squall.
   - Timer: TV station: guard grabs Seifer.
   - Dream #2: Ward and Kiros lay down on the top of the ravine.
@@ -882,18 +882,18 @@ Balamb Garden deck:
   - Dream #5: Laguna blocks the soldier against the wall.
   - Final mission briefing: Sorceress Memorial flashback: Laguna pushes Adel into the seal.
 - `2256 change_clothes`:
-  - Change clothes in the dormitory.
-  - Remove the space suits.
-- `2272 common_very_generic_sfx`:
+  - Balamb Garden: Dormitory: change clothes.
+  - Ragnarok: remove the space suits.
+- `2272 very_generic_sfx`:
   - Galbadia Garden: gateline open + close.
   - Before Dream #2: in the forest, each character falls to the ground due to the dream sequence starting.
   - Cid falls on his knee.
-- `2273 common_zell_punches_things`:
+- `2273 zell_punches_things`:
   - Train to Galbadia: Zell punches the train floor.
   - Deep Sea Research Center: Zell punches the lv. 6 machine.
-- `2288 sitting+standing_up_from_seat`:
+- `2288 sit_down_B+stand_up_from_seat`:
   - \[...\]
-- `2301 common_money_sound`:
+- `2301 money`:
   - Buy train ticket.
   - Obtain Gil in-field.
   - Timber: buy drink.
@@ -901,51 +901,51 @@ Balamb Garden deck:
   - White SeeDs ship:
     - Sell "Girl Next Door" to Zone for 25'500 Gil.
     - The White SeeD pays the fine to Zone for having said "meat".
-- `2348 common_devices_bip_E`:
+- `2348 devices_bip_E`:
   - Missile Base: control panel sfx 1.
   - Trabia Garden: PC sfx 1.
-- `2362 common_unlock_door_with_card_key`:
+- `2362 unlock_door_with_card_key`:
   - Missile Base: unlock door with id card.
   - Galbadia Garden: unlock door with card key.
-- `2374 common_rumble_B`:
+- `2374 rumble_B`:
   - Missile Base: BGH251F2 turns on.
   - Balamb Garden: Squall manages to steer the flying Garden.
   - Balamb Garden: rumble after Garden steered, to prevent crashing into Balamb town.
   - Ragnarok: Selphie starts the Ragnarok for the first time.
-- `2376 common_devices_multiple_bips`:
+- `2376 devices_multiple_bips`:
   - MD Level: panel where the ladder crashed.
   - Trabia Garden: Selphie turns off the PC showing her personal data.
   - Lunar Base: control room: PCs bips (not looped, but played every **6 seconds**).
-- `2412 common_falling`:
+- `2412 falling`:
   - Dream #2: Esthar soldier falls down.
   - Dream #5: moomba falls down.
-- `2422 common_squall_gunblade_hit`:
+- `2422 squall_gunblade_hit`:
   - D-Distric Prison: Squall takes down guard.
   - Balamb Garden rebellion: Squall comes to help the kids in the Training Center.
   - Sorceress Memorial: Squall slashes Rinoa's seal pod open.
-- `2473 (loop) common_rumble_C`:
+- `2473 (loop) rumble_C`:
   - Battle of the Gardens: Galbadia Garden engine sound, in multiple occasions, after some of the crashes between the Gardens.
   - Lunar Base: rumble while the escape capsule is moving.
-- `SeeD party →` `2517 common_footstep_heels_1` and `2518 common_footstep_heels_2`: the waitress and Rinoa.
-- `2533 common_operate_controls`:
+- `SeeD party` → `2517 common_footstep_heels_1` and `2518 common_footstep_heels_2`: the waitress and Rinoa.
+- `2533 operate_controls`:
   - D-District Prison: Squall operates the lever.
   - Missile Base: control room: Selphie bangs the controls.
-- `2534 common_devices_error`:
+- `2534 devices_error`:
   - Missile Base: control panel no authorization.
   - D-District Prison: Irvine communicates from the below control room (in this case it's not an "error").
   - Dream #5: Dr. Odine Laboratory: control panel error.
-- `2543 common_activate_mechanism`:
+- `2543 activate_device`:
   - D-District Prison: Biggs activates the alarm.
   - MD level:
     - Elevator to the MD level: Squall tries to work the stuck elevator to no avail.
     - Squall tries to operate the very last panel on the lowest floor of the MD level.
-- `2544 common_one_time_alarm_sound`:
+- `2544 one_time_alarm`:
   - Battle of the Gardens: Seifer gives the signal for the bikers to go.
   - Deep Sea Research Center: orange light's alarm sound.
-- `2563 (loops) common_control_room_bips`:
+- `2563 (loops) control_room_bips`:
   - Missile Base: control room bips.
   - Lunar Gate: control room bips.
-- `2565 common_device_deep_bass`:
+- `2565 device_deep_bass`:
   - Great Salt Lake: the hole opens in the wall of the camuflage system.
   - Esthar: Dr. Odine explains the plan: Map of Esthar: end of briefing.
   - Deep Sea Research Center: terminals.
@@ -962,7 +962,7 @@ As soon as the doors start to open, you hear the chime sound. The door sound is 
 
 ### Timber
 
-Saving the little girl on the rails: `2216 train_departing_whistle`, `2204 (loop) common_train_engine`+`2207 (loop) common_train_rails`. `2216 train_departing_whistle`. You find yourself in the hotel room. `2239 common_elevator_chime` (because to get to that room there is an elevator).
+Saving the little girl on the rails: `2216 train_departing_whistle`, `2204 (loop) train_engine`+`2207 (loop) train_rails`. `2216 train_departing_whistle`. You find yourself in the hotel room. `2239 Doors → elevator_chime` (because to get to that room there is an elevator).
 
 
 ### Funny secret Dollet's spider robot variants
@@ -1022,12 +1022,12 @@ The mother chocobo kicks you into the air: alternates between `2657` and `2658` 
 - Stolen whistle: `2247`.
 - Chicobo falls down + escapes + summons mother chocobo: `2726 chicobo_call`.
 - Mother chocobo arrives + Mother chocobo digs up items: `2716`.
-- Item obtained by digging: `18 common_sfx_stuff_obtained`.
+- Item obtained by digging: `18 Common → stuff_obtained`.
 
 
 ### Great Salt Lake
 
-- Abadon appearing: `2179 common_rumble`, then `2730 abadon_appears`.
+- Abadon appearing: `2179 Field → Common → (loop) rumble`, then `2730 abadon_appears`.
 
 
 ### Esthar
@@ -1112,26 +1112,35 @@ Behavior of all lifters and elevators:
 - Steam Room ambience: `2245`.
 - Interact with Steam Room terminal: `2565`.
 - Steam Room: replenish supply: `2734`, confirm, `2735`.
-- Excavation Center: `2389`. "Resuming operation...", by using 10 units of steam pressure energy: `2173`. Then, after some dialogue, the cable starts moving (`2197`). Last field before the Ocean Deposit is shown, cable sound is still playing. `2544`, then the alarm activates (`2196`) and cable sound fades out. First warning "Excavation resuming... All except the leader must take shelter...". Cable sound fades in (`2197`). Back to the party's field, the alarm fades out. `2276 rocks_resonate_A` and `2206 (loop) common_tension` (briefly, cut). "The rocks are...resonating...?" `2569 (loop) rocks_resonate_B` + `2206 (loop) common_tension` (this time in loop). "The air's pretty heavy...". After this last dialogue, the cable (`2197`) stops (visibly too); the other looping sounds continue; after a short while, `2478 (loop) ultima_weapon_about_to_appear` is added. \[Ultima Weapon battle\]
+- Excavation Center: `2389`. "Resuming operation...", by using 10 units of steam pressure energy: `2173`. Then, after some dialogue, the cable starts moving (`2197`). Last field before the Ocean Deposit is shown, cable sound is still playing. `2544`, then the alarm activates (`2196`) and cable sound fades out. First warning "Excavation resuming... All except the leader must take shelter...". Cable sound fades in (`2197`). Back to the party's field, the alarm fades out. `2276 rocks_resonate_A` and `2206 Ambience → common_tension` (briefly, cut). "The rocks are...resonating...?" `2569 (loop) rocks_resonate_B` + `2206 Ambience → common_tension` (this time in loop). "The air's pretty heavy...". After this last dialogue, the cable (`2197`) stops (visibly too); the other looping sounds continue; after a short while, `2478 (loop) ultima_weapon_about_to_appear` is added. \[Ultima Weapon battle\]
 
 
 ### Ambience
 
 For sounds in the "ambience" category, "(loop)" is implied; these are all sounds that loops. These sounds differs from the [sounds in the "stream" folder](stream-sounds-catalog.md) in that these are technically considered sound effects and are included in "audio.dat", while the former are technically considered music by the game and their ID numbers follow those of the music tracks.
 
-- `2194 common_static`:
+Common ambience sounds:
+- `106 sea`:
+  - Edea's House: layer sea.
+  - Balamb Garden: deck and FH jetty when Squall is carrying Rinoa.
+- `2194 static`:
   - Timber TV Station static.
   - Fishermans Horizon:
     - PC/Radio giving info.
     - Old Dobey hologram.
   - Shumi Village: elevator hologram, when visited for the first time.
-- `2196 common_alarm`:
+- `2196 alarm`:
   - D-District Prison.
   - Missile Base.
   - Lunar Base.
   - Sorceress Memorial.
   - Deep Sea Research Center.
-- `2228 common_water_gushing`:
+- `2206 tension`:
+  - TV Station: Edea talks to Seifer.
+  - Dream #2: player must decide between the blue and the red switch.
+  - Deling mission: Irvine is about to take the shot.
+  - Deep Sea Research Center: when Ultima Weapon is about to appear.
+- `2228 water_gushing`:
   - Balamb Garden: field "bg_gate2" water fountains.
   - Tomb of the Unknown King: entrance; Water after the gear has been removed.
   - Shumi Village: Elder's house: toroidal fish tank.
@@ -1144,47 +1153,47 @@ The ambience for the Balamb Garden deck (`2540`+`2555`) makes no sense when you 
 ### Vehicles (including vehicles in the world map)
 
 Common vehicle sounds:
-- `42 (loop) car_standard_engine_sound_A_field_only`:
+- `42 (loop) car_engine_A_in-field`:
   - Balamb: rented car returning to Balamb.
   - Deling City: NPC's cars passing by, excluding buses.
   - D-Distric Prison: The Galbadian cars used to escape the prison (going out of the garage).
-- `120 (loop) common_esthar_flying_car_in-field`:
+- `120 (loop) esthar_flying_car_in-field`:
   - Dream #5: Laguna and friends go away in a car.
   - Mysterious Building: Esthar man comes in a car to pick up Squall's party coming from the Great Salt Lake.
   - Esthar:
     - Rented car: when taking the exit elevator, and when returning.
     - Lunar Gate: once arrived, the non-playable blue car parks.
-- `2204 (loop) common_train_engine [used duplicate of 71]`:
+- `2204 (loop) train_engine [used duplicate of 71]`:
   - Train mission: ambience B, layer1.
   - Timber: trains pass by, far on the background of City Square (multiple fields).
-- `2207 (loop) common_train_rails [used duplicate of 72]`:
+- `2207 (loop) train_rails [used duplicate of 72]`:
   - Train mission: ambience B, layer2.
   - Timber: train heading toward the little girl (small side-quest).
-- `2208 (loop) car_standard_engine_sound_B_world_map_and_field`:
+- `2208 (loop) car_engine_B_world_map_and_field`:
   - Any model of car in the world map, except Esthar's one, even though it sounds the same.
   - Any NPC's car in Deling.
   - Desert: the Galbadian cars used to escape the prison (reaching the desert scenario with the big cactus and the two roads).
-- `2234 common_car_door_close`:
+- `2234 car_door_close`:
   - Dollet exam.
   - Dollet: rented car.
-- `2235 common_car_layer_brake`:
+- `2235 car_layer_brake`:
   - Balamb: rented car returning to Balamb: "brakes" layer.
   - Deling's NPC's cars: "brakes" layer.
-- `2787 (loop) common_vehicle_world_map_engine_layer_train_and_ship`:
+- `2261 train_announcement`: both inside the trains and at the stations.
+- `2787 (loop) vehicle_world_map_engine_layer_train_and_ship`:
   - Train in the world map.
   - Balamb vessel, layered with `2209 ship_world_map_layer`.
-- `2261 common_train_announcement`: both inside the trains and in the stations.
 
 Accelerating / going backwards, in **all** world map vehicles that the player can control: the engine sound is the same but the volume is slightly increased.
 
-- `2788 balamb_garden_as_world_map_vehicle_layer_engine`: when traveling on water, `2789 balamb_garden_as_world_map_vehicle_layer_sailing` also plays.
+- `2788 (loop) balamb_garden_as_world_map_vehicle_layer_engine`: when traveling on water, `2789 (loop) balamb_garden_as_world_map_vehicle_layer_sailing` also plays.
 
 
 #### Trains
 
 Deling City, and Galbadia Garden Station: no in-field train animation and sound; it goes directly to the world map.
 
-Balamb town train station: no in-field train animation and sound, other than `86 train_starting_whistle`.
+Balamb town train station: no in-field train animation and sound, other than `86 train_departing_whistle`.
 
 Train stations in the world map: no sounds.
 
@@ -1193,17 +1202,18 @@ Train stations in the world map: no sounds.
 
 ### Animals
 
-- `2151 dog_common`:
+Common animal sounds:
+- `2151 dog`:
   - Dollet exam: square.
   - Timber: Georgie.
   - Occupied Balamb: the dog once it smells fish odor on the party.
-- `2166 dog_bark_common`:
+- `2166 dog_bark`:
   - Dollet exam: square.
   - Balamb harbor.
   - Timber: Georgie.
   - Dollet: bone side-quest dog.
   - Occupied Balamb: the dog used to search for the captain.
-- `2246 miaow` and `2247 cat_collar_sound` and `2248 cat_purring`:
+- `2246 miaow` and `2247 cat_collar` and `2248 cat_purring`:
   - Balamb: the first house.
   - Timber: cat outside the hotel, after interacting two times, it purrs and it then jumps off the hotel/shop sign, and you hear its collar sound; behind the alley, you also hear the cat's collar while it walks on the window; when in the room hiding from the Galbadian soldiers, it too does the usual combination `2246`+`2248`+`2247` if you talk to Selphie, and then it runs down the stairs.
   - Dollet: collar sound when the cat jumps down from above bridge, and then escapes, after the dog barks.
