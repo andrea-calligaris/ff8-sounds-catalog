@@ -3,7 +3,9 @@
 
 This is a WIP catalog with descriptive names and additional information about the sounds in Final Fantasy VIII.
 
-The bulk of the sound effects is in the file _audio.dat_. The ID numbers go from 1 to 2789 (field ID from 7851 to 10639), with a lot of IDs empty / available for modding, for a total of 1'543 used sound effects. To obtain the field ID number you can add 7850 to the other ID.
+The bulk of the sound effects is in the file _audio.dat_. The ID numbers go from 1 to 2789 (field ID from 7851 to 10639), with a lot of IDs empty / available for modding, for a total of 1'543 existing sound effects. To obtain the field ID number you can add 7850 to the other ID.
+
+More than 100 of the existing sound effects are unused in the game (leftovers of the game development).
 
 For modding you can use [FF8Audio](https://forums.qhimm.com/index.php?topic=14944.0) by _Shard_ (it uses the field ID), or the newer [FF8SND](https://github.com/julianxhokaxhiu/FF8SND) by _Julian Xhokaxhiu_.
 

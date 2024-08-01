@@ -158,11 +158,16 @@ These create the default enemy death sound. Enemy-specific death sounds are all 
 
 ### Battle common sound effects
 
+- `728 common_cure`:
+  - Spell: Cure.
+  - Item in battle: Potion.
+  - Item in battle: Potion+.
+  - Enemy skill: Brothers' _Earth regeneration_.
 - `793 common_absorb`:
   - Spell: Drain.
   - Command: Absorb.
-  - Enemy skill: Ultimecia's _Draw Apocalypse_.
   - Enemy skill: Adel's _Drain Rinoa_.
+  - Enemy skill: Ultimecia's _Draw Apocalypse_.
 
 
 ### Enemies common sound effects
@@ -582,8 +587,8 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 - `1930 Ultimecia (Griever form) defeated part 4`
 - `2047 Ultimecia (Griever form) defeated part 5`
 - `2050 Ultimecia (Griever form) defeated part 6`
-- `1933 Ultimecia (Griever form) defeated part 7`
-- Then there is a moment of silence. Then, some audio which I have no idea where it is took from ("Fithos, Lusec, etc.") starts playing for a short time (no, it's not from the ambience "stream" folder). Then, another similar audio starts playing panning left and right, which includes some background ambience noise too.
+- `1933 (loop) Ultimecia (Griever form) defeated part 7` (ambience)
+- Before music `093s-lasboss` starts, there are ambience sounds and voices singing "Fithos Lusec Wecos Vinosec" that are probably hardcoded.
 - `367 Ultimecia (final form) appears part 1`: when the blank light emits from Ultimecia's face
 - `2008 Ultimecia (final form) appears part 2`
 - \[Battle\]

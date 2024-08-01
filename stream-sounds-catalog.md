@@ -30,6 +30,15 @@ These sounds are technically considered music by the game and their ID numbers f
 * Disc 2, Edea in the auditorium, once the player starts the cutscene by reaching near the hidden draw point. The sound file doesn't loop.
 * Possessed Rinoa out in space opens the seal lock #2, freeing Adel.
 
+`031-dubchorus`:
+* Unused.
+
+`032-Solochorus`:
+* Unused.
+
+`033-Femalechorus`:
+* Unused.
+
 `034-chorus`:
 * Flashback of the orphanage: Edea's identity is revealed. The sound file doesn't loop.
 * Ragnarok: right after the romantic scene, the screen turns black and this audio starts (no loop) while Squall reflects.
@@ -78,3 +87,7 @@ These sounds are technically considered music by the game and their ID numbers f
 
 `094-laswhite`:
 * End of Disc 2, Ultimecia possesses Rinoa. The player hears it for a very short time, because soon there comes the save file menu.
+* Ultimecia defeated, characters walk in the white void.
+
+`095-lasbl`:
+* Ultimecia defeated; after the scene in Edea's House, Squall is alone in the black void.

@@ -477,7 +477,7 @@
 719	spells → thundara
 722	spells → blizzard
 725	spells → blizzara
-728	enemy skills → cure + potion + potion plus + enemy skill brothers' earth regeneration
+728	battle misc → common cure
 731	spells → life + revive + phoenix down
 734	[unknown]draw [unused duplicate]
 737	spells → double + triple
@@ -898,7 +898,7 @@
 1924	[unknown]
 1927	battle events → ultimecia griever form defeated part3
 1930	battle events → ultimecia griever form defeated part4
-1933	battle events → ultimecia griever form defeated part7
+1933	battle events → (loop) ultimecia griever form defeated part7
 1936	enemy deaths → ufo part1
 1939	battle events → ultimecia griever form's tail falls off part1
 1942	enemy deaths → ufo part2
