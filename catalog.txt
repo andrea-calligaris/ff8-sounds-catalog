@@ -33,8 +33,8 @@
 33	[unknown]scrapped battle summary EXP
 34	[unknown]
 35	menus → battle summary EXP
-36	menus → save slot loaded + changes HP warning + didn't receive EXP
-37	menus → savefile load + chocobo world downloaded
+36	menus → common menu sound
+37	menus → savile save + savefile load + chocobo world downloaded
 38	menus → new game layer2
 39	menus → new game layer4 background hiss
 40	menus → new game layer3
@@ -87,7 +87,7 @@
 87	field → misc → field item obtained version B
 88	[unknown]
 89	triple triad → play card
-90	triple triad → card is taken
+90	triple triad → flip card
 91	field → misc → seed level up
 92	field → misc → seed level layer base
 93	field → misc → seed earn money
@@ -544,18 +544,18 @@
 907	items in battle → echo screen
 910	commands → death by doom status
 913	commands → card successful
-916	[unknown]
-919	[unknown]
-922	[unknown]
+916	commands → devour
+919	commands → devour
+922	commands → devour
 925	commands → devour
-928	[unknown]
-931	[unknown]
-933	[unknown]
-934	[unknown]
+928	commands → devour
+931	commands → devour
+933	commands → devour
+934	commands → devour
 935	commands → card failed
 938	spells → confuse
 941	spells → death layer1
-944	[unknown]
+944	commands → devour
 947	[unknown]
 950	spells → apocalypse part1
 953	spells → apocalypse part2
@@ -572,7 +572,7 @@
 992	limit breaks → squall finisher fated circle part1
 995	limit breaks → squall finisher fated circle part2
 998	renzokuken variants → renzokuken x-atm092
-1001	renzokuken variants → renzokuken elvoret
+1001	renzokuken variants → renzokuken elvoret + elnoyle
 1004	limit breaks → zell duel booya
 1007	limit breaks → zell duel heel drop
 1010	limit breaks → zell duel mach kick
@@ -580,8 +580,8 @@
 1016	limit breaks → zell duel meteor strike
 1019	blue magic → laser eye
 1022	limit breaks → zell duel punch rush
-1025	blue magic → fire breath part1
-1028	blue magic → fire breath part2
+1025	blue magic → fire breath part1 + ruby dragon's breath part1
+1028	blue magic → fire breath part2 + ruby dragon's breath part2
 1031	spells → wall
 1034	limit breaks → irvine pulse ammo
 1037	spells → full-cure
@@ -731,7 +731,7 @@
 1429	enemy skills → gas
 1432	enemy skills → death claw's explosion
 1435	[unknown]
-1438	enemy skills → beam cannon
+1438	enemy skills → bgh251f2 first encounter's beam cannon
 1441	enemy deaths → bgh251f2 first encounter part1
 1444	battle events → bgh251f2's turret lost
 1447	enemy skills → bgh251f2's chaingun
@@ -751,7 +751,7 @@
 1488	enemy skills → beam laser
 1491	enemy skills → brrawghh
 1494	enemy skills → bgh251f2's chaingun second encounter
-1497	[unknown]
+1497	enemy skills → bgh251f2 second encounter's beam cannon
 1500	enemy skills → adamantoise's slap
 1502	enemy skills → adamantoise's sand storm part1
 1511	[unknown]
@@ -809,8 +809,8 @@
 1664	enemy skills → mega flare part2
 1667	enemy skills → dark flare
 1670	enemy deaths → bgh251f2 second encounter
-1673	enemy skills → counter rocket
-1676	[unknown]
+1673	enemy skills → krysta's counter rocket
+1676	enemy skills → krysta's stronger counter rocket
 1679	enemy skills → assault horn + deadly horn
 1682	enemy skills → common → attack F
 1684	enemy skills → steel orb + club
@@ -908,7 +908,7 @@
 1954	battle events → ultimecia junctions griever part1
 1957	battle events → mobile type 8 reattaches to the probes
 1959	battle events → mobile type 8 detaches the two probes
-1961	[unknown]
+1961	enemy skills → helix's twin laser
 1964	enemy skills → suck
 1967	battle events → red giant drops the sword
 1970	enemy deaths → ultimecia final form → part1
@@ -992,7 +992,7 @@
 2109	[unknown]
 2110	gf attacks → brothers layer emerge from ground
 2111	gf attacks → brothers layer jumping
-2112	[unknown]
+2112	gf attacks → brothers part4 layer hit
 2113	[unknown]
 2114	gf attacks → tonberry layer attack
 2115	gf attacks → doomtrain layer gong
@@ -1101,7 +1101,7 @@
 2227	field → common → devices bip C
 2228	ambience → common → water gushing
 2229	ambience → [unknown]probably unused variant of fire cavern
-2230	vehicles → (loop) car engine idle only in-field
+2230	story → missile base → (loop) car engine idle while waiting at missile base gate
 2231	story → dollet exam → clap + fh girl slaps squall
 2232	field → common → finger snap + generic click
 2233	story → dollet exam → car door open
@@ -1176,7 +1176,7 @@
 2307	story → dream#1 → car arrived to deling and get out
 2308	vehicles → timber trains → from balamb + from dollet additional layer
 2309	[unknown]
-2310	vehicles → common → train departing
+2310	vehicles → common → inside a train departing
 2311	story → timber mission → owl's train brakes and stops 1
 2312	story → timber mission → owl's train brakes and stops 2
 2313	story → prison → (loop) squall being electrocuted
@@ -1222,7 +1222,7 @@
 2365	story → missile base → (loop) bgh251f2 electric noise
 2367	story → md level → elevator stuck
 2369	story → md level → elevator hatch open
-2370	story → missile base → party removes the disguise
+2370	story → missile base → party removes the disguise + lunar base quick-thaw part2
 2372	story → md level → heavy hatch open + door to the big valve to open the big hole
 2373	[unknown]
 2374	field → common → rumble B
@@ -1233,13 +1233,13 @@
 2382	story → dream#2 → detonation of close boulder
 2383	story → timber mission → seifer breaks into the tv station
 2384	ambience → [unknown]
-2385	story → timber mission → edea opens portal
+2385	story → timber mission → edea's magic B
 2387	ambience → dream#2 sea
 2388	story → dream#2 → plunge into water
 2389	field → missile base control panel data upload + DSRC excavation center terminal
 2390	story → missile base → error ratio increase + decrease
 2391	field → control panel data upload unit done + trabia pc boot up
-2392	story → timber mission → edea's magic
+2392	story → timber mission → edea's magic A
 2394	story → dream#2 → rolling boulder crashes
 2396	story → dream#2 → detonator switch pressed
 2397	story → fh → (loop) bgh251f2 arrives part1
@@ -1326,7 +1326,7 @@
 2519	field → tomb unknown king → minotaur appears
 2521	[unknown]
 2522	story → md level → (loop) the lowest level opens
-2524	story → md level → try to open the big valve
+2524	story → md level → open the big valve timer bip
 2525	story → gardens battle → (loop) galbadia garden engine while approaching the bg gate
 2526	story → gardens battle → paratrooper minigame → punch + deathblow
 2527	story → gardens battle → paratrooper minigame → knee hit
@@ -1377,7 +1377,7 @@
 2581	story → castle → organ notes → higher C
 2582	story → md level → oilboyle gate opens
 2584	story → md level → lever to open the oilboyle gate
-2585	ambience → edea parade float's fire
+2585	ambience → edea parade float's braziers
 2586	story → lunar gate → pipe door close
 2587	field → esthar → lifter start + stop
 2588	field → fh → mayor's residence interact with robot
@@ -1391,10 +1391,10 @@
 2597	ambience → [unknown]
 2598	ambience → [unknown]
 2599	story → lunatic pandora passes by esthar city → lunatic pandora external door open
-2600	story → lunar base → quick-thaw
+2600	story → lunar base → quick-thaw part1
 2602	story → lunar base → rinoa medical pod closes
 2603	story → lunar base → control room deactivate seal no1
-2605	story → lunar base → space suit locker open + close
+2605	field → mystery building esthar car door open + lunar base space suit locker open + close
 2606	[unknown]
 2607	ambience → [unknown]
 2608	story → lunar base → hatches to leave lunar base interact
@@ -1440,7 +1440,7 @@
 2654	story → deling mission → edea summons the iguions
 2657	field → winhill → mother chocobo crosses the road part1
 2658	field → winhill → mother chocobo crosses the road part2
-2659	field → esthar → close shops list
+2659	field → esthar → start shopping + close shops list
 2660	field → esthar → choose shop
 2661	field → chocobo forests → fifth chicobo in esthar talle mountains
 2662	story → lunar base → possessed rinoa deactivates seal no2

@@ -29,17 +29,27 @@ The PSX version of FFVIII changes the pitch of sound effects in real time, while
   - Battle recap: item obtained.
   - Battle recap: GFs received AP.
   - Menu: Item teached Quistis' skill.
-  - Triple Triad: Card won after game of cards.
+  - Triple Triad: winning a card that you never had (blue colored name).
   - Chocobo Forest: Item obtained by digging.
   - Shumi Village: finding a stone for the statue.
   - Solomon Ring: Doomtrain obtained: after «I shall become your ally».
 - `27 Common → positive_effect`:
   - Menu: use an item or a magic.
-- `41 Level up` (for both characters and GFs), and `GF learned an ability`.
+- `36 common_menu_sound`:
+  - Save slot loaded.
+  - Change to HP warning.
+  - Didn't receive EXP.
+  - GF level up, layered with `41`.
+  - GF learned an ability, layered with `41`.
+- `41`:
+  - Level up (for both characters and GFs; for GFs, layered with `36`).
+  - GF learned an ability (layered with `36`).
 - `87 field_item_obtained_version_B`:
-  - \[...\]
+  - Picking up magazines.
   - Balamb Garden: the player is gifted the starting cards.
+  - D-District Prison: The item boxes in some cells.
   - Galbadia Garden: student gives you a card key.
+  - \[...\]
 - `91 SeeD level up` (both for the tests and in-field): **layered** with `92` and `93`
 - `92 SeeD level layer base` (both for the tests and in-field)
 - `93 SeeD money earned`:
@@ -383,7 +393,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `2110 brothers_layer_emerge_from_ground`
   - `537 brothers_part2`
   - `540 brothers_part3`
-  - `543 brothers_part4` + `2111 brothers_layer_jumping`
+  - `543 brothers_part4`, `2111 brothers_layer_jumping`, `2112 brothers_part4_layer_hit`
   - `546 brothers_part5`
 - Diablos:
   - `618 diablos_part1`
@@ -642,6 +652,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Balamb Garden: door to Cid's office.
   - Dollet: pub, hotel.
   - White SeeDs ship: the only door (to the cabin below).
+  - Fishermans Horizon: boats at the dock.
   - Castle:
     - Hall: all doors.
 	- Stairway Hall to Art Gallery.
@@ -873,6 +884,7 @@ Balamb Garden deck:
   - Dream #5: Dr. Odine Laboratory: control panel bip.
   - Esthar: elevator to exit/enter the city: touch screen to rent a car.
 - `2232 finger_snap+generic_click`:
+  - Balamb Garden: start of the game, Quistis fan snaps his fingers in the classroom.
   - Fishermans Horizon: old fisherman activates the hologram of old Dobey.
   - Shumi Village: Hotel: Shumi activates the mechanism to help him reach the counter.
   - Shumi Village: Hotel: music box click.
@@ -966,7 +978,7 @@ Balamb Garden deck:
     - Elevator to the MD level: Squall tries to work the stuck elevator to no avail.
     - Squall tries to operate the very last panel on the lowest floor of the MD level.
 - `2544 one_time_alarm`:
-  - Battle of the Gardens: Seifer gives the signal for the bikers to go.
+  - Battle of the Gardens: Galbadia Garden: blue lights for the bikers to go (after Seifer gives the signal).
   - Deep Sea Research Center: orange light's alarm sound.
 - `2563 (loops) control_room_bips`:
   - Missile Base: control room bips.
@@ -984,6 +996,13 @@ E.g. Balamb Garden and Lunatic Pandora.
 Behavior: `2239` (chime), party walks in, `2224` (doors close), `69` (elevator), change field, `2239` (chime), party walks out, `2224` (doors close).
 
 As soon as the doors start to open, you hear the chime sound. The door sound is played only when the doors close.
+
+
+### X-ATM092
+
+`2158 x-atm092_jump`:
+  - X-ATM092 jumps down from the tower.
+  - X-ATM092 various jumps during the chasing sequence.
 
 
 ### Timber
@@ -1225,7 +1244,9 @@ Common vehicle sounds:
   - Dollet: rented car.
 - `2235 car_layer_brake`:
   - Balamb: rented car returning to Balamb: "brakes" layer.
+  - Dollet: returning the rented car.
   - Deling's NPC's cars: "brakes" layer.
+  - Missile Base: pulling up at the gate.
 - `2261 train_announcement`: both inside the trains and at the stations.
 - `2787 (loop) vehicle_world_map_engine_layer_train_and_ship`:
   - Train in the world map.
@@ -1273,6 +1294,11 @@ Common animal sounds:
 
 Occupied Balamb town: using the dog to chase the captain (Raijin):
 - Once the dog reaches the train station: `2165`, `2298`.
+
+
+## Devour
+
+TODO: There are multiple sounds for the command Devour, depending on the enemy.
 
 
 ## Misc.

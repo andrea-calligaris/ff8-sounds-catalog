@@ -22,7 +22,7 @@ For the ambience sounds in `music/stream`, see [stream-sounds-catalog.md](stream
 
 ## Credits
 
-_MikeDoesAudio_ and _Barjack_ from the modding community, for the technical discussions.
+_MikeDoesAudio_ and _@barjack\_26_ from the modding community, for the technical discussions.
 
 [FFNx](https://github.com/julianxhokaxhiu/FFNx) for its tracing capabilities.
 
