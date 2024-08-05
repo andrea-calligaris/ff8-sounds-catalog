@@ -1336,16 +1336,16 @@ Occupied Balamb town: using the dog to chase the captain (Raijin):
 
 The sound effects for the Devour command depend on the monster, but not on the resulting effects on the character.
 
--`916 A`:
+- `916 A`:
   - Forbidden.
--`919 B`:
+- `919 B`:
   - Blobra.
   - Blood Soul.
   - Gesper.
--`922 C`:
+- `922 C`:
   - Bite Bug.
   - Geezard.
--`925 D`:
+- `925 D`:
   - Abyss Worm.
   - Anacondaur.
   - Blitz.
@@ -1358,11 +1358,11 @@ The sound effects for the Devour command depend on the monster, but not on the r
   - Jelleye.
   - Red Bat.
   - Tri-Face.
--`928 E`:
+- `928 E`:
   - Belhelmel.
   - Elastoid.
   - Iron Giant.
--`931 F`:
+- `931 F`:
   - Armadodo.
   - Caterchipillar.
   - Death Claw.
@@ -1376,12 +1376,12 @@ The sound effects for the Devour command depend on the monster, but not on the r
   - Snow Lion.
   - Turtapod.
   - Wendigo.
--`933 G`:
+- `933 G`:
   - Funguar.
   - Grat.
   - Malboro.
   - Ochu.
--`944 H`:
+- `944 H`:
   - Adamantoise.
   - Behemoth.
   - Blue Dragon.
@@ -1393,7 +1393,7 @@ The sound effects for the Devour command depend on the monster, but not on the r
   - Thrustaevis.
   - Tonberry.
   - Torama.
--`965 [used duplicate of 16] devour_error`: when failing to devour.
+- `965 [used duplicate of 16] devour_error`: when failing to devour.
 
 
 ## Misc.
