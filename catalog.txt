@@ -100,7 +100,7 @@
 100	[unknown]
 101	[unknown]
 102	story → prison → (loop) crane is moving
-103	ambience → tomb king background B (sacred's room)
+103	ambience → tomb king background B sacred's room
 104	ambience → [unused] variant of 103
 105	story → gardens battle → (loop) galbadia garden engine after it crashed on the bg gate
 106	ambience → common → sea
@@ -669,7 +669,7 @@
 1274	enemy deaths → elvoret part2
 1277	enemy skills → mesmerize's blade shot part2 + the horn broke off!
 1279	enemy skills → mesmerize's blade shot part1
-1282	enemy skills → vysage sigh + geezard's bad breath
+1282	enemy skills → vysage's sigh + geezard's bad breath
 1285	enemy skills → glacial eye's vampire
 1288	enemy skills → hexadragon's breath part1
 1291	enemy skills → hexadragon's breath part2
@@ -734,7 +734,7 @@
 1438	enemy skills → bgh251f2 first encounter's beam cannon
 1441	enemy deaths → bgh251f2 first encounter part1
 1444	battle events → bgh251f2's turret lost
-1447	enemy skills → bgh251f2's chaingun
+1447	enemy skills → bgh251f2 first encounter's chaingun
 1450	enemy skills → iguion's resonance
 1453	enemy skills → snow lion's bash
 1456	enemy skills → funguar's laser
@@ -750,7 +750,7 @@
 1485	enemy skills → gim47n's snipe laser
 1488	enemy skills → elastoid's beam laser
 1491	enemy skills → gerogero's brrawghh
-1494	enemy skills → bgh251f2's chaingun second encounter
+1494	enemy skills → bgh251f2 second encounter's chaingun
 1497	enemy skills → bgh251f2 second encounter's beam cannon
 1500	enemy skills → adamantoise's slap
 1502	enemy skills → adamantoise's sand storm part1
@@ -762,7 +762,7 @@
 1526	enemy skills → elastoid's reflect beam
 1529	enemy skills → tri-point's mega spark
 1532	enemy skills → minotaur's mower + iron giant's grand sword + red giant's gigantic sword
-1535	enemy skills → cactuar's 1000 needles + jumbo cactuar's 10000 needles
+1535	enemy skills → cactuar's 1,000 needles + jumbo cactuar's 10,000 needles
 1538	enemy skills → esthar soldier terminator's boomerang sword
 1541	enemy skills → gargantua's evil-eye
 1544	enemy skills → oilboyle's oil blast
@@ -858,7 +858,7 @@
 1804	enemy skills → fujin's metsu
 1807	[unknown]
 1810	battle events → fake president transforms into gerogero part2
-1813	enemy skills → griever's and ultima weapon's and omega weapons' gravija
+1813	enemy skills → griever's and ultima weapon's and omega weapon's gravija
 1816	enemy skills → [used duplicate of 1813] diablos' gravija
 1819	enemy skills → ochu's drink magic
 1822	enemy skills → adel's energy bomber
@@ -885,7 +885,7 @@
 1885	battle events → ultimecia summons griever part3
 1888	enemy skills → seifer's demon slice part2
 1891	enemy skills → seifer's demon slice part1 + seifer's bloodfest part1
-1894	enemy skills → sorceress A and B's telekinesis
+1894	enemy skills → sorceress A's and B's telekinesis
 1897	enemy skills → omega weapon's slash
 1900	enemy skills → ultima weapon's sword slash
 1903	enemy skills → seifer's bloodfest part2
@@ -926,14 +926,14 @@
 2011	enemy skills → abyss worm's head swing
 2014	enemy skills → ultimecia griever form's and final form's destroy gf
 2017	battle events → final battle absorbed into time
-2020	enemy skills → griever's and ultimecia's final form's blow away stock magic
+2020	enemy skills → griever's and ultimecia final form's blow away stock magic
 2023	battle events → sorceress C appears
 2026	enemy deaths → ultimecia final form → part3 layer1
 2027	enemy deaths → ultimecia final form → part4
 2028	enemy deaths → ultimecia final form → part5
 2029	enemy deaths → ultimecia final form → (loop) part3 layer2
 2032	enemy deaths → ultimecia final form → part6
-2036	enemy skills → ultimecia's griever form's create helix
+2036	enemy skills → ultimecia griever form's create helix
 2038	enemy skills → griever's claw
 2041	enemy skills → ultimecia griever form's claw
 2044	enemy skills → ultimecia's claw + ultimecia's claw counterattack
@@ -1101,7 +1101,7 @@
 2227	field → common → devices bip C
 2228	ambience → common → water gushing
 2229	ambience → [unused] fire cavern
-2230	story → missile base → (loop) car engine idle while waiting at missile base gate
+2230	story → missile base → (loop) car engine idle while waiting at gate
 2231	story → dollet exam → clap + fh girl slaps squall
 2232	field → common → finger snap + generic click
 2233	story → dollet exam → car door open

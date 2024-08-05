@@ -1393,7 +1393,7 @@ The sound effects for the Devour command depend on the monster, but not on the r
   - Thrustaevis.
   - Tonberry.
   - Torama.
-- `965 [used duplicate of 16] devour_error`: when failing to devour.
+- `965 [used duplicate of 16] devour_failed`: when failing to devour (not when "Couldn't devour!").
 
 
 ## Misc.
