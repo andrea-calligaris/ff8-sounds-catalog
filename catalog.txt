@@ -1,6 +1,6 @@
 1	menus → cursor
-2	footsteps → normal footstep1
-3	footsteps → normal footstep2
+2	footsteps → default footstep1
+3	footsteps → default footstep2
 4	party attacks → attack squall 1
 5	battle misc → cast magic or init draw layer1
 6	battle misc → cast magic or init draw layer2
@@ -13,7 +13,7 @@
 13	battle misc → enemy death base layer1
 14	battle misc → enemy death base layer2
 15	menus → battle turn + zell limit break turn
-16	menus → error
+16	common → error
 17	enemy skills → common → attack A
 18	common → stuff obtained
 19	enemy skills → common → enemy cast magic or skill layer1
@@ -30,11 +30,11 @@
 30	field → misc → save point + castle party switch point
 31	battle misc → attack miss
 32	menus → junction
-33	[unknown]scrapped battle summary EXP
+33	menus → [unused] scrapped battle summary EXP
 34	[unknown]
 35	menus → battle summary EXP
 36	menus → common menu sound
-37	menus → savile save + savefile load + chocobo world downloaded
+37	menus → savefile save + savefile load + chocobo world downloaded
 38	menus → new game layer2
 39	menus → new game layer4 background hiss
 40	menus → new game layer3
@@ -88,20 +88,20 @@
 88	[unknown]
 89	triple triad → play card
 90	triple triad → flip card
-91	field → misc → seed level up
-92	field → misc → seed level layer base
+91	common → seed level up
+92	common → seed level layer base
 93	field → misc → seed earn money
 94	story → gardens battle → (loop) galbadian bikers in the quad
 95	menus → battle turn limit break available
-96	ambience → tomb unknown king water drops
-97	ambience → tomb unknown king background A
-98	ambience → tomb unknown king indoor water drain + castle flood gate
+96	ambience → tomb king water drops
+97	ambience → tomb king background A
+98	ambience → tomb king indoor water drain + castle flood gate
 99	story → prison → (loop) gunfire
 100	[unknown]
 101	[unknown]
 102	story → prison → (loop) crane is moving
-103	ambience → tomb unknown king background B (sacred's room)
-104	ambience → [unknown]probably unused variant of 103
+103	ambience → tomb king background B (sacred's room)
+104	ambience → [unused] variant of 103
 105	story → gardens battle → (loop) galbadia garden engine after it crashed on the bg gate
 106	ambience → common → sea
 107	ambience → edea's house layer seagulls
@@ -109,7 +109,7 @@
 109	menus → solomon ring layer1
 110	menus → solomon ring layer2
 111	menus → solomon ring layer3
-112	triple triad → triple triad pick player
+112	triple triad → pick player
 113	menus → refine
 114	battle misc → magic shield
 115	battle misc → draw in battle layer1
@@ -174,7 +174,7 @@
 181	enemy calls → buel
 182	enemy deaths → buel
 183	enemy calls → elvoret call
-184	enemy deaths → elvoret death [unused]
+184	enemy deaths → [unused] elvoret
 185	enemy calls → mesmerize
 186	enemy deaths → mesmerize
 187	enemy calls → anacondaur
@@ -234,7 +234,7 @@
 241	enemy calls → ruby dragon
 242	enemy deaths → ruby dragon
 243	enemy calls → tri-point
-244	enemy deaths → tri-point [unused]
+244	enemy deaths → [unused] tri-point
 245	enemy calls → grand mantis
 246	enemy deaths → grand mantis
 247	enemy calls → jelleye
@@ -244,7 +244,7 @@
 251	enemy calls → blood soul
 252	enemy deaths → blood soul
 253	enemy calls → sphinxaur
-254	enemy deaths → sphinxaur [unused]
+254	enemy deaths → [unused] sphinxaur
 255	enemy calls → gim47n
 256	enemy deaths → gim47n
 257	enemy calls → propagator
@@ -264,10 +264,10 @@
 271	enemy calls → bomb
 272	enemy deaths → bomb
 273	enemy calls → krysta
-274	enemy deaths → krysta [unused]
+274	enemy deaths → [unused] krysta
 275	enemy calls → t-rexaur
 276	enemy deaths → t-rexaur
-277	enemy skills → jump punch part1
+277	enemy skills → ifrit's jump punch part1
 278	enemy calls → cactuar
 279	enemy deaths → cactuar
 280	enemy calls → jumbo cactuar
@@ -275,7 +275,7 @@
 282	enemy calls → tonberry
 283	enemy deaths → tonberry
 284	enemy calls → red giant
-285	enemy deaths → red giant [unused]
+285	enemy deaths → [unused] red giant
 286	enemy calls → funguar
 287	enemy deaths → funguar
 288	enemy calls → blobra
@@ -285,25 +285,25 @@
 292	enemy calls → grendel
 293	enemy deaths → grendel
 294	enemy calls → bgh251f2
-295	enemy deaths → bgh251f2 [unused]
+295	enemy deaths → [unused] bgh251f2
 296	enemy calls → malboro
 297	enemy deaths → malboro
 298	enemy calls → trauma
-299	enemy deaths → trauma [unused]
+299	enemy deaths → [unused] trauma
 300	enemy calls → bahamut
-301	enemy deaths → bahamut [unused]
+301	enemy deaths → [unused] bahamut
 302	enemy calls → behemoth
 303	enemy deaths → behemoth
 304	enemy calls → turtapod
 305	enemy deaths → turtapod
-306	enemy calls → gerogero [unused]
+306	enemy calls → [unused] gerogero
 307	enemy deaths → gerogero
 308	enemy calls → chimera
 309	enemy deaths → chimera
 310	enemy calls → torama
 311	enemy deaths → torama
-312	enemy calls → scrapped enemy [unused]
-313	enemy deaths → scrapped enemy [unused]
+312	enemy calls → [unused] scrapped enemy
+313	enemy deaths → [unused] scrapped enemy
 314	enemy calls → imp
 315	enemy deaths → imp
 316	enemy calls → granaldo
@@ -311,19 +311,19 @@
 318	enemy calls → raldo
 319	enemy deaths → raldo
 320	enemy calls → abadon
-321	enemy deaths → abadon [unused]
+321	enemy deaths → [unused] abadon
 322	enemy calls → mobile type 8
-323	enemy deaths → mobile type 8 [unused]
+323	enemy deaths → [unused] mobile type 8
 324	enemy calls → tonberry king
 325	battle events → tonberry king defeated call
-326	[unknown]
+326	enemy calls → [unused] droma
 327	enemy deaths → droma
 328	enemy calls → tiamat
-329	enemy deaths → tiamat [unused]
+329	enemy deaths → [unused] tiamat
 330	enemy calls → catoblepas
-331	enemy deaths → catoblepas [unused]
+331	enemy deaths → [unused] catoblepas
 332	enemy calls → cerberus
-333	enemy deaths → cerberus [unused]
+333	enemy deaths → [unused] cerberus
 334	enemy skills → seifer's gunblade
 335	enemy calls → minotaur
 336	enemy calls → sacred
@@ -341,7 +341,7 @@
 348	enemy calls → sorceress A
 349	enemy deaths → sorceress A
 350	enemy calls → sorceress B
-351	enemy deaths → sorceress B [used duplicate of the intro call]
+351	enemy deaths → [used duplicate of 350] sorceress B
 352	enemy calls → ultima weapon
 353	enemy calls → omega weapon
 354	enemy calls → adel
@@ -479,7 +479,7 @@
 725	spells → blizzara
 728	battle misc → common cure
 731	spells → life + revive + phoenix down
-734	[unknown]draw [unused duplicate]
+734	battle misc → [unused merged draw layers] draw in battle
 737	spells → double + triple
 740	spells → meteor layer 1 bg
 741	spells → meteor layer 2 the drop
@@ -544,25 +544,25 @@
 907	items in battle → echo screen
 910	commands → death by doom status
 913	commands → card successful
-916	commands → devour
-919	commands → devour
-922	commands → devour
-925	commands → devour
-928	commands → devour
-931	commands → devour
-933	commands → devour
-934	commands → devour
+916	commands → devour → A
+919	commands → devour → B
+922	commands → devour → C
+925	commands → devour → D
+928	commands → devour → E
+931	commands → devour → F
+933	commands → devour → G
+934	commands → devour → [unused] short devour
 935	commands → card failed
 938	spells → confuse
 941	spells → death layer1
-944	commands → devour
-947	[unknown]
+944	commands → devour → H
+947	commands → devour → [unused] devour ending sfx
 950	spells → apocalypse part1
 953	spells → apocalypse part2
 956	spells → apocalypse part3
 959	[unknown]
 962	spells → death layer2
-965	menus → [unknown]error DUPLICATE
+965	commands → devour → [used duplicate of 16] devour failed
 970	spells → quake layer2
 973	commands → recover
 980	[unknown]
@@ -618,12 +618,12 @@
 1130	limit breaks → seifer no mercy part2
 1133	limit breaks → zell duel different beat
 1136	limit breaks → renzokuken 5 hits
-1139	renzokuken variants → [UNUSED]
+1139	renzokuken variants → [unused]
 1142	blue magic → shockwave pulsar part1
 1145	blue magic → shockwave pulsar part2
 1148	blue magic → shockwave pulsar part3
 1151	limit breaks → ward massive anchor
-1154	renzokuken variants → [UNUSED]
+1154	renzokuken variants → [unused]
 1157	limit breaks → kiros blood pain
 1160	limit breaks → laguna desperado
 1163	limit breaks → angelo strike part1
@@ -650,46 +650,46 @@
 1226	limit breaks → angelo wishing star part3
 1229	limit breaks → angelo invincible moon part2
 1230	enemy skills → common → attack B
-1233	enemy skills → squeeze
-1236	enemy skills → dark mist + poison mist
+1233	enemy skills → anacondaur's squeeze
+1236	enemy skills → anacondaur's dark mist + poison mist
 1239	blue magic → ray-bomb part1
 1242	blue magic → ray-bomb part2
-1245	enemy skills → arm crush
-1247	enemy skills → clash
-1250	enemy skills → blade slice
+1245	enemy skills → x-atm092's arm crush
+1247	enemy skills → x-atm092's clash
+1250	enemy skills → mesmerize's blade slice
 1252	enemy skills → elvoret's storm breath + elnoyle's storm breath when low-level
 1255	enemy skills → elite soldier's machine gun + base leader's machine gun
-1257	enemy skills → wing slash
-1259	enemy skills → hind kick
+1257	enemy skills → buel's wing slash
+1259	enemy skills → mesmerize's hind kick
 1261	enemy skills → elite soldier's charge + base leader's arm punch + wendigo's power bomb
 1263	battle events → elvoret storm breath cutscene
 1266	enemy calls → elvoret intro part1 layer flap wings
 1268	enemy calls → elvoret intro part2 landing
 1271	enemy deaths → elvoret part1
 1274	enemy deaths → elvoret part2
-1277	enemy skills → blade shot part2 + the horn broke off!
-1279	enemy skills → blade shot part1
-1282	enemy skills → sigh + geezard's bad breath
+1277	enemy skills → mesmerize's blade shot part2 + the horn broke off!
+1279	enemy skills → mesmerize's blade shot part1
+1282	enemy skills → vysage sigh + geezard's bad breath
 1285	enemy skills → glacial eye's vampire
 1288	enemy skills → hexadragon's breath part1
 1291	enemy skills → hexadragon's breath part2
-1294	enemy skills → melt-eye
+1294	enemy skills → hexadragon's melt-eye
 1297	enemy skills → belhelmel's counter laser-eye
-1300	enemy skills → petrify stare
+1300	enemy skills → glacial eye's and cockatrice's petrify stare
 1303	enemy skills → tri-face's bite + adamantoise's bite
-1306	enemy skills → poison gas
+1306	enemy skills → tri-face's poison gas
 1309	enemy skills → snow lion's tail slap
 1311	enemy skills → creeps' claw
-1313	enemy skills → morph
-1316	enemy skills → gatling gun + gim47n's chain gun
-1319	enemy skills → cannon blow
-1321	enemy skills → wild cannon blow
-1322	enemy skills → ultrasonic waves
+1313	enemy skills → jelleye's morph
+1316	enemy skills → sam08g's gatling gun + gim47n's chain gun
+1319	enemy skills → sam08g's cannon blow
+1321	enemy skills → sam08g's wild cannon blow layer
+1322	enemy skills → red bat's ultrasonic waves
 1323	[unknown]
 1324	[unknown]
 1325	enemy skills → gesper's telekinesis
-1328	enemy skills → upward kick
-1331	enemy skills → sand storm
+1328	enemy skills → cockatrice's upward kick
+1331	enemy skills → fastitocalon's sand storm
 1334	blue magic → electrocute + enemy skill electric discharge
 1337	enemy skills → snow lion's ice breath part1
 1340	enemy skills → snow lion's ice breath part2
@@ -697,184 +697,184 @@
 1346	enemy skills → common → attack C
 1348	enemy skills → common → attack D
 1350	enemy skills → belhelmel's counter slice
-1353	enemy skills → acid
+1353	enemy skills → tri-face's acid
 1356	enemy skills → common → attack E
-1357	enemy skills → sticky web
+1357	enemy skills → caterchipillar's sticky web
 1360	blue magic → ultra waves
 1363	enemy skills → grat's gastric juice
 1366	enemy skills → t-rexaur's bite + bite hard part1
 1367	enemy skills → t-rexaur's bite hard part2
-1370	enemy skills → tail
-1373	enemy skills → suicide
+1370	enemy skills → t-rexaur's tail
+1373	enemy skills → bomb's suicide
 1376	enemy skills → red bat's vampire
-1378	enemy skills → grow
+1378	enemy skills → bomb's grow
 1381	enemy skills → x-atm092's back-leg-strike
-1384	enemy skills → both hands squeeze
-1385	enemy skills → jump punch part2
-1388	enemy skills → stare
+1384	enemy skills → vysage's both hands squeeze
+1385	enemy skills → ifrit's jump punch part2
+1388	enemy skills → vysage's stare
 1390	[unknown]
 1393	enemy skills → grendel's bite
-1394	enemy skills → grab punch
-1395	enemy skills → sticky icky
-1398	enemy skills → disease breath
-1401	enemy skills → roll attack + wendigo's punch
+1394	enemy skills → blue dragon's grab punch
+1395	enemy skills → blobra's sticky icky
+1398	enemy skills → blood soul's disease breath
+1401	enemy skills → armadodo's roll attack + wendigo's punch
 1404	enemy skills → armadodo's earthquake
 1407	enemy skills → wendigo's arm hug
-1409	enemy skills → shake
-1411	enemy skills → righty slap
-1414	enemy skills → degenerator
-1417	enemy skills → sleeping gas
-1420	enemy skills → fart
+1409	enemy skills → righty's shake
+1411	enemy skills → righty's slap
+1414	enemy skills → gesper's degenerator
+1417	enemy skills → grat's sleeping gas
+1420	enemy skills → bite bug's fart
 1423	enemy skills → grat's vampire
 1425	battle events → fastitocalon-f's out of the sand
-1426	enemy skills → blaster
-1429	enemy skills → gas
+1426	enemy skills → torama's blaster
+1429	enemy skills → death claw's gas
 1432	enemy skills → death claw's explosion
 1435	[unknown]
 1438	enemy skills → bgh251f2 first encounter's beam cannon
 1441	enemy deaths → bgh251f2 first encounter part1
 1444	battle events → bgh251f2's turret lost
 1447	enemy skills → bgh251f2's chaingun
-1450	enemy skills → resonance
+1450	enemy skills → iguion's resonance
 1453	enemy skills → snow lion's bash
-1456	enemy skills → laser
-1459	enemy skills → wind blast
-1462	enemy skills → heartbreak
-1465	enemy skills → breath of death part1
-1468	enemy skills → breath of death part2
+1456	enemy skills → funguar's laser
+1459	enemy skills → thrustaevis' wind blast
+1462	enemy skills → creeps' heartbreak
+1465	enemy skills → blood soul's breath of death part1
+1468	enemy skills → blood soul's breath of death part2
 1471	enemy skills → sphinxara's magic summon
 1474	enemy skills → esthar soldier's shotgun
 1476	enemy skills → hexadragon's bash
 1479	enemy skills → ochu's earthquake
 1482	enemy skills → ochu dance
-1485	enemy skills → snipe laser
-1488	enemy skills → beam laser
-1491	enemy skills → brrawghh
+1485	enemy skills → gim47n's snipe laser
+1488	enemy skills → elastoid's beam laser
+1491	enemy skills → gerogero's brrawghh
 1494	enemy skills → bgh251f2's chaingun second encounter
 1497	enemy skills → bgh251f2 second encounter's beam cannon
 1500	enemy skills → adamantoise's slap
 1502	enemy skills → adamantoise's sand storm part1
 1511	[unknown]
-1514	enemy skills → bad breath [used duplicate of quistis' one]
-1517	enemy skills → eerie sound wave
-1520	enemy skills → dissolving acid
+1514	enemy skills → [used duplicate of 1061] malboro's bad breath
+1517	enemy skills → malboro's eerie sound wave
+1520	enemy skills → malboro's dissolving acid
 1523	battle events → sphinxaur defeated morphs into sphinxara
-1526	enemy skills → reflect beam
-1529	enemy skills → mega spark
-1532	enemy skills → mower + grand sword + red giant's gigantic sword
-1535	enemy skills → 1000 needles + 10000 needles
-1538	enemy skills → boomerang sword
-1541	enemy skills → evil-eye
-1544	enemy skills → oil blast
-1547	enemy skills → saliva
-1550	enemy skills → magma breath
-1553	enemy skills → sand shake
+1526	enemy skills → elastoid's reflect beam
+1529	enemy skills → tri-point's mega spark
+1532	enemy skills → minotaur's mower + iron giant's grand sword + red giant's gigantic sword
+1535	enemy skills → cactuar's 1000 needles + jumbo cactuar's 10000 needles
+1538	enemy skills → esthar soldier terminator's boomerang sword
+1541	enemy skills → gargantua's evil-eye
+1544	enemy skills → oilboyle's oil blast
+1547	enemy skills → abyss worm's saliva
+1550	enemy skills → iguion's magma breath
+1553	enemy skills → abyss worm's sand shake
 1556	[unknown]
-1559	enemy skills → bear hug
-1561	enemy skills → death claw
-1563	enemy skills → mini pulse cannon
-1566	enemy skills → sonic wave
-1569	enemy skills → micro missiles [used duplicate of Quistis' 1067]
+1559	enemy skills → death claw's bear hug
+1561	enemy skills → death claw's death claw
+1563	enemy skills → droma's mini pulse cannon
+1566	enemy skills → oilboyle's sonic wave
+1569	enemy skills → [used duplicate of 1067] gim52a's micro missiles
 1572	enemy skills → cerberus' tail
 1575	enemy deaths → x-atm092
-1578	enemy skills → melting bubble
-1581	enemy skills → twin homing laser + probes' homing laser
+1578	enemy skills → grand mantis' melting bubble
+1581	enemy skills → probes' twin homing laser + probes' homing laser
 1584	enemy skills → elnoyle's storm breath when mid or high-level + grendel's breath
 1587	enemy skills → gayla's gastric juice
-1590	enemy skills → oil shot
+1590	enemy skills → oilboyle's oil shot
 1593	enemy deaths → abadon
-1596	enemy skills → corona
+1596	enemy skills → mobile type 8's corona
 1599	enemy deaths → trauma
 1602	enemy skills → blue dragon's breath
 1605	enemy deaths → bgh251f2 first encounter part2
 1607	battle events → fake president transforms into gerogero part1
 1610	enemy deaths → tonberry king
-1613	enemy skills → mad cow special
+1613	enemy skills → minotaur's and sacred's mad cow special
 1616	enemy deaths → tri-point
 1619	enemy deaths → gargantua
-1622	enemy skills → thunder summon part1
-1625	enemy skills → thunder summon part2
+1622	enemy skills → catoblepas' thunder summon part1
+1625	enemy skills → catoblepas' thunder summon part2
 1628	enemy deaths → red giant
-1631	enemy skills → megido flame part1
-1634	enemy skills → megido flame part2
-1637	enemy skills → ker plunk part1
+1631	enemy skills → mobile type 8's and omega weapon's megido flame part1
+1634	enemy skills → mobile type 8's and omega weapon's megido flame part2
+1637	enemy skills → jumbo cactuar's ker plunk part1
 1640	enemy deaths → sphinxara part1
 1643	enemy deaths → sphinxara part2
-1646	enemy skills → create droma
+1646	enemy skills → trauma's create droma
 1649	battle events → gargantua emerges
-1652	enemy skills → zan
-1655	enemy skills → curse
-1658	enemy skills → aqua breath
-1661	enemy skills → mega flare part1
-1664	enemy skills → mega flare part2
-1667	enemy skills → dark flare
+1652	enemy skills → fujin's zan
+1655	enemy skills → vysage's curse
+1658	enemy skills → chimera's aqua breath
+1661	enemy skills → bahamut's mega flare part1
+1664	enemy skills → bahamut's mega flare part2
+1667	enemy skills → tiamat's dark flare
 1670	enemy deaths → bgh251f2 second encounter
 1673	enemy skills → krysta's counter rocket
 1676	enemy skills → krysta's stronger counter rocket
-1679	enemy skills → assault horn + deadly horn
+1679	enemy skills → behemot's assault horn + catoblepas' deadly horn
 1682	enemy skills → common → attack F
-1684	enemy skills → steel orb + club
+1684	enemy skills → sacred's steel orb + minotaur's club
 1686	battle events → norg pod destroyed part2 opens
-1689	enemy skills → counter twist
+1689	enemy skills → gargantua's counter twist
 1691	enemy skills → common → attack G
 1693	enemy skills → propagator's bitebite
-1697	enemy skills → sai
+1697	enemy skills → fujin's sai
 1699	enemy skills → iron giant's sword + red giant's sword
 1701	enemy skills → grendel's cross slash + red giant's punch
 1703	[unknown]
-1706	enemy skills → raldo ball + granaldo's claw
-1708	enemy skills → raldo throw
+1706	enemy skills → granaldo's raldo ball + granaldo's claw
+1708	enemy skills → granaldo's raldo throw
 1710	enemy skills → jumbo cactuar's leg stamp
-1713	enemy skills → chef's knife + tonberry king's knife
-1714	enemy skills → it's sharp!
+1713	enemy skills → tonberry's chef's knife + tonberry king's knife
+1714	enemy skills → tonberry king's it's sharp!
 1717	enemy skills → wendigo's dribble part1
 1720	enemy skills → wendigo's shoot part1
 1723	enemy skills → esthar soldier's punch
-1725	enemy skills → mega pulse cannon
+1725	enemy skills → trauma's mega pulse cannon
 1728	[unknown]
 1731	[unknown]
 1734	[unknown]
 1737	[unknown]
-1747	enemy skills → psycho blast
+1747	enemy skills → norg's psycho blast
 1750	enemy skills → raijin's fist
 1753	enemy deaths → mobile type 8
-1756	enemy skills → hypnotize
+1756	enemy skills → gayla's hypnotize
 1759	enemy deaths → krysta part1
 1762	enemy deaths → krysta part2
 1765	enemy deaths → catoblepas
-1768	enemy skills → junk
+1768	enemy skills → tonberry king's junk
 1771	enemy deaths → tiamat
-1774	enemy skills → everyone's grudge
+1774	enemy skills → tonberry's everyone's grudge
 1777	battle events → norg pod destroyed part1
-1780	enemy skills → ray-bomb [used duplicate of Quistis' 1239 + 1242]
-1783	enemy skills → astral punch
+1780	enemy skills → [used duplicate of 1239 + 1242] gim52a's ray-bomb
+1783	enemy skills → edea's astral punch
 1786	enemy skills → tonberry fell over
 1789	enemy skills → raijin special
 1792	enemy skills → elnoyle's swipe + probes' spin bash
 1794	enemy skills → mobile type 8's whip
-1796	enemy skills → norg's orb change color
+1796	enemy skills → norg orbs' change color
 1799	battle events → fastitocalon's out of the sand
 1801	enemy skills → iron giant's and behemoth's mighty guard
-1804	enemy skills → metsu
+1804	enemy skills → fujin's metsu
 1807	[unknown]
 1810	battle events → fake president transforms into gerogero part2
-1813	enemy skills → gravija
-1816	enemy skills → diablos' gravija
-1819	enemy skills → drink magic
-1822	enemy skills → energy bomber
+1813	enemy skills → griever's and ultima weapon's and omega weapons' gravija
+1816	enemy skills → [used duplicate of 1813] diablos' gravija
+1819	enemy skills → ochu's drink magic
+1822	enemy skills → adel's energy bomber
 1825	battle events → another sorceress appears
-1828	enemy skills → maelstrom
+1828	enemy skills → edea's and ultimecia's maelstrom
 1831	enemy skills → odin's zantetsuken
-1834	enemy skills → light pillar
+1834	enemy skills → ultima weapon's and omega weapon's light pillar
 1837	enemy deaths → ultima weapon + omega weapon
 1840	enemy deaths → adel
-1843	[unknown]magic shield DUPLICATE
+1843	battle misc → [unused duplicate of 114] magic shield
 1844	enemy skills → krysta's charge
 1847	[unknown]
 1850	enemy skills → krysta's slap
 1852	[unknown]
-1855	enemy skills → terra break part1
-1858	enemy skills → terra break part2
+1855	enemy skills → omega weapon's terra break part1
+1858	enemy skills → omega weapon's terra break part2
 1861	enemy deaths → sorceress C
 1864	[unknown]
 1867	enemy skills → griever's shockwave pulsar part1
@@ -883,15 +883,15 @@
 1876	battle events → ultimecia summons griever part1
 1879	battle events → ultimecia summons griever part2
 1885	battle events → ultimecia summons griever part3
-1888	enemy skills → demon slice part2
-1891	enemy skills → demon slice part1 + bloodfest part1
+1888	enemy skills → seifer's demon slice part2
+1891	enemy skills → seifer's demon slice part1 + seifer's bloodfest part1
 1894	enemy skills → sorceress A and B's telekinesis
 1897	enemy skills → omega weapon's slash
 1900	enemy skills → ultima weapon's sword slash
-1903	enemy skills → bloodfest part2
-1906	enemy skills → bloodfest part3
+1903	enemy skills → seifer's bloodfest part2
+1906	enemy skills → seifer's bloodfest part3
 1909	enemy skills → common → hit ground B
-1911	enemy skills → hell's judgment
+1911	enemy skills → ultimecia final form's hell's judgment
 1914	enemy skills → sorceress C's creepy touch
 1917	[unknown]
 1921	battle events → ultimecia griever form defeated part1
@@ -909,31 +909,31 @@
 1957	battle events → mobile type 8 reattaches to the probes
 1959	battle events → mobile type 8 detaches the two probes
 1961	enemy skills → helix's twin laser
-1964	enemy skills → suck
+1964	enemy skills → oilboyle's suck
 1967	battle events → red giant drops the sword
 1970	enemy deaths → ultimecia final form → part1
 1974	enemy deaths → ultimecia final form → part2 layer1
 1978	enemy deaths → ultimecia final form → part2 layer2
 1982	[unknown]
 1986	enemy deaths → ultimecia final form → part7 layer1
-1990	enemy skills → great attractor part1
-1993	enemy skills → great attractor part2
-1996	enemy skills → great attractor part3
-1999	enemy skills → great attractor part4
-2002	enemy skills → great attractor part5
-2005	enemy skills → great attractor part6
+1990	enemy skills → ultimecia griever form's great attractor part1
+1993	enemy skills → ultimecia griever form's great attractor part2
+1996	enemy skills → ultimecia griever form's great attractor part3
+1999	enemy skills → ultimecia griever form's great attractor part4
+2002	enemy skills → ultimecia griever form's great attractor part5
+2005	enemy skills → ultimecia griever form's great attractor part6
 2008	battle events → ultimecia final form appears part2
-2011	enemy skills → head swing
-2014	enemy skills → destroy gf
+2011	enemy skills → abyss worm's head swing
+2014	enemy skills → ultimecia griever form's and final form's destroy gf
 2017	battle events → final battle absorbed into time
-2020	enemy skills → blow away stock magic
+2020	enemy skills → griever's and ultimecia's final form's blow away stock magic
 2023	battle events → sorceress C appears
 2026	enemy deaths → ultimecia final form → part3 layer1
 2027	enemy deaths → ultimecia final form → part4
 2028	enemy deaths → ultimecia final form → part5
-2029	enemy deaths → ultimecia final form → part3 layer2
+2029	enemy deaths → ultimecia final form → (loop) part3 layer2
 2032	enemy deaths → ultimecia final form → part6
-2036	enemy skills → create helix
+2036	enemy skills → ultimecia's griever form's create helix
 2038	enemy skills → griever's claw
 2041	enemy skills → ultimecia griever form's claw
 2044	enemy skills → ultimecia's claw + ultimecia's claw counterattack
@@ -1027,15 +1027,15 @@
 2152	story → dollet exam → dog 2
 2153	story → dollet exam → x-atm092 field footstep 1
 2154	story → dollet exam → x-atm092 field footstep 2
-2155	animals → [unknown]cut howling
+2155	animals → [unused] cut howling
 2156	field → common → land on feet
 2157	[unknown]
-2158	story → dollet exam → x-atm092 jumps down from the tower 1
+2158	story → dollet exam → x-atm092 jump
 2159	field → common → metallic bang
 2160	field → common → banging
-2161	story → dollet exam → x-atm092 starts walking 1 [used duplicate of 2153]
-2162	story → dollet exam → x-atm092 starts walking 2 [used duplicate of 2154]
-2163	story → dollet exam → x-atm092 unused footstep 1 [unused duplicate of 2153]
+2161	story → dollet exam → [used duplicate of 2153] x-atm092 starts walking 1
+2162	story → dollet exam → [used duplicate of 2154] x-atm092 starts walking 2
+2163	story → dollet exam → [unused duplicate of 2153] x-atm092 unused footstep 1
 2164	field → common → swings gunblade + swing stuff
 2165	field → dollet exam dog howling + lunar gate angelo howling
 2166	animals → common → dog bark
@@ -1057,7 +1057,7 @@
 2183	story → dollet exam → biggs device drops
 2184	story → dollet exam → seifer hits biggs who drops the device
 2185	story → dollet exam → x-atm092 first appearance
-2186	story → dollet exam → x-atm092 unused footstep 2 [unused duplicate of 2154]
+2186	story → dollet exam → [unused duplicate of 2154] x-atm092 unused footstep 2
 2187	story → dollet exam → biggs on all fours reaching for the device 1
 2188	story → dollet exam → biggs on all fours reaching for the device 2
 2189	story → dollet exam → bells
@@ -1071,14 +1071,14 @@
 2197	field → common → (loop) rope
 2198	field → (loop) timber tv station static louder + trabia pc static
 2199	[unknown]
-2200	field → common → (loop) elevator A2 [used duplicate of 69]
+2200	field → common → [used duplicate of 69] (loop) elevator A2
 2201	field → zell's feet while shadowboxing
 2202	story → dollet exam → ship screen turn off
 2203	field → timber → faucet owl's tear
-2204	vehicles → common → (loop) train engine [used duplicate of 71]
+2204	vehicles → common → [used duplicate of 71] (loop) train engine
 2205	ambience → [unknown]
 2206	ambience → common → tension
-2207	vehicles → common → (loop) train rails [used duplicate of 72]
+2207	vehicles → common → [used duplicate of 72] (loop) train rails
 2208	vehicles → common → (loop) car engine B world map and field
 2209	story → dollet exam → ship world map layer
 2210	field → common → jump B
@@ -1087,7 +1087,7 @@
 2213	story → dollet exam → anacondaur attacks 1
 2214	[unknown]
 2215	field → timber hotel barrier + shumi village artisan's bus model
-2216	vehicles → train departing whistle [used duplicate of 86]
+2216	vehicles → [used duplicate of 86] train departing whistle
 2217	[unknown]
 2218	field → balamb garden → gateline
 2219	story → fire cavern → ifrit's roar while emerging
@@ -1100,7 +1100,7 @@
 2226	field → common → sit down A + seifer hits desk
 2227	field → common → devices bip C
 2228	ambience → common → water gushing
-2229	ambience → [unknown]probably unused variant of fire cavern
+2229	ambience → [unused] fire cavern
 2230	story → missile base → (loop) car engine idle while waiting at missile base gate
 2231	story → dollet exam → clap + fh girl slaps squall
 2232	field → common → finger snap + generic click
@@ -1146,7 +1146,7 @@
 2274	[unknown]
 2275	[unknown]
 2276	field → DSRC → rocks resonate A
-2277	field → tomb unknown king → (loop) the mechanism is now working
+2277	field → tomb king → (loop) the mechanism is now working
 2278	[unknown]
 2279	[unknown]
 2281	ambience → [unknown]
@@ -1222,7 +1222,7 @@
 2365	story → missile base → (loop) bgh251f2 electric noise
 2367	story → md level → elevator stuck
 2369	story → md level → elevator hatch open
-2370	story → missile base → party removes the disguise + lunar base quick-thaw part2
+2370	field → missile base party removes the disguise + lunar base quick-thaw part2
 2372	story → md level → heavy hatch open + door to the big valve to open the big hole
 2373	[unknown]
 2374	field → common → rumble B
@@ -1234,11 +1234,11 @@
 2383	story → timber mission → seifer breaks into the tv station
 2384	ambience → [unknown]
 2385	story → timber mission → edea's magic B
-2387	ambience → dream#2 sea
+2387	ambience → dream#2 ocean
 2388	story → dream#2 → plunge into water
 2389	field → missile base control panel data upload + DSRC excavation center terminal
 2390	story → missile base → error ratio increase + decrease
-2391	field → control panel data upload unit done + trabia pc boot up
+2391	field → missile base control panel data upload unit done + trabia pc boot up
 2392	story → timber mission → edea's magic A
 2394	story → dream#2 → rolling boulder crashes
 2396	story → dream#2 → detonator switch pressed
@@ -1274,7 +1274,7 @@
 2435	story → md level → (loop) the garden starts to move part2
 2437	story → md level → the ladder detaches
 2438	story → md level → the ladder breaks the window
-2440	story → md level → big valve fully opened
+2440	story → md level → big valve unstuck finally rotates
 2441	story → md level → elevator starts falling
 2444	[unknown]
 2445	story → norg → norg closes the pod and is ready to fight
@@ -1313,17 +1313,17 @@
 2503	story → prison → rinoa kicks irvine down the stairs
 2504	story → prison → crane starts moving
 2505	story → prison → crane stops moving
-2506	field → tomb unknown king → remove the gear
-2507	field → tomb unknown king → sacred's stand raises up
-2508	ambience → tomb unknown king water now flows
+2506	field → tomb king → remove the gear
+2507	field → tomb king → sacred's stand raises up
+2508	ambience → tomb king water now flows
 2509	[unknown]
-2510	field → tomb unknown king → release the chain let the water flow
-2511	field → tomb unknown king → sacred's roar
-2512	field → tomb unknown king → sarcophagus opens
+2510	field → tomb king → release the chain let the water flow
+2511	field → tomb king → sacred's roar
+2512	field → tomb king → sarcophagus opens
 2514	story → deling mission → (loop) edea kills deling
 2517	story → seed party → common footsteps heels 1
 2518	story → seed party → common footsteps heels 2
-2519	field → tomb unknown king → minotaur appears
+2519	field → tomb king → minotaur appears
 2521	[unknown]
 2522	story → md level → (loop) the lowest level opens
 2524	story → md level → open the big valve timer bip
@@ -1358,7 +1358,7 @@
 2561	story → great salt lake → mystery building → lifter activates and shut some lights off
 2562	story → lunar gate → (loop) dudes in control room typing
 2563	field → common → (loops) control room bips
-2564	story → lunar gate → control room bips (ONLY FILE THAT IS A BYTE BY BYTE EXACT DUPLICATE) [used duplicate of 2563]
+2564	story → lunar gate → [used duplicate of 2563] (loops) control room bips
 2565	field → common → device deep bass
 2567	story → great salt lake → esthar's hexagon panels flicker A
 2568	story → great salt lake → esthar's hexagon panels flicker B
@@ -1386,24 +1386,24 @@
 2591	[unknown]
 2592	story → lunar base → adel's seal fully unlocked
 2593	story → caraway's mansion → irvine gets down from the desk
-2594	story → lunar base → dock door open + close
+2594	story → lunar base → dock big doors open + close
 2596	ambience → [unknown]
 2597	ambience → [unknown]
 2598	ambience → [unknown]
-2599	story → lunatic pandora passes by esthar city → lunatic pandora external door open
+2599	story → lunatic pandora at esthar city → lunatic pandora external door open
 2600	story → lunar base → quick-thaw part1
 2602	story → lunar base → rinoa medical pod closes
 2603	story → lunar base → control room deactivate seal no1
 2605	field → mystery building esthar car door open + lunar base space suit locker open + close
 2606	[unknown]
 2607	ambience → [unknown]
-2608	story → lunar base → hatches to leave lunar base interact
-2609	story → lunar base → first hatch to leave lunar base
-2610	story → lunar base → second hatch to leave lunar base
+2608	story → lunar base → hatches to leave escape capsule interact
+2609	story → lunar base → first hatch to leave escape capsule
+2610	story → lunar base → second hatch to leave escape capsule
 2611	story → lunar base → escape pod close
 2612	story → lunar base → escape pod open
 2613	story → lunar base → rinoa medical pod opens
-2614	ambience → missile base control room
+2614	ambience → missile base circuit room
 2615	story → dream#4 → laguna attacks
 2616	story → dream#4 → dragon attacks + is hit
 2617	story → ragnarok → propagator's call B
@@ -1434,7 +1434,7 @@
 2647	story → sorceress memorial → put down weapons irvine
 2648	story → castle → (loop) wooden bridge
 2649	story → lunar base → party capsule is arrived
-2651	story → lunatic pandora passes by esthar city → map of esthar next dialogue line bip
+2651	story → lunatic pandora at esthar city → map of esthar next dialogue line bip
 2652	story → lunar base → trying to stop possessed rinoa
 2653	story → lunar base → possessed rinoa throws dude and squall against the wall
 2654	story → deling mission → edea summons the iguions
@@ -1444,10 +1444,10 @@
 2660	field → esthar → choose shop
 2661	field → chocobo forests → fifth chicobo in esthar talle mountains
 2662	story → lunar base → possessed rinoa deactivates seal no2
-2663	field → esthar → residential palace lifter's dome on + off
-2664	story → lunatic pandora passes by esthar city → (loop) mobile type 8 makes the party levitate
-2666	story → lunatic pandora passes by esthar city → (loop) party is thrown out of the lunatic pandora part1
-2668	story → lunatic pandora passes by esthar city → party is thrown out of the lunatic pandora part2
+2663	field → esthar → presidential palace lifter's dome on + off
+2664	story → lunatic pandora at esthar city → (loop) mobile type 8 makes the party levitate
+2666	story → lunatic pandora at esthar city → (loop) party is thrown out of the lunatic pandora part1
+2668	story → lunatic pandora at esthar city → party is thrown out of the lunatic pandora part2
 2670	story → ggarden rebellion → garden faculty whistle
 2671	game ending sequence → footsteps in the white void zell 1
 2672	game ending sequence → footsteps in the white void zell 2
@@ -1460,16 +1460,16 @@
 2679	game ending sequence → footsteps in the white void selphie 1
 2680	game ending sequence → footsteps in the white void selphie 2
 2681	game ending sequence → rinoa grabs rings
-2682	game ending sequence → footsteps in the orphanage squall 1 [used duplicate of 2684]
-2683	game ending sequence → footsteps in the orphanage squall 2 [used duplicate of 2685]
+2682	game ending sequence → [used duplicate of 2684] footsteps in the orphanage squall 1
+2683	game ending sequence → [used duplicate of 2685] footsteps in the orphanage squall 2
 2684	game ending sequence → footsteps in the black void squall 1
 2685	game ending sequence → footsteps in the black void squall 2
 2686	game ending sequence → footsteps in the orphanage child squall 1
 2687	game ending sequence → footsteps in the orphanage child squall 2
 2688	game ending sequence → footsteps in the black void child squall 1
 2689	game ending sequence → footsteps in the black void child squall 2
-2690	game ending sequence → footsteps in the orphanage edea 1 [used duplicate of 2692]
-2691	game ending sequence → footsteps in the orphanage edea 2 [used duplicate of 2693]
+2690	game ending sequence → [used duplicate of 2692] footsteps in the orphanage edea 1
+2691	game ending sequence → [used duplicate of 2693] footsteps in the orphanage edea 2
 2692	game ending sequence → footsteps in the black void edea 1
 2693	game ending sequence → footsteps in the black void edea 2
 2694	[unknown]
@@ -1487,9 +1487,9 @@
 2713	game ending sequence → ultimecia transfers power to edea
 2716	field → chocobo forests → mother chocobo comes + digs up
 2717	story → lunatic pandora final → ellone brings rinoa back
-2720	story → lunatic pandora passes by esthar city → map of esthar 1st contact point
-2722	story → lunatic pandora passes by esthar city → map of esthar 2nd contact point
-2724	story → lunatic pandora passes by esthar city → map of esthar 3rd contact point
+2720	story → lunatic pandora at esthar city → map of esthar 1st contact point
+2722	story → lunatic pandora at esthar city → map of esthar 2nd contact point
+2724	story → lunatic pandora at esthar city → map of esthar 3rd contact point
 2726	field → chocobo forests → chicobo call
 2727	story → lunatic pandora final → ellone brings ultimecia and adel in the past
 2730	story → great salt lake → abadon appears
