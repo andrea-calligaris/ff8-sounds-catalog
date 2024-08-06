@@ -1418,6 +1418,6 @@ The sound effects for the Devour command depend on the monster, but not on the r
 
 `2653 possessed rinoa throws dude and squall against the wall`: similar but different than `2464`.
 
-`2564 story -> lunar gate -> [used duplicate of 2563] (loop) control room bips`: this is the only file in the whole catalog that is a byte-by-byte exact duplicate than another.
+`2564 story → lunar gate → [used duplicate of 2563] (loop) control room bips`: this is the only file in the whole catalog that is a byte-by-byte exact duplicate than another.
 
 `2702 Squall is lost` is the very last sfx that's played in the game.
