@@ -1253,7 +1253,7 @@
 2407	ambience → centra excavation site
 2409	story → dream#2 → laguna tampers with the hatch lever
 2410	[unknown]
-2411	[unknown]
+2411	field → misc → [unused duplicate of 67]
 2412	field → common → falling
 2413	story → timber mission → angelo in the forest owl's train
 2414	[unknown]

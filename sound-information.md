@@ -1024,6 +1024,11 @@ Behavior: `2239` (chime), party walks in, `2224` (doors close), `69` (elevator),
 As soon as the doors start to open, you hear the chime sound. The door sound is played only when the doors close.
 
 
+### Zell's library girl side quest
+
+`67 draw_point_use`: played with the message "You began to understand 'her feelings'!"
+
+
 ### X-ATM092
 
 `2158 x-atm092_jump`:
