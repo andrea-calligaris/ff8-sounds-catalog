@@ -43,17 +43,17 @@
 43	vehicles → [unknown]
 44	ambience → inside car seed exam
 45	ambience → inside ship seed exam
-46	story → dollet exam → car from balamb entrance to harbor part1
-47	story → dollet exam → car from balamb entrance to harbor part2
-48	story → dollet exam → car from balamb entrance to harbor part3
-49	story → dollet exam → car from balamb entrance to harbor layer steering and open door
-50	story → dollet exam → car from garage to world map part1
-51	story → dollet exam → car from garage to world map part2
-52	story → dollet exam → car from garage to world map layer steering
+46	field → story → dollet exam → car from balamb entrance to harbor part1
+47	field → story → dollet exam → car from balamb entrance to harbor part2
+48	field → story → dollet exam → car from balamb entrance to harbor part3
+49	field → story → dollet exam → car from balamb entrance to harbor layer steering and open door
+50	field → story → dollet exam → car from garage to world map part1
+51	field → story → dollet exam → car from garage to world map part2
+52	field → story → dollet exam → car from garage to world map layer steering
 53	footsteps → female characters footstep1
 54	footsteps → female characters footstep2
-55	story → prison → switch to electrocute
-56	story → dollet exam → seifer goes away in the car
+55	field → story → prison → switch to electrocute
+56	field → story → dollet exam → seifer goes away in the car
 57	vehicles → [unknown]
 58	vehicles → [unknown]
 59	vehicles → [unknown]
@@ -91,18 +91,18 @@
 91	common → seed level up
 92	common → seed level layer base
 93	field → misc → seed earn money
-94	story → gardens battle → (loop) galbadian bikers in the quad
+94	field → story → gardens battle → (loop) galbadian bikers in the quad
 95	menus → battle turn limit break available
 96	ambience → tomb king water drops
 97	ambience → tomb king background A
 98	ambience → tomb king indoor water drain + castle flood gate
-99	story → prison → (loop) gunfire
+99	field → story → prison → (loop) gunfire
 100	[unknown]
 101	[unknown]
-102	story → prison → (loop) crane is moving
+102	field → story → prison → (loop) crane is moving
 103	ambience → tomb king background B sacred's room
 104	ambience → [unused] variant of 103
-105	story → gardens battle → (loop) galbadia garden engine after it crashed on the bg gate
+105	field → story → gardens battle → (loop) galbadia garden engine after it crashed on the bg gate
 106	ambience → common → sea
 107	ambience → edea's house layer seagulls
 108	menus → remodel weapon
@@ -118,14 +118,14 @@
 118	field → bg study panel select + missile base control panel select
 119	field → (loop) mystery building lifter + lunar gate capsule moves through pipe
 120	vehicles → common → (loop) esthar flying car in-field
-121	story → castle → omega's bell
-122	story → castle → omega's bell variant
+121	field → story → castle → omega's bell
+122	field → story → castle → omega's bell variant
 123	field → esthar → (loop) lifter A
 124	field → esthar → (loop) lifter B
-125	story → lunar base → (loop) rinoa oxygen
-126	story → lunar base → (loop) elevator leading to escape pods
-127	story → lunar base → (loop) automatic ladder to leave escape pods room
-128	story → md level → elevator to the md level
+125	field → story → lunar base → (loop) rinoa oxygen
+126	field → story → lunar base → (loop) elevator leading to escape pods
+127	field → story → lunar base → (loop) automatic ladder to leave escape pods room
+128	field → story → md level → elevator to the md level
 129	ambience → ragnarok cockpit
 130	ambience → ragnarok indoor while flying in the atmosphere
 131	field → misc → angelo has learned a skill
@@ -134,14 +134,14 @@
 134	battle misc → boss battle start layer3
 135	gf attacks → cerberus part 4 layer1
 136	gf attacks → cerberus part 4 layer2
-137	story → lunar base → flashbacks → car in desert sudden stop layer1
-138	story → lunar base → flashbacks → car in desert sudden stop layer2
-139	story → lunar base → flashbacks → car in desert leave again part1 layer1
-140	story → lunar base → flashbacks → car in desert leave again part1 layer2
-141	story → lunar base → flashbacks → (loop) car in desert layer1
-142	story → lunar base → flashbacks → (loop) car in desert layer2
-143	story → lunar base → flashbacks → (loop) car in desert leave again part2 layer1
-144	story → lunar base → flashbacks → (loop) car in desert leave again part2 layer2
+137	field → story → lunar base → flashbacks → car in desert sudden stop layer1
+138	field → story → lunar base → flashbacks → car in desert sudden stop layer2
+139	field → story → lunar base → flashbacks → car in desert leave again part1 layer1
+140	field → story → lunar base → flashbacks → car in desert leave again part1 layer2
+141	field → story → lunar base → flashbacks → (loop) car in desert layer1
+142	field → story → lunar base → flashbacks → (loop) car in desert layer2
+143	field → story → lunar base → flashbacks → (loop) car in desert leave again part2 layer1
+144	field → story → lunar base → flashbacks → (loop) car in desert leave again part2 layer2
 145	ambience → castle outside layer1
 146	ambience → castle outside layer2
 151	party attacks → attack zell
@@ -173,7 +173,7 @@
 179	battle misc → edea as party start of battle
 181	enemy calls → buel
 182	enemy deaths → buel
-183	enemy calls → elvoret call
+183	enemy calls → elvoret
 184	enemy deaths → [unused] elvoret
 185	enemy calls → mesmerize
 186	enemy deaths → mesmerize
@@ -471,7 +471,7 @@
 699	gf attacks → eden part10
 702	gf attacks → eden part11
 705	limit breaks → angelo search part2
-710	spells → fire + percent + catastrophe
+710	spells → fire
 713	spells → fira
 716	spells → thunder
 719	spells → thundara
@@ -663,8 +663,8 @@
 1259	enemy skills → mesmerize's hind kick
 1261	enemy skills → elite soldier's charge + base leader's arm punch + wendigo's power bomb
 1263	battle events → elvoret storm breath cutscene
-1266	enemy calls → elvoret intro part1 layer flap wings
-1268	enemy calls → elvoret intro part2 landing
+1266	battle events → elvoret intro part1 layer flap wings
+1268	battle events → elvoret intro part2 landing
 1271	enemy deaths → elvoret part1
 1274	enemy deaths → elvoret part2
 1277	enemy skills → mesmerize's blade shot part2 + the horn broke off!
@@ -968,7 +968,7 @@
 2085	gf attacks → shiva layer shiva breaks the ice
 2086	gf attacks → shiva layer shiva casts her spell
 2087	[unknown]
-2088	gf attacks → alexander layer step (x2)
+2088	gf attacks → alexander layer step
 2089	gf attacks → alexander layer opening launchers
 2090	gf attacks → alexander layer emerging
 2091	gf attacks → alexander layer final
@@ -1024,19 +1024,19 @@
 2141	gf attacks → tonberry layer liquid
 2142	[unknown]
 2151	animals → common → dog
-2152	story → dollet exam → dog 2
-2153	story → dollet exam → x-atm092 field footstep 1
-2154	story → dollet exam → x-atm092 field footstep 2
+2152	field → story → dollet exam → dog 2
+2153	field → story → dollet exam → x-atm092 field footstep 1
+2154	field → story → dollet exam → x-atm092 field footstep 2
 2155	animals → [unused] cut howling
 2156	field → common → land on feet
 2157	[unknown]
-2158	story → dollet exam → x-atm092 jump
+2158	field → story → dollet exam → x-atm092 jump
 2159	field → common → metallic bang
 2160	field → common → banging
-2161	story → dollet exam → [used duplicate of 2153] x-atm092 starts walking 1
-2162	story → dollet exam → [used duplicate of 2154] x-atm092 starts walking 2
-2163	story → dollet exam → [unused duplicate of 2153] x-atm092 unused footstep 1
-2164	field → common → swings gunblade + swing stuff
+2161	field → story → dollet exam → [used duplicate of 2153] x-atm092 starts walking 1
+2162	field → story → dollet exam → [used duplicate of 2154] x-atm092 starts walking 2
+2163	field → story → dollet exam → [unused duplicate of 2153] x-atm092 unused footstep 1
+2164	field → common → swing gunblade + swing stuff
 2165	field → dollet exam dog howling + lunar gate angelo howling
 2166	animals → common → dog bark
 2167	footsteps → footsteps sand 1
@@ -1046,25 +1046,25 @@
 2171	footsteps → footstep dollet tower 2
 2172	field → common → (loop) elevator B
 2173	field → common → mechanism start + stop
-2174	story → dollet exam → dollet biggs working the tower zap
-2175	story → dollet exam → biggs using the device to activate x-atm092
-2176	story → dollet exam → biggs drops down tired
+2174	field → story → dollet exam → dollet biggs working the tower zap
+2175	field → story → dollet exam → biggs using the device to activate x-atm092
+2176	field → story → dollet exam → biggs drops down tired
 2177	field → common → jump A
 2178	ambience → [unknown]
 2179	field → common → (loop) rumble A
 2181	field → common → ambush
-2182	story → dollet exam → anacondaur attacks 2
-2183	story → dollet exam → biggs device drops
-2184	story → dollet exam → seifer hits biggs who drops the device
-2185	story → dollet exam → x-atm092 first appearance
-2186	story → dollet exam → [unused duplicate of 2154] x-atm092 unused footstep 2
-2187	story → dollet exam → biggs on all fours reaching for the device 1
-2188	story → dollet exam → biggs on all fours reaching for the device 2
-2189	story → dollet exam → bells
+2182	field → story → dollet exam → anacondaur attacks 2
+2183	field → story → dollet exam → biggs device drops
+2184	field → story → dollet exam → seifer hits biggs who drops the device
+2185	field → story → dollet exam → x-atm092 first appearance
+2186	field → story → dollet exam → [unused duplicate of 2154] x-atm092 unused footstep 2
+2187	field → story → dollet exam → biggs on all fours reaching for the device 1
+2188	field → story → dollet exam → biggs on all fours reaching for the device 2
+2189	field → story → dollet exam → bells
 2190	doors → big metal door A
 2191	field → balamb garden announcement + lunatic pandora laboratory announcement
 2192	field → common → (loop) typing
-2193	field → common → shadowboxing + swinging arm + throwing stuff
+2193	field → common → shadowbox + swing arm + throw stuff
 2194	ambience → common → static
 2195	doors → bigger wooden door open + close
 2196	ambience → common → alarm
@@ -1073,38 +1073,38 @@
 2199	[unknown]
 2200	field → common → [used duplicate of 69] (loop) elevator A2
 2201	field → zell's feet while shadowboxing
-2202	story → dollet exam → ship screen turn off
+2202	field → story → dollet exam → ship screen turn off
 2203	field → timber → faucet owl's tear
 2204	vehicles → common → [used duplicate of 71] (loop) train engine
 2205	ambience → [unknown]
 2206	ambience → common → tension
 2207	vehicles → common → [used duplicate of 72] (loop) train rails
 2208	vehicles → common → (loop) car engine B world map and field
-2209	story → dollet exam → ship world map layer
+2209	field → story → dollet exam → ship world map layer
 2210	field → common → jump B
 2211	field → common → devices bip A
 2212	[unknown]
-2213	story → dollet exam → anacondaur attacks 1
+2213	field → story → dollet exam → anacondaur attacks 1
 2214	[unknown]
 2215	field → timber hotel barrier + shumi village artisan's bus model
 2216	vehicles → [used duplicate of 86] train departing whistle
 2217	[unknown]
 2218	field → balamb garden → gateline
-2219	story → fire cavern → ifrit's roar while emerging
+2219	field → story → fire cavern → ifrit's roar while emerging
 2220	[unknown]
 2221	field → common → devices turn on + turn off
 2222	field → common → devices bip B
-2223	story → dollet exam → ship screen bip5
+2223	field → story → dollet exam → ship screen bip5
 2224	doors → automatic sliding door A + steam
 2225	[unknown]
 2226	field → common → sit down A + seifer hits desk
 2227	field → common → devices bip C
 2228	ambience → common → water gushing
 2229	ambience → [unused] fire cavern
-2230	story → missile base → (loop) car engine idle while waiting at gate
-2231	story → dollet exam → clap + fh girl slaps squall
+2230	field → story → missile base → (loop) car engine idle while waiting at gate
+2231	field → story → dollet exam → clap + fh girl slaps squall
 2232	field → common → finger snap + generic click
-2233	story → dollet exam → car door open
+2233	field → story → dollet exam → car door open
 2234	vehicles → common → car door close
 2235	vehicles → common → car layer brake
 2236	field → common → knock on door
@@ -1113,8 +1113,8 @@
 2239	doors → elevator chime
 2240	doors → automatic sliding door B
 2241	doors → automatic sliding door C
-2242	story → infirmary → kadowaki phone
-2243	story → timber mission → (loop) forest fox lady's boiling pot
+2242	field → story → infirmary → kadowaki phone
+2243	field → story → timber mission → (loop) forest fox lady's boiling pot
 2244	field → dollet → old painter house door slam
 2245	ambience → DSRC steam room
 2246	animals → common → miaow
@@ -1124,7 +1124,7 @@
 2250	[unknown]
 2251	field → common → kick
 2252	doors → door + general unlock
-2253	story → dollet exam → clapping final
+2253	field → story → dollet exam → clapping final
 2255	field → common → body bump or grab
 2256	field → common → change clothes
 2257	doors → big metal door B
@@ -1135,12 +1135,12 @@
 2262	field → zell jumping on the train seat + shumi village artisan's car model
 2263	vehicles → common → horn
 2264	field → seeds getting into military pose
-2265	story → seed party → glasses
-2267	story → timber mission → zell t-board
+2265	field → story → seed party → glasses
+2267	field → story → timber mission → zell t-board
 2268	field → train access granted to cabins + ragnarok activate life support system
 2269	[unknown]
 2270	[unknown]
-2271	story → desert → (loop) train station wind vane
+2271	field → story → desert → (loop) train station wind vane
 2272	field → common → very generic sfx
 2273	field → common → zell punches things
 2274	[unknown]
@@ -1150,146 +1150,146 @@
 2278	[unknown]
 2279	[unknown]
 2281	ambience → [unknown]
-2282	story → deling mission → open hatch to the sniping spot
-2283	story → castle → unlock castle doors + use floodgate key
-2284	story → timber mission → forest fox lady spanks boy
+2282	field → story → deling mission → open hatch to the sniping spot
+2283	field → story → castle → unlock doors + use floodgate key
+2284	field → story → timber mission → forest fox lady spanks boy
 2285	[unknown]
 2286	field → timber → (loop) hotel train model
 2287	field → zone's stomach ache + laguna hungry
 2288	field → common → sit down B + stand up from seat
-2289	story → timber mission → squall takes rinoa's contract papers
+2289	field → story → timber mission → squall takes rinoa's contract papers
 2291	doors → metal door
 2292	field → deling mission gateway switch + castle chandelier lever
-2293	story → prison → guards' machine gun
-2294	story → prison → squall's cell starts moving
+2293	field → story → prison → guards' machine gun
+2294	field → story → prison → squall's cell starts moving
 2295	vehicles → timber trains → from deling city + owl's train arrives
-2297	story → timber mission → owl's train starts moving again
-2298	story → balamb occupied → dog ambushes raijin inside the train
+2297	field → story → timber mission → owl's train starts moving again
+2298	field → story → balamb occupied → dog ambushes raijin inside the train
 2299	animals → [unknown]
 2300	animals → shumi village frog
 2301	field → common → money
-2302	story → norg → norg's call angrier
-2303	story → norg → norg's call
-2304	story → timber mission → (loop) edea appears + edea and seifer disappear
+2302	field → story → norg → norg's call angrier
+2303	field → story → norg → norg's call
+2304	field → story → timber mission → (loop) edea appears + edea and seifer disappear
 2305	ambience → [unknown]
-2306	story → dream#1 → car start and go to deling
-2307	story → dream#1 → car arrived to deling and get out
+2306	field → story → dream#1 → car start and go to deling
+2307	field → story → dream#1 → car arrived to deling and get out
 2308	vehicles → timber trains → from balamb + from dollet additional layer
 2309	[unknown]
 2310	vehicles → common → inside a train departing
-2311	story → timber mission → owl's train brakes and stops 1
-2312	story → timber mission → owl's train brakes and stops 2
-2313	story → prison → (loop) squall being electrocuted
-2314	story → prison → (loop) squall chained
-2315	story → prison → chains release
+2311	field → story → timber mission → owl's train brakes and stops 1
+2312	field → story → timber mission → owl's train brakes and stops 2
+2313	field → story → prison → (loop) squall being electrocuted
+2314	field → story → prison → (loop) squall chained
+2315	field → story → prison → chains release
 2316	vehicles → [unknown]
-2317	story → desert → car bg party arrives at train station
-2318	story → disc1 ggarden → martine comes in a car
+2317	field → story → desert → car bg party arrives at train station
+2318	field → story → disc1 ggarden → martine comes in a car
 2319	ambience → flashbacks rain in the orphanage
-2320	story → missile base → moving the missile launcher
+2320	field → story → missile base → moving the missile launcher
 2321	ambience → missile base
-2322	story → sewer → secret passage opens
+2322	field → story → sewer → secret passage opens
 2323	vehicles → timber trains → from desert
 2324	vehicles → timber trains → from dollet
 2326	ambience → balamb garden bridge + DSRC rotating mechanism that opens doors
 2327	field → missile base missile launcher in place + lunar base lock to rotation unit
 2329	[unknown]
-2330	story → fh → bgh251f2 falls into water part1
+2330	field → story → fh → bgh251f2 falls into water part1
 2331	[unknown]
-2332	story → deling mission → edea seated magic against rinoa
-2335	story → deling mission → edea releases rinoa and she falls back down
-2338	story → deling mission → rinoa falls down after edea's magic
+2332	field → story → deling mission → edea seated magic against rinoa
+2335	field → story → deling mission → edea releases rinoa and she falls back down
+2338	field → story → deling mission → rinoa falls down after edea's magic
 2341	field → timber train gangway extend + pull back + DSRC ocean deposit door opens
-2342	story → prison → seifer throws squall against the wall
+2342	field → story → prison → seifer throws squall against the wall
 2343	doors → wooden door close
 2344	doors → wooden door open
-2345	story → missile base → sliding door open + close
+2345	field → story → missile base → sliding door open + close
 2346	[unknown]
-2347	story → missile base → control panel activates and logging in
+2347	field → story → missile base → control panel activates and logging in
 2348	field → common → devices bip E
-2349	story → caraway's mansion → door lock alarm
-2350	story → caraway's mansion → door locks
-2351	story → prison → selphie tries to heal zell and the moomba
-2354	story → prison → zell takes down guard + guard ambushes zell
-2355	story → prison → bottom door sand comes out
+2349	field → story → caraway's mansion → door lock alarm
+2350	field → story → caraway's mansion → door locks
+2351	field → story → prison → selphie tries to heal zell and the moomba
+2354	field → story → prison → zell takes down guard + guard ambushes zell
+2355	field → story → prison → bottom door sand comes out
 2357	field → winhill → kick chicobo while it crosses the road
-2358	story → prison → squall lightly hits zell's head with the gunblade handle
-2359	story → desert → (loop) train
-2361	story → missile base → prison guard comes out of the booth
+2358	field → story → prison → squall lightly hits zell's head with the gunblade handle
+2359	field → story → desert → (loop) train
+2361	field → story → missile base → prison guard comes out of the booth
 2362	field → common → unlock door with card key
-2363	story → missile base → main gate open + close
-2364	story → missile base → selphie' party takes down the guards from behind
-2365	story → missile base → (loop) bgh251f2 electric noise
-2367	story → md level → elevator stuck
-2369	story → md level → elevator hatch open
+2363	field → story → missile base → main gate open + close
+2364	field → story → missile base → selphie' party takes down the guards from behind
+2365	field → story → missile base → (loop) bgh251f2 electric noise
+2367	field → story → md level → elevator stuck
+2369	field → story → md level → elevator hatch open
 2370	field → missile base party removes the disguise + lunar base quick-thaw part2
-2372	story → md level → heavy hatch open + door to the big valve to open the big hole
+2372	field → story → md level → heavy hatch open + door to the big valve to open the big hole
 2373	[unknown]
 2374	field → common → rumble B
 2376	field → common → devices multiple bips
-2377	story → missile base → power down
-2378	story → fire cavern → ifrit emerges from the hole
-2381	story → dream#2 → detonation of far boulder
-2382	story → dream#2 → detonation of close boulder
-2383	story → timber mission → seifer breaks into the tv station
+2377	field → story → missile base → power down
+2378	field → story → fire cavern → ifrit emerges from the hole
+2381	field → story → dream#2 → detonation of far boulder
+2382	field → story → dream#2 → detonation of close boulder
+2383	field → story → timber mission → seifer breaks into the tv station
 2384	ambience → [unknown]
-2385	story → timber mission → edea's magic B
+2385	field → story → timber mission → edea's magic B
 2387	ambience → dream#2 ocean
-2388	story → dream#2 → plunge into water
+2388	field → story → dream#2 → plunge into water
 2389	field → missile base control panel data upload + DSRC excavation center terminal
-2390	story → missile base → error ratio increase + decrease
+2390	field → story → missile base → error ratio increase + decrease
 2391	field → missile base control panel data upload unit done + trabia pc boot up
-2392	story → timber mission → edea's magic A
-2394	story → dream#2 → rolling boulder crashes
-2396	story → dream#2 → detonator switch pressed
-2397	story → fh → (loop) bgh251f2 arrives part1
-2398	story → fh → (loop) bgh251f2 arrives part2
-2399	story → fh → bgh251f2 arrives part3
-2402	story → lunar gate → angelo whines
-2403	story → lunar gate → angelo arrives
-2404	story → curfew → granaldo attacks ellione
+2392	field → story → timber mission → edea's magic A
+2394	field → story → dream#2 → rolling boulder crashes
+2396	field → story → dream#2 → detonator switch pressed
+2397	field → story → fh → (loop) bgh251f2 arrives part1
+2398	field → story → fh → (loop) bgh251f2 arrives part2
+2399	field → story → fh → bgh251f2 arrives part3
+2402	field → story → lunar gate → angelo whines
+2403	field → story → lunar gate → angelo arrives
+2404	field → story → curfew → granaldo attacks ellione
 2405	[unknown]
-2406	story → timber mission → guard looks out
+2406	field → story → timber mission → guard looks out
 2407	ambience → centra excavation site
-2409	story → dream#2 → laguna tampers with the hatch lever
+2409	field → story → dream#2 → laguna tampers with the hatch lever
 2410	[unknown]
 2411	field → misc → [unused duplicate of 67]
 2412	field → common → falling
-2413	story → timber mission → angelo in the forest owl's train
+2413	field → story → timber mission → angelo in the forest owl's train
 2414	[unknown]
-2415	story → disc1 ggarden → (loop) martin gets away in a car
+2415	field → story → disc1 ggarden → (loop) martin gets away in a car
 2416	vehicles → [unknown]
-2417	story → deling mission → deling roasted
-2419	story → deling mission → edea throws dead deling away
-2420	story → sewer → mansion puzzle take the glass
-2421	story → deling mission → squall takes the rifle
+2417	field → story → deling mission → deling roasted
+2419	field → story → deling mission → edea throws dead deling away
+2420	field → story → sewer → mansion puzzle take the glass
+2421	field → story → deling mission → squall takes the rifle
 2422	field → common → squall gunblade hit
 2423	[unknown]
-2424	story → md level → open gate for ladder to lowest level
+2424	field → story → md level → open gate for ladder to lowest level
 2425	[unknown]
 2428	field → prison squall gets the gunblade back + cid throws md level key at squall
-2429	story → md level → squall tries to steer the garden
-2430	story → md level → oilboyle appears
-2432	story → md level → the garden starts to move part1
-2435	story → md level → (loop) the garden starts to move part2
-2437	story → md level → the ladder detaches
-2438	story → md level → the ladder breaks the window
-2440	story → md level → big valve unstuck finally rotates
-2441	story → md level → elevator starts falling
+2429	field → story → md level → squall tries to steer the garden
+2430	field → story → md level → oilboyle appears
+2432	field → story → md level → the garden starts to move part1
+2435	field → story → md level → (loop) the garden starts to move part2
+2437	field → story → md level → the ladder detaches
+2438	field → story → md level → the ladder breaks the window
+2440	field → story → md level → big valve unstuck finally rotates
+2441	field → story → md level → elevator starts falling
 2444	[unknown]
-2445	story → norg → norg closes the pod and is ready to fight
-2448	story → norg → norg opens his pod
+2445	field → story → norg → norg closes the pod and is ready to fight
+2448	field → story → norg → norg opens his pod
 2450	[unknown]
 2452	field → balamb town → irvine fires a shot in zell's room by mistake
 2453	field → dream sequence starts
-2454	story → disc2 ggarden → (loop) edea is defeated
-2457	story → fh → bgh251f2 falls into water part2
-2459	story → disc2 ggarden → edea teleports to the auditorium
-2461	story → disc2 ggarden → edea's infamous backflip through the glass
-2464	story → disc2 ggarden → rinoa falls down
-2465	story → timber mission → tv station camera falls
-2468	story → timber mission → tv station enter transition
-2471	story → gardens battle → gardens collide
+2454	field → story → disc2 ggarden → (loop) edea is defeated
+2457	field → story → fh → bgh251f2 falls into water part2
+2459	field → story → disc2 ggarden → edea teleports to the auditorium
+2461	field → story → disc2 ggarden → edea's infamous backflip through the glass
+2464	field → story → disc2 ggarden → rinoa falls down
+2465	field → story → timber mission → tv station camera falls
+2468	field → story → timber mission → tv station enter transition
+2471	field → story → gardens battle → gardens collide
 2472	[unknown]
 2473	field → common → (loop) rumble C
 2474	field → winhill → suit of armour starts moving
@@ -1300,19 +1300,19 @@
 2481	field → DSRC → bahamuth talks in-field A
 2482	field → DSRC → bahamuth talks in-field B
 2483	field → DSRC → bahamuth talks in-field C
-2484	story → prison → weapons retrieved zell show off
-2487	story → prison → weapons retrieved quistis show off
-2490	story → prison → weapons retrieved selphie show off
-2493	story → prison → finger snap seifer gives order to guard
+2484	field → story → prison → weapons retrieved zell show off
+2487	field → story → prison → weapons retrieved quistis show off
+2490	field → story → prison → weapons retrieved selphie show off
+2493	field → story → prison → finger snap seifer gives order to guard
 2494	field → common → seifer swing gunblade then load it
-2495	story → prison → moomba drops plate
-2496	story → prison → zell retrieves the weapons
-2497	story → prison → showing off the weapons to biggs and wedge
-2499	story → prison → gunfire irvine shot + irvine show off on black background
-2500	story → prison → gunfire irvine intervenes
-2503	story → prison → rinoa kicks irvine down the stairs
-2504	story → prison → crane starts moving
-2505	story → prison → crane stops moving
+2495	field → story → prison → moomba drops plate
+2496	field → story → prison → zell retrieves the weapons
+2497	field → story → prison → showing off the weapons to biggs and wedge
+2499	field → story → prison → gunfire irvine shot + irvine show off on black background
+2500	field → story → prison → gunfire irvine intervenes
+2503	field → story → prison → rinoa kicks irvine down the stairs
+2504	field → story → prison → crane starts moving
+2505	field → story → prison → crane stops moving
 2506	field → tomb king → remove the gear
 2507	field → tomb king → sacred's stand raises up
 2508	ambience → tomb king water now flows
@@ -1320,135 +1320,135 @@
 2510	field → tomb king → release the chain let the water flow
 2511	field → tomb king → sacred's roar
 2512	field → tomb king → sarcophagus opens
-2514	story → deling mission → (loop) edea kills deling
-2517	story → seed party → common footsteps heels 1
-2518	story → seed party → common footsteps heels 2
+2514	field → story → deling mission → (loop) edea kills deling
+2517	field → story → seed party → common footsteps heels 1
+2518	field → story → seed party → common footsteps heels 2
 2519	field → tomb king → minotaur appears
 2521	[unknown]
-2522	story → md level → (loop) the lowest level opens
-2524	story → md level → open the big valve timer bip
-2525	story → gardens battle → (loop) galbadia garden engine while approaching the bg gate
-2526	story → gardens battle → paratrooper minigame → punch + deathblow
-2527	story → gardens battle → paratrooper minigame → knee hit
-2529	story → gardens battle → nida steering
-2530	story → prison → zell + irvine communicate from the control room
-2531	story → balamb occupied → harbor guard drops a gil into water
+2522	field → story → md level → (loop) the lowest level opens
+2524	field → story → md level → open the big valve timer bip
+2525	field → story → gardens battle → (loop) galbadia garden engine while approaching the bg gate
+2526	field → story → gardens battle → paratrooper minigame → punch + deathblow
+2527	field → story → gardens battle → paratrooper minigame → knee hit
+2529	field → story → gardens battle → nida steering
+2530	field → story → prison → zell + irvine communicate from the control room
+2531	field → story → balamb occupied → harbor guard drops a gil into water
 2532	[unknown]
 2533	field → common → operate controls
 2534	field → common → devices error
-2535	story → sewer → lower the ladder
-2536	story → curfew → (loop) granaldo flying
-2538	story → curfew → granaldo attacks the party
+2535	field → story → sewer → lower the ladder
+2536	field → story → curfew → (loop) granaldo flying
+2538	field → story → curfew → granaldo attacks the party
 2540	ambience → balamb garden deck layer1
-2542	story → md level → the garden starts to move layer discharge
+2542	field → story → md level → the garden starts to move layer discharge
 2543	field → common → activate device
 2544	field → common → one time alarm
-2545	story → gardens battle → (loop) galbadian bikers ready
-2548	story → gardens battle → (loop) flying paratrooper targeting squall
-2550	story → gardens battle → flying paratrooper pushes squall against the wall
-2551	story → desert → missiles launch for trabia garden
-2553	story → md level → elevator crashes to the ground
+2545	field → story → gardens battle → (loop) galbadian bikers ready
+2548	field → story → gardens battle → (loop) flying paratrooper targeting squall
+2550	field → story → gardens battle → flying paratrooper pushes squall against the wall
+2551	field → story → desert → missiles launch for trabia garden
+2553	field → story → md level → elevator crashes to the ground
 2554	[unknown]
 2555	ambience → balamb garden deck layer2
 2556	field → fh → kid breaks everything part1
 2557	field → fh → kid breaks everything part4
 2558	field → fh → kid breaks everything part2
 2559	field → fh → kid breaks everything part3
-2560	story → lunar gate → pipe door open
-2561	story → great salt lake → mystery building → lifter activates and shut some lights off
-2562	story → lunar gate → (loop) dudes in control room typing
-2563	field → common → (loops) control room bips
-2564	story → lunar gate → [used duplicate of 2563] (loops) control room bips
+2560	field → story → lunar gate → pipe door open
+2561	field → story → great salt lake → mystery building → lifter activates and shut some lights off
+2562	field → story → lunar gate → (loop) dudes in control room typing
+2563	field → common → (loop) control room bips
+2564	field → story → lunar gate → [used duplicate of 2563] (loop) control room bips
 2565	field → common → device deep bass
-2567	story → great salt lake → esthar's hexagon panels flicker A
-2568	story → great salt lake → esthar's hexagon panels flicker B
+2567	field → story → great salt lake → esthar's hexagon panels flicker A
+2568	field → story → great salt lake → esthar's hexagon panels flicker B
 2569	field → (loop) esthar lifter move up + move down + DSRC rocks resonate B
-2570	story → great salt lake → mystery building → door to the first lifter + door to the last lifter
-2571	story → great salt lake → mystery building → lifter change of direction + stop
+2570	field → story → great salt lake → mystery building → door to the first lifter + door to the last lifter
+2571	field → story → great salt lake → mystery building → lifter change of direction + stop
 2572	[unknown]
 2573	[unknown]
-2574	story → castle → organ notes → C
-2575	story → castle → organ notes → D
-2576	story → castle → organ notes → E
-2577	story → castle → organ notes → F
-2578	story → castle → organ notes → G
-2579	story → castle → organ notes → A
-2580	story → castle → organ notes → B
-2581	story → castle → organ notes → higher C
-2582	story → md level → oilboyle gate opens
-2584	story → md level → lever to open the oilboyle gate
+2574	field → story → castle → organ notes → C
+2575	field → story → castle → organ notes → D
+2576	field → story → castle → organ notes → E
+2577	field → story → castle → organ notes → F
+2578	field → story → castle → organ notes → G
+2579	field → story → castle → organ notes → A
+2580	field → story → castle → organ notes → B
+2581	field → story → castle → organ notes → higher C
+2582	field → story → md level → oilboyle gate opens
+2584	field → story → md level → lever to open the oilboyle gate
 2585	ambience → edea parade float's braziers
-2586	story → lunar gate → pipe door close
+2586	field → story → lunar gate → pipe door close
 2587	field → esthar → lifter start + stop
 2588	field → fh → mayor's residence interact with robot
 2589	[unknown]
-2590	story → dream#4 → dragon's call
+2590	field → story → dream#4 → dragon's call
 2591	[unknown]
-2592	story → lunar base → adel's seal fully unlocked
-2593	story → caraway's mansion → irvine gets down from the desk
-2594	story → lunar base → dock big doors open + close
+2592	field → story → lunar base → adel's seal fully unlocked
+2593	field → story → caraway's mansion → irvine gets down from the desk
+2594	field → story → lunar base → dock big doors open + close
 2596	ambience → [unknown]
 2597	ambience → [unknown]
 2598	ambience → [unknown]
-2599	story → lunatic pandora at esthar city → lunatic pandora external door open
-2600	story → lunar base → quick-thaw part1
-2602	story → lunar base → rinoa medical pod closes
-2603	story → lunar base → control room deactivate seal no1
+2599	field → story → lunatic pandora at esthar city → lunatic pandora external door open
+2600	field → story → lunar base → quick-thaw part1
+2602	field → story → lunar base → rinoa medical pod closes
+2603	field → story → lunar base → control room deactivate seal no1
 2605	field → mystery building esthar car door open + lunar base space suit locker open + close
 2606	[unknown]
 2607	ambience → [unknown]
-2608	story → lunar base → hatches to leave escape capsule interact
-2609	story → lunar base → first hatch to leave escape capsule
-2610	story → lunar base → second hatch to leave escape capsule
-2611	story → lunar base → escape pod close
-2612	story → lunar base → escape pod open
-2613	story → lunar base → rinoa medical pod opens
+2608	field → story → lunar base → hatches to leave escape capsule interact
+2609	field → story → lunar base → first hatch to leave escape capsule
+2610	field → story → lunar base → second hatch to leave escape capsule
+2611	field → story → lunar base → escape pod close
+2612	field → story → lunar base → escape pod open
+2613	field → story → lunar base → rinoa medical pod opens
 2614	ambience → missile base circuit room
-2615	story → dream#4 → laguna attacks
-2616	story → dream#4 → dragon attacks + is hit
-2617	story → ragnarok → propagator's call B
-2618	story → ragnarok → propagator's call A
+2615	field → story → dream#4 → laguna attacks
+2616	field → story → dream#4 → dragon attacks + is hit
+2617	field → story → ragnarok → propagator's call B
+2618	field → story → ragnarok → propagator's call A
 2619	field → winhill → hotel call bell
 2620	field → winhill → (loop) chicobo comes out the suit of armor part2
 2621	field → winhill → chicobo comes out the suit of armor part1
 2622	field → winhill → mother chocobo kicks you into the air
-2623	story → prison → crane is moving during gunfire
-2625	story → trabia → irvine basketball shot case3 thrilling score
-2626	story → trabia → irvine basketball shot case2 score
-2627	story → trabia → irvine basketball shot case1 miss
-2628	story → trabia → ball falls to ground
+2623	field → story → prison → crane is moving during gunfire
+2625	field → story → trabia → irvine basketball shot case3 thrilling score
+2626	field → story → trabia → irvine basketball shot case2 score
+2627	field → story → trabia → irvine basketball shot case1 miss
+2628	field → story → trabia → ball falls to ground
 2629	ambience → ultimecia master room inside
 2631	field → moomba
-2632	story → dream#4 → laguna swings the gunblade
-2633	story → sorceress memorial → threaten with weapons quistis
-2634	story → sorceress memorial → threaten with weapons irvine
-2635	story → sorceress memorial → put down weapons selphie
-2636	story → sorceress memorial → put down weapons quistis
+2632	field → story → dream#4 → laguna swings the gunblade
+2633	field → story → sorceress memorial → threaten with weapons quistis
+2634	field → story → sorceress memorial → threaten with weapons irvine
+2635	field → story → sorceress memorial → put down weapons selphie
+2636	field → story → sorceress memorial → put down weapons quistis
 2637	field → balamb town → zell's room selphie says squall and zell go down a rank
 2638	field → balamb town → selphie jumps on zell's bed
-2639	story → castle → main entrance open + ultimecia master room open
+2639	field → story → castle → main entrance open + ultimecia master room open
 2642	ambience → castle clock tower mechanism
-2644	story → castle → chandelier falling part2
+2644	field → story → castle → chandelier falling part2
 2645	ambience → castle chain to the castle
-2646	story → sorceress memorial → threaten with weapons selphie
-2647	story → sorceress memorial → put down weapons irvine
-2648	story → castle → (loop) wooden bridge
-2649	story → lunar base → party capsule is arrived
-2651	story → lunatic pandora at esthar city → map of esthar next dialogue line bip
-2652	story → lunar base → trying to stop possessed rinoa
-2653	story → lunar base → possessed rinoa throws dude and squall against the wall
-2654	story → deling mission → edea summons the iguions
+2646	field → story → sorceress memorial → threaten with weapons selphie
+2647	field → story → sorceress memorial → put down weapons irvine
+2648	field → story → castle → (loop) wooden bridge
+2649	field → story → lunar base → party capsule is arrived
+2651	field → story → lunatic pandora at esthar city → map of esthar next dialogue line bip
+2652	field → story → lunar base → trying to stop possessed rinoa
+2653	field → story → lunar base → possessed rinoa throws dude and squall against the wall
+2654	field → story → deling mission → edea summons the iguions
 2657	field → winhill → mother chocobo crosses the road part1
 2658	field → winhill → mother chocobo crosses the road part2
 2659	field → esthar → start shopping + close shops list
 2660	field → esthar → choose shop
 2661	field → chocobo forests → fifth chicobo in esthar talle mountains
-2662	story → lunar base → possessed rinoa deactivates seal no2
+2662	field → story → lunar base → possessed rinoa deactivates seal no2
 2663	field → esthar → presidential palace lifter's dome on + off
-2664	story → lunatic pandora at esthar city → (loop) mobile type 8 makes the party levitate
-2666	story → lunatic pandora at esthar city → (loop) party is thrown out of the lunatic pandora part1
-2668	story → lunatic pandora at esthar city → party is thrown out of the lunatic pandora part2
-2670	story → ggarden rebellion → garden faculty whistle
+2664	field → story → lunatic pandora at esthar city → (loop) mobile type 8 makes the party levitate
+2666	field → story → lunatic pandora at esthar city → (loop) party is thrown out of the lunatic pandora part1
+2668	field → story → lunatic pandora at esthar city → party is thrown out of the lunatic pandora part2
+2670	field → story → ggarden rebellion → garden faculty whistle
 2671	game ending sequence → footsteps in the white void zell 1
 2672	game ending sequence → footsteps in the white void zell 2
 2673	game ending sequence → footsteps in the white void irvine 1
@@ -1480,62 +1480,62 @@
 2701	game ending sequence → footsteps in the black void squall heavier 2
 2702	game ending sequence → squall is lost
 2703	[unknown]
-2704	story → castle → armor key falls down
-2705	story → lunar base → flashbacks → (loop) ultimecia is seen
+2704	field → story → castle → armor key falls down
+2705	field → story → lunar base → flashbacks → (loop) ultimecia is seen
 2708	[unknown]
 2710	game ending sequence → ultimecia appears in the orphanage
 2713	game ending sequence → ultimecia transfers power to edea
 2716	field → chocobo forests → mother chocobo comes + digs up
-2717	story → lunatic pandora final → ellone brings rinoa back
-2720	story → lunatic pandora at esthar city → map of esthar 1st contact point
-2722	story → lunatic pandora at esthar city → map of esthar 2nd contact point
-2724	story → lunatic pandora at esthar city → map of esthar 3rd contact point
+2717	field → story → lunatic pandora final → ellone brings rinoa back
+2720	field → story → lunatic pandora at esthar city → map of esthar 1st contact point
+2722	field → story → lunatic pandora at esthar city → map of esthar 2nd contact point
+2724	field → story → lunatic pandora at esthar city → map of esthar 3rd contact point
 2726	field → chocobo forests → chicobo call
-2727	story → lunatic pandora final → ellone brings ultimecia and adel in the past
-2730	story → great salt lake → abadon appears
-2731	story → ragnarok → radio trying to talk
+2727	field → story → lunatic pandora final → ellone brings ultimecia and adel in the past
+2730	field → story → great salt lake → abadon appears
+2731	field → story → ragnarok → radio trying to talk
 2732	[unknown]
 2733	[unknown]
 2734	field → DSRC → expending energy
 2735	field → DSRC → expending energy process completed
 2736	field → DSRC → opening door process door actually opens
-2737	story → castle → prison cell doors close + open
-2738	story → castle → red giant appears
+2737	field → story → castle → prison cell doors close + open
+2738	field → story → castle → red giant appears
 2740	[unknown]
-2741	story → dream#4 → dragon step1
-2742	story → dream#4 → dragon step2
-2743	story → dream#4 → dragon ambushes laguna who's trying to escape
+2741	field → story → dream#4 → dragon step1
+2742	field → story → dream#4 → dragon step2
+2743	field → story → dream#4 → dragon ambushes laguna who's trying to escape
 2744	field → centra ruins → elevator stops
 2745	ambience → (loop) centra ruins elevator moves
 2746	field → centra ruins → elevator starts
 2747	[unknown]
 2748	[unknown]
 2749	ambience → centra ruins torches
-2750	story → lunatic pandora common → mobile type 8 appears
+2750	field → story → lunatic pandora common → mobile type 8 appears
 2752	ambience → centra ruins main torch input code
 2753	field → centra ruins → odin's door opens
-2754	story → dream#4 → laguna gets his machine gun
-2755	story → lunatic pandora final → seifer loads his gunblade
+2754	field → story → dream#4 → laguna gets his machine gun
+2755	field → story → lunatic pandora final → seifer loads his gunblade
 2756	field → DSRC → core glows
-2758	story → castle → chandelier moving
-2759	story → castle → chandelier falling part1
-2760	story → castle → clock tower bell swinging
+2758	field → story → castle → chandelier moving
+2759	field → story → castle → chandelier falling part1
+2760	field → story → castle → clock tower bell swinging
 2761	ambience → centra ruins mechanism activated
-2763	story → gardens battle → squall pushes button for emergency exit
-2764	story → gardens battle → emergency exit activates
+2763	field → story → gardens battle → squall pushes button for emergency exit
+2764	field → story → gardens battle → emergency exit activates
 2766	ambience → esthar lunatic pandora at any contact point
 2767	field → centra ruins → statue put in eye + take out eye
-2768	story → final mission briefing → flashback adel is imprisoned by laguna
-2771	story → missile base → (loop) selphie pushes buttons randomly
-2772	story → castle → (not-looped) elevator
+2768	field → story → final mission briefing → flashback adel is imprisoned by laguna
+2771	field → story → missile base → (loop) selphie pushes buttons randomly
+2772	field → story → castle → (not-looped) elevator
 2773	[unknown]
 2774	field → fh → elevator gate opens
-2775	story → castle → hatch open
-2777	story → castle → pull floodgate lever
-2778	story → castle → push floodgate lever to original position
-2779	story → castle → boxes open + close
-2780	story → castle → catoblepas appears + omega's bell monsters roaring
-2782	story → castle → (loop) art gallery puzzle solved
+2775	field → story → castle → hatch open
+2777	field → story → castle → pull floodgate lever
+2778	field → story → castle → push floodgate lever to original position
+2779	field → story → castle → boxes open + close
+2780	field → story → castle → catoblepas appears + omega's bell monsters roaring
+2782	field → story → castle → (loop) art gallery puzzle solved
 2785	vehicles → (loop) esthar car world map
 2786	vehicles → (loop) ragnarok world map
 2787	vehicles → common → (loop) vehicle world map engine layer train and ship

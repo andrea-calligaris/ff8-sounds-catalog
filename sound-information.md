@@ -24,7 +24,7 @@ The PSX version of FFVIII changes the pitch of sound effects in real time and it
   - Didn't receive EXP.
   - GF level up, layered with `41`.
   - GF learned an ability, layered with `41`.
-- `41`:
+- `41 level up + gf learned ability`:
   - Level up (for both characters and GFs; for GFs, layered with `36`).
   - GF learned an ability (layered with `36`).
 
@@ -40,8 +40,8 @@ The PSX version of FFVIII changes the pitch of sound effects in real time and it
   - Centra Ruins: Code error.
   - Train mission: error entering the code`:
     - When the code has not been entered in time: normally played.
-    - When a wrong number is entered: normally played, then played with higher pitch immediately after.
-- `18 Common → stuff obtained`:
+    - When a wrong number is entered: normally played, then played a second time with a higher pitch immediately after.
+- `18 common → stuff obtained`:
   - Field: item obtained, sfx version A.
   - Battle recap: item obtained.
   - Battle recap: GFs received AP.
@@ -50,19 +50,19 @@ The PSX version of FFVIII changes the pitch of sound effects in real time and it
   - Chocobo Forest: Item obtained by digging.
   - Shumi Village: finding a stone for the statue.
   - Solomon Ring: Doomtrain obtained: after "I shall become your ally".
-- `27 Common → positive effect`:
+- `27 common → positive effect`:
   - Menu: use an item or a magic.
   - Timber: after drinking Owl's Tear.
   - Esthar: Save Point party heal.
-- `91 SeeD level up` (both for the tests and in-field): **layered** with `92` and `93`
-- `92 SeeD level layer base` (both for the tests and in-field)
+- `91 seed level up` (both for the tests and in-field): **layered** with `92` and `93`
+- `92 seed level layer base` (both for the tests and in-field)
 
 
 ## Footsteps
 
 ```
-2 default footstep 1
-3 default footstep 2
+2 default footstep1
+3 default footstep2
 ```
 
 Most humans in the game, in-field. These footsteps are used in battle too, for the run leading to physical attacks: Squall, Seifer, Laguna, Ward, Kiros, and G-Soldiers.
@@ -83,95 +83,7 @@ Only in Dollet's shore:
 
 ## Battle
 
-`114 Battle misc. → Magic Shield`: plays when _Protect_, _Shell_, or _Reflect_ engages after an attack.
-
-
-### Casting magic
-
-Edea as an enemy uses the party's magic cast sound effect, not the enemies' one.
-
-
-### Drawing magic
-
-Griever uses the same layered sound effects than the party's for drawing magic, i.e. `115+116+117`
-
-Ultimecia's "Draw Apocalypse" uses the "Drain" sound effect (`793`).
-
-
-### Party's attacks
-
-Sequences and number of hits:
-
-- `4 Attack Squall 1`: swing
-- `151 Attack Zell`: **x2**
-- `155 Attack Rinoa 1`: throw
-- `156 Attack Rinoa 2`: hit
-- `158 Attack Squall 2`: slash
-- `160 Attack Quistis 1`: swing **x2**
-- `161 Attack Quistis 2`: hit
-- `165 Attack Selphie 1`: swing
-- `166 Attack Selphie 2`: hit
-- `168 Attack Irvine`: **x1**
-- `169 Attack Kiros`: **x2**
-- `170 Attack Ward 1`: throw
-- `171 Attack Ward 2`: hit
-- `164 Attack Seifer`: **x1**
-- `174 Attack Laguna`: **x3**
-- `176 Attack Edea`: **x1**
-
-Gunblade trigger:
-
-- `159 Gunblade shot`: also used during renzokuken, when the trigger is pressed in time.
-
-Squall, Quistis and Ward also use their attack sounds at the start of the battle, with their animation to "get ready" to fight.
-
-- `4 Squall's attack sfx 1`: swinging the Gunblade
-- `160 Quistis' attack sfx 1`: swinging the whip
-- `161 Quistis' attack sfx 2`: "hitting the air"
-- `171 Ward's attack sfx 2`: hitting the ground with its arpion
-
-
-### Critical hits
-
-Critical hit sounds are played on top of the normal attack sounds. Irvine and Edea can't do critical hits for some reason.
-
-All critical hit sounds are played only once. If the character has multiple hits (e.g. Laguna, who shoots three times), the critical sound effect is layered on top of the last hit.
-
-
-### Misses
-
-Both for the party and for the enemies, when a physical attack misses, this sound is played:
-
-`31 Attack miss`
-
-However, this doesn't apply for long-range physical attacks, meaning that you are still going to hear the normal sound (e.g. Rinoa, Irvine, Edea, Laguna).
-
-Moreover, some strong monsters like dragons or bosses like the Weapons, are playing their physical attack sound even when it misses.
-
-
-### Enemies death sound effects
-
-When enemies die, these sounds are played at the same time:
-
-```
-13 Enemy death base layer 1
-14 Enemy death base layer 2
-```
-
-These create the default enemy death sound. Enemy-specific death sounds are all layered on top of these, except bosses, where only their specific sound will play (they generally last longer and are more dramatic). If no enemy-specific sound exists, only the default ones will play (e.g. Galbadian soldiers). Some human bosses don't have a death sfx because they don't actually die (e.g. Fujin and Raijin, Edea).
-
-- `202 Hexadragon`: the sound is repeated three times in the audio file for some reason, but the game only plays the first sound.
-- `266 Vysage`: same sound for Righty and Lefty too.
-- `281 Jumbo Cactuar`: it's also the sound of its "skill" _Escape_; however, when defeated, it plays on top of the usual `13+14`
-
-
-### Enemy skills
-
-- `1303 Tri-Face's Bite`: **x2**, then **x4**
-- `1321 wild cannon blow layer`: **layered** on `1319 cannon blow`, which is the normal Cannon Blow.
-- `1584 Elnoyle's Storm Breath (when mid or high-level)`: **x2**, **layered** with itself with an offset of 500 ms; also the sound for Grendel's _Breath_ (**x1**)
-- `1658 Aqua Breath`: very similar to Quistis' sfx
-- `1792 Elnoyle's Swipe`: **x2**
+`114 battle misc → magic shield`: plays when _Protect_, _Shell_, or _Reflect_ engages after an attack.
 
 
 ### Battle common sound effects
@@ -186,6 +98,69 @@ These create the default enemy death sound. Enemy-specific death sounds are all 
   - Command: Absorb.
   - Enemy skill: Adel's _Drain Rinoa_.
   - Enemy skill: Ultimecia's _Draw Apocalypse_.
+
+
+### Casting magic
+
+Edea as an enemy uses the party's magic cast sound effect, not the enemies' one.
+
+
+### Drawing magic
+
+Griever uses the same layered sound effects than the party's for drawing magic, i.e. `115`+`116`+`117`
+
+Ultimecia's "Draw Apocalypse" uses the "Drain" sound effect (`793`).
+
+
+### Party's attacks
+
+Sequences and number of hits:
+
+- `4 attack squall 1`: swing
+- `151 attack zell`: **x2**
+- `155 attack rinoa 1`: throw
+- `156 attack rinoa 2`: hit
+- `158 attack squall 2`: slash
+- `160 attack quistis 1`: swing **x2**
+- `161 attack quistis 2`: hit
+- `165 attack selphie 1`: swing
+- `166 attack selphie 2`: hit
+- `168 attack irvine`: **x1**
+- `169 attack kiros`: **x2**
+- `170 attack ward 1`: throw
+- `171 attack ward 2`: hit
+- `164 attack seifer`: **x1**
+- `174 attack laguna`: **x3**
+- `176 attack edea`: **x1**
+
+Gunblade trigger:
+
+- `159 squall's gunblade shot`: also used during renzokuken, when the trigger is pressed in time.
+
+Squall, Quistis and Ward also use their attack sounds at the start of the battle, with their animation to "get ready" to fight.
+
+- `4 attack squall 1`: swinging the Gunblade
+- `160 attack quistis 1`: swinging the whip
+- `161 attack quistis 2`: "hitting the air"
+- `171 attack ward 2`: hitting the ground with its arpion
+
+
+### Critical hits
+
+Critical hit sounds are played on top of the normal attack sounds. Irvine and Edea can't do critical hits for some reason.
+
+All critical hit sounds are played only once. If the character has multiple hits (e.g. Laguna, who shoots three times), the critical sound effect is layered on top of the last hit.
+
+
+### Misses
+
+Both for the party and for the enemies, when a physical attack misses, this sound is played:
+
+`31 attack miss`
+
+However, this doesn't apply for long-range physical attacks, meaning that you are still going to hear the normal sound (e.g. Rinoa, Irvine, Edea, Laguna).
+
+Moreover, some strong monsters like dragons or bosses like the Weapons, are playing their physical attack sound even when it misses.
 
 
 ### Enemies common sound effects
@@ -279,16 +254,25 @@ Enemies use some common sound effects:
 - Abadon's _Lick_
 - Elnoyle's _Tail Needle_
 
-`561 Battle misc. → common hit ground A`:
+`561 battle misc → common hit ground A`:
 - Limit breaks: Squall's finisher "Lion Heart" (part 4)
 - Jumbo Cactuar's _Ker Plunk (part 2)_
 - Adamantoise's _Sand Storm (part 2)_: one time for each target
 
-`1909 hit_ground B`:
+`1909 hit ground B`:
 - Seifer's _Demon Slice (part3)_
 - Wendigo's _Dribble (part2)_
 - Wendigo's _Shoot (part2)_
 - Seifer's _Bloodfest (part4)_
+
+
+### Enemy skills
+
+- `1303 tri-face's bite`: **x2**, then **x4**.
+- `1321 sam08g's wild cannon blow layer`: **layered** on `1319 sam08g's cannon blow`, which is the normal Cannon Blow.
+- `1584 elnoyle's storm breath when mid or high-level`: **x2**, **layered** with itself with an offset of 500 ms.
+- `1658 chimera's aqua breath`: very similar to Quistis' sound effect.
+- `1792 elnoyle's swipe`: **x2**.
 
 
 ### Enemy calls
@@ -299,71 +283,86 @@ Some monster calls are also played during the battle, for example right before t
 
 All intro calls are technically played but only the last monster's call is heard. The order depends on the game version. So, for example, in the Granaldo boss fight, on PC you only hear the Raldo call, while in the PSX version you only hear Granaldo's call.
 
-- `183 Elvoret`: before _Storm Breath_
-- `190 X-ATM092 stomps a leg`:
+- `183 elvoret`: before _Storm Breath_
+- `190 x-atm092 stomps leg`:
   - **x2** before _Leg Strike_, then **x1**
   - **x4** before _Ray-Bomb_
   - **x1** before _Arm Crush_, then **x1**
-- `193 Snow Lion`: before _Ice Breath_
-- `201 Hexadragon`: before _Melt-Eye_
-- `203 Fastitocalon`: before _Sand Storm_
-- `213 Belhelmel`: Belhelmel's mode change _"Belhelmel is furious!"_ and _"Belhelmel laughed!"_
-- `221 Wendigo`: before _Dribble_, and before _Shoot_
-- `225 Armadodo`: before _Swipe_
-- `229 SAM08G`: special skill _Store_
-- `235 Abyss Worm`: special skill _Lift head_
-- `241 Ruby Dragon`: before _Claw_
-- `259 Oilboyle`:
+- `193 snow lion`: before _Ice Breath_
+- `201 hexadragon`: before _Melt-Eye_
+- `203 fastitocalon`: before _Sand Storm_
+- `213 belhelmel`: Belhelmel's mode change _"Belhelmel is furious!"_ and _"Belhelmel laughed!"_
+- `221 wendigo`: before _Dribble_, and before _Shoot_
+- `225 armadodo`: before _Swipe_
+- `229 sam08g`: special skill _Store_
+- `235 abyss worm`: special skill _Lift head_
+- `241 ruby dragon`: before _Claw_
+- `259 oilboyle`:
   - Intro call (in the boss fight, played **x2**)
   - Before _Oil Shot_ and before _Oil Blast_
-- `261 Iguion`: before _Resonance_
-- `263 Forbidden`: special skill _Change stance_
-- `278 Cactuar`: special skill _Escaped..._
-- `282 Tonberry`: special skill _Walk_
-- `290 Adamantoise`: before _Sand Storm_
-- `294 BGH251F2`: the intro call applies to both encounters
-- `310 Torama`:
+- `261 iguion`: before _Resonance_
+- `263 forbidden`: special skill _Change stance_
+- `278 cactuar`: special skill _Escaped..._
+- `282 tonberry`: special skill _Walk_
+- `290 adamantoise`: before _Sand Storm_
+- `294 bgh251f2`: the intro call applies to both encounters
+- `310 torama`:
   - Special skill _Stand up_
   - Before _Blaster_
-- `314 Imp`: special skill _Fly_
-- `320 Abadon`:  special skill _Stand up_
-- `336 Sacred`: its intro call applies to both encounters
-- `337 Elnoyle`: before _Storm Breath_
-- `343 Diablos`: before _Claw_
-- `348 Sorceress A`: when a new sorceress appears, **layered** with `1825 Another sorceress appears`
-- `350 sorceress B`: when a new sorceress appears, **layered** with `1825 Another sorceress appears`
-- `352 Ultima Weapon`: before _Gravija_
-- `355 Granaldo prepares to grab a Raldo`: this call is slightly different from its intro call
-- `356 Gayla prepares to attack`: this call is slightly different from its intro call; played before _Head Bash_ and before _Tail Whip_
+- `314 imp`: special skill _Fly_
+- `320 abadon`:  special skill _Stand up_
+- `336 sacred`: its intro call applies to both encounters
+- `337 elnoyle`: before _Storm Breath_
+- `343 diablos`: before _Claw_
+- `348 sorceress A`: when a new sorceress appears, **layered** with `1825 another sorceress appears`
+- `350 sorceress B`: when a new sorceress appears, **layered** with `1825 another sorceress appears`
+- `352 ultima weapon`: before _Gravija_
+- `355 granaldo prepares to grab raldo`: this call is slightly different from its intro call
+- `356 gayla prepares to attack`: this call is slightly different from its intro call; played before _Head Bash_ and before _Tail Whip_
 - Edea (first encounter)'s intro "call": `1783`, i.e. the same sound effect of her physical attack _Astral Punch_
+
+
+### Enemies deaths
+
+When enemies die, these sounds are played at the same time:
+
+```
+13 enemy death base layer1
+14 enemy death base layer2
+```
+
+These create the default enemy death sound. Enemy-specific death sounds are all layered on top of these, except bosses, where only their specific sound will play (they generally last longer and are more dramatic). If no enemy-specific sound exists, only the default ones will play (e.g. Galbadian soldiers). Some human bosses don't have a death sfx because they don't actually die (e.g. Fujin and Raijin, Edea).
+
+- `202 hexadragon`: the sound is repeated three times in the audio file for some reason, but the game only plays the first sound.
+- `281 jumbo cactuar`: it's also the sound of its "skill" _Escape_; however, when defeated, it plays on top of the usual `13`+`14`.
 
 
 ### Multiple targets skills: "Once" or "for each"
 
 For skills or items that target all enemies/party (and only for those where it's not obvious by listening to the sound), this list specifies if the sound effect is played once for each target (with a slight delay), or if it is played just once.
 
-- `710 Spells → Selphie's Percent and Selphie's Catastrophe`: **once**
-- `870 Commands → Mad Rush`: **once**
-- `880 Items in battle → Mega-Potion`: **for each**
-- `892 Items in battle → Elixir and Megalixir`: **for each**
-- `895 Items in battle → Mega-Phoenix`: **for each**
-- `898 Items in battle → Holy War (and trial version)`: **for each**
-- `1037 Spells → Selphie's Full-Cure`: **for each**
-- `1079 Spells → Selphie's Rapture`: **for each**
-- `1112 Blue magic → Mighty Guard`: **for each**
-- `1217 Blue magic → LV?Death (part2)`: **for each**
-- `1801 Enemy skills → Iron Giant's and Behemoth's Mighty Guard`: **once**
-- Adamantoise's _Sand Storm (part 2)_: `561 Battle misc. → common hit ground A`: **for each**
+- `710 spells → percent + catastrophe`: **once**
+- `870 commands → mad rush`: **once**
+- `880 items in battle → mega-potion`: **for each**
+- `892 items in battle → elixir + megalixir`: **for each**
+- `895 items in battle → mega-phoenix`: **for each**
+- `898 items in battle → holy war + trial version`: **for each**
+- `1037 spells → full-cure` (Selphie's): **for each**
+- `1079 spells → rapture` (Selphie's): **for each**
+- `1112 blue magic → mighty guard`: **for each**
+- `1217 blue magic → lv death part2` (_LV?Death_ part 2): **for each**
+- `1801 enemy skills → iron giant's and behemoth's mighty guard`: **once**
+- Adamantoise's _Sand Storm (part 2)_: `561 battle misc → common hit ground A`: **for each**
 
 
 ### Spells used only by Selphie
 
-- `1037 Full-cure`
-- `1031 Wall`
-- `1079 Rapture`
-- `1088+1091 The End`
-- `710 Percent` (in the data, but not used in the game)
-- `710 Catastrophe` (in the data, but not used in the game)
+- `1037 full-cure`
+- `1031 wall`
+- `1079 rapture`
+- `1088`+`1091` The End
+- Percent: `710 fire` (in the data, but not used in the game)
+- Catastrophe: `710 fire` (in the data, but not used in the game)
 
 For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are the ones for _Fire_.
 
@@ -435,7 +434,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `555 pandemona part3`
   - `2103 pandemona layer breathe out`
   - `558 pandemona part4`
-  - `561 Battle misc. → common hit ground A`
+  - `561 battle misc → common hit ground A`
 - Cerberus:
   - `460 cerberus part1`
   - `2092 cerberus layer roar`
@@ -446,7 +445,7 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 - Alexander:
   - `445 alexander part1`
   - `2090 alexander layer emerging`
-  - `2088 alexander layer step`
+  - `2088 alexander layer step` **x2**
   - `448 alexander part2`
   - `2088 alexander layer step`
   - `451 alexander part3` + (`2089 alexander layer opening launchers` **layered x4**)
@@ -454,13 +453,13 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
   - `457 alexander part5`
   - `2091 alexander layer final`
 - Doomtrain:
-  - `522 doomtrain part1` + (`2104 doomtrain layer level crossing bell` **layered x13**)
+  - `522 doomtrain part1` + (`2104 doomtrain layer level crossing bell` **x13**)
   - `2105 doomtrain layer whistle`
   - `525 doomtrain part2`
   - `528 doomtrain part3` + `2106 doomtrain layer train moves air`
   - `531 doomtrain part4` + `2115 doomtrain layer gong`
   - `2107 doomtrain layer hits the enemy`
-  - `561 Battle misc. → common hit ground A`
+  - `561 battle misc → common hit ground A`
 - Bahamut:
   - `478 bahamut part1`
   - `481 bahamut part2`
@@ -521,7 +520,11 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 - Boko:
   - `493 boko part1`: Boko appears
   - `495 boko part2`: Boko charges the attack
-  - And then one of its four attacks.
+  - And then one of its four attacks:
+    - `498 boko's chocofire`
+    - `501 boko's chocoflare`
+    - `504 boko's chocometeor layer1`, `507 boko's chocometeor layer2`
+    - `510 boko's chocobocle layer1`, `513 boko's chocobocle layer2`
 - MiniMog:
   - `516 minimog part1`
   - `519 minimog part2`: the music
@@ -531,48 +534,48 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 
 ### Limit Breaks
 
-- `1208 Squall's finisher "Lion Heart (part 3)`: the final hit and its explosion
-- Squall's finisher "Lion Heart" (part 4): `561 Battle misc. → common hit ground A`
-- `588 Angelo appears by chance`: used by _Recover_, _Reverse_, and _Search_
-- `2139 Angelo Reverse, Recover, and Search, layer bark 1`: the two starting barks
-- `2140 Angelo Reverse, Recover, and Search, layer bark 2`: the ending bark
-- `1115 Rinoa's "Angel Wing"`: the same sfx is **layered** a lot, like **x10**
-- Seifer's "No Mercy" part 1: `710`, i.e. a non-elemental "Fire"
+- `1208 squall finisher lion heart part3`: the final hit and its explosion
+- Squall's finisher "Lion Heart" (part 4): `561 battle misc → common hit ground A`
+- `588 angelo appears by chance`: used by _Recover_, _Reverse_, and _Search_
+- `2139 angelo reverse + recover + search layer bark 1`: the two starting barks
+- `2140 angelo reverse + recover + search layer bark 2`: the ending bark
+- `1115 rinoa angel wing`: the same sfx is **layered** a lot, like **x10**
+- Seifer's "No Mercy" part 1: `710 fire`, i.e. a non-elemental "Fire"
 
 
 ### Battle events and morphings
 
-- `341 Norg's pod destroyed part 3`: Norg's call
-- `360 Pupu got the Elixirs`: **x2** (one when it raises its arms, and one when it says "Thank you!")
+- `341 norg pod destroyed part3`: Norg's call
+- `360 pupu got the elixirs`: **x2** (one when it raises its arms, and one when it says "Thank you!")
 - Seifer kills Odin:
   - \[Default summon sfx\]
-  - `600 Seifer kills Odin part 1`
-  - `2099 Odin layer "horse hooves"`
-  - `603 Seifer kills Odin part 2`
-  - `2100 Odin layer "horse neigh"`
-  - `606 Seifer kills Odin part 3, layer 1`
-  - `2125 Seifer kills Odin part 3, layer 2`
-  - `609 Seifer kills Odin part 4`
-  - `612 Seifer kills Odin part 5 (the sword swings)`
-  - `2126 Seifer kills Odin part 6 - Gilgamesh grabs the sword, layer 1`
-  - `615 Seifer kills Odin part 6 - Gilgamesh grabs the sword, layer 2`
+  - `600 seifer kills odin part1`
+  - `2099 odin layer horse hooves`
+  - `603 seifer kills odin part2`
+  - `2100 odin layer horse neigh`
+  - `606 seifer kills odin part3 layer1`
+  - `2125 seifer kills odin part3 layer2`
+  - `609 seifer kills odin part4`
+  - `612 seifer kills odin part5 the sword swings`
+  - `2126 seifer kills odin part6 gilgamesh grabs the sword layer1`
+  - `615 seifer kills odin part6 gilgamesh grabs the sword layer2`
   - \[Battle against Seifer\]
   - \[Default summon sfx\]
-  - `636 Gilgamesh takes Odin's place part 1`
-  - `2074 Gilgamesh takes Odin's place part 2` (Gilgamesh lands)
+  - `636 gilgamesh takes odin's place part1`
+  - `2074 gilgamesh takes odin's place part2`
   - \[Gilgamesh speaks\]
-  - `639 Gilgamesh takes Odin's place part 3, layer 1` (blows Seifer away)
-  - `2132 Gilgamesh takes Odin's place part 3, layer 2` (blows Seifer away)
-  - `642 Gilgamesh takes Odin's place part 4` (Gilgamesh leaves)
+  - `639 gilgamesh takes odin's place part3 layer1` (blows Seifer away)
+  - `2132 gilgamesh takes odin's place part3 layer2` (blows Seifer away)
+  - `642 gilgamesh takes odin's place part4` (Gilgamesh leaves)
 - Elvoret intro:
-  - `1263 Elvoret's Storm Breath cutscene`: Elvoret blows away Biggs and Wedge
-  - `1266 Elvoret's intro part 1, layer "flap wings"`
-  - `183 Elvoret's call`, then `1266 Elvoret's intro part 1, layer "flap wings"`
-  - `183 Elvoret's call`, then `1266 Elvoret's intro part 1, layer "flap wings"`
-  - `1268 Elvoret's intro part 2 (landing)`
-- `1605 BGH251F2 first encounter part 2`: Galbadian soldiers come out of the machine
+  - `1263 elvoret storm breath cutscene`: Elvoret blows away Biggs and Wedge
+  - `1266 elvoret intro part1 layer flap wings`
+  - `183 enemy calls → elvoret`, then `1266 elvoret intro part1 layer flap wings`
+  - `183 enemy calls → elvoret`, then `1266 elvoret intro part1 layer flap wings`
+  - `1268 elvoret intro part2 landing`
+- `1605 bgh251f2 first encounter part2`: Galbadian soldiers come out of the machine
 - Tonberry King defeated:
-  - `1610 Enemy deaths → Tonberry King`
+  - `1610 enemy deaths → tonberry king`
   - \[Tonberry King morphs into normal Tonberry\]
   - `325 tonberry king defeated call`
   - `325 tonberry king defeated call`: "I...I'm sorry."
@@ -580,47 +583,47 @@ For _Percent_ and _Catastrophe_ the placeholder animation and sound effect are t
 
 ### Final battle
 
-- `2017 Final battle's "Absorbed into time":` when a K.O.'ed character in the party vanishes; the replacement with another character has no sfx.
+- `2017 final battle absorbed into time`: when a K.O.'ed character in the party vanishes; the replacement with another character has no sfx.
 
 - - -
 
 - \[Battle\]
-- `1876 Ultimecia summons Griever part 1`
-- `1879 Ultimecia summons Griever part 2`
-- `1885 Ultimecia summons Griever part 3`
+- `1876 ultimecia summons griever part1`
+- `1879 ultimecia summons griever part2`
+- `1885 ultimecia summons griever part3`
 - \[Battle\]
-- `1945 Griever defeated part 1`
-- `1948 Griever defeated part 2`
-- `1951 Griever defeated part 3`
-- `1954 Ultimecia junctions Griever part 1`
-- `2053 Ultimecia junctions Griever part 2`
+- `1945 griever defeated part1`
+- `1948 griever defeated part2`
+- `1951 griever defeated part3`
+- `1954 ultimecia junctions griever part1`
+- `2053 ultimecia junctions griever part2`
 - \[Battle\]
-- `1939 Ultimecia (Griever form)'s tail falls off part 1`
-- Ultimecia (Griever form)'s tail falls off part 2: the default enemy death plays (`13+14`), but **only if** the boss HP aren't already zero. If they are, this sound is skipped and the defeat animation starts.
+- `1939 ultimecia griever form's tail falls off part1`
+- Ultimecia (Griever form)'s tail falls off part 2: the default enemy death plays (`13`+`14`), but **only if** the boss HP aren't already zero. If they are, this sound is skipped and the defeat animation starts.
 - \[Battle\]
-- `1921 Ultimecia (Griever form) defeated part 1`
-- `362 Ultimecia (Griever form) defeated part 2, layer 1`
-- `363 Ultimecia (Griever form) defeated part 2, layer 2`
-- `1927 Ultimecia (Griever form) defeated part 3`
-- `1930 Ultimecia (Griever form) defeated part 4`
-- `2047 Ultimecia (Griever form) defeated part 5`
-- `2050 Ultimecia (Griever form) defeated part 6`
-- `1933 (loop) Ultimecia (Griever form) defeated part 7` (ambience)
+- `1921 ultimecia griever form defeated part1`
+- `362 ultimecia griever form defeated part2 layer1`
+- `363 ultimecia griever form defeated part2 layer2`
+- `1927 ultimecia griever form defeated part3`
+- `1930 ultimecia griever form defeated part4`
+- `2047 ultimecia griever form defeated part5`
+- `2050 ultimecia griever form defeated part6`
+- `1933 (loop) ultimecia griever form defeated part7` (ambience)
 - Before music `093s-lasboss` starts, there are ambience sounds and voices singing "Fithos Lusec Wecos Vinosec" that are probably hardcoded.
-- `367 Ultimecia (final form) appears part 1`: when the blank light emits from Ultimecia's face
-- `2008 Ultimecia (final form) appears part 2`
+- `367 ultimecia final form appears part1`: when the blank light emits from Ultimecia's face
+- `2008 ultimecia final form appears part2`
 - \[Battle\]
-- Ultimecia (final form) defeat animation: `Enemy deaths → Ultimecia (final form) →`
-  - `1970 part 1`
-  - `1974 part 2, layer1`
-  - `1978 part 2, layer2`
-  - `2026 part 3, layer1`: first ray
-  - `2029 part 3, layer2`: background ambience
-  - `2027 part 4`: second ray
-  - `2028 part 5`: third ray
-  - `2032 part 6`: about to explode
-  - `1986 part 7, layer1`: final explosion
-  - `2137 part 7, layer2`: addition to the explosion; **x5**, layered and delayed
+- Ultimecia (final form) defeat animation: `enemy deaths → ultimecia final form →`
+  - `1970 part1`
+  - `1974 part2 layer1`
+  - `1978 part2 layer2`
+  - `2026 part3 layer1`: first ray
+  - `2029 (loop) part3 layer2`: background ambience
+  - `2027 part4`: second ray
+  - `2028 part5`: third ray
+  - `2032 part6`: about to explode
+  - `1986 part7 layer1`: final explosion
+  - `2137 part7 layer2`: addition to the explosion; **x5**, layered and delayed
 
 
 ### Ultimecia (Final form): attacks
@@ -630,7 +633,7 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
 
 ## Triple Triad
 
-- Card won after a game of cards: `18 Common → stuff obtained`.
+- Card won after a game of cards: `18 common → stuff obtained`.
 - `89 play card`:
   - Card is chosen for the deck.
   - When the opponent's deck gets prepared (one time for each card).
@@ -652,7 +655,7 @@ Ultimecia (Final form)'s _Claw_ (ID 4) and _Claw Counterattack_ (ID 156) have th
   - D-Distric Prison: the item boxes in some cells.
   - Galbadia Garden: student gives you a card key.
   - \[...\]
-- `93 SeeD money earned`:
+- `93 seed earn money`:
   - LV nor up nor down: **layered** with `92`
   - LV up: **layered** with `91` and `92`
 
@@ -674,7 +677,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Balamb Garden: deck door close, when connected to FH (see related section).
   - Fishermans Horizon: shop/hotel.
   - Deep Sea Research Center: Steam Room door opens.
-- `2195 bigger wooden door open+close`:
+- `2195 bigger wooden door open + close`:
   - Balamb Garden: door to Cid's office.
   - Dollet: pub, hotel.
   - White SeeDs ship: the only door (to the cabin below).
@@ -685,7 +688,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
 	- Art Gallery forward to the other Stairway Hall.
 	- Starway Hall (to Catoblepas) to Passageway (to Catoblepas).
 	- Ultimecia Master Room door open, layered with `2639`.
-- `2224 automatic sliding door A+steam`:
+- `2224 automatic sliding door A + steam`:
   - Balamb Garden:
     - Elevator door closes.
     - Deck: door layer when docked to FH (see related section).
@@ -724,7 +727,7 @@ These are also used for Squall hanging on the D-District Prison bridge while the
   - Lunar Base: all doors.
   - Ragnarok: all doors.
   - Lunatic Pandora: door to the final room where Seifer is.
-- `2252 door+general unlock`:
+- `2252 door + general unlock`:
   - Timber:
     - Shops, Timber Maniacs, Pub, Forest Fox lady's house, Owl's Tear house, TV Station stairway's gate.
     - Owl's Tear house: open/close the cupboard after banging on it.
@@ -809,7 +812,7 @@ Balamb Garden deck:
     - Galbadian soldiers banging on the Forest Fox lady's door, banging harder after `2236`.
   - D-District Prison: Zell's stumps his foot in various occasions, e.g. after preventing the guard to hit the moomba.
   - Fishermans Horizon: kid throws the hook and breaks the shopkeeper's window.
-- `2164 swings gunblade+swing stuff`:
+- `2164 swing gunblade + swing stuff`:
   - Seifer swings his Gunblade: when annoyed, while chasing soldiers, to give orders, when fighting inside the TV station, when interrogating Squall.
   - D-District Prison: guard tries Squall's Gunblade.
   - Fishermans Horizon: kid throws the hook.
@@ -821,7 +824,7 @@ Balamb Garden deck:
   - Shumi Village: Hotel: mechanism to help the Shumi reach the counter.
   - Dream #5: Lunatic Pandora Laboratory: elevator.
   - Deep Sea Research Center: lv. 5-6 elevator.
-- `2173 mechanism start+stop`:
+- `2173 mechanism start + stop`:
   - Dollet tower: elevator start + stop.
   - Train start (when from inside); together with `2310`:
     - Main story: Timber to East Academy.
@@ -856,7 +859,7 @@ Balamb Garden deck:
   - Ragnarok:
     - Squall types in the coordinates.
     - Squall turns off the artificial gravity system (same sound, but it's cut immediately).
-- `2193 shadowboxing+swinging arm+throwing stuff`:
+- `2193 shadowbox + swing arm + throw stuff`:
   - Zell shadowboxing in various occasions.
   - Seifer swinging his arm in various occasions.
   - Dream #5: Lunatic Pandora Laboratory: Laguna throws the tool at the moomba.
@@ -887,7 +890,7 @@ Balamb Garden deck:
   - Esthar:
     - Elevator to exit/enter the city: touch screen to rent a car.
     - Odine explaining the plan: Map of Esthar: locations bip.
-- `2221 devices turn on+turn off`:
+- `2221 devices turn on + turn off`:
   - Balamb Garden: study panel turn on.
   - Dollet exam: ship screen turn on.
   - Trabia Garden: Trabia PC shutdown.
@@ -898,9 +901,9 @@ Balamb Garden deck:
   - Dollet exam: ship screen bip 1.
   - D-District Prison crane controls.
   - Ragnarok: messages while the emergency security system is on (instructions on how to defeat the Propagators and information about the out-of-service elevator).
-- `2224 automatic sliding door A+steam`:
+- `2224 automatic sliding door A + steam`:
   - See "Doors" section.
-- `2226 sit down A+seifer hits desk`:
+- `2226 sit down A + seifer hits desk`:
   - Balamb Garden: Seifer hits the desk at the very start of the game.
   - \[...\]
 - `2227 devices bip C`:
@@ -909,7 +912,7 @@ Balamb Garden deck:
   - Shumi Village: elevator announcement.
   - Dream #5: Esthar City, Dr. Odine's Laboratory: control panel bip.
   - Esthar: elevator to exit/enter the city: touch screen to rent a car.
-- `2232 finger snap+generic click`:
+- `2232 finger snap + generic click`:
   - Balamb Garden: start of the game, Quistis fan snaps his fingers in the classroom.
   - Fishermans Horizon: old fisherman activates the hologram of old Dobey.
   - Shumi Village: Hotel: Shumi activates the mechanism to help him reach the counter.
@@ -933,7 +936,7 @@ Balamb Garden deck:
   - Balamb Garden:
     - During the rebellion: kid kicks a SeeD.
     - Basement: Garden Faculty pushes Cid away.
-- `2252 door+general unlock`:
+- `2252 door + general unlock`:
   - See "Doors" section.
 - `2255 body bump or grab`:
   - Balamb Garden: Selphie bumps into Squall.
@@ -954,7 +957,7 @@ Balamb Garden deck:
 - `2273 zell punches things`:
   - Train to Galbadia: Zell punches the train floor.
   - Deep Sea Research Center: Zell punches the lv. 6 machine.
-- `2288 sit down B+stand up from seat` (for where it's used, I'm going by memory here...):
+- `2288 sit down B + stand up from seat` (for where it's used, I'm going by memory here...):
   - Dream #1: Deling City hotel lounge: Laguna sits on the couch + stands up.
   - Galbadia Garden: waiting room, someone (probably Rinoa) stands up.
 - `2301 money`:
@@ -993,7 +996,7 @@ Balamb Garden deck:
 - `2494 seifer swing gunblade then load it`:
   - D-Distric Prison.
   - Lunatic Pandora final room.
-- `SeeD party` → `2517 common footstep heels 1` and `2518 common footstep heels 2`: the waitress and Rinoa.
+- `field → story → seed party` → `2517 common footsteps heels 1` and `2518 common footsteps heels 2`: the waitress and Rinoa.
 - `2533 operate controls`:
   - D-District Prison: Squall operates the lever.
   - Missile Base: circuit room: Selphie bangs the controls.
@@ -1041,22 +1044,22 @@ As soon as the doors start to open, you hear the chime sound. The door sound is 
 
 ### Timber
 
-Saving the little girl on the rails: `2216 train departing whistle`, `2204 (loop) train engine`+`2207 (loop) train rails`. `2216 train departing whistle`. You find yourself in the hotel room. `2239 Doors → elevator chime` (because to get to that room there is an elevator).
+Saving the little girl on the rails: `2216 train departing whistle`, `2204 (loop) train engine`+`2207 (loop) train rails`. `2216 train departing whistle`. You find yourself in the hotel room. `2239 doors → elevator chime` (because to get to that room there is an elevator).
 
 
 ### Dollet: funny secret spider robot variants
 
 - "RoboVite 001" uses:
   - `2153 x-atm092 field footstep 1` and `2154 x-atm092 field footstep 2` for the steps.
-  - `2159` for getting stuck.
-  - `2179` for tumbling down.
+  - `2159 metallic bang` for getting stuck.
+  - `2179 (loop) rumble A` for tumbling down.
 - "RoboSharp 002" uses:
-  - `2159` for falling upside-down.
+  - `2159 metallic bang` for falling upside-down.
 
 
 ### Missile Base
 
-`2230 (loop) car engine idle while waiting at missile base gate`: regardless of the type of car. You can in fact visit the Missile Base gate in Disc 1 too.
+`2230 (loop) car engine idle while waiting at gate`: regardless of the type of car. You can in fact visit the Missile Base gate in Disc 1 too.
 
 Circuit Room:
 - First choice:
@@ -1090,7 +1093,7 @@ Circuit Room:
 
 ### Winhill
 
-- `2619 winhill hotel call bell`: **x2** layered.
+- `2619 hotel call bell`: **x2** layered.
 
 The mother chocobo kicks you into the air: alternates between `2657` and `2658` for its run, then `2622` when she throws you up in the air.
 
@@ -1104,12 +1107,12 @@ The mother chocobo kicks you into the air: alternates between `2657` and `2658` 
 - Stolen whistle: `2247`.
 - Chicobo falls down + escapes + summons mother chocobo: `2726 chicobo call`.
 - Mother chocobo arrives + Mother chocobo digs up items: `2716`.
-- Item obtained by digging: `18 Common → stuff obtained`.
+- Item obtained by digging: `18 common → stuff obtained`.
 
 
 ### Great Salt Lake
 
-- Abadon appearing: `2179 Field → Common → (loop) rumble`, then `2730 abadon appears`.
+- Abadon appearing: `2179 field → common → (loop) rumble A`, then `2730 abadon appears`.
 
 
 ### Dream #5: Lunatic Pandora Laboratory
@@ -1127,9 +1130,9 @@ Moomba scene:
 Lifter sounds:
 - `123 (loop) lifter A`: accelerate inside the higher tunnels, after the plaftorm entered it by raising up. It then changes to the normal sound (B).
 - `124 (loop) lifter B`: normal sound.
-- `2569 (loop) lifter move up+move down`: when the lifter moves straight vertically, either to raise up to enter the higher tubes, or to land from tubes; a green light is surrounding the lifter.
-- `2587 lifter start+stop`: everytime the lifter starts levitating and is ready to go, or when it stops levitating and it sits on the ground.
-- `2663 presidential palace lifter's dome on+off`: the pink dome that covers the lifter of the Presidential Palace only.
+- `2569 (loop) lifter move up + move down`: when the lifter moves straight vertically, either to raise up to enter the higher tubes, or to land from tubes; a green light is surrounding the lifter.
+- `2587 lifter start + stop`: everytime the lifter starts levitating and is ready to go, or when it stops levitating and it sits on the ground.
+- `2663 presidential palace lifter's dome on + off`: the pink dome that covers the lifter of the Presidential Palace only.
 
 Behavior of all lifters and elevators:
 - Elevator to enter/exit the city: just the FMV.
@@ -1176,8 +1179,8 @@ Behavior of all lifters and elevators:
 - `2222`: message sound, while the emergency security system is on:
   - Passenger seat: reading the instructions about how to kill the propagators.
   - Aisle: message when attempting to use the elevator.
-- `129 ragnarok cockpit` is played on top of `130`.
-- `130 ragnarok indoor while flying in the atmosphere`: when in the aisle, at a higher volume.
+- `ambience → 129 ragnarok cockpit` is played on top of `130`.
+- `ambience → 130 ragnarok indoor while flying in the atmosphere`: when in the aisle, it's played at a higher volume.
 
 
 ### Deep Sea Research Center
@@ -1204,14 +1207,14 @@ Behavior of all lifters and elevators:
 - Steam Room ambience: `2245`.
 - Interact with Steam Room terminal: `2565`.
 - Steam Room: replenish supply: `2734`, confirm, `2735`.
-- Excavation Center: `2389`. "Resuming operation...", by using 10 units of steam pressure energy: `2173`. Then, after some dialogue, the cable starts moving (`2197`). Last field before the Ocean Deposit is shown, cable sound is still playing. `2544`, then the alarm activates (`2196`) and cable sound fades out. First warning "Excavation resuming... All except the leader must take shelter...". Cable sound fades in (`2197`). Back to the party's field, the alarm fades out. `2276 rocks resonate A` and `2206 Ambience → common tension` (briefly, cut). "The rocks are...resonating...?" `2569 (loop) rocks resonate B` + `2206 Ambience → common tension` (this time in loop). "The air's pretty heavy...". After this last dialogue, the cable (`2197`) stops (visibly too); the other looping sounds continue; after a short while, `2478 (loop) ultima weapon about to appear` is added. \[Ultima Weapon battle\]
+- Excavation Center: `2389`. "Resuming operation...", by using 10 units of steam pressure energy: `2173`. Then, after some dialogue, the cable starts moving (`2197`). Last field before the Ocean Deposit is shown, cable sound is still playing. `2544`, then the alarm activates (`2196`) and cable sound fades out. First warning "Excavation resuming... All except the leader must take shelter...". Cable sound fades in (`2197`). Back to the party's field, the alarm fades out. `2276 rocks resonate A` and `2206 ambience → common → tension` (briefly, cut). "The rocks are...resonating...?" `2569 (loop) rocks resonate B` + `2206 ambience → common → tension` (this time in loop). "The air's pretty heavy...". After this last dialogue, the cable (`2197`) stops (visibly too); the other looping sounds continue; after a short while, `2478 (loop) ultima weapon about to appear` is added. \[Ultima Weapon battle\]
 
 
 ### Castle
 
-`2292 castle chandelier lever` is for some reason heard when you exit from the game menu too, probably a bug.
+`2292 chandelier lever` is for some reason heard when you exit from the game menu too, probably a bug.
 
-`2283 unlock castle doors+use floodgate key`:
+`2283 unlock doors + use floodgate key`:
   - Unlock Prison Cell door that locked the party in.
   - Unlock Armory door.
   - Unlock Treasure Room.
@@ -1227,7 +1230,7 @@ Ultimecia Master Room door open: `2639`+`2195`.
 
 ### Ambience
 
-For sounds in the "ambience" category, "(loop)" is implied; these are all sounds that loops. These sounds differs from the [sounds in the "stream" folder](stream-sounds-catalog.md) in that these are technically considered sound effects and are included in "audio.dat", while the former are technically considered music by the game and their ID numbers follow those of the music tracks.
+For sounds in the "ambience" category, "(loop)" is implied: these are all sounds that loops. These sounds differs from the [sounds in the "stream" folder](stream-sounds-catalog.md) in that these are technically considered sound effects and are included in "audio.dat", while the former are technically considered music by the game and their ID numbers follow those of the music tracks.
 
 Common ambience sounds:
 - `106 sea`:
@@ -1314,8 +1317,8 @@ Accelerating / going backwards, in **all** world map vehicles that the player ca
 #### Trains
 
 Timber trains:
-- `2295 from deling city+owl's train arrives`: the train from Deling City arrives near Timber Maniacs.
-- `2308 from balamb+from dollet additional layer`: the train from Balamb arrives near the pet shop. "From Dollet additional layer" means that this sounds is also used for the train coming from Dollet, layered to `2324`.
+- `2295 from deling city + owl's train arrives`: the train from Deling City arrives near Timber Maniacs.
+- `2308 from balamb + from dollet additional layer`: the train from Balamb arrives near the pet shop. "From Dollet additional layer" means that this sounds is also used for the train coming from Dollet, layered to `2324`.
 - `2323 from desert`: the train from the D-District Prison's desert arrives near the pub.
 - `2324 from dollet`: the train from Dollet arrives in City Square's last field.
 
@@ -1339,7 +1342,7 @@ Common animal sounds:
   - Timber: Georgie.
   - Dollet: bone side-quest dog.
   - Occupied Balamb: the dog used to search for the captain.
-- `2246 miaow` and `2247 cat collar` and `2248 cat purring`:
+- `2246 miaow` and `2247 common cat collar` and `2248 cat purring`:
   - Balamb: the first house.
   - Timber: cat outside the hotel, after interacting two times, it purrs and it then jumps off the hotel/shop sign, and you hear its collar sound; behind the alley, you also hear the cat's collar while it walks on the window; when in the room hiding from the Galbadian soldiers, it too does the usual combination `2246`+`2248`+`2247` if you talk to Selphie, and then it runs down the stairs.
   - Dollet: collar sound when the cat jumps down from above bridge, and then escapes, after the dog barks.
@@ -1416,8 +1419,8 @@ The sound effects for the Devour command depend on the monster, but not on the r
 
 ## Misc.
 
-`2653 possessed rinoa throws dude and squall against the wall`: similar but different than `2464`.
+`2564 field → story → lunar gate → [used duplicate of 2563] (loop) control room bips`: this is the only file in the whole catalog that is a byte-by-byte exact duplicate than another.
 
-`2564 story → lunar gate → [used duplicate of 2563] (loop) control room bips`: this is the only file in the whole catalog that is a byte-by-byte exact duplicate than another.
+`2653 field → story → lunar base → possessed rinoa throws dude and squall against the wall`: similar but different than `2464`.
 
-`2702 Squall is lost` is the very last sfx that's played in the game.
+`2702 game ending sequence → squall is lost` is the very last sfx that's played in the game.
