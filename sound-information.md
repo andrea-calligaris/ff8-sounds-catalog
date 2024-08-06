@@ -792,7 +792,7 @@ Balamb Garden deck:
   - Fishermans Horizon: Squall and Rinoa jump down on the solar panels.
   - Battle of the Gardens: Squall and Rinoa land after flying with the paratrooper's jetpack.
   - Dream #4: Kiros arrives to help Laguna against the dragon.
-  - Dream #5: Moomba gets back on the bridge via using the safety cable.
+  - Dream #5: Lunatic Pandora Laboratory: Moomba gets back on the bridge after falling or after almost falling.
   - Lunatic Pandora contact point: Galbadian soldiers ambush.
   - Lunatic Pandora final room: Seifer lands after jumping from above.
 - `2159 metallic_bang`:
@@ -843,7 +843,7 @@ Balamb Garden deck:
   - Dream #2: Boulder rolls down.
   - The train cabin staggers after Zell's punch on the floor.
   - Great Salt Lake: Abadon about to appear.
-  - Dream #5: Lunatic Pandora Laboratory: man working with Laguna attempts to make some machinery work.
+  - Dream #5: Lunatic Pandora Laboratory: Dr. Odine is making some experiment upstairs.
   - Lunar Gate: after the lunar party launches, Zell's party hears the Lunatic Pandora passing by.
   - Final mission briefing: Lunatic Pandora Laboratory flashback: the Lunatic Pandora moves.
 - `2181 ambush`:
@@ -852,17 +852,18 @@ Balamb Garden deck:
 - `2192 (loop) typing`:
   - Train mission: entering the codes.
   - Trabia Garden: typing on the PC.
-  - Dream #5: Dr. Odine Laboratory: Laguna uses the panel to attempt to free Ellone.
+  - Dream #5: Esthar City, Dr. Odine's Laboratory: Laguna uses the panel to attempt to free Ellone.
   - Ragnarok:
     - Squall types in the coordinates.
     - Squall turns off the artificial gravity system (same sound, but it's cut immediately).
-- `2193 shadowboxing+swinging_arm`:
+- `2193 shadowboxing+swinging_arm+throwing_stuff`:
   - Zell shadowboxing in various occasions.
   - Seifer swinging his arm in various occasions.
+  - Dream #5: Lunatic Pandora Laboratory: Laguna throws the tool at the moomba.
 - `2197 (loop) rope`:
   - Train mission: rope absail + climb.
   - FH kid: fishing rod: throwing the hook.
-  - Dream #5: moomba climbs back up via the safety cable.
+  - Dream #5: Lunatic Pandora Laboratory: the moomba climbs back up via the safety cable.
   - Deep Sea Research Center: Deep Sea Deposit: Excavation Center: the cable starts moving.
 - `2200 [used duplicate of 69] (loop) elevator_A2`:
   - Balamb Garden: only used the first time that the Garden moves, when one character of your party goes down the bridge alone. From then on, `69` is used again.
@@ -882,7 +883,7 @@ Balamb Garden deck:
   - Dollet exam: ship screen bip #4.
   - Train mission: correct code.
   - Missile Base: control panel sfx 2.
-  - Dream #5: Laguna manages to use the control panel to free Ellone.
+  - Dream #5: Esthar City, Dr. Odine's Laboratory: Laguna manages to use the control panel to free Ellone.
   - Esthar:
     - Elevator to exit/enter the city: touch screen to rent a car.
     - Odine explaining the plan: Map of Esthar: locations bip.
@@ -906,7 +907,7 @@ Balamb Garden deck:
   - Dollet exam: ship screen bip 2.
   - Chocobo Forest: Chocobo Sonar.
   - Shumi Village: elevator announcement.
-  - Dream #5: Dr. Odine Laboratory: control panel bip.
+  - Dream #5: Esthar City, Dr. Odine's Laboratory: control panel bip.
   - Esthar: elevator to exit/enter the city: touch screen to rent a car.
 - `2232 finger_snap+generic_click`:
   - Balamb Garden: start of the game, Quistis fan snaps his fingers in the classroom.
@@ -939,7 +940,9 @@ Balamb Garden deck:
   - Timer: TV station: guard grabs Seifer.
   - Dream #2: Ward and Kiros lay down on the top of the ravine.
   - Deling City: Caraway's mansion: Rinoa bumps into Quistis.
-  - Dream #5: Laguna blocks the soldier against the wall.
+  - Dream #5: Lunatic Pandora Laboratory:
+    - The moomba is saved in time by Laguna before falling off (layered with `2156`).
+    - Laguna blocks the soldier against the wall.
   - Final mission briefing: Sorceress Memorial flashback: Laguna pushes Adel into the seal.
 - `2256 change_clothes`:
   - Balamb Garden: Dormitory: change clothes.
@@ -979,7 +982,7 @@ Balamb Garden deck:
   - Lunar Base: control room: PCs bips (not looping, but played every **6 seconds**).
 - `2412 falling`:
   - Dream #2: Esthar soldier falls down.
-  - Dream #5: moomba falls down.
+  - Dream #5: Lunatic Pandora Laboratory: the moomba falls down the bridge.
 - `2422 squall_gunblade_hit`:
   - D-Distric Prison: Squall takes down guard.
   - Balamb Garden rebellion: Squall comes to help the kids in the Training Center.
@@ -997,7 +1000,7 @@ Balamb Garden deck:
 - `2534 devices_error`:
   - Missile Base: control panel no authorization.
   - D-District Prison: Irvine communicates from the below control room (in this case it's not an "error").
-  - Dream #5: Dr. Odine Laboratory: control panel error.
+  - Dream #5: Dr. Odine's Laboratory: control panel error.
 - `2543 activate_device`:
   - D-District Prison: Biggs activates the alarm.
   - MD level:
@@ -1010,7 +1013,7 @@ Balamb Garden deck:
   - Missile Base: circuit room bips.
   - Lunar Gate: control room bips.
 - `2565 device_deep_bass`:
-  - Great Salt Lake: the hole opens in the wall of the camuflage system.
+  - Great Salt Lake: the hole opens in the wall of the camuflage system / the hole closes again if you climb down the ladder.
   - Esthar: Dr. Odine explains the plan: Map of Esthar: end of briefing.
   - Deep Sea Research Center: terminals.
 
@@ -1107,6 +1110,16 @@ The mother chocobo kicks you into the air: alternates between `2657` and `2658` 
 ### Great Salt Lake
 
 - Abadon appearing: `2179 Field → Common → (loop) rumble`, then `2730 abadon_appears`.
+
+
+### Dream #5: Lunatic Pandora Laboratory
+
+Moomba scene:
+- Part in common: `2193` Laguna throws the tool at the moomba, `2179` rumble caused by Dr. Odine's experiments upstairs + `2631` moomba's call while it loses balance (in all versions of the game it's bugged and you can't actually hear the rumble because it's cut by the moomba's call playing on the same audio channel), `2` and `3` Laguna running to help.
+- Case 1, Squall refuses to answer during the interrogation: the Moomba falls down and is saved by the safety cable:
+  `2412` the moomba falls, `2197` the moomba climbs up via the safety rope, `2156` **x3** (with progressively lower volume) moomba gets back on the bridge, `2631` moomba's call facing Laguna.
+- Case 2, Squall makes up a lie during the interrogation: the Moomba is saved in time by Laguna:
+  `2156`+`2255` the moomba is pulled up, `2631` moomba's call.
 
 
 ### Esthar
@@ -1260,7 +1273,7 @@ Common vehicle sounds:
   - Deling City: NPC's cars passing by, excluding buses.
   - D-Distric Prison: The Galbadian cars used to escape the prison (going out of the garage).
 - `120 (loop) esthar_flying_car_in-field`:
-  - Dream #5: Laguna and friends go away in a car.
+  - Dream #5: Lunatic Pandora Laboratory: Laguna and friends go away in a car.
   - Mysterious Building: Esthar man comes in a car to pick up Squall's party coming from the Great Salt Lake.
   - Esthar:
     - Rented car: when taking the exit elevator, and when returning.

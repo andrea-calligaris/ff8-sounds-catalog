@@ -1064,7 +1064,7 @@
 2190	doors → big metal door A
 2191	field → balamb garden announcement + lunatic pandora laboratory announcement
 2192	field → common → (loop) typing
-2193	field → common → shadowboxing + swinging arm
+2193	field → common → shadowboxing + swinging arm + throwing stuff
 2194	ambience → common → static
 2195	doors → bigger wooden door open + close
 2196	ambience → common → alarm
