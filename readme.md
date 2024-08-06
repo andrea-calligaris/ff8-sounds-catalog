@@ -27,3 +27,5 @@ _MikeDoesAudio_ and _@barjack\_26_ from the modding community, for the technical
 [FFNx](https://github.com/julianxhokaxhiu/FFNx) for its tracing capabilities.
 
 Spoken digits from which I've built my probing sounds: [Free Spoken Digit Dataset (FSDD)](https://github.com/Jakobovski/free-spoken-digit-dataset) by _Zohar Jackson_.
+
+FFVIII devs for having left the very useful debug room in the game... ;)

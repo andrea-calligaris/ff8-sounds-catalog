@@ -68,7 +68,7 @@ These sounds are technically considered music by the game and their ID numbers f
 * Dormitory, when Quistis presents herself as the CC King. It stops when the screen fades to black and it's daylight again.
 
 `044-sea`:
-* Balamb harbor, including the field outside the hotel; "042s-guitar" keeps playing.
+* Balamb harbor, including the field outside the hotel and the two fields inside the hotel; "042s-guitar" keeps playing.
 * Balamb Garden Quad, when it's sailing the sea, together with "042s-guitar" (like in Balamb town's harbor).
 * Fishermans Horizon, last field of the dock, where there's the kid and the shopkeeper. A lot of different music tracks play on top of that while the kid makes a disaster with his fishing rod; when he's done, the ambience stops and the FH music track starts playing again.
 * Fishermans Horizon, residential area's plaza, when the mayor attempts to reason with the Galbadian soldier. "009s-waiting" is playing on top.
