@@ -1,7 +1,7 @@
 # Final Fantasy VIII sounds catalog
 
 
-This is a WIP catalog with descriptive names and additional information about the sounds in Final Fantasy VIII.
+This is a catalog with descriptive names and additional information about the sounds in Final Fantasy VIII.
 
 The bulk of the sound effects is in the file _audio.dat_. The ID numbers go from 1 to 2789 (field ID from 7851 to 10639), with a lot of IDs empty / available for modding, for a total of 1'543 existing sound effects. To obtain the field ID number you can add 7850 to the other ID.
 
